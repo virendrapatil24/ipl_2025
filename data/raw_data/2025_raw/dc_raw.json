@@ -1,0 +1,1557 @@
+{
+    "players": [
+        {
+            "playerRoleType": "C",
+            "player": {
+                "id": 67455,
+                "objectId": 554691,
+                "name": "AR Patel",
+                "longName": "Axar Patel",
+                "mobileName": "Axar Patel",
+                "indexName": "Patel, AR",
+                "battingName": "AR Patel",
+                "fieldingName": "Patel",
+                "slug": "axar-patel",
+                "imageUrl": "/lsci/db/PICTURES/CMS/331100/331164.2.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/331100/331164.png",
+                "dateOfBirth": {
+                    "year": 1994,
+                    "month": 1,
+                    "date": 20
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "lhb"
+                ],
+                "bowlingStyles": [
+                    "sla"
+                ],
+                "longBattingStyles": [
+                    "left-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "slow left-arm orthodox"
+                ],
+                "image": {
+                    "id": 331164,
+                    "objectId": 1291504,
+                    "slug": "axar-patel-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/331100/331164.2.png",
+                    "width": 160,
+                    "height": 137,
+                    "caption": "Axar Patel player page headshot cutout 2021",
+                    "longCaption": "Axar Patel player page headshot cutout 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    5
+                ],
+                "playingRoles": [
+                    "allrounder"
+                ],
+                "headshotImage": {
+                    "id": 331164,
+                    "objectId": 1291504,
+                    "slug": "axar-patel-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/331100/331164.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "Axar Patel player page headshot cutout 2021",
+                    "longCaption": "Axar Patel player page headshot cutout 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/331100/331164.square.png"
+                    }
+                }
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "VC",
+            "player": {
+                "id": 46933,
+                "objectId": 44828,
+                "name": "F du Plessis",
+                "longName": "Faf du Plessis",
+                "mobileName": "du Plessis",
+                "indexName": "du Plessis, F",
+                "battingName": "F du Plessis",
+                "fieldingName": "du Plessis",
+                "slug": "faf-du-plessis",
+                "imageUrl": "/lsci/db/PICTURES/CMS/316500/316559.1.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/316500/316559.png",
+                "dateOfBirth": {
+                    "year": 1984,
+                    "month": 7,
+                    "date": 13
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "lb"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "legbreak"
+                ],
+                "image": {
+                    "id": 316559,
+                    "objectId": 1251188,
+                    "slug": "f-du-plessis-headshot",
+                    "url": "/lsci/db/PICTURES/CMS/316500/316559.1.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "F du Plessis headshot",
+                    "longCaption": "F du Plessis headshot",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 3,
+                "playerRoleTypeIds": [
+                    3
+                ],
+                "playingRoles": [
+                    "middle-order batter"
+                ],
+                "headshotImage": {
+                    "id": 316559,
+                    "objectId": 1251188,
+                    "slug": "f-du-plessis-headshot",
+                    "url": "/lsci/db/PICTURES/CMS/316500/316559.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "F du Plessis headshot",
+                    "longCaption": "F du Plessis headshot",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": null
+                    }
+                }
+            },
+            "isOverseas": true,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 110107,
+                "objectId": 1277545,
+                "name": "Abishek Porel",
+                "longName": "Abishek Porel",
+                "mobileName": "",
+                "indexName": "Abishek Porel",
+                "battingName": "Abishek Porel",
+                "fieldingName": "Abishek Porel",
+                "slug": "abishek-porel",
+                "imageUrl": "/lsci/db/PICTURES/CMS/393400/393462.2.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 2002,
+                    "month": 10,
+                    "date": 17
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "lhb"
+                ],
+                "bowlingStyles": [],
+                "longBattingStyles": [
+                    "left-hand bat"
+                ],
+                "longBowlingStyles": [],
+                "image": {
+                    "id": 393462,
+                    "objectId": 1466138,
+                    "slug": "abishek-porel-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/393400/393462.2.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Abishek Porel, player portrait",
+                    "longCaption": "Abishek Porel, player portrait",
+                    "credit": "Cricket Association of Bengal",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    7
+                ],
+                "playingRoles": [
+                    "wicketkeeper batter"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 67342,
+                "objectId": 552152,
+                "name": "PVD Chameera",
+                "longName": "Dushmantha Chameera",
+                "mobileName": "Chameera",
+                "indexName": "Chameera, PVD",
+                "battingName": "PVD Chameera",
+                "fieldingName": "Chameera",
+                "slug": "dushmantha-chameera",
+                "imageUrl": "/lsci/db/PICTURES/CMS/319800/319862.2.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/319800/319862.png",
+                "dateOfBirth": {
+                    "year": 1992,
+                    "month": 1,
+                    "date": 11
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "rf"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm fast"
+                ],
+                "image": {
+                    "id": 319862,
+                    "objectId": 1259934,
+                    "slug": "dushmantha-chameera-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/319800/319862.2.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Dushmantha Chameera player page headshot cutout, 2021",
+                    "longCaption": "Dushmantha Chameera player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 8,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": {
+                    "id": 319862,
+                    "objectId": 1259934,
+                    "slug": "dushmantha-chameera-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/319800/319862.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "Dushmantha Chameera player page headshot cutout, 2021",
+                    "longCaption": "Dushmantha Chameera player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/319800/319862.square.png"
+                    }
+                }
+            },
+            "isOverseas": true,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 74477,
+                "objectId": 698315,
+                "name": "D Ferreira",
+                "longName": "Donovan Ferreira",
+                "mobileName": "Ferreira",
+                "indexName": "Ferreira,D",
+                "battingName": "D Ferreira",
+                "fieldingName": "Ferreira",
+                "slug": "donovan-ferreira",
+                "imageUrl": "/lsci/db/PICTURES/CMS/391700/391782.2.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 1998,
+                    "month": 7,
+                    "date": 21
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "ob"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm offbreak"
+                ],
+                "image": {
+                    "id": 391782,
+                    "objectId": 1462228,
+                    "slug": "donovan-ferreira-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/391700/391782.2.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Donovan Ferreira, player portrait",
+                    "longCaption": "Donovan Ferreira, player portrait",
+                    "credit": "CPL T20 via Getty Images",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 3,
+                "playerRoleTypeIds": [
+                    5
+                ],
+                "playingRoles": [
+                    "allrounder"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": true,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 104260,
+                "objectId": 1168049,
+                "name": "J Fraser-McGurk",
+                "longName": "Jake Fraser-McGurk",
+                "mobileName": "",
+                "indexName": "Fraser-McGurk, J",
+                "battingName": "J Fraser-McGurk",
+                "fieldingName": "Fraser-McGurk",
+                "slug": "jake-fraser-mcgurk",
+                "imageUrl": "/lsci/db/PICTURES/CMS/387500/387523.6.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 2002,
+                    "month": 4,
+                    "date": 11
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "lbg"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "legbreak googly"
+                ],
+                "image": {
+                    "id": 387523,
+                    "objectId": 1451198,
+                    "slug": "jake-fraser-mcgurk-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/387500/387523.6.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Jake Fraser-McGurk, player portrait",
+                    "longCaption": "Jake Fraser-McGurk, player portrait",
+                    "credit": "ECB/Getty Images",
+                    "photographer": "Ryan Hiscott",
+                    "peerUrls": null
+                },
+                "countryTeamId": 2,
+                "playerRoleTypeIds": [
+                    8
+                ],
+                "playingRoles": [
+                    "batter"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": true,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 67609,
+                "objectId": 559235,
+                "name": "Kuldeep Yadav",
+                "longName": "Kuldeep Yadav",
+                "mobileName": "Kuldeep",
+                "indexName": "Kuldeep Yadav",
+                "battingName": "Kuldeep Yadav",
+                "fieldingName": "Kuldeep Yadav",
+                "slug": "kuldeep-yadav",
+                "imageUrl": "/lsci/db/PICTURES/CMS/319900/319943.2.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/319900/319943.png",
+                "dateOfBirth": {
+                    "year": 1994,
+                    "month": 12,
+                    "date": 14
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "lhb"
+                ],
+                "bowlingStyles": [
+                    "lws"
+                ],
+                "longBattingStyles": [
+                    "left-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "left-arm wrist-spin"
+                ],
+                "image": {
+                    "id": 319943,
+                    "objectId": 1260223,
+                    "slug": "kuldeep-yadav-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/319900/319943.2.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Kuldeep Yadav player page headshot cutout, 2021",
+                    "longCaption": "Kuldeep Yadav player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": {
+                    "id": 319943,
+                    "objectId": 1260223,
+                    "slug": "kuldeep-yadav-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/319900/319943.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "Kuldeep Yadav player page headshot cutout, 2021",
+                    "longCaption": "Kuldeep Yadav player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/319900/319943.square.png"
+                    }
+                }
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 95065,
+                "objectId": 1059570,
+                "name": "AJ Mandal",
+                "longName": "Ajay Mandal",
+                "mobileName": "Mandal",
+                "indexName": "Mandal, AJ",
+                "battingName": "AJ Mandal",
+                "fieldingName": "Mandal",
+                "slug": "ajay-mandal",
+                "imageUrl": "/lsci/db/PICTURES/CMS/397400/397422.4.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 1996,
+                    "month": 2,
+                    "date": 25
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "lhb"
+                ],
+                "bowlingStyles": [
+                    "sla"
+                ],
+                "longBattingStyles": [
+                    "left-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "slow left-arm orthodox"
+                ],
+                "image": {
+                    "id": 397422,
+                    "objectId": 1475272,
+                    "slug": "ajay-mandal-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/397400/397422.4.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Ajay Mandal, player portrait",
+                    "longCaption": "Ajay Mandal, player portrait",
+                    "credit": "Delhi Capitals",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    5
+                ],
+                "playingRoles": [
+                    "allrounder"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 115454,
+                "objectId": 1392186,
+                "name": "L Manvanth Kumar",
+                "longName": "Manvanth Kumar",
+                "mobileName": "",
+                "indexName": "Manvanth Kumar, L",
+                "battingName": "L Manvanth Kumar",
+                "fieldingName": "Manvanth Kumar",
+                "slug": "manvanth-kumar",
+                "imageUrl": "/lsci/db/PICTURES/CMS/397400/397427.4.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 2004,
+                    "month": 1,
+                    "date": 11
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "lhb"
+                ],
+                "bowlingStyles": [
+                    "rfm"
+                ],
+                "longBattingStyles": [
+                    "left-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm fast-medium"
+                ],
+                "image": {
+                    "id": 397427,
+                    "objectId": 1475278,
+                    "slug": "manvanth-kumar-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/397400/397427.4.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Manvanth Kumar, player portrait",
+                    "longCaption": "Manvanth Kumar, player portrait",
+                    "credit": "Delhi Capitals",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    5
+                ],
+                "playingRoles": [
+                    "allrounder"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 85763,
+                "objectId": 926851,
+                "name": "Mukesh Kumar",
+                "longName": "Mukesh Kumar",
+                "mobileName": "",
+                "indexName": "Mukesh Kumar",
+                "battingName": "Mukesh Kumar",
+                "fieldingName": "Mukesh Kumar",
+                "slug": "mukesh-kumar",
+                "imageUrl": "/lsci/db/PICTURES/CMS/373900/373907.1.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/373900/373907.png",
+                "dateOfBirth": {
+                    "year": 1993,
+                    "month": 10,
+                    "date": 12
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "rm"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm medium"
+                ],
+                "image": {
+                    "id": 373907,
+                    "objectId": 1416373,
+                    "slug": "mukesh-kumar-player-page-headshot-cutout-2024",
+                    "url": "/lsci/db/PICTURES/CMS/373900/373907.1.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Mukesh Kumar player page headshot cutout, 2024",
+                    "longCaption": "Mukesh Kumar player page headshot cutout, 2024",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": {
+                    "id": 373907,
+                    "objectId": 1416373,
+                    "slug": "mukesh-kumar-player-page-headshot-cutout-2024",
+                    "url": "/lsci/db/PICTURES/CMS/373900/373907.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "Mukesh Kumar player page headshot cutout, 2024",
+                    "longCaption": "Mukesh Kumar player page headshot cutout, 2024",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/373900/373907.square.png"
+                    }
+                }
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 59600,
+                "objectId": 398439,
+                "name": "KK Nair",
+                "longName": "Karun Nair",
+                "mobileName": "Nair",
+                "indexName": "Nair, KK",
+                "battingName": "KK Nair",
+                "fieldingName": "Nair",
+                "slug": "karun-nair",
+                "imageUrl": "/lsci/db/PICTURES/CMS/322200/322267.1.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/322200/322267.png",
+                "dateOfBirth": {
+                    "year": 1991,
+                    "month": 12,
+                    "date": 6
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "ob"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm offbreak"
+                ],
+                "image": {
+                    "id": 322267,
+                    "objectId": 1264777,
+                    "slug": "karun-nair-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/322200/322267.1.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Karun Nair player page headshot cutout, 2021",
+                    "longCaption": "Karun Nair player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    2
+                ],
+                "playingRoles": [
+                    "top-order batter"
+                ],
+                "headshotImage": {
+                    "id": 322267,
+                    "objectId": 1264777,
+                    "slug": "karun-nair-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/322200/322267.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "Karun Nair player page headshot cutout, 2021",
+                    "longCaption": "Karun Nair player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/322200/322267.square.png"
+                    }
+                }
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 99252,
+                "objectId": 1111917,
+                "name": "DG Nalkande",
+                "longName": "Darshan Nalkande",
+                "mobileName": "Nalkande",
+                "indexName": "Nalkande, DG",
+                "battingName": "DG Nalkande",
+                "fieldingName": "Nalkande",
+                "slug": "darshan-nalkande",
+                "imageUrl": "/lsci/db/PICTURES/CMS/357400/357411.3.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 1998,
+                    "month": 10,
+                    "date": 4
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "rfm"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm fast-medium"
+                ],
+                "image": {
+                    "id": 357411,
+                    "objectId": 1366806,
+                    "slug": "darshan-nalkande-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/357400/357411.3.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Darshan Nalkande, player portrait",
+                    "longCaption": "Darshan Nalkande, player portrait",
+                    "credit": "Unknown",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 79597,
+                "objectId": 802575,
+                "name": "T Natarajan",
+                "longName": "T Natarajan",
+                "mobileName": "Natarajan",
+                "indexName": "Natarajan, T",
+                "battingName": "T Natarajan",
+                "fieldingName": "Natarajan",
+                "slug": "t-natarajan",
+                "imageUrl": "/lsci/db/PICTURES/CMS/322600/322699.1.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/322600/322699.png",
+                "dateOfBirth": {
+                    "year": 1991,
+                    "month": 4,
+                    "date": 4
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "lhb"
+                ],
+                "bowlingStyles": [
+                    "lm"
+                ],
+                "longBattingStyles": [
+                    "left-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "left-arm medium"
+                ],
+                "image": {
+                    "id": 322699,
+                    "objectId": 1265618,
+                    "slug": "t-natarajan-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/322600/322699.1.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "T Natarajan player page headshot cutout, 2021",
+                    "longCaption": "T Natarajan player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": {
+                    "id": 322699,
+                    "objectId": 1265618,
+                    "slug": "t-natarajan-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/322600/322699.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "T Natarajan player page headshot cutout, 2021",
+                    "longCaption": "T Natarajan player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/322600/322699.square.png"
+                    }
+                }
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 118247,
+                "objectId": 1449074,
+                "name": "V Nigam",
+                "longName": "Vipraj Nigam",
+                "mobileName": "Nigam",
+                "indexName": "Nigam, V",
+                "battingName": "V Nigam",
+                "fieldingName": "Nigam",
+                "slug": "vipraj-nigam",
+                "imageUrl": "/lsci/db/PICTURES/CMS/397400/397429.4.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 2004,
+                    "month": 7,
+                    "date": 28
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "lb"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "legbreak"
+                ],
+                "image": {
+                    "id": 397429,
+                    "objectId": 1475280,
+                    "slug": "vipraj-nigam-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/397400/397429.4.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Vipraj Nigam, player portrait",
+                    "longCaption": "Vipraj Nigam, player portrait",
+                    "credit": "Delhi Capitals",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 60530,
+                "objectId": 422108,
+                "name": "KL Rahul",
+                "longName": "KL Rahul",
+                "mobileName": "Rahul",
+                "indexName": "Rahul, KL",
+                "battingName": "KL Rahul",
+                "fieldingName": "Rahul",
+                "slug": "kl-rahul",
+                "imageUrl": "/lsci/db/PICTURES/CMS/319900/319942.3.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/319900/319942.png",
+                "dateOfBirth": {
+                    "year": 1992,
+                    "month": 4,
+                    "date": 18
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [],
+                "image": {
+                    "id": 319942,
+                    "objectId": 1260221,
+                    "slug": "kl-rahul-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/319900/319942.3.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "KL Rahul player page headshot cutout, 2021",
+                    "longCaption": "KL Rahul player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    7
+                ],
+                "playingRoles": [
+                    "wicketkeeper batter"
+                ],
+                "headshotImage": {
+                    "id": 319942,
+                    "objectId": 1260221,
+                    "slug": "kl-rahul-player-page-headshot-cutout-2021",
+                    "url": "/lsci/db/PICTURES/CMS/319900/319942.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "KL Rahul player page headshot cutout, 2021",
+                    "longCaption": "KL Rahul player page headshot cutout, 2021",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/319900/319942.square.png"
+                    }
+                }
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 104818,
+                "objectId": 1175489,
+                "name": "Sameer Rizvi",
+                "longName": "Sameer Rizvi",
+                "mobileName": "",
+                "indexName": "Sameer Rizvi",
+                "battingName": "Sameer Rizvi",
+                "fieldingName": "Sameer Rizvi",
+                "slug": "sameer-rizvi",
+                "imageUrl": "/lsci/db/PICTURES/CMS/397400/397425.4.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 2003,
+                    "month": 12,
+                    "date": 6
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "ob"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm offbreak"
+                ],
+                "image": {
+                    "id": 397425,
+                    "objectId": 1475275,
+                    "slug": "sameer-rizvi-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/397400/397425.4.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Sameer Rizvi, player portrait",
+                    "longCaption": "Sameer Rizvi, player portrait",
+                    "credit": "Delhi Capitals",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    8
+                ],
+                "playingRoles": [
+                    "batter"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 66722,
+                "objectId": 537119,
+                "name": "MM Sharma",
+                "longName": "Mohit Sharma",
+                "mobileName": "Mohit",
+                "indexName": "Sharma, MM",
+                "battingName": "MM Sharma",
+                "fieldingName": "Sharma",
+                "slug": "mohit-sharma",
+                "imageUrl": "/lsci/db/PICTURES/CMS/316700/316702.2.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/316700/316702.png",
+                "dateOfBirth": {
+                    "year": 1988,
+                    "month": 9,
+                    "date": 18
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "rm"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm medium"
+                ],
+                "image": {
+                    "id": 316702,
+                    "objectId": 1251335,
+                    "slug": "mm-sharma-headshot",
+                    "url": "/lsci/db/PICTURES/CMS/316700/316702.2.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "MM Sharma headshot",
+                    "longCaption": "MM Sharma headshot",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": {
+                    "id": 316702,
+                    "objectId": 1251335,
+                    "slug": "mm-sharma-headshot",
+                    "url": "/lsci/db/PICTURES/CMS/316700/316702.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "MM Sharma headshot",
+                    "longCaption": "MM Sharma headshot",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": null
+                    }
+                }
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 101791,
+                "objectId": 1131978,
+                "name": "AR Sharma",
+                "longName": "Ashutosh Sharma",
+                "mobileName": "Sharma",
+                "indexName": "Sharma,AR",
+                "battingName": "AR Sharma",
+                "fieldingName": "Sharma",
+                "slug": "ashutosh-sharma",
+                "imageUrl": "/lsci/db/PICTURES/CMS/380600/380694.1.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/380600/380694.png",
+                "dateOfBirth": {
+                    "year": 1998,
+                    "month": 9,
+                    "date": 15
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [],
+                "image": {
+                    "id": 380694,
+                    "objectId": 1433189,
+                    "slug": "ashutosh-sharma-player-page-headshot-cutout-2024",
+                    "url": "/lsci/db/PICTURES/CMS/380600/380694.1.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Ashutosh Sharma, player page headshot cutout, 2024",
+                    "longCaption": "Ashutosh Sharma, player page headshot cutout, 2024",
+                    "credit": "Punjab Kings",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    10
+                ],
+                "playingRoles": [
+                    "batting allrounder"
+                ],
+                "headshotImage": {
+                    "id": 380694,
+                    "objectId": 1433189,
+                    "slug": "ashutosh-sharma-player-page-headshot-cutout-2024",
+                    "url": "/lsci/db/PICTURES/CMS/380600/380694.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "Ashutosh Sharma, player page headshot cutout, 2024",
+                    "longCaption": "Ashutosh Sharma, player page headshot cutout, 2024",
+                    "credit": "Punjab Kings",
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/380600/380694.square.png"
+                    }
+                }
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 53330,
+                "objectId": 311592,
+                "name": "MA Starc",
+                "longName": "Mitchell Starc",
+                "mobileName": "Starc",
+                "indexName": "Starc, MA",
+                "battingName": "MA Starc",
+                "fieldingName": "Starc",
+                "slug": "mitchell-starc",
+                "imageUrl": "/lsci/db/PICTURES/CMS/390900/390978.5.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/316600/316644.png",
+                "dateOfBirth": {
+                    "year": 1990,
+                    "month": 1,
+                    "date": 30
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "lhb"
+                ],
+                "bowlingStyles": [
+                    "lf"
+                ],
+                "longBattingStyles": [
+                    "left-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "left-arm fast"
+                ],
+                "image": {
+                    "id": 390978,
+                    "objectId": 1459665,
+                    "slug": "mitchell-starc-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/390900/390978.5.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Mitchell Starc, player portrait",
+                    "longCaption": "Mitchell Starc, player portrait",
+                    "credit": "ICC/Getty Images",
+                    "photographer": "Matthew Lewis",
+                    "peerUrls": null
+                },
+                "countryTeamId": 2,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": {
+                    "id": 316644,
+                    "objectId": 1251277,
+                    "slug": "ma-starc-headshot",
+                    "url": "/lsci/db/PICTURES/CMS/316600/316644.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "MA Starc headshot",
+                    "longCaption": "MA Starc headshot",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": null
+                    }
+                }
+            },
+            "isOverseas": true,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 69697,
+                "objectId": 595978,
+                "name": "T Stubbs",
+                "longName": "Tristan Stubbs",
+                "mobileName": "Stubbs",
+                "indexName": "Stubbs, T",
+                "battingName": "T Stubbs",
+                "fieldingName": "Stubbs",
+                "slug": "tristan-stubbs",
+                "imageUrl": "/lsci/db/PICTURES/CMS/348500/348577.1.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/348500/348577.png",
+                "dateOfBirth": {
+                    "year": 2000,
+                    "month": 8,
+                    "date": 14
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "ob"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm offbreak"
+                ],
+                "image": {
+                    "id": 348577,
+                    "objectId": 1342866,
+                    "slug": "tristan-stubbs-player-page-headshot-cutout-2022",
+                    "url": "/lsci/db/PICTURES/CMS/348500/348577.1.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Tristan Stubbs, player page headshot cutout 2022",
+                    "longCaption": "Tristan Stubbs, player page headshot cutout 2022",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 3,
+                "playerRoleTypeIds": [
+                    8
+                ],
+                "playingRoles": [
+                    "batter"
+                ],
+                "headshotImage": {
+                    "id": 348577,
+                    "objectId": 1342866,
+                    "slug": "tristan-stubbs-player-page-headshot-cutout-2022",
+                    "url": "/lsci/db/PICTURES/CMS/348500/348577.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "Tristan Stubbs, player page headshot cutout 2022",
+                    "longCaption": "Tristan Stubbs, player page headshot cutout 2022",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/348500/348577.square.png"
+                    }
+                }
+            },
+            "isOverseas": true,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 118949,
+                "objectId": 1460385,
+                "name": "M Tiwari",
+                "longName": "Madhav Tiwari",
+                "mobileName": "Tiwari",
+                "indexName": "Tiwari, M",
+                "battingName": "M Tiwari",
+                "fieldingName": "Tiwari",
+                "slug": "madhav-tiwari",
+                "imageUrl": "/lsci/db/PICTURES/CMS/397400/397423.7.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 2003,
+                    "month": 9,
+                    "date": 28
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "rmf"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm medium-fast"
+                ],
+                "image": {
+                    "id": 397423,
+                    "objectId": 1475273,
+                    "slug": "madhav-tiwari-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/397400/397423.7.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Madhav Tiwari, player portrait",
+                    "longCaption": "Madhav Tiwari, player portrait",
+                    "credit": "Delhi Capitals",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    5
+                ],
+                "playingRoles": [
+                    "allrounder"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 111006,
+                "objectId": 1292527,
+                "name": "T Vijay",
+                "longName": "Tripurana Vijay",
+                "mobileName": "Vijay",
+                "indexName": "Vijay, T",
+                "battingName": "T Vijay",
+                "fieldingName": "Vijay",
+                "slug": "tripurana-vijay",
+                "imageUrl": "/lsci/db/PICTURES/CMS/397400/397428.4.png",
+                "headshotImageUrl": null,
+                "dateOfBirth": {
+                    "year": 2001,
+                    "month": 9,
+                    "date": 5
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "ob"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm offbreak"
+                ],
+                "image": {
+                    "id": 397428,
+                    "objectId": 1475279,
+                    "slug": "tripurana-vijay-player-portrait",
+                    "url": "/lsci/db/PICTURES/CMS/397400/397428.4.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Tripurana Vijay, player portrait",
+                    "longCaption": "Tripurana Vijay, player portrait",
+                    "credit": "Delhi Capitals",
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 6,
+                "playerRoleTypeIds": [
+                    4
+                ],
+                "playingRoles": [
+                    "bowler"
+                ],
+                "headshotImage": null
+            },
+            "isOverseas": false,
+            "isWithdrawn": false,
+            "note": null
+        },
+        {
+            "playerRoleType": "P",
+            "player": {
+                "id": 84027,
+                "objectId": 911707,
+                "name": "HC Brook",
+                "longName": "Harry Brook",
+                "mobileName": "Brook",
+                "indexName": "Brook, HC",
+                "battingName": "HC Brook",
+                "fieldingName": "Brook",
+                "slug": "harry-brook",
+                "imageUrl": "/lsci/db/PICTURES/CMS/383100/383145.1.png",
+                "headshotImageUrl": "/lsci/db/PICTURES/CMS/383100/383145.png",
+                "dateOfBirth": {
+                    "year": 1999,
+                    "month": 2,
+                    "date": 22
+                },
+                "dateOfDeath": null,
+                "gender": "M",
+                "battingStyles": [
+                    "rhb"
+                ],
+                "bowlingStyles": [
+                    "rm"
+                ],
+                "longBattingStyles": [
+                    "right-hand bat"
+                ],
+                "longBowlingStyles": [
+                    "right-arm medium"
+                ],
+                "image": {
+                    "id": 383145,
+                    "objectId": 1439386,
+                    "slug": "harry-brook-player-page-headshot-cutout-2024",
+                    "url": "/lsci/db/PICTURES/CMS/383100/383145.1.png",
+                    "width": 160,
+                    "height": 136,
+                    "caption": "Harry Brook, player page headshot cutout, 2024,",
+                    "longCaption": "Harry Brook, player page headshot cutout, 2024,",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": null
+                },
+                "countryTeamId": 1,
+                "playerRoleTypeIds": [
+                    8
+                ],
+                "playingRoles": [
+                    "batter"
+                ],
+                "headshotImage": {
+                    "id": 383145,
+                    "objectId": 1439386,
+                    "slug": "harry-brook-player-page-headshot-cutout-2024",
+                    "url": "/lsci/db/PICTURES/CMS/383100/383145.png",
+                    "width": 600,
+                    "height": 436,
+                    "caption": "Harry Brook, player page headshot cutout, 2024,",
+                    "longCaption": "Harry Brook, player page headshot cutout, 2024,",
+                    "credit": null,
+                    "photographer": null,
+                    "peerUrls": {
+                        "FILM": null,
+                        "WIDE": null,
+                        "SQUARE": "/lsci/db/PICTURES/CMS/383100/383145.square.png"
+                    }
+                }
+            },
+            "isOverseas": true,
+            "isWithdrawn": true,
+            "note": null
+        }
+    ]
+}
