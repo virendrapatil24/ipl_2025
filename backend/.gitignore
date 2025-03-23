@@ -2,6 +2,7 @@
 venv/
 env/
 ENV/
+ipl25_env/
 
 # Python bytecode
 __pycache__/
