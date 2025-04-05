@@ -51,10 +51,8 @@ class FeatureEngineering:
         """Calculate head-to-head statistics between two teams."""
         try:
             h2h_matches = matches_df[
-                ((matches_df["team1"] == team1) &
-                 (matches_df["team2"] == team2)) |
-                ((matches_df["team1"] == team2) &
-                 (matches_df["team2"] == team1))
+                ((matches_df["team1"] == team1) & (matches_df["team2"] == team2))
+                | ((matches_df["team1"] == team2) & (matches_df["team2"] == team1))
             ].tail(last_n)
 
             team1_wins = len(h2h_matches[h2h_matches["winner"] == team1])
@@ -80,9 +78,9 @@ class FeatureEngineering:
         try:
             if role in ["Batsman", "All-Rounder", "Wicket-Keeper"]:
                 batting_stats = {
-                    "runs": deliveries_df[
-                        deliveries_df["batter"] == player_name
-                    ]["batsman_runs"].sum(),
+                    "runs": deliveries_df[deliveries_df["batter"] == player_name][
+                        "batsman_runs"
+                    ].sum(),
                     "balls_faced": len(
                         deliveries_df[deliveries_df["batter"] == player_name]
                     ),
@@ -95,8 +93,7 @@ class FeatureEngineering:
                 }
                 batting_stats["strike_rate"] = (
                     round(
-                        (batting_stats["runs"] / 
-                        batting_stats["balls_faced"]) * 100, 2
+                        (batting_stats["runs"] / batting_stats["balls_faced"]) * 100, 2
                     )
                     if batting_stats["balls_faced"] > 0
                     else 0
@@ -122,9 +119,8 @@ class FeatureEngineering:
                 }
                 bowling_stats["economy"] = (
                     round(
-                        bowling_stats["runs_conceded"] /
-                        bowling_stats["overs_bowled"],
-                        2
+                        bowling_stats["runs_conceded"] / bowling_stats["overs_bowled"],
+                        2,
                     )
                     if bowling_stats["overs_bowled"] > 0
                     else 0

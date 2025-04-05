@@ -63,14 +63,19 @@ async def chat_endpoint(request: ChatRequest) -> ChatResponse:
         team1, team2, venue = extract_match_info(request.message)
 
         # Load and process data
-        matches = data_loader.load_matches()
-        squads = data_loader.load_squads()
+        matches = data_loader.load_matches_data()
+        team1_squad = data_loader.load_squad_data(team1)
+        team2_squad = data_loader.load_squad_data(team2)
 
         # Calculate statistics
         venue_stats = FeatureEngineering.calculate_venue_stats(matches, venue)
         h2h_stats = FeatureEngineering.calculate_h2h_stats(matches, team1, team2)
-        t1_stats = FeatureEngineering.calculate_player_stats(matches, squads, team1)
-        t2_stats = FeatureEngineering.calculate_player_stats(matches, squads, team2)
+        t1_stats = FeatureEngineering.calculate_player_stats(
+            matches, team1_squad, team1
+        )
+        t2_stats = FeatureEngineering.calculate_player_stats(
+            matches, team2_squad, team2
+        )
 
         # Generate prompt using RAG
         prompt = retriever.generate_prompt(request.message, team1, team2, venue)

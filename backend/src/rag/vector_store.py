@@ -2,8 +2,9 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 import chromadb
-from chromadb.config import Settings
+from chromadb.config import Settings as ChromaSettings
 
+from ..config.settings import settings
 from ..utils.logger import logger
 from .embeddings import EmbeddingGenerator
 
@@ -15,9 +16,11 @@ class VectorStore:
         embedding_generator: Optional[EmbeddingGenerator] = None,
     ):
         """Initialize the vector store."""
-        self.persist_directory = persist_directory
+        self.persist_directory = persist_directory or str(settings.vector_store_dir)
         self.client = chromadb.Client(
-            Settings(persist_directory=persist_directory, anonymized_telemetry=False)
+            ChromaSettings(
+                persist_directory=self.persist_directory, anonymized_telemetry=False
+            )
         )
         self.embedding_generator = embedding_generator or EmbeddingGenerator()
 

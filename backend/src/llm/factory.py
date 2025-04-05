@@ -1,7 +1,7 @@
 from typing import Any
 
-from langchain.chat_models import ChatAnthropic, ChatOpenAI
-from langchain.llms import Ollama
+from langchain_community.chat_models import ChatAnthropic, ChatOpenAI
+from langchain_community.llms import Ollama
 
 from ..config import settings
 from ..utils.logger import logger

@@ -6,12 +6,25 @@ import pandas as pd
 from ..config.settings import settings
 from ..utils.logger import logger
 
+team_mapping = {
+    "csk": "Chennai_Super_Kings_squad",
+    "dc": "Delhi_Capitals_squad",
+    "kkr": "Kolkata_Knight_Riders_squad",
+    "mi": "Mumbai_Indians_squad",
+    "pbks": "Punjab_Kings_squad",
+    "rcb": "Royal_Challengers_Bangalore_squad",
+    "rr": "Rajasthan_Royals_squad",
+    "srh": "Sunrisers_Hyderabad_squad",
+    "gt": "Gujarat_Titans_squad",
+    "lsg": "Lucknow_Super_Giants_squad",
+}
+
 
 class DataLoader:
     def __init__(self, base_path: Optional[str] = None):
         """Initialize DataLoader with base path for data files."""
-        self.base_path = Path(base_path or settings.DATA_DIR)
-        self.processed_data_path = self.base_path / settings.PROCESSED_DATA_DIR
+        self.base_path = Path(base_path or settings.data_dir)
+        self.processed_data_path = self.base_path / settings.processed_data_dir
 
     def load_matches_data(self) -> pd.DataFrame:
         """Load the matches dataset."""
@@ -26,19 +39,17 @@ class DataLoader:
         """Load ball-by-ball data for a specific match."""
         try:
             deliveries = "deliveries_per_match_data"
-            path = (self.processed_data_path/f"{deliveries}/{match_id}.csv")
+            path = self.processed_data_path / f"{deliveries}/{match_id}.csv"
             return pd.read_csv(path)
         except Exception as e:
-            logger.error(
-                f"Error loading deliveries data for match {match_id}: {e}"
-            )
+            logger.error(f"Error loading deliveries data for match {match_id}: {e}")
             raise
 
     def load_squad_data(self, team: str) -> pd.DataFrame:
         """Load squad data for a specific team."""
         try:
             squads = "squads_per_season_data/2025"
-            path = self.processed_data_path / f"{squads}/{team}.csv"
+            path = self.processed_data_path / f"{squads}/{team_mapping[team]}.csv"
             return pd.read_csv(path)
         except Exception as e:
             logger.error(f"Error loading squad data for team {team}: {e}")
@@ -66,8 +77,7 @@ class DataLoader:
             return pd.read_json(path).to_dict()
         except Exception as e:
             logger.error(
-                f"Error loading match analysis data for type "
-                f"{analysis_type}: {e}"
+                f"Error loading match analysis data for type " f"{analysis_type}: {e}"
             )
             raise
 
@@ -75,7 +85,7 @@ class DataLoader:
         """Get list of available teams from squad data."""
         try:
             squads = "squads_per_season_data/2025"
-            squad_path = (self.processed_data_path/squads)
+            squad_path = self.processed_data_path / squads
             return [f.stem for f in squad_path.glob("*.csv")]
         except Exception as e:
             logger.error(f"Error getting available teams: {e}")
