@@ -2,11 +2,12 @@ import csv
 import json
 import os
 
-INPUT_FOLDER = "./../raw_data/squads_per_season_data/2025_raw"
+INPUT_FOLDER = "./../data/raw_data/2025_raw"
 OUTPUT_CSV = "ipl_squad_data.csv"
 
 CSV_FIELDS = [
     "Player Name",
+    "Delivery Name",
     "Role",
     "Batting Style",
     "Bowling Style",
@@ -31,6 +32,7 @@ TEAM_NAME_MAPPING = {
 def extract_player_data(player, team_name, is_overseas):
     return {
         "Player Name": player.get("longName", "Unknown"),
+        "Delivery Name": player.get("name", "Unknown"),
         "Role": ", ".join(player.get("playingRoles", [])) or "Unknown",
         "Batting Style": ", ".join(player.get("longBattingStyles", [])) or "Unknown",
         "Bowling Style": ", ".join(player.get("longBowlingStyles", [])) or "Unknown",
