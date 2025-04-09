@@ -1,0 +1,93 @@
+{
+  "player_name": "LB Williams",
+  "team": "Mumbai_Indians",
+  "batting": {
+    "matches_played": 1,
+    "innings": 1,
+    "runs_scored": 1,
+    "balls_faced": 2,
+    "fours": 0,
+    "sixes": 0,
+    "dismissals": 0,
+    "strike_rate": 50.0
+  },
+  "bowling": {
+    "matches_played": 2,
+    "innings": 2,
+    "overs_bowled": 7.0,
+    "runs_conceded": 74,
+    "wickets": 1,
+    "maidens": 2.0,
+    "economy": 10.571428571428571,
+    "average": 74.0,
+    "strike_rate": 42.0
+  },
+  "recent_form": {
+    "batting": {
+      "matches_played": 1,
+      "innings": 1,
+      "runs_scored": 1,
+      "balls_faced": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dismissals": 0,
+      "strike_rate": 50.0
+    },
+    "bowling": {
+      "matches_played": 2,
+      "innings": 2,
+      "overs_bowled": 7.0,
+      "runs_conceded": 74,
+      "wickets": 1,
+      "maidens": 2.0,
+      "economy": 10.571428571428571,
+      "average": 74.0,
+      "strike_rate": 42.0
+    }
+  },
+  "venue_performance": {
+    "Arun Jaitley Stadium, Delhi": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 3.6666666666666665,
+        "runs_conceded": 34,
+        "wickets": 0,
+        "maidens": 1.0,
+        "economy": 9.272727272727273
+      }
+    },
+    "Eden Gardens, Kolkata": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 1,
+        "balls_faced": 2,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0,
+        "strike_rate": 50.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 3.3333333333333335,
+        "runs_conceded": 40,
+        "wickets": 1,
+        "maidens": 1.0,
+        "economy": 12.0,
+        "average": 40.0,
+        "strike_rate": 20.0
+      }
+    }
+  }
+}

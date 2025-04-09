@@ -1,0 +1,142 @@
+{
+  "player_name": "Yudhvir Singh",
+  "team": "Rajasthan_Royals",
+  "batting": {
+    "matches_played": 4,
+    "innings": 4,
+    "runs_scored": 22,
+    "balls_faced": 16,
+    "fours": 1,
+    "sixes": 2,
+    "dismissals": 4,
+    "strike_rate": 137.5,
+    "average": 5.5
+  },
+  "bowling": {
+    "matches_played": 5,
+    "innings": 5,
+    "overs_bowled": 12.333333333333334,
+    "runs_conceded": 125,
+    "wickets": 4,
+    "maidens": 4.666666666666667,
+    "economy": 10.135135135135135,
+    "average": 31.25,
+    "strike_rate": 18.5
+  },
+  "recent_form": {
+    "batting": {
+      "matches_played": 4,
+      "innings": 4,
+      "runs_scored": 22,
+      "balls_faced": 16,
+      "fours": 1,
+      "sixes": 2,
+      "dismissals": 4,
+      "strike_rate": 137.5,
+      "average": 5.5
+    },
+    "bowling": {
+      "matches_played": 5,
+      "innings": 5,
+      "overs_bowled": 12.333333333333334,
+      "runs_conceded": 125,
+      "wickets": 4,
+      "maidens": 4.666666666666667,
+      "economy": 10.135135135135135,
+      "average": 31.25,
+      "strike_rate": 18.5
+    }
+  },
+  "venue_performance": {
+    "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 7,
+        "balls_faced": 8,
+        "fours": 0,
+        "sixes": 1,
+        "dismissals": 2,
+        "strike_rate": 87.5,
+        "average": 3.5
+      },
+      "bowling": {
+        "matches_played": 2,
+        "innings": 2,
+        "overs_bowled": 5.0,
+        "runs_conceded": 44,
+        "wickets": 3,
+        "maidens": 2.0,
+        "economy": 8.8,
+        "average": 14.666666666666666,
+        "strike_rate": 10.0
+      }
+    },
+    "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 3.1666666666666665,
+        "runs_conceded": 26,
+        "wickets": 1,
+        "maidens": 1.1666666666666667,
+        "economy": 8.210526315789474,
+        "average": 26.0,
+        "strike_rate": 19.0
+      }
+    },
+    "Sawai Mansingh Stadium, Jaipur": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 1,
+        "balls_faced": 1,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 100.0,
+        "average": 1.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 2.1666666666666665,
+        "runs_conceded": 27,
+        "wickets": 0,
+        "maidens": 1.0,
+        "economy": 12.461538461538462
+      }
+    },
+    "Arun Jaitley Stadium, Delhi": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 14,
+        "balls_faced": 7,
+        "fours": 1,
+        "sixes": 1,
+        "dismissals": 1,
+        "strike_rate": 200.0,
+        "average": 14.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 2.0,
+        "runs_conceded": 28,
+        "wickets": 0,
+        "maidens": 0.5,
+        "economy": 14.0
+      }
+    }
+  }
+}

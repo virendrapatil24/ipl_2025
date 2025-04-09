@@ -1,0 +1,74 @@
+{
+  "player_name": "KT Maphaka",
+  "team": "Rajasthan_Royals",
+  "batting": {},
+  "bowling": {
+    "matches_played": 2,
+    "innings": 2,
+    "overs_bowled": 6.5,
+    "runs_conceded": 90,
+    "wickets": 1,
+    "maidens": 1.8333333333333333,
+    "economy": 13.846153846153847,
+    "average": 90.0,
+    "strike_rate": 39.0
+  },
+  "recent_form": {
+    "batting": {},
+    "bowling": {
+      "matches_played": 2,
+      "innings": 2,
+      "overs_bowled": 6.5,
+      "runs_conceded": 90,
+      "wickets": 1,
+      "maidens": 1.8333333333333333,
+      "economy": 13.846153846153847,
+      "average": 90.0,
+      "strike_rate": 39.0
+    }
+  },
+  "venue_performance": {
+    "Wankhede Stadium, Mumbai": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 2.0,
+        "runs_conceded": 23,
+        "wickets": 1,
+        "maidens": 0.8333333333333334,
+        "economy": 11.5,
+        "average": 23.0,
+        "strike_rate": 12.0
+      }
+    },
+    "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 4.5,
+        "runs_conceded": 67,
+        "wickets": 0,
+        "maidens": 1.0,
+        "economy": 14.88888888888889
+      }
+    }
+  }
+}

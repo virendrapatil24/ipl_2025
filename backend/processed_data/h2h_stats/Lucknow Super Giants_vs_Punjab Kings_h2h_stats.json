@@ -1,0 +1,38 @@
+{
+  "Lucknow Super Giants": {
+    "matches_played": 4,
+    "batting": {
+      "total_runs": 768,
+      "wickets_lost": 29,
+      "fours": 61,
+      "sixes": 38,
+      "average": 26.482758620689655,
+      "runs_per_match": 192.0
+    },
+    "bowling": {
+      "runs_conceded": 673,
+      "wickets_taken": 31,
+      "maidens": 32.666666666666664,
+      "average": 21.70967741935484,
+      "runs_per_match": 168.25
+    }
+  },
+  "Punjab Kings": {
+    "matches_played": 4,
+    "batting": {
+      "total_runs": 673,
+      "wickets_lost": 31,
+      "fours": 61,
+      "sixes": 29,
+      "average": 21.70967741935484,
+      "runs_per_match": 168.25
+    },
+    "bowling": {
+      "runs_conceded": 768,
+      "wickets_taken": 29,
+      "maidens": 27.666666666666668,
+      "average": 26.482758620689655,
+      "runs_per_match": 192.0
+    }
+  }
+}

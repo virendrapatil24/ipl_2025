@@ -1,0 +1,38 @@
+{
+  "Gujarat Titans": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 832,
+      "wickets_lost": 27,
+      "fours": 87,
+      "sixes": 14,
+      "average": 30.814814814814813,
+      "runs_per_match": 166.4
+    },
+    "bowling": {
+      "runs_conceded": 829,
+      "wickets_taken": 36,
+      "maidens": 36.166666666666664,
+      "average": 23.02777777777778,
+      "runs_per_match": 165.8
+    }
+  },
+  "Punjab Kings": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 829,
+      "wickets_lost": 36,
+      "fours": 79,
+      "sixes": 32,
+      "average": 23.02777777777778,
+      "runs_per_match": 165.8
+    },
+    "bowling": {
+      "runs_conceded": 832,
+      "wickets_taken": 27,
+      "maidens": 29.666666666666668,
+      "average": 30.814814814814813,
+      "runs_per_match": 166.4
+    }
+  }
+}

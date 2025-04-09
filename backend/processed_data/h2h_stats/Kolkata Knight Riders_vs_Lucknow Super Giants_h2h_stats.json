@@ -1,0 +1,38 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 881,
+      "wickets_lost": 33,
+      "fours": 85,
+      "sixes": 43,
+      "average": 26.696969696969695,
+      "runs_per_match": 176.2
+    },
+    "bowling": {
+      "runs_conceded": 860,
+      "wickets_taken": 32,
+      "maidens": 33.333333333333336,
+      "average": 26.875,
+      "runs_per_match": 172.0
+    }
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 860,
+      "wickets_lost": 32,
+      "fours": 59,
+      "sixes": 48,
+      "average": 26.875,
+      "runs_per_match": 172.0
+    },
+    "bowling": {
+      "runs_conceded": 881,
+      "wickets_taken": 33,
+      "maidens": 34.0,
+      "average": 26.696969696969695,
+      "runs_per_match": 176.2
+    }
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "player_name": "Q de Kock",
+  "team": "Kolkata_Knight_Riders",
+  "batting": {
+    "matches_played": 107,
+    "innings": 107,
+    "runs_scored": 3160,
+    "balls_faced": 2410,
+    "fours": 316,
+    "sixes": 123,
+    "dismissals": 99,
+    "strike_rate": 131.12033195020746,
+    "average": 31.91919191919192
+  },
+  "bowling": {},
+  "recent_form": {
+    "batting": {
+      "matches_played": 5,
+      "innings": 5,
+      "runs_scored": 76,
+      "balls_faced": 68,
+      "fours": 9,
+      "sixes": 1,
+      "dismissals": 5,
+      "strike_rate": 111.76470588235294,
+      "average": 15.2
+    },
+    "bowling": {}
+  },
+  "venue_performance": {
+    "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 42,
+        "balls_faced": 37,
+        "fours": 4,
+        "sixes": 2,
+        "dismissals": 2,
+        "strike_rate": 113.51351351351352,
+        "average": 21.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Maharashtra Cricket Association Stadium": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 2,
+        "balls_faced": 9,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 22.22222222222222,
+        "average": 2.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Wankhede Stadium, Mumbai": {
+      "batting": {
+        "matches_played": 4,
+        "innings": 4,
+        "runs_scored": 79,
+        "balls_faced": 63,
+        "fours": 6,
+        "sixes": 3,
+        "dismissals": 4,
+        "strike_rate": 125.39682539682539,
+        "average": 19.75
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Rajiv Gandhi International Stadium, Uppal": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 44,
+        "balls_faced": 36,
+        "fours": 5,
+        "sixes": 2,
+        "dismissals": 2,
+        "strike_rate": 122.22222222222223,
+        "average": 22.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Dubai International Cricket Stadium": {
+      "batting": {
+        "matches_played": 8,
+        "innings": 8,
+        "runs_scored": 245,
+        "balls_faced": 195,
+        "fours": 27,
+        "sixes": 6,
+        "dismissals": 9,
+        "strike_rate": 125.64102564102564,
+        "average": 27.22222222222222
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Brabourne Stadium, Mumbai": {
+      "batting": {
+        "matches_played": 3,
+        "innings": 3,
+        "runs_scored": 92,
+        "balls_faced": 70,
+        "fours": 14,
+        "sixes": 1,
+        "dismissals": 3,
+        "strike_rate": 131.42857142857142,
+        "average": 30.666666666666668
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Sharjah Cricket Stadium": {
+      "batting": {
+        "matches_played": 5,
+        "innings": 5,
+        "runs_scored": 173,
+        "balls_faced": 132,
+        "fours": 14,
+        "sixes": 9,
+        "dismissals": 4,
+        "strike_rate": 131.06060606060606,
+        "average": 43.25
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Shaheed Veer Narayan Singh International Stadium": {
+      "batting": {
+        "matches_played": 4,
+        "innings": 4,
+        "runs_scored": 115,
+        "balls_faced": 103,
+        "fours": 14,
+        "sixes": 2,
+        "dismissals": 4,
+        "strike_rate": 111.6504854368932,
+        "average": 28.75
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Dr DY Patil Sports Academy, Mumbai": {
+      "batting": {
+        "matches_played": 4,
+        "innings": 4,
+        "runs_scored": 224,
+        "balls_faced": 134,
+        "fours": 19,
+        "sixes": 12,
+        "dismissals": 3,
+        "strike_rate": 167.16417910447763,
+        "average": 74.66666666666667
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "MA Chidambaram Stadium, Chepauk": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 4,
+        "balls_faced": 3,
+        "fours": 1,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 133.33333333333334,
+        "average": 4.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Sheikh Zayed Stadium": {
+      "batting": {
+        "matches_played": 8,
+        "innings": 8,
+        "runs_scored": 212,
+        "balls_faced": 149,
+        "fours": 21,
+        "sixes": 9,
+        "dismissals": 7,
+        "strike_rate": 142.28187919463087,
+        "average": 30.285714285714285
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Maharashtra Cricket Association Stadium, Pune": {
+      "batting": {
+        "matches_played": 3,
+        "innings": 3,
+        "runs_scored": 107,
+        "balls_faced": 78,
+        "fours": 8,
+        "sixes": 6,
+        "dismissals": 3,
+        "strike_rate": 137.17948717948718,
+        "average": 35.666666666666664
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "MA Chidambaram Stadium": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 23,
+        "balls_faced": 23,
+        "fours": 3,
+        "sixes": 1,
+        "dismissals": 2,
+        "strike_rate": 100.0,
+        "average": 11.5
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Rajiv Gandhi International Stadium": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 48,
+        "balls_faced": 36,
+        "fours": 1,
+        "sixes": 5,
+        "dismissals": 2,
+        "strike_rate": 133.33333333333334,
+        "average": 24.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Narendra Modi Stadium, Ahmedabad": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 70,
+        "balls_faced": 42,
+        "fours": 7,
+        "sixes": 3,
+        "dismissals": 1,
+        "strike_rate": 166.66666666666666,
+        "average": 70.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 31,
+        "balls_faced": 24,
+        "fours": 3,
+        "sixes": 1,
+        "dismissals": 2,
+        "strike_rate": 129.16666666666666,
+        "average": 15.5
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "MA Chidambaram Stadium, Chepauk, Chennai": {
+      "batting": {
+        "matches_played": 5,
+        "innings": 5,
+        "runs_scored": 47,
+        "balls_faced": 58,
+        "fours": 5,
+        "sixes": 0,
+        "dismissals": 5,
+        "strike_rate": 81.03448275862068,
+        "average": 9.4
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+      "batting": {
+        "matches_played": 6,
+        "innings": 6,
+        "runs_scored": 157,
+        "balls_faced": 121,
+        "fours": 16,
+        "sixes": 6,
+        "dismissals": 6,
+        "strike_rate": 129.7520661157025,
+        "average": 26.166666666666668
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Eden Gardens, Kolkata": {
+      "batting": {
+        "matches_played": 3,
+        "innings": 3,
+        "runs_scored": 44,
+        "balls_faced": 40,
+        "fours": 2,
+        "sixes": 3,
+        "dismissals": 3,
+        "strike_rate": 110.0,
+        "average": 14.666666666666666
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Arun Jaitley Stadium, Delhi": {
+      "batting": {
+        "matches_played": 3,
+        "innings": 3,
+        "runs_scored": 120,
+        "balls_faced": 89,
+        "fours": 12,
+        "sixes": 3,
+        "dismissals": 2,
+        "strike_rate": 134.8314606741573,
+        "average": 60.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Zayed Cricket Stadium, Abu Dhabi": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 82,
+        "balls_faced": 74,
+        "fours": 6,
+        "sixes": 3,
+        "dismissals": 2,
+        "strike_rate": 110.8108108108108,
+        "average": 41.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Feroz Shah Kotla": {
+      "batting": {
+        "matches_played": 8,
+        "innings": 8,
+        "runs_scored": 157,
+        "balls_faced": 136,
+        "fours": 22,
+        "sixes": 4,
+        "dismissals": 6,
+        "strike_rate": 115.44117647058823,
+        "average": 26.166666666666668
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Wankhede Stadium": {
+      "batting": {
+        "matches_played": 8,
+        "innings": 8,
+        "runs_scored": 294,
+        "balls_faced": 220,
+        "fours": 27,
+        "sixes": 13,
+        "dismissals": 7,
+        "strike_rate": 133.63636363636363,
+        "average": 42.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Arun Jaitley Stadium": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 35,
+        "balls_faced": 27,
+        "fours": 2,
+        "sixes": 2,
+        "dismissals": 0,
+        "strike_rate": 129.62962962962962
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Sawai Mansingh Stadium": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 65,
+        "balls_faced": 48,
+        "fours": 6,
+        "sixes": 2,
+        "dismissals": 1,
+        "strike_rate": 135.41666666666666,
+        "average": 65.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Sawai Mansingh Stadium, Jaipur": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 4,
+        "balls_faced": 5,
+        "fours": 1,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 80.0,
+        "average": 4.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "M Chinnaswamy Stadium": {
+      "batting": {
+        "matches_played": 3,
+        "innings": 3,
+        "runs_scored": 183,
+        "balls_faced": 100,
+        "fours": 25,
+        "sixes": 6,
+        "dismissals": 3,
+        "strike_rate": 183.0,
+        "average": 61.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Eden Gardens": {
+      "batting": {
+        "matches_played": 3,
+        "innings": 3,
+        "runs_scored": 21,
+        "balls_faced": 18,
+        "fours": 2,
+        "sixes": 1,
+        "dismissals": 3,
+        "strike_rate": 116.66666666666667,
+        "average": 7.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "M Chinnaswamy Stadium, Bengaluru": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 81,
+        "balls_faced": 57,
+        "fours": 8,
+        "sixes": 5,
+        "dismissals": 1,
+        "strike_rate": 142.10526315789474,
+        "average": 81.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "M.Chinnaswamy Stadium": {
+      "batting": {
+        "matches_played": 7,
+        "innings": 7,
+        "runs_scored": 201,
+        "balls_faced": 167,
+        "fours": 19,
+        "sixes": 8,
+        "dismissals": 6,
+        "strike_rate": 120.35928143712574,
+        "average": 33.5
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Punjab Cricket Association IS Bindra Stadium": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 60,
+        "balls_faced": 39,
+        "fours": 6,
+        "sixes": 2,
+        "dismissals": 1,
+        "strike_rate": 153.84615384615384,
+        "average": 60.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Saurashtra Cricket Association Stadium": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 46,
+        "balls_faced": 46,
+        "fours": 4,
+        "sixes": 1,
+        "dismissals": 1,
+        "strike_rate": 100.0,
+        "average": 46.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Punjab Cricket Association IS Bindra Stadium, Mohali": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 52,
+        "balls_faced": 31,
+        "fours": 6,
+        "sixes": 2,
+        "dismissals": 1,
+        "strike_rate": 167.74193548387098,
+        "average": 52.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    }
+  }
+}

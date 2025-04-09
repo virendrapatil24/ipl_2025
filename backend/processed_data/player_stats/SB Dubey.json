@@ -1,0 +1,94 @@
+{
+  "player_name": "SB Dubey",
+  "team": "Rajasthan_Royals",
+  "batting": {
+    "matches_played": 3,
+    "innings": 3,
+    "runs_scored": 33,
+    "balls_faced": 21,
+    "fours": 3,
+    "sixes": 2,
+    "dismissals": 2,
+    "strike_rate": 157.14285714285714,
+    "average": 16.5
+  },
+  "bowling": {},
+  "recent_form": {
+    "batting": {
+      "matches_played": 3,
+      "innings": 3,
+      "runs_scored": 33,
+      "balls_faced": 21,
+      "fours": 3,
+      "sixes": 2,
+      "dismissals": 2,
+      "strike_rate": 157.14285714285714,
+      "average": 16.5
+    },
+    "bowling": {}
+  },
+  "venue_performance": {
+    "MA Chidambaram Stadium, Chepauk, Chennai": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 0,
+        "balls_faced": 1,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 0.0,
+        "average": 0.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Wankhede Stadium, Mumbai": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 8,
+        "balls_faced": 6,
+        "fours": 1,
+        "sixes": 0,
+        "dismissals": 0,
+        "strike_rate": 133.33333333333334
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    },
+    "Arun Jaitley Stadium, Delhi": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 25,
+        "balls_faced": 14,
+        "fours": 2,
+        "sixes": 2,
+        "dismissals": 1,
+        "strike_rate": 178.57142857142858,
+        "average": 25.0
+      },
+      "bowling": {
+        "matches_played": 0,
+        "innings": 0,
+        "overs_bowled": 0,
+        "runs_conceded": 0,
+        "wickets": 0,
+        "maidens": 0
+      }
+    }
+  }
+}

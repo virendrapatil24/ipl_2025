@@ -1,0 +1,38 @@
+{
+  "Lucknow Super Giants": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 702,
+      "wickets_lost": 35,
+      "fours": 63,
+      "sixes": 23,
+      "average": 20.057142857142857,
+      "runs_per_match": 140.4
+    },
+    "bowling": {
+      "runs_conceded": 797,
+      "wickets_taken": 27,
+      "maidens": 34.0,
+      "average": 29.51851851851852,
+      "runs_per_match": 159.4
+    }
+  },
+  "Gujarat Titans": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 797,
+      "wickets_lost": 27,
+      "fours": 66,
+      "sixes": 28,
+      "average": 29.51851851851852,
+      "runs_per_match": 159.4
+    },
+    "bowling": {
+      "runs_conceded": 702,
+      "wickets_taken": 35,
+      "maidens": 36.0,
+      "average": 20.057142857142857,
+      "runs_per_match": 140.4
+    }
+  }
+}

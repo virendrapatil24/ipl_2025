@@ -1,0 +1,38 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 29,
+    "batting": {
+      "total_runs": 4442,
+      "wickets_lost": 188,
+      "fours": 395,
+      "sixes": 158,
+      "average": 23.627659574468087,
+      "runs_per_match": 153.17241379310346
+    },
+    "bowling": {
+      "runs_conceded": 4608,
+      "wickets_taken": 119,
+      "maidens": 185.33333333333334,
+      "average": 38.72268907563025,
+      "runs_per_match": 158.89655172413794
+    }
+  },
+  "Chennai Super Kings": {
+    "matches_played": 29,
+    "batting": {
+      "total_runs": 4608,
+      "wickets_lost": 119,
+      "fours": 382,
+      "sixes": 172,
+      "average": 38.72268907563025,
+      "runs_per_match": 158.89655172413794
+    },
+    "bowling": {
+      "runs_conceded": 4442,
+      "wickets_taken": 188,
+      "maidens": 212.66666666666666,
+      "average": 23.627659574468087,
+      "runs_per_match": 153.17241379310346
+    }
+  }
+}

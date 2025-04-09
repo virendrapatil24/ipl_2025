@@ -1,0 +1,38 @@
+{
+  "Rajasthan Royals": {
+    "matches_played": 20,
+    "batting": {
+      "total_runs": 3247,
+      "wickets_lost": 110,
+      "fours": 287,
+      "sixes": 114,
+      "average": 29.51818181818182,
+      "runs_per_match": 162.35
+    },
+    "bowling": {
+      "runs_conceded": 3165,
+      "wickets_taken": 120,
+      "maidens": 142.16666666666666,
+      "average": 26.375,
+      "runs_per_match": 158.25
+    }
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 20,
+    "batting": {
+      "total_runs": 3165,
+      "wickets_lost": 120,
+      "fours": 255,
+      "sixes": 111,
+      "average": 26.375,
+      "runs_per_match": 158.25
+    },
+    "bowling": {
+      "runs_conceded": 3247,
+      "wickets_taken": 110,
+      "maidens": 142.83333333333334,
+      "average": 29.51818181818182,
+      "runs_per_match": 162.35
+    }
+  }
+}

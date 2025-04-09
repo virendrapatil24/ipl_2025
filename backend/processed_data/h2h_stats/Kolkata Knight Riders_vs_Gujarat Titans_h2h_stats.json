@@ -1,0 +1,38 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 3,
+    "batting": {
+      "total_runs": 534,
+      "wickets_lost": 22,
+      "fours": 38,
+      "sixes": 36,
+      "average": 24.272727272727273,
+      "runs_per_match": 178.0
+    },
+    "bowling": {
+      "runs_conceded": 540,
+      "wickets_taken": 16,
+      "maidens": 15.833333333333334,
+      "average": 33.75,
+      "runs_per_match": 180.0
+    }
+  },
+  "Gujarat Titans": {
+    "matches_played": 3,
+    "batting": {
+      "total_runs": 540,
+      "wickets_lost": 16,
+      "fours": 43,
+      "sixes": 20,
+      "average": 33.75,
+      "runs_per_match": 180.0
+    },
+    "bowling": {
+      "runs_conceded": 534,
+      "wickets_taken": 22,
+      "maidens": 25.5,
+      "average": 24.272727272727273,
+      "runs_per_match": 178.0
+    }
+  }
+}

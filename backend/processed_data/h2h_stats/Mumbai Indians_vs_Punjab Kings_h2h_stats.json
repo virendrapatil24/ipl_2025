@@ -1,0 +1,38 @@
+{
+  "Mumbai Indians": {
+    "matches_played": 6,
+    "batting": {
+      "total_runs": 1063,
+      "wickets_lost": 36,
+      "fours": 85,
+      "sixes": 53,
+      "average": 29.52777777777778,
+      "runs_per_match": 177.16666666666666
+    },
+    "bowling": {
+      "runs_conceded": 1076,
+      "wickets_taken": 33,
+      "maidens": 38.833333333333336,
+      "average": 32.60606060606061,
+      "runs_per_match": 179.33333333333334
+    }
+  },
+  "Punjab Kings": {
+    "matches_played": 6,
+    "batting": {
+      "total_runs": 1076,
+      "wickets_lost": 33,
+      "fours": 83,
+      "sixes": 49,
+      "average": 32.60606060606061,
+      "runs_per_match": 179.33333333333334
+    },
+    "bowling": {
+      "runs_conceded": 1063,
+      "wickets_taken": 36,
+      "maidens": 38.833333333333336,
+      "average": 29.52777777777778,
+      "runs_per_match": 177.16666666666666
+    }
+  }
+}

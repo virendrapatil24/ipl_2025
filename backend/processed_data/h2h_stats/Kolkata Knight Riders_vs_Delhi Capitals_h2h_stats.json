@@ -1,0 +1,38 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 12,
+    "batting": {
+      "total_runs": 2067,
+      "wickets_lost": 89,
+      "fours": 165,
+      "sixes": 100,
+      "average": 23.224719101123597,
+      "runs_per_match": 172.25
+    },
+    "bowling": {
+      "runs_conceded": 1968,
+      "wickets_taken": 76,
+      "maidens": 81.16666666666667,
+      "average": 25.894736842105264,
+      "runs_per_match": 164.0
+    }
+  },
+  "Delhi Capitals": {
+    "matches_played": 12,
+    "batting": {
+      "total_runs": 1968,
+      "wickets_lost": 76,
+      "fours": 182,
+      "sixes": 73,
+      "average": 25.894736842105264,
+      "runs_per_match": 164.0
+    },
+    "bowling": {
+      "runs_conceded": 2067,
+      "wickets_taken": 89,
+      "maidens": 86.16666666666667,
+      "average": 23.224719101123597,
+      "runs_per_match": 172.25
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 6,
+    "batting": {
+      "total_runs": 1021,
+      "wickets_lost": 34,
+      "fours": 98,
+      "sixes": 46,
+      "average": 30.029411764705884,
+      "runs_per_match": 170.16666666666666
+    },
+    "bowling": {
+      "runs_conceded": 1060,
+      "wickets_taken": 38,
+      "maidens": 44.333333333333336,
+      "average": 27.894736842105264,
+      "runs_per_match": 176.66666666666666
+    }
+  },
+  "Punjab Kings": {
+    "matches_played": 6,
+    "batting": {
+      "total_runs": 1060,
+      "wickets_lost": 38,
+      "fours": 77,
+      "sixes": 64,
+      "average": 27.894736842105264,
+      "runs_per_match": 176.66666666666666
+    },
+    "bowling": {
+      "runs_conceded": 1021,
+      "wickets_taken": 34,
+      "maidens": 36.833333333333336,
+      "average": 30.029411764705884,
+      "runs_per_match": 170.16666666666666
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Mumbai Indians": {
+    "matches_played": 13,
+    "batting": {
+      "total_runs": 2235,
+      "wickets_lost": 75,
+      "fours": 188,
+      "sixes": 106,
+      "average": 29.8,
+      "runs_per_match": 171.92307692307693
+    },
+    "bowling": {
+      "runs_conceded": 2154,
+      "wickets_taken": 88,
+      "maidens": 93.66666666666667,
+      "average": 24.477272727272727,
+      "runs_per_match": 165.69230769230768
+    }
+  },
+  "Delhi Capitals": {
+    "matches_played": 13,
+    "batting": {
+      "total_runs": 2154,
+      "wickets_lost": 88,
+      "fours": 191,
+      "sixes": 83,
+      "average": 24.477272727272727,
+      "runs_per_match": 165.69230769230768
+    },
+    "bowling": {
+      "runs_conceded": 2235,
+      "wickets_taken": 75,
+      "maidens": 85.5,
+      "average": 29.8,
+      "runs_per_match": 171.92307692307693
+    }
+  }
+}

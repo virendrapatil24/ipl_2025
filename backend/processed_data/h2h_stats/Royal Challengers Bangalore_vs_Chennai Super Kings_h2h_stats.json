@@ -1,0 +1,38 @@
+{
+  "Royal Challengers Bangalore": {
+    "matches_played": 30,
+    "batting": {
+      "total_runs": 4532,
+      "wickets_lost": 207,
+      "fours": 351,
+      "sixes": 177,
+      "average": 21.893719806763286,
+      "runs_per_match": 151.06666666666666
+    },
+    "bowling": {
+      "runs_conceded": 4755,
+      "wickets_taken": 170,
+      "maidens": 211.83333333333334,
+      "average": 27.970588235294116,
+      "runs_per_match": 158.5
+    }
+  },
+  "Chennai Super Kings": {
+    "matches_played": 30,
+    "batting": {
+      "total_runs": 4755,
+      "wickets_lost": 170,
+      "fours": 352,
+      "sixes": 220,
+      "average": 27.970588235294116,
+      "runs_per_match": 158.5
+    },
+    "bowling": {
+      "runs_conceded": 4532,
+      "wickets_taken": 207,
+      "maidens": 219.83333333333334,
+      "average": 21.893719806763286,
+      "runs_per_match": 151.06666666666666
+    }
+  }
+}

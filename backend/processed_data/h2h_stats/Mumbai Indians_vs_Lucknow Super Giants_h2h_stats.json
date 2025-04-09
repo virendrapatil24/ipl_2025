@@ -1,0 +1,38 @@
+{
+  "Mumbai Indians": {
+    "matches_played": 6,
+    "batting": {
+      "total_runs": 1007,
+      "wickets_lost": 43,
+      "fours": 82,
+      "sixes": 39,
+      "average": 23.41860465116279,
+      "runs_per_match": 167.83333333333334
+    },
+    "bowling": {
+      "runs_conceded": 1004,
+      "wickets_taken": 36,
+      "maidens": 40.666666666666664,
+      "average": 27.88888888888889,
+      "runs_per_match": 167.33333333333334
+    }
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 6,
+    "batting": {
+      "total_runs": 1004,
+      "wickets_lost": 36,
+      "fours": 78,
+      "sixes": 45,
+      "average": 27.88888888888889,
+      "runs_per_match": 167.33333333333334
+    },
+    "bowling": {
+      "runs_conceded": 1007,
+      "wickets_taken": 43,
+      "maidens": 45.5,
+      "average": 23.41860465116279,
+      "runs_per_match": 167.83333333333334
+    }
+  }
+}

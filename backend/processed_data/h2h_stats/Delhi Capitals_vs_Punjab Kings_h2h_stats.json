@@ -1,0 +1,38 @@
+{
+  "Delhi Capitals": {
+    "matches_played": 7,
+    "batting": {
+      "total_runs": 1166,
+      "wickets_lost": 34,
+      "fours": 115,
+      "sixes": 44,
+      "average": 34.294117647058826,
+      "runs_per_match": 166.57142857142858
+    },
+    "bowling": {
+      "runs_conceded": 1160,
+      "wickets_taken": 50,
+      "maidens": 52.333333333333336,
+      "average": 23.2,
+      "runs_per_match": 165.71428571428572
+    }
+  },
+  "Punjab Kings": {
+    "matches_played": 7,
+    "batting": {
+      "total_runs": 1160,
+      "wickets_lost": 50,
+      "fours": 104,
+      "sixes": 48,
+      "average": 23.2,
+      "runs_per_match": 165.71428571428572
+    },
+    "bowling": {
+      "runs_conceded": 1166,
+      "wickets_taken": 34,
+      "maidens": 41.5,
+      "average": 34.294117647058826,
+      "runs_per_match": 166.57142857142858
+    }
+  }
+}

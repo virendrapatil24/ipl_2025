@@ -1,0 +1,38 @@
+{
+  "Gujarat Titans": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 768,
+      "wickets_lost": 34,
+      "fours": 68,
+      "sixes": 25,
+      "average": 22.58823529411765,
+      "runs_per_match": 153.6
+    },
+    "bowling": {
+      "runs_conceded": 765,
+      "wickets_taken": 33,
+      "maidens": 36.0,
+      "average": 23.181818181818183,
+      "runs_per_match": 153.0
+    }
+  },
+  "Delhi Capitals": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 765,
+      "wickets_lost": 33,
+      "fours": 68,
+      "sixes": 36,
+      "average": 23.181818181818183,
+      "runs_per_match": 153.0
+    },
+    "bowling": {
+      "runs_conceded": 768,
+      "wickets_taken": 34,
+      "maidens": 35.166666666666664,
+      "average": 22.58823529411765,
+      "runs_per_match": 153.6
+    }
+  }
+}
