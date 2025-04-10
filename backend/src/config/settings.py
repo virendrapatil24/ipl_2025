@@ -8,12 +8,13 @@ class Settings(BaseSettings):
     """Application settings and environment variables."""
 
     # API Keys
-    openai_api_key: str
+    openai_api_key: str = ""
     anthropic_api_key: Optional[str] = None
 
     # Data paths
     data_dir: Path = Path("data")
     processed_data_dir: Path = Path("processed_data")
+    cleaned_data_dir: Path = Path("cleaned_data")
     matches_file: Path = data_dir / "matches.csv"
     deliveries_file: Path = data_dir / "deliveries.csv"
     squads_file: Path = data_dir / "squads.csv"

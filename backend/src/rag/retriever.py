@@ -88,6 +88,8 @@ class RAGRetriever:
             # Get relevant context
             context = self.get_relevant_context(query, team1, team2, venue)
             formatted_context = self.format_context(context)
+            print("context", context)
+            print("formatted_context", formatted_context)
 
             # Create the final prompt template
             template = (
