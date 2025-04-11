@@ -132,16 +132,17 @@ async def chat_endpoint(request: ChatRequest) -> ChatResponse:
         # Generate response
         response = llm.predict(prompt)
 
+        # Create analysis object
+        analysis = Analysis(
+            venue_stats=venue_stats,
+            h2h_stats=h2h_stats,
+            team1_analysis=team1_player_stats,
+            team2_analysis=team2_player_stats,
+        )
+
         return ChatResponse(
             response=response,
-            confidence=0.95,  # Placeholder for now
-            model=model,
-            context={
-                "venue_stats": venue_stats,
-                "h2h_stats": h2h_stats,
-                "team1_stats": team1_player_stats,
-                "team2_stats": team2_player_stats,
-            },
+            analysis=analysis,
         )
 
     except ValueError as e:

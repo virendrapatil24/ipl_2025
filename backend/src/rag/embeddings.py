@@ -1,6 +1,4 @@
-import json
-from pathlib import Path
-from typing import Dict, List, Union
+from typing import Dict, List
 
 from sentence_transformers import SentenceTransformer
 
@@ -33,27 +31,79 @@ class EmbeddingGenerator:
         return (
             f"Match between {match_data['team1']} and {match_data['team2']} "
             f"at {match_data['venue']} on {match_data['date']}. "
-            f"Toss won by {match_data['toss_winner']} who chose to {match_data['toss_decision']}. "
+            f"Toss won by {match_data['toss_winner']} who chose to "
+            f"{match_data['toss_decision']}. "
             f"Winner: {match_data.get('winner', 'Not available')}. "
             f"Result: {match_data['result']}"
         )
 
     def create_player_document(self, player_data: Dict) -> str:
         """Create a document from player data for embedding."""
+        batting = player_data.get("batting", {})
+        bowling = player_data.get("bowling", {})
+
+        batting_stats = (
+            f"Batting: {batting.get('matches_played', 0)} matches, "
+            f"{batting.get('runs_scored', 0)} runs, "
+            f"SR: {batting.get('strike_rate', 0):.2f}, "
+            f"Avg: {batting.get('average', 0):.2f}"
+        )
+
+        bowling_stats = (
+            f"Bowling: {bowling.get('matches_played', 0)} matches, "
+            f"{bowling.get('wickets', 0)} wickets, "
+            f"Econ: {bowling.get('economy', 0):.2f}"
+        )
+
         return (
-            f"Player {player_data['name']} plays for {player_data['team']} "
-            f"as a {player_data['role']}. "
-            f"Batting style: {player_data.get('batting_style', 'Not specified')}. "
-            f"Bowling style: {player_data.get('bowling_style', 'Not specified')}. "
-            f"{'Overseas player.' if player_data.get('is_overseas') else 'Local player.'}"
+            f"Player {player_data['player_name']} plays for {player_data['team']}. "
+            f"{batting_stats}. {bowling_stats}."
         )
 
     def create_analysis_document(self, analysis_data: Dict) -> str:
         """Create a document from analysis data for embedding."""
-        return (
-            f"Analysis for {analysis_data.get('venue', 'venue')}:\n"
-            f"Total matches: {analysis_data.get('total_matches', 0)}\n"
-            f"Batting first wins: {analysis_data.get('batting_first_wins', 0)}\n"
-            f"Average score: {analysis_data.get('average_score', 'Not available')}\n"
-            f"Pitch characteristics: {analysis_data.get('pitch_behavior', 'Not specified')}"
-        )
+        if analysis_data.get("type") == "venue_stats":
+            team = analysis_data.get("team", "")
+            venue_data = analysis_data.get("data", {})
+
+            # Create a document for each venue
+            venue_docs = []
+            for venue, stats in venue_data.items():
+                batting = stats.get("batting", {})
+                bowling = stats.get("bowling", {})
+
+                venue_doc = (
+                    f"Venue: {venue}. Team: {team}. "
+                    f"Batting: {batting.get('matches_played', 0)} matches, "
+                    f"{batting.get('total_runs', 0)} runs. "
+                    f"Bowling: {bowling.get('matches_played', 0)} matches, "
+                    f"{bowling.get('wickets_taken', 0)} wickets."
+                )
+                venue_docs.append(venue_doc)
+
+            return " ".join(venue_docs)
+
+        elif analysis_data.get("type") == "h2h_stats":
+            team1 = analysis_data.get("team1", "")
+            team2 = analysis_data.get("team2", "")
+            h2h_data = analysis_data.get("data", {})
+
+            team1_stats = h2h_data.get(team1, {})
+            team2_stats = h2h_data.get(team2, {})
+
+            team1_batting = team1_stats.get("batting", {})
+            team1_bowling = team1_stats.get("bowling", {})
+            team2_batting = team2_stats.get("batting", {})
+            team2_bowling = team2_stats.get("bowling", {})
+
+            return (
+                f"Head-to-head between {team1} and {team2}. "
+                f"{team1}: {team1_batting.get('matches_played', 0)} matches, "
+                f"{team1_batting.get('total_runs', 0)} runs, "
+                f"{team1_bowling.get('wickets_taken', 0)} wickets. "
+                f"{team2}: {team2_batting.get('matches_played', 0)} matches, "
+                f"{team2_batting.get('total_runs', 0)} runs, "
+                f"{team2_bowling.get('wickets_taken', 0)} wickets."
+            )
+
+        return "Unknown analysis type"
