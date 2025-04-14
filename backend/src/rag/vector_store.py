@@ -3,7 +3,6 @@ from typing import Dict, List, Optional
 
 import chromadb
 import pandas as pd
-from chromadb.config import Settings as ChromaSettings
 
 from ..config.settings import settings
 from ..utils.logger import logger
@@ -22,11 +21,7 @@ class VectorStore:
             f"Initializing vector store with persist directory: {self.persist_directory}"
         )
 
-        self.client = chromadb.Client(
-            ChromaSettings(
-                persist_directory=self.persist_directory, anonymized_telemetry=False
-            )
-        )
+        self.client = chromadb.PersistentClient(path=self.persist_directory)
         self.embedding_generator = embedding_generator or EmbeddingGenerator()
 
         # Create collections for different types of data
