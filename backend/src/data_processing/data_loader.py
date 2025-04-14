@@ -66,7 +66,6 @@ class DataLoader:
                 return pd.DataFrame()
 
             self._matches_df = pd.read_csv(matches_file)
-            print("self._matches_df", self._matches_df)
             logger.info(f"Loaded {len(self._matches_df)} matches")
             return self._matches_df
         except Exception as e:
