@@ -21,8 +21,11 @@ class FeatureEngineering:
         self.venue_stats_dir = self.processed_data_dir / "venue_stats"
         self.venue_stats_dir.mkdir(exist_ok=True)
 
-        self.team_at_venue_stats_fir = self.processed_data_dir / "team_at_venue_stats"
-        self.team_at_venue_stats_fir.mkdir(exist_ok=True)
+        self.team_at_venue_stats_dir = self.processed_data_dir / "team_at_venue_stats"
+        self.team_at_venue_stats_dir.mkdir(exist_ok=True)
+
+        self.team_h2h_stats_dir = self.processed_data_dir / "team_h2h_stats"
+        self.team_h2h_stats_dir.mkdir(exist_ok=True)
 
         self.h2h_stats_dir = self.processed_data_dir / "h2h_stats"
         self.h2h_stats_dir.mkdir(exist_ok=True)
@@ -245,7 +248,7 @@ class FeatureEngineering:
                 return [convert_to_serializable(item) for item in obj]
             return obj
 
-        stats_file = self.team_at_venue_stats_fir / f"{team}_at_venue_stats.json"
+        stats_file = self.team_at_venue_stats_dir / f"{team}_at_venue_stats.json"
 
         try:
             # Convert NumPy types to Python native types
@@ -255,6 +258,60 @@ class FeatureEngineering:
             logger.info(f"Saved team at venue stats for {team}")
         except Exception as e:
             logger.error(f"Error saving team at venue stats: {e}")
+
+    def calculate_team_h2h_statistics(self, matches_df: pd.DataFrame) -> None:
+        """Calculate and save head-to-head statistics for all teams."""
+        logger.info("Calculating team head-to-head statistics...")
+        teams = matches_df["team1"].unique()
+        for team1 in teams:
+            h2h_stats = self.calculate_team_h2h_stats(matches_df, team1)
+            self._save_team_h2h_stats(team1, h2h_stats)
+
+    def calculate_team_h2h_stats(self, matches_df: pd.DataFrame, team1: str) -> Dict:
+        """Calculate head-to-head statistics between two teams."""
+        try:
+            teams = matches_df["team2"].unique()
+            h2h_stats = {}
+            for team2 in teams:
+                if team1 != team2:
+                    h2h_stats[team2] = self.calculate_h2h_stats(
+                        matches_df, team1, team2
+                    )
+            return h2h_stats
+        except Exception as e:
+            logger.error(f"Error calculating team H2H stats: {e}")
+            raise
+
+    def _save_team_h2h_stats(self, team: str, stats: Dict) -> None:
+        """Save head-to-head statistics to a JSON file."""
+        import json
+
+        def convert_to_serializable(obj):
+            """Convert NumPy types to Python native types."""
+            if isinstance(obj, np.integer):
+                return int(obj)
+            elif isinstance(obj, np.floating):
+                return float(obj)
+            elif isinstance(obj, np.ndarray):
+                return obj.tolist()
+            elif isinstance(obj, dict):
+                return {
+                    key: convert_to_serializable(value) for key, value in obj.items()
+                }
+            elif isinstance(obj, list):
+                return [convert_to_serializable(item) for item in obj]
+            return obj
+
+        stats_file = self.team_h2h_stats_dir / f"{team}_h2h_stats.json"
+
+        try:
+            # Convert NumPy types to Python native types
+            serializable_stats = convert_to_serializable(stats)
+            with open(stats_file, "w") as f:
+                json.dump(serializable_stats, f, indent=2)
+            logger.info(f"Saved H2H stats for {team}")
+        except Exception as e:
+            logger.error(f"Error saving H2H stats: {e}")
 
     def calculate_venue_statistics_old(
         self, team: str, deliveries_df: pd.DataFrame

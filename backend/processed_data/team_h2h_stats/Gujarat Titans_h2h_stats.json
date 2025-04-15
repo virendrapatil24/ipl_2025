@@ -1,0 +1,345 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 3,
+    "Gujarat Titans_wins": 2,
+    "Kolkata Knight Riders_wins": 1,
+    "recent_form": [
+      {
+        "date": "2022-04-23",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-09",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-29",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "matches_played": 7,
+    "Gujarat Titans_wins": 4,
+    "Chennai Super Kings_wins": 3,
+    "recent_form": [
+      {
+        "date": "2022-04-17",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-15",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-03-31",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-23",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-29",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-03-26",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-10",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      }
+    ]
+  },
+  "Rajasthan Royals": {
+    "matches_played": 6,
+    "Gujarat Titans_wins": 5,
+    "Rajasthan Royals_wins": 1,
+    "recent_form": [
+      {
+        "date": "2022-04-14",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-24",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-29",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-16",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-05",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-10",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 3,
+    "Gujarat Titans_wins": 2,
+    "Royal Challengers Bangalore_wins": 1,
+    "recent_form": [
+      {
+        "date": "2022-04-30",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-19",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-21",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Deccan Chargers": {
+    "matches_played": 0,
+    "Gujarat Titans_wins": 0,
+    "Deccan Chargers_wins": 0,
+    "recent_form": []
+  },
+  "Kings XI Punjab": {
+    "matches_played": 0,
+    "Gujarat Titans_wins": 0,
+    "Kings XI Punjab_wins": 0,
+    "recent_form": []
+  },
+  "Delhi Daredevils": {
+    "matches_played": 0,
+    "Gujarat Titans_wins": 0,
+    "Delhi Daredevils_wins": 0,
+    "recent_form": []
+  },
+  "Mumbai Indians": {
+    "matches_played": 5,
+    "Gujarat Titans_wins": 3,
+    "Mumbai Indians_wins": 2,
+    "recent_form": [
+      {
+        "date": "2022-05-06",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-25",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-12",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-26",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2024-03-24",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      }
+    ]
+  },
+  "Kochi Tuskers Kerala": {
+    "matches_played": 0,
+    "Gujarat Titans_wins": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "recent_form": []
+  },
+  "Pune Warriors": {
+    "matches_played": 0,
+    "Gujarat Titans_wins": 0,
+    "Pune Warriors_wins": 0,
+    "recent_form": []
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 4,
+    "Gujarat Titans_wins": 3,
+    "Sunrisers Hyderabad_wins": 1,
+    "recent_form": [
+      {
+        "date": "2022-04-11",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-27",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-15",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2024-03-31",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Rising Pune Supergiants": {
+    "matches_played": 0,
+    "Gujarat Titans_wins": 0,
+    "Rising Pune Supergiants_wins": 0,
+    "recent_form": []
+  },
+  "Gujarat Lions": {
+    "matches_played": 0,
+    "Gujarat Titans_wins": 0,
+    "Gujarat Lions_wins": 0,
+    "recent_form": []
+  },
+  "Rising Pune Supergiant": {
+    "matches_played": 0,
+    "Gujarat Titans_wins": 0,
+    "Rising Pune Supergiant_wins": 0,
+    "recent_form": []
+  },
+  "Delhi Capitals": {
+    "matches_played": 5,
+    "Gujarat Titans_wins": 2,
+    "Delhi Capitals_wins": 3,
+    "recent_form": [
+      {
+        "date": "2022-04-02",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-04",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-02",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2024-04-17",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-24",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      }
+    ]
+  },
+  "Punjab Kings": {
+    "matches_played": 5,
+    "Gujarat Titans_wins": 3,
+    "Punjab Kings_wins": 2,
+    "recent_form": [
+      {
+        "date": "2022-04-08",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-03",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-13",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-04",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-21",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 5,
+    "Gujarat Titans_wins": 4,
+    "Lucknow Super Giants_wins": 1,
+    "recent_form": [
+      {
+        "date": "2022-03-28",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-10",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-22",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-07",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2024-04-07",
+        "winner": "Lucknow Super Giants",
+        "result": "runs"
+      }
+    ]
+  },
+  "Royal Challengers Bengaluru": {
+    "matches_played": 2,
+    "Gujarat Titans_wins": 0,
+    "Royal Challengers Bengaluru_wins": 2,
+    "recent_form": [
+      {
+        "date": "2024-04-28",
+        "winner": "Royal Challengers Bengaluru",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-04",
+        "winner": "Royal Challengers Bengaluru",
+        "result": "wickets"
+      }
+    ]
+  }
+}

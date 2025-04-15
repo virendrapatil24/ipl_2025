@@ -1,0 +1,189 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 2,
+    "Kochi Tuskers Kerala_wins": 2,
+    "Kolkata Knight Riders_wins": 0,
+    "recent_form": [
+      {
+        "date": "2011-04-20",
+        "winner": "Kochi Tuskers Kerala",
+        "result": "runs"
+      },
+      {
+        "date": "2011-05-05",
+        "winner": "Kochi Tuskers Kerala",
+        "result": "runs"
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "matches_played": 2,
+    "Kochi Tuskers Kerala_wins": 1,
+    "Chennai Super Kings_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-04-18",
+        "winner": "Kochi Tuskers Kerala",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-18",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      }
+    ]
+  },
+  "Rajasthan Royals": {
+    "matches_played": 2,
+    "Kochi Tuskers Kerala_wins": 1,
+    "Rajasthan Royals_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-04-24",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-15",
+        "winner": "Kochi Tuskers Kerala",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 2,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Royal Challengers Bangalore_wins": 2,
+    "recent_form": [
+      {
+        "date": "2011-04-09",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-08",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Deccan Chargers": {
+    "matches_played": 1,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Deccan Chargers_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-04-27",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      }
+    ]
+  },
+  "Kings XI Punjab": {
+    "matches_played": 1,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Kings XI Punjab_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-05-13",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Delhi Daredevils": {
+    "matches_played": 2,
+    "Kochi Tuskers Kerala_wins": 1,
+    "Delhi Daredevils_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-04-30",
+        "winner": "Delhi Daredevils",
+        "result": "runs"
+      },
+      {
+        "date": "2011-05-02",
+        "winner": "Kochi Tuskers Kerala",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Mumbai Indians": {
+    "matches_played": 1,
+    "Kochi Tuskers Kerala_wins": 1,
+    "Mumbai Indians_wins": 0,
+    "recent_form": [
+      {
+        "date": "2011-04-15",
+        "winner": "Kochi Tuskers Kerala",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Pune Warriors": {
+    "matches_played": 1,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Pune Warriors_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-04-13",
+        "winner": "Pune Warriors",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Sunrisers Hyderabad_wins": 0,
+    "recent_form": []
+  },
+  "Rising Pune Supergiants": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Rising Pune Supergiants_wins": 0,
+    "recent_form": []
+  },
+  "Gujarat Lions": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Gujarat Lions_wins": 0,
+    "recent_form": []
+  },
+  "Rising Pune Supergiant": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Rising Pune Supergiant_wins": 0,
+    "recent_form": []
+  },
+  "Delhi Capitals": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Delhi Capitals_wins": 0,
+    "recent_form": []
+  },
+  "Punjab Kings": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Punjab Kings_wins": 0,
+    "recent_form": []
+  },
+  "Gujarat Titans": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Gujarat Titans_wins": 0,
+    "recent_form": []
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Lucknow Super Giants_wins": 0,
+    "recent_form": []
+  },
+  "Royal Challengers Bengaluru": {
+    "matches_played": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "Royal Challengers Bengaluru_wins": 0,
+    "recent_form": []
+  }
+}

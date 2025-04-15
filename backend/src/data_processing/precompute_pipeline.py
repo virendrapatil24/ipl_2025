@@ -36,6 +36,10 @@ def run_precompute_pipeline(data_dir: Optional[Path] = None) -> None:
     # Process team at a venue statistics
     feature_engineering.calculate_team_at_venue_statistics(matches_df)
 
+    # STEP 3
+    # Process team head-to-head statistics
+    feature_engineering.calculate_team_h2h_statistics(matches_df)
+
     # # Process player statistics
     # logger.info("Processing player statistics...")
     # player_stats_processor.process_all_player_stats()
