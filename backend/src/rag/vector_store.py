@@ -140,10 +140,10 @@ class VectorStore:
         except Exception as e:
             logger.error(f"Error populating players collection: {e}")
 
-    def _populate_analysis_collection(self):
-        """Populate the analysis collection with pre-computed analysis data."""
+    def _populate_venue_collection(self):
+        """Populate the venue collection with pre-computed venue data."""
         try:
-            analysis_data = []
+            venue_data = []
 
             # Load venue statistics with updated path
             venue_stats_dir = (

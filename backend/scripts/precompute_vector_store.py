@@ -49,10 +49,7 @@ def precompute_vector_store(data_dir=None):
     vector_store._populate_players_collection()
 
     logger.info("Populating analysis collection...")
-    vector_store._populate_analysis_collection()
-
-    logger.info("Populating delivery collection...")
-    vector_store._populate_delivery_collection()
+    vector_store._populate_venue_collection()
 
     logger.info("Vector store pre-computation completed successfully")
 

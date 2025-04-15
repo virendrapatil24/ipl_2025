@@ -28,38 +28,46 @@ def run_precompute_pipeline(data_dir: Optional[Path] = None) -> None:
         logger.error("No squads data available")
         return
 
-    # Process player statistics
-    logger.info("Processing player statistics...")
-    player_stats_processor.process_all_player_stats()
+    # STEP 1
+    # Process venue statistics
+    feature_engineering.calculate_venue_statistics(matches_df)
 
-    # Process team statistics
-    logger.info("Processing team statistics...")
-    teams = squads_df["team"].unique()
+    # STEP 2
+    # Process team at a venue statistics
+    feature_engineering.calculate_team_at_venue_statistics(matches_df)
 
-    for team in teams:
-        # Get match IDs for the team
-        match_ids = data_loader.get_match_ids_for_team(team)
-        if not match_ids:
-            logger.warning(f"No matches found for team {team}")
-            continue
+    # # Process player statistics
+    # logger.info("Processing player statistics...")
+    # player_stats_processor.process_all_player_stats()
 
-        # Load deliveries data for the team's matches
-        deliveries_df = data_loader.load_deliveries_for_matches(match_ids)
-        if deliveries_df.empty:
-            logger.warning(f"No deliveries data found for team {team}")
-            continue
+    # # Process team statistics
+    # logger.info("Processing team statistics...")
+    # teams = squads_df["team"].unique()
 
-        # Calculate venue statistics
-        logger.info(f"Calculating venue statistics for team {team}...")
-        feature_engineering.calculate_venue_statistics(team, deliveries_df)
+    # for team in teams:
+    #     # Get match IDs for the team
+    #     match_ids = data_loader.get_match_ids_for_team(team)
+    #     if not match_ids:
+    #         logger.warning(f"No matches found for team {team}")
+    #         continue
 
-        # Calculate head-to-head statistics
-        logger.info(f"Calculating head-to-head statistics for team {team}...")
-        for opponent in teams:
-            if opponent != team:
-                feature_engineering.calculate_head_to_head_statistics(
-                    team, opponent, deliveries_df
-                )
+    #     # Load deliveries data for the team's matches
+    #     deliveries_df = data_loader.load_deliveries_for_matches(match_ids)
+    #     if deliveries_df.empty:
+    #         logger.warning(f"No deliveries data found for team {team}")
+    #         continue
+
+    #     # Calculate venue statistics
+    #     logger.info(f"Calculating venue statistics for team {team}...")
+    #     feature_engineering.calculate_venue_statistics_old(team, deliveries_df)
+
+    #     # Calculate head-to-head statistics
+    #     logger.info(f"Calculating head-to-head statistics for team {team}...")
+    #     for opponent in teams:
+    #         if opponent != team:
+    #             feature_engineering.calculate_head_to_head_statistics(
+    #                 team, opponent, deliveries_df
+    #             )
 
     logger.info("Pre-computation pipeline completed successfully")
 

@@ -21,12 +21,242 @@ class FeatureEngineering:
         self.venue_stats_dir = self.processed_data_dir / "venue_stats"
         self.venue_stats_dir.mkdir(exist_ok=True)
 
+        self.team_at_venue_stats_fir = self.processed_data_dir / "team_at_venue_stats"
+        self.team_at_venue_stats_fir.mkdir(exist_ok=True)
+
         self.h2h_stats_dir = self.processed_data_dir / "h2h_stats"
         self.h2h_stats_dir.mkdir(exist_ok=True)
 
         logger.info("FeatureEngineering initialized")
 
-    def calculate_venue_statistics(
+    def calculate_venue_statistics(self, matches_df: pd.DataFrame) -> None:
+        """Calculate and save venue statistics."""
+        logger.info("Calculating venue statistics...")
+        venues = matches_df["venue"].unique()
+        for venue in venues:
+            venue_stats = self.calculate_venue_stats(matches_df, venue)
+            self._save_venue_stats(venue, venue_stats)
+
+    def calculate_venue_stats(self, matches_df: pd.DataFrame, venue: str) -> Dict:
+        """Calculate statistics for a specific venue."""
+        try:
+            venue_matches = matches_df[matches_df["venue"] == venue]
+            total_matches = len(venue_matches)
+
+            # Batting first/second stats
+            batting_first_wins = len(
+                venue_matches[
+                    venue_matches.apply(
+                        lambda x: (
+                            x["winner"] == x["team1"]
+                            if x["toss_decision"] == "bat"
+                            else (
+                                x["winner"] == x["team2"]
+                                if x["toss_decision"] == "field"
+                                else False
+                            )
+                        ),
+                        axis=1,
+                    )
+                ]
+            )
+
+            # Average runs scored by the team batting first
+            match_ids = venue_matches["match_id"].unique()
+            total_first_innings_runs = 0
+            total_second_innings_runs = 0
+            total_first_innings_wickets = 0
+            total_second_innings_wickets = 0
+            for match_id in match_ids:
+                match_data = self.data_loader.load_deliveries(match_id)
+                if not match_data.empty:
+                    first_innings_runs = match_data[match_data["inning"] == 1][
+                        "total_runs"
+                    ].sum()
+                    second_innings_runs = match_data[match_data["inning"] == 2][
+                        "total_runs"
+                    ].sum()
+                    total_first_innings_runs += first_innings_runs
+                    total_second_innings_runs += second_innings_runs
+                    total_first_innings_wickets += len(
+                        match_data[
+                            (match_data["inning"] == 1)
+                            & (match_data["is_wicket"] == True)
+                        ]
+                    )
+                    total_second_innings_wickets += len(
+                        match_data[
+                            (match_data["inning"] == 2)
+                            & (match_data["is_wicket"] == True)
+                        ]
+                    )
+            if total_matches > 0:
+                avg_first_innings_runs = total_first_innings_runs / total_matches
+                avg_second_innings_runs = total_second_innings_runs / total_matches
+                avg_first_innings_wickets = (
+                    (total_first_innings_wickets / total_matches)
+                    if total_first_innings_wickets > 0
+                    else 0
+                )
+                avg_second_innings_wickets = (
+                    (total_second_innings_wickets / total_matches)
+                    if total_second_innings_wickets > 0
+                    else 0
+                )
+
+            return {
+                "total_matches": total_matches,
+                "batting_first_wins": batting_first_wins,
+                "batting_second_wins": total_matches - batting_first_wins,
+                "win_percentage_batting_first": round(
+                    batting_first_wins / total_matches * 100, 2
+                ),
+                "avg_first_innings_runs": avg_first_innings_runs,
+                "avg_second_innings_runs": avg_second_innings_runs,
+                "avg_first_innings_wickets": avg_first_innings_wickets,
+                "avg_second_innings_wickets": avg_second_innings_wickets,
+            }
+        except Exception as e:
+            logger.error(f"Error calculating venue stats: {e}")
+            raise
+
+    def calculate_team_at_venue_statistics(self, matches_df: pd.DataFrame) -> None:
+        """Calculate and save team-specific statistics at each venue."""
+        logger.info("Calculating team at venue statistics...")
+        teams = matches_df["team1"].unique()
+        for team in teams:
+            team_stats = self.calculate_team_at_venue_stats(matches_df, team)
+            self._save_team_at_venue_stats(team, team_stats)
+
+    def calculate_team_at_venue_stats(
+        self, matches_df: pd.DataFrame, team: str
+    ) -> Dict:
+        """Calculate statistics for a specific team at each venue."""
+        try:
+            team_matches = matches_df[
+                (matches_df["team1"] == team) | (matches_df["team2"] == team)
+            ]
+            total_matches = len(team_matches)
+
+            venues = team_matches["venue"].unique()
+            venue_stats = {}
+            for venue in venues:
+                venue_data = team_matches[team_matches["venue"] == venue]
+                total_venue_matches = len(venue_data)
+
+                # Batting first/second stats
+                batting_first_wins = len(
+                    venue_data[
+                        venue_data.apply(
+                            lambda x: (
+                                x["winner"] == team
+                                if x["toss_decision"] == "bat"
+                                else (
+                                    x["winner"] != team
+                                    if x["toss_decision"] == "field"
+                                    else False
+                                )
+                            ),
+                            axis=1,
+                        )
+                    ]
+                )
+
+                total_first_innings_runs = 0
+                total_second_innings_runs = 0
+                total_first_innings_wickets = 0
+                total_second_innings_wickets = 0
+                for match_id in venue_data["match_id"].unique():
+                    match_data = self.data_loader.load_deliveries(match_id)
+                    if not match_data.empty:
+                        first_innings_runs = match_data[match_data["inning"] == 1][
+                            "total_runs"
+                        ].sum()
+                        second_innings_runs = match_data[match_data["inning"] == 2][
+                            "total_runs"
+                        ].sum()
+                        total_first_innings_runs += first_innings_runs
+                        total_second_innings_runs += second_innings_runs
+                        total_first_innings_wickets += len(
+                            match_data[
+                                (match_data["inning"] == 1)
+                                & (match_data["is_wicket"] == True)
+                            ]
+                        )
+                        total_second_innings_wickets += len(
+                            match_data[
+                                (match_data["inning"] == 2)
+                                & (match_data["is_wicket"] == True)
+                            ]
+                        )
+                if total_venue_matches > 0:
+                    avg_first_innings_runs = (
+                        total_first_innings_runs / total_venue_matches
+                    )
+                    avg_second_innings_runs = (
+                        total_second_innings_runs / total_venue_matches
+                    )
+                    avg_first_innings_wickets = (
+                        (total_first_innings_wickets / total_venue_matches)
+                        if total_first_innings_wickets > 0
+                        else 0
+                    )
+                    avg_second_innings_wickets = (
+                        (total_second_innings_wickets / total_venue_matches)
+                        if total_second_innings_wickets > 0
+                        else 0
+                    )
+
+                venue_stats[venue] = {
+                    "total_matches": total_venue_matches,
+                    "batting_first_wins": batting_first_wins,
+                    "batting_second_wins": total_venue_matches - batting_first_wins,
+                    "win_percentage_batting_first": round(
+                        batting_first_wins / total_venue_matches * 100, 2
+                    ),
+                    "avg_first_innings_runs": avg_first_innings_runs,
+                    "avg_second_innings_runs": avg_second_innings_runs,
+                    "avg_first_innings_wickets": avg_first_innings_wickets,
+                    "avg_second_innings_wickets": avg_second_innings_wickets,
+                }
+
+            return venue_stats
+        except Exception as e:
+            logger.error(f"Error calculating team stats: {e}")
+            raise
+
+    def _save_team_at_venue_stats(self, team: str, stats: Dict) -> None:
+        """Save team-specific statistics at each venue to a JSON file."""
+        import json
+
+        def convert_to_serializable(obj):
+            """Convert NumPy types to Python native types."""
+            if isinstance(obj, np.integer):
+                return int(obj)
+            elif isinstance(obj, np.floating):
+                return float(obj)
+            elif isinstance(obj, np.ndarray):
+                return obj.tolist()
+            elif isinstance(obj, dict):
+                return {
+                    key: convert_to_serializable(value) for key, value in obj.items()
+                }
+            elif isinstance(obj, list):
+                return [convert_to_serializable(item) for item in obj]
+            return obj
+
+        stats_file = self.team_at_venue_stats_fir / f"{team}_at_venue_stats.json"
+
+        try:
+            # Convert NumPy types to Python native types
+            serializable_stats = convert_to_serializable(stats)
+            with open(stats_file, "w") as f:
+                json.dump(serializable_stats, f, indent=2)
+            logger.info(f"Saved team at venue stats for {team}")
+        except Exception as e:
+            logger.error(f"Error saving team at venue stats: {e}")
+
+    def calculate_venue_statistics_old(
         self, team: str, deliveries_df: pd.DataFrame
     ) -> Dict:
         """Calculate comprehensive venue statistics for a team."""
@@ -216,7 +446,38 @@ class FeatureEngineering:
         self._save_h2h_stats(standardized_team1, standardized_team2, h2h_stats)
         return h2h_stats
 
-    def _save_venue_stats(self, team: str, stats: Dict) -> None:
+    def _save_venue_stats(self, venue: str, stats: Dict) -> None:
+        """Save venue statistics to a JSON file."""
+        import json
+
+        def convert_to_serializable(obj):
+            """Convert NumPy types to Python native types."""
+            if isinstance(obj, np.integer):
+                return int(obj)
+            elif isinstance(obj, np.floating):
+                return float(obj)
+            elif isinstance(obj, np.ndarray):
+                return obj.tolist()
+            elif isinstance(obj, dict):
+                return {
+                    key: convert_to_serializable(value) for key, value in obj.items()
+                }
+            elif isinstance(obj, list):
+                return [convert_to_serializable(item) for item in obj]
+            return obj
+
+        stats_file = self.venue_stats_dir / f"{venue}_venue_stats.json"
+
+        try:
+            # Convert NumPy types to Python native types
+            serializable_stats = convert_to_serializable(stats)
+            with open(stats_file, "w") as f:
+                json.dump(serializable_stats, f, indent=2)
+            logger.info(f"Saved venue stats for {venue}")
+        except Exception as e:
+            logger.error(f"Error saving venue stats: {e}")
+
+    def _save_venue_stats_old(self, team: str, stats: Dict) -> None:
         """Save venue statistics to a JSON file."""
         import json
 
@@ -315,7 +576,7 @@ class FeatureEngineering:
             return {}
 
     @staticmethod
-    def calculate_venue_stats(matches_df: pd.DataFrame, venue: str) -> Dict:
+    def calculate_venue_stats_old(matches_df: pd.DataFrame, venue: str) -> Dict:
         """Calculate venue-specific statistics."""
         try:
             venue_matches = matches_df[matches_df["venue"] == venue]
