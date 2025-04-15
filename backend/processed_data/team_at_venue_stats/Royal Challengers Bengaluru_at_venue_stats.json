@@ -1,0 +1,82 @@
+{
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 173.0,
+    "avg_second_innings_runs": 176.0,
+    "avg_first_innings_wickets": 6.0,
+    "avg_second_innings_wickets": 4.0
+  },
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "total_matches": 7,
+    "batting_first_wins": 3,
+    "batting_second_wins": 4,
+    "win_percentage_batting_first": 42.86,
+    "avg_first_innings_runs": 196.85714285714286,
+    "avg_second_innings_runs": 180.28571428571428,
+    "avg_first_innings_wickets": 6.285714285714286,
+    "avg_second_innings_wickets": 7.0
+  },
+  "Sawai Mansingh Stadium, Jaipur": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 183.0,
+    "avg_second_innings_runs": 189.0,
+    "avg_first_innings_wickets": 3.0,
+    "avg_second_innings_wickets": 4.0
+  },
+  "Wankhede Stadium, Mumbai": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 196.0,
+    "avg_second_innings_runs": 199.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 3.0
+  },
+  "Eden Gardens, Kolkata": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 222.0,
+    "avg_second_innings_runs": 221.0,
+    "avg_first_innings_wickets": 6.0,
+    "avg_second_innings_wickets": 10.0
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 206.0,
+    "avg_second_innings_runs": 171.0,
+    "avg_first_innings_wickets": 7.0,
+    "avg_second_innings_wickets": 8.0
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "total_matches": 2,
+    "batting_first_wins": 1,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 186.0,
+    "avg_second_innings_runs": 190.0,
+    "avg_first_innings_wickets": 5.5,
+    "avg_second_innings_wickets": 3.5
+  },
+  "Himachal Pradesh Cricket Association Stadium, Dharamsala": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 241.0,
+    "avg_second_innings_runs": 181.0,
+    "avg_first_innings_wickets": 7.0,
+    "avg_second_innings_wickets": 10.0
+  }
+}

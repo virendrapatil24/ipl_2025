@@ -1,0 +1,92 @@
+{
+  "Nehru Stadium": {
+    "total_matches": 5,
+    "batting_first_wins": 1,
+    "batting_second_wins": 4,
+    "win_percentage_batting_first": 20.0,
+    "avg_first_innings_runs": 146.8,
+    "avg_second_innings_runs": 125.8,
+    "avg_first_innings_wickets": 5.6,
+    "avg_second_innings_wickets": 6.8
+  },
+  "Dr DY Patil Sports Academy": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 148.0,
+    "avg_second_innings_runs": 151.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 6.0
+  },
+  "Wankhede Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 182.0,
+    "avg_second_innings_runs": 184.0,
+    "avg_first_innings_wickets": 2.0,
+    "avg_second_innings_wickets": 2.0
+  },
+  "Eden Gardens": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 132.0,
+    "avg_second_innings_runs": 126.0,
+    "avg_first_innings_wickets": 7.0,
+    "avg_second_innings_wickets": 9.0
+  },
+  "Sawai Mansingh Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 109.0,
+    "avg_second_innings_runs": 111.0,
+    "avg_first_innings_wickets": 10.0,
+    "avg_second_innings_wickets": 2.0
+  },
+  "Feroz Shah Kotla": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 140.0,
+    "avg_second_innings_runs": 141.0,
+    "avg_first_innings_wickets": 6.0,
+    "avg_second_innings_wickets": 3.0
+  },
+  "M Chinnaswamy Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 125.0,
+    "avg_second_innings_runs": 128.0,
+    "avg_first_innings_wickets": 9.0,
+    "avg_second_innings_wickets": 1.0
+  },
+  "Holkar Cricket Stadium": {
+    "total_matches": 2,
+    "batting_first_wins": 1,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 137.5,
+    "avg_second_innings_runs": 139.5,
+    "avg_first_innings_wickets": 8.5,
+    "avg_second_innings_wickets": 3.0
+  },
+  "MA Chidambaram Stadium, Chepauk": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 152.0,
+    "avg_second_innings_runs": 141.0,
+    "avg_first_innings_wickets": 5.0,
+    "avg_second_innings_wickets": 5.0
+  }
+}

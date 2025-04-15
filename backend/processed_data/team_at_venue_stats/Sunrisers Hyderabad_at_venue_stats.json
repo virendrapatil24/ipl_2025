@@ -1,0 +1,392 @@
+{
+  "Rajiv Gandhi International Stadium, Uppal": {
+    "total_matches": 30,
+    "batting_first_wins": 15,
+    "batting_second_wins": 15,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 152.13333333333333,
+    "avg_second_innings_runs": 141.86666666666667,
+    "avg_first_innings_wickets": 6.266666666666667,
+    "avg_second_innings_wickets": 5.133333333333334
+  },
+  "M Chinnaswamy Stadium": {
+    "total_matches": 6,
+    "batting_first_wins": 4,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 66.67,
+    "avg_first_innings_runs": 174.16666666666666,
+    "avg_second_innings_runs": 153.66666666666666,
+    "avg_first_innings_wickets": 6.666666666666667,
+    "avg_second_innings_wickets": 4.5
+  },
+  "Feroz Shah Kotla": {
+    "total_matches": 6,
+    "batting_first_wins": 2,
+    "batting_second_wins": 4,
+    "win_percentage_batting_first": 33.33,
+    "avg_first_innings_runs": 149.66666666666666,
+    "avg_second_innings_runs": 131.0,
+    "avg_first_innings_wickets": 6.666666666666667,
+    "avg_second_innings_wickets": 5.5
+  },
+  "Eden Gardens": {
+    "total_matches": 8,
+    "batting_first_wins": 5,
+    "batting_second_wins": 3,
+    "win_percentage_batting_first": 62.5,
+    "avg_first_innings_runs": 167.875,
+    "avg_second_innings_runs": 151.375,
+    "avg_first_innings_wickets": 6.0,
+    "avg_second_innings_wickets": 6.75
+  },
+  "Maharashtra Cricket Association Stadium": {
+    "total_matches": 3,
+    "batting_first_wins": 2,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 66.67,
+    "avg_first_innings_runs": 158.0,
+    "avg_second_innings_runs": 155.66666666666666,
+    "avg_first_innings_wickets": 5.0,
+    "avg_second_innings_wickets": 5.333333333333333
+  },
+  "MA Chidambaram Stadium, Chepauk": {
+    "total_matches": 2,
+    "batting_first_wins": 0,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 184.0,
+    "avg_second_innings_runs": 162.0,
+    "avg_first_innings_wickets": 5.0,
+    "avg_second_innings_wickets": 5.5
+  },
+  "Sawai Mansingh Stadium": {
+    "total_matches": 3,
+    "batting_first_wins": 2,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 66.67,
+    "avg_first_innings_runs": 151.66666666666666,
+    "avg_second_innings_runs": 149.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 3.6666666666666665
+  },
+  "Punjab Cricket Association Stadium, Mohali": {
+    "total_matches": 2,
+    "batting_first_wins": 0,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 150.0,
+    "avg_second_innings_runs": 125.0,
+    "avg_first_innings_wickets": 6.5,
+    "avg_second_innings_wickets": 9.0
+  },
+  "Wankhede Stadium": {
+    "total_matches": 7,
+    "batting_first_wins": 3,
+    "batting_second_wins": 4,
+    "win_percentage_batting_first": 42.86,
+    "avg_first_innings_runs": 155.71428571428572,
+    "avg_second_innings_runs": 150.0,
+    "avg_first_innings_wickets": 6.714285714285714,
+    "avg_second_innings_wickets": 6.285714285714286
+  },
+  "Sheikh Zayed Stadium": {
+    "total_matches": 6,
+    "batting_first_wins": 2,
+    "batting_second_wins": 4,
+    "win_percentage_batting_first": 33.33,
+    "avg_first_innings_runs": 153.33333333333334,
+    "avg_second_innings_runs": 149.0,
+    "avg_first_innings_wickets": 4.833333333333333,
+    "avg_second_innings_wickets": 5.666666666666667
+  },
+  "Sharjah Cricket Stadium": {
+    "total_matches": 7,
+    "batting_first_wins": 3,
+    "batting_second_wins": 4,
+    "win_percentage_batting_first": 42.86,
+    "avg_first_innings_runs": 153.42857142857142,
+    "avg_second_innings_runs": 138.85714285714286,
+    "avg_first_innings_wickets": 6.428571428571429,
+    "avg_second_innings_wickets": 5.428571428571429
+  },
+  "Dubai International Cricket Stadium": {
+    "total_matches": 13,
+    "batting_first_wins": 6,
+    "batting_second_wins": 7,
+    "win_percentage_batting_first": 46.15,
+    "avg_first_innings_runs": 163.15384615384616,
+    "avg_second_innings_runs": 147.30769230769232,
+    "avg_first_innings_wickets": 5.3076923076923075,
+    "avg_second_innings_wickets": 6.153846153846154
+  },
+  "Sardar Patel Stadium, Motera": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 134.0,
+    "avg_second_innings_runs": 102.0,
+    "avg_first_innings_wickets": 9.0,
+    "avg_second_innings_wickets": 10.0
+  },
+  "JSCA International Stadium Complex": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 185.0,
+    "avg_second_innings_runs": 189.0,
+    "avg_first_innings_wickets": 3.0,
+    "avg_second_innings_wickets": 4.0
+  },
+  "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium": {
+    "total_matches": 6,
+    "batting_first_wins": 3,
+    "batting_second_wins": 3,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 157.66666666666666,
+    "avg_second_innings_runs": 130.83333333333334,
+    "avg_first_innings_wickets": 5.333333333333333,
+    "avg_second_innings_wickets": 7.0
+  },
+  "Brabourne Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 201.0,
+    "avg_second_innings_runs": 194.0,
+    "avg_first_innings_wickets": 4.0,
+    "avg_second_innings_wickets": 7.0
+  },
+  "Shaheed Veer Narayan Singh International Stadium": {
+    "total_matches": 2,
+    "batting_first_wins": 2,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 160.5,
+    "avg_second_innings_runs": 159.0,
+    "avg_first_innings_wickets": 5.5,
+    "avg_second_innings_wickets": 4.0
+  },
+  "Saurashtra Cricket Association Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 135.0,
+    "avg_second_innings_runs": 137.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 0
+  },
+  "Punjab Cricket Association IS Bindra Stadium, Mohali": {
+    "total_matches": 2,
+    "batting_first_wins": 1,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 193.0,
+    "avg_second_innings_runs": 180.5,
+    "avg_first_innings_wickets": 3.5,
+    "avg_second_innings_wickets": 6.0
+  },
+  "Green Park": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 154.0,
+    "avg_second_innings_runs": 158.0,
+    "avg_first_innings_wickets": 10.0,
+    "avg_second_innings_wickets": 2.0
+  },
+  "Rajiv Gandhi International Stadium": {
+    "total_matches": 14,
+    "batting_first_wins": 6,
+    "batting_second_wins": 8,
+    "win_percentage_batting_first": 42.86,
+    "avg_first_innings_runs": 163.57142857142858,
+    "avg_second_innings_runs": 146.0,
+    "avg_first_innings_wickets": 6.214285714285714,
+    "avg_second_innings_wickets": 6.285714285714286
+  },
+  "Punjab Cricket Association IS Bindra Stadium": {
+    "total_matches": 2,
+    "batting_first_wins": 1,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 171.5,
+    "avg_second_innings_runs": 164.5,
+    "avg_first_innings_wickets": 3.5,
+    "avg_second_innings_wickets": 4.5
+  },
+  "Arun Jaitley Stadium": {
+    "total_matches": 2,
+    "batting_first_wins": 1,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 158.0,
+    "avg_second_innings_runs": 161.0,
+    "avg_first_innings_wickets": 6.5,
+    "avg_second_innings_wickets": 3.0
+  },
+  "M.Chinnaswamy Stadium": {
+    "total_matches": 2,
+    "batting_first_wins": 2,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 196.5,
+    "avg_second_innings_runs": 191.0,
+    "avg_first_innings_wickets": 6.5,
+    "avg_second_innings_wickets": 4.5
+  },
+  "MA Chidambaram Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 175.0,
+    "avg_second_innings_runs": 176.0,
+    "avg_first_innings_wickets": 3.0,
+    "avg_second_innings_wickets": 4.0
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "total_matches": 9,
+    "batting_first_wins": 5,
+    "batting_second_wins": 4,
+    "win_percentage_batting_first": 55.56,
+    "avg_first_innings_runs": 155.44444444444446,
+    "avg_second_innings_runs": 140.22222222222223,
+    "avg_first_innings_wickets": 6.888888888888889,
+    "avg_second_innings_wickets": 6.0
+  },
+  "Arun Jaitley Stadium, Delhi": {
+    "total_matches": 4,
+    "batting_first_wins": 2,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 213.5,
+    "avg_second_innings_runs": 181.25,
+    "avg_first_innings_wickets": 4.75,
+    "avg_second_innings_wickets": 6.75
+  },
+  "Zayed Cricket Stadium, Abu Dhabi": {
+    "total_matches": 2,
+    "batting_first_wins": 0,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 188.0,
+    "avg_second_innings_runs": 165.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 7.0
+  },
+  "Maharashtra Cricket Association Stadium, Pune": {
+    "total_matches": 3,
+    "batting_first_wins": 2,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 66.67,
+    "avg_first_innings_runs": 196.33333333333334,
+    "avg_second_innings_runs": 153.66666666666666,
+    "avg_first_innings_wickets": 4.666666666666667,
+    "avg_second_innings_wickets": 7.0
+  },
+  "Dr DY Patil Sports Academy, Mumbai": {
+    "total_matches": 4,
+    "batting_first_wins": 1,
+    "batting_second_wins": 3,
+    "win_percentage_batting_first": 25.0,
+    "avg_first_innings_runs": 159.0,
+    "avg_second_innings_runs": 158.0,
+    "avg_first_innings_wickets": 7.75,
+    "avg_second_innings_wickets": 4.25
+  },
+  "Brabourne Stadium, Mumbai": {
+    "total_matches": 3,
+    "batting_first_wins": 1,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 33.33,
+    "avg_first_innings_runs": 150.0,
+    "avg_second_innings_runs": 144.66666666666666,
+    "avg_first_innings_wickets": 7.0,
+    "avg_second_innings_wickets": 4.0
+  },
+  "Wankhede Stadium, Mumbai": {
+    "total_matches": 6,
+    "batting_first_wins": 3,
+    "batting_second_wins": 3,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 185.0,
+    "avg_second_innings_runs": 174.83333333333334,
+    "avg_first_innings_wickets": 6.0,
+    "avg_second_innings_wickets": 5.333333333333333
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "total_matches": 13,
+    "batting_first_wins": 6,
+    "batting_second_wins": 7,
+    "win_percentage_batting_first": 46.15,
+    "avg_first_innings_runs": 188.3846153846154,
+    "avg_second_innings_runs": 176.46153846153845,
+    "avg_first_innings_wickets": 5.769230769230769,
+    "avg_second_innings_wickets": 5.3076923076923075
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 121.0,
+    "avg_second_innings_runs": 127.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 5.0
+  },
+  "Eden Gardens, Kolkata": {
+    "total_matches": 2,
+    "batting_first_wins": 1,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 50.0,
+    "avg_first_innings_runs": 218.0,
+    "avg_second_innings_runs": 204.5,
+    "avg_first_innings_wickets": 5.5,
+    "avg_second_innings_wickets": 7.0
+  },
+  "Sawai Mansingh Stadium, Jaipur": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 214.0,
+    "avg_second_innings_runs": 217.0,
+    "avg_first_innings_wickets": 2.0,
+    "avg_second_innings_wickets": 6.0
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "total_matches": 3,
+    "batting_first_wins": 1,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 33.33,
+    "avg_first_innings_runs": 169.66666666666666,
+    "avg_second_innings_runs": 162.0,
+    "avg_first_innings_wickets": 9.0,
+    "avg_second_innings_wickets": 4.666666666666667
+  },
+  "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 182.0,
+    "avg_second_innings_runs": 180.0,
+    "avg_first_innings_wickets": 9.0,
+    "avg_second_innings_wickets": 6.0
+  },
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 287.0,
+    "avg_second_innings_runs": 262.0,
+    "avg_first_innings_wickets": 3.0,
+    "avg_second_innings_wickets": 7.0
+  }
+}
