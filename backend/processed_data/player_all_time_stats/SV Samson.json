@@ -1,0 +1,18 @@
+{
+  "player_name": "SV Samson",
+  "batting": {
+    "matches": 162,
+    "runs": 4419,
+    "balls": 3270,
+    "fours": 352,
+    "sixes": 206,
+    "dots": 1184,
+    "dismissals": 139,
+    "highest": 119,
+    "50s": 25,
+    "100s": 3,
+    "strike_rate": 135.13761467889907,
+    "average": 31.79136690647482
+  },
+  "bowling": {}
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "Shahbaz Ahmed",
+  "batting": {
+    "matches": 37,
+    "runs": 536,
+    "balls": 467,
+    "fours": 28,
+    "sixes": 25,
+    "dots": 182,
+    "dismissals": 27,
+    "highest": 59,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 114.77516059957173,
+    "average": 19.85185185185185
+  },
+  "bowling": {
+    "matches": 42,
+    "balls": 549,
+    "runs": 850,
+    "wickets": 21,
+    "maidens": 23.666666666666668,
+    "best_bowling": "3/7",
+    "overs": 91.5,
+    "economy": 9.289617486338798,
+    "average": 40.476190476190474,
+    "strike_rate": 26.142857142857142
+  }
+}

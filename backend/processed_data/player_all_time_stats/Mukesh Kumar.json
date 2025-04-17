@@ -1,0 +1,29 @@
+{
+  "player_name": "Mukesh Kumar",
+  "batting": {
+    "matches": 5,
+    "runs": 10,
+    "balls": 20,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 10,
+    "dismissals": 1,
+    "highest": 6,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 50.0,
+    "average": 10.0
+  },
+  "bowling": {
+    "matches": 20,
+    "balls": 420,
+    "runs": 707,
+    "wickets": 31,
+    "maidens": 21.666666666666668,
+    "best_bowling": "4/60",
+    "overs": 70.0,
+    "economy": 10.1,
+    "average": 22.806451612903224,
+    "strike_rate": 13.548387096774194
+  }
+}

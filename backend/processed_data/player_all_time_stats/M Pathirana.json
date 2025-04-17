@@ -1,0 +1,16 @@
+{
+  "player_name": "M Pathirana",
+  "batting": {},
+  "bowling": {
+    "matches": 20,
+    "balls": 503,
+    "runs": 617,
+    "wickets": 38,
+    "maidens": 26.666666666666668,
+    "best_bowling": "4/30",
+    "overs": 83.83333333333333,
+    "economy": 7.359840954274354,
+    "average": 16.236842105263158,
+    "strike_rate": 13.236842105263158
+  }
+}

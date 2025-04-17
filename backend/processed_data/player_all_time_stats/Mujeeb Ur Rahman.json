@@ -1,0 +1,29 @@
+{
+  "player_name": "Mujeeb Ur Rahman",
+  "batting": {
+    "matches": 6,
+    "runs": 12,
+    "balls": 15,
+    "fours": 2,
+    "sixes": 0,
+    "dots": 9,
+    "dismissals": 3,
+    "highest": 10,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 80.0,
+    "average": 4.0
+  },
+  "bowling": {
+    "matches": 19,
+    "balls": 452,
+    "runs": 598,
+    "wickets": 20,
+    "maidens": 24.5,
+    "best_bowling": "3/28",
+    "overs": 75.33333333333333,
+    "economy": 7.938053097345133,
+    "average": 29.9,
+    "strike_rate": 22.6
+  }
+}

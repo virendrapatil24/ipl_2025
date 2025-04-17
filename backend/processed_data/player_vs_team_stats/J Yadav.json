@@ -1,0 +1,164 @@
+{
+  "Sunrisers Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 5,
+      "balls": 110,
+      "runs": 131,
+      "wickets": 2,
+      "maidens": 6.5,
+      "best_bowling": "1/19",
+      "overs": 18.333333333333332,
+      "economy": 7.1454545454545455,
+      "average": 65.5,
+      "strike_rate": 55.0
+    }
+  },
+  "Chennai Super Kings": {
+    "batting": {},
+    "bowling": {
+      "matches": 2,
+      "balls": 31,
+      "runs": 33,
+      "wickets": 2,
+      "maidens": 2.5,
+      "best_bowling": "1/8",
+      "overs": 5.166666666666667,
+      "economy": 6.387096774193548,
+      "average": 16.5,
+      "strike_rate": 15.5
+    }
+  },
+  "Royal Challengers Bangalore": {
+    "batting": {
+      "matches": 1,
+      "runs": 5,
+      "balls": 7,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 71.42857142857143
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 12,
+      "runs": 10,
+      "wickets": 0,
+      "maidens": 1.0,
+      "best_bowling": "0/2",
+      "overs": 2.0,
+      "economy": 5.0
+    }
+  },
+  "Kings XI Punjab": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 25,
+      "runs": 23,
+      "wickets": 1,
+      "maidens": 2.0,
+      "best_bowling": "1/23",
+      "overs": 4.166666666666667,
+      "economy": 5.52,
+      "average": 23.0,
+      "strike_rate": 25.0
+    }
+  },
+  "Rising Pune Supergiants": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 20.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 25,
+      "wickets": 0,
+      "maidens": 1.3333333333333333,
+      "best_bowling": "0/25",
+      "overs": 4.0,
+      "economy": 6.25
+    }
+  },
+  "Delhi Capitals": {
+    "batting": {
+      "matches": 2,
+      "runs": 34,
+      "balls": 26,
+      "fours": 2,
+      "sixes": 1,
+      "dots": 8,
+      "dismissals": 2,
+      "highest": 23,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 130.76923076923077,
+      "average": 17.0
+    },
+    "bowling": {
+      "matches": 5,
+      "balls": 115,
+      "runs": 125,
+      "wickets": 4,
+      "maidens": 6.666666666666667,
+      "best_bowling": "2/31",
+      "overs": 19.166666666666668,
+      "economy": 6.521739130434782,
+      "average": 31.25,
+      "strike_rate": 28.75
+    }
+  },
+  "Punjab Kings": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 20,
+      "wickets": 0,
+      "maidens": 2.6666666666666665,
+      "best_bowling": "0/20",
+      "overs": 4.0,
+      "economy": 5.0
+    }
+  },
+  "Rajasthan Royals": {
+    "batting": {},
+    "bowling": {
+      "matches": 2,
+      "balls": 33,
+      "runs": 54,
+      "wickets": 0,
+      "maidens": 1.5,
+      "best_bowling": "0/17",
+      "overs": 5.5,
+      "economy": 9.818181818181818
+    }
+  },
+  "Lucknow Super Giants": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 26,
+      "wickets": 0,
+      "maidens": 1.3333333333333333,
+      "best_bowling": "0/26",
+      "overs": 4.0,
+      "economy": 6.5
+    }
+  }
+}

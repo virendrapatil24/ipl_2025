@@ -1,0 +1,582 @@
+{
+  "KV Sharma": {
+    "batting": {
+      "matches": 1,
+      "runs": 13,
+      "balls": 8,
+      "fours": 0,
+      "sixes": 2,
+      "dots": 5,
+      "dismissals": 1,
+      "highest": 13,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 162.5,
+      "average": 13.0
+    },
+    "bowling": {}
+  },
+  "GJ Maxwell": {
+    "batting": {
+      "matches": 1,
+      "runs": 3,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 3,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 150.0
+    },
+    "bowling": {}
+  },
+  "Akash Deep": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {}
+  },
+  "LH Ferguson": {
+    "batting": {
+      "matches": 1,
+      "runs": 4,
+      "balls": 2,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 4,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 200.0,
+      "average": 4.0
+    },
+    "bowling": {}
+  },
+  "Arshdeep Singh": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {}
+  },
+  "Noor Ahmad": {
+    "batting": {
+      "matches": 2,
+      "runs": 25,
+      "balls": 9,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 14,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 277.77777777777777
+    },
+    "bowling": {}
+  },
+  "Rashid Khan": {
+    "batting": {
+      "matches": 2,
+      "runs": 2,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0,
+      "average": 2.0
+    },
+    "bowling": {}
+  },
+  "MM Sharma": {
+    "batting": {
+      "matches": 1,
+      "runs": 11,
+      "balls": 7,
+      "fours": 0,
+      "sixes": 1,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 11,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 157.14285714285714,
+      "average": 11.0
+    },
+    "bowling": {}
+  },
+  "Mohammed Shami": {
+    "batting": {
+      "matches": 2,
+      "runs": 9,
+      "balls": 6,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 150.0,
+      "average": 9.0
+    },
+    "bowling": {}
+  },
+  "DL Chahar": {
+    "batting": {
+      "matches": 1,
+      "runs": 6,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 0,
+      "highest": 6,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 85.71428571428571
+    },
+    "bowling": {}
+  },
+  "TU Deshpande": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0
+    },
+    "bowling": {}
+  },
+  "RA Jadeja": {
+    "batting": {
+      "matches": 1,
+      "runs": 29,
+      "balls": 15,
+      "fours": 5,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 29,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 193.33333333333334
+    },
+    "bowling": {}
+  },
+  "MM Ali": {
+    "batting": {
+      "matches": 1,
+      "runs": 5,
+      "balls": 3,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 166.66666666666666
+    },
+    "bowling": {}
+  },
+  "M Theekshana": {
+    "batting": {
+      "matches": 1,
+      "runs": 18,
+      "balls": 15,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 6,
+      "dismissals": 0,
+      "highest": 18,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 120.0
+    },
+    "bowling": {}
+  },
+  "M Pathirana": {
+    "batting": {
+      "matches": 1,
+      "runs": 4,
+      "balls": 7,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 4,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 57.142857142857146,
+      "average": 4.0
+    },
+    "bowling": {}
+  },
+  "HV Patel": {
+    "batting": {
+      "matches": 1,
+      "runs": 25,
+      "balls": 15,
+      "fours": 3,
+      "sixes": 1,
+      "dots": 5,
+      "dismissals": 0,
+      "highest": 25,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 166.66666666666666
+    },
+    "bowling": {}
+  },
+  "JR Hazlewood": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 25.0
+    },
+    "bowling": {}
+  },
+  "Mohammed Siraj": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0
+    },
+    "bowling": {}
+  },
+  "Ravi Bishnoi": {
+    "batting": {
+      "matches": 3,
+      "runs": 21,
+      "balls": 19,
+      "fours": 3,
+      "sixes": 0,
+      "dots": 7,
+      "dismissals": 1,
+      "highest": 14,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 110.52631578947368,
+      "average": 21.0
+    },
+    "bowling": {}
+  },
+  "KH Pandya": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 25.0
+    },
+    "bowling": {}
+  },
+  "Yash Thakur": {
+    "batting": {
+      "matches": 2,
+      "runs": 19,
+      "balls": 13,
+      "fours": 3,
+      "sixes": 1,
+      "dots": 8,
+      "dismissals": 1,
+      "highest": 15,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 146.15384615384616,
+      "average": 19.0
+    },
+    "bowling": {}
+  },
+  "Mohsin Khan": {
+    "batting": {
+      "matches": 3,
+      "runs": 1,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 2,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 20.0,
+      "average": 0.5
+    },
+    "bowling": {}
+  },
+  "YS Chahal": {
+    "batting": {
+      "matches": 1,
+      "runs": 18,
+      "balls": 8,
+      "fours": 1,
+      "sixes": 2,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 18,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 225.0
+    },
+    "bowling": {}
+  },
+  "R Ashwin": {
+    "batting": {
+      "matches": 1,
+      "runs": 12,
+      "balls": 8,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 12,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 150.0
+    },
+    "bowling": {}
+  },
+  "Avesh Khan": {
+    "batting": {
+      "matches": 1,
+      "runs": 14,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 2,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 14,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 280.0
+    },
+    "bowling": {}
+  },
+  "Sandeep Sharma": {
+    "batting": {
+      "matches": 1,
+      "runs": 5,
+      "balls": 3,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 166.66666666666666
+    },
+    "bowling": {}
+  },
+  "TA Boult": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {}
+  },
+  "Rasikh Salam": {
+    "batting": {
+      "matches": 1,
+      "runs": 4,
+      "balls": 2,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 4,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 200.0,
+      "average": 4.0
+    },
+    "bowling": {}
+  },
+  "MP Yadav": {
+    "batting": {
+      "matches": 1,
+      "runs": 21,
+      "balls": 14,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 9,
+      "dismissals": 0,
+      "highest": 21,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 150.0
+    },
+    "bowling": {}
+  },
+  "DJ Hooda": {
+    "batting": {
+      "matches": 1,
+      "runs": 4,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 4,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 66.66666666666667
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 5,
+      "runs": 8,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/8",
+      "overs": 0.8333333333333334,
+      "economy": 9.6
+    }
+  },
+  "CV Varun": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0
+    },
+    "bowling": {}
+  },
+  "AD Russell": {
+    "batting": {
+      "matches": 2,
+      "runs": 7,
+      "balls": 8,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 0,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 87.5
+    },
+    "bowling": {}
+  },
+  "SP Narine": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 20.0,
+      "average": 1.0
+    },
+    "bowling": {}
+  },
+  "Harshit Rana": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0,
+      "average": 1.0
+    },
+    "bowling": {}
+  },
+  "KL Rahul": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 7,
+      "runs": 5,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/5",
+      "overs": 1.1666666666666667,
+      "economy": 4.285714285714286
+    }
+  }
+}

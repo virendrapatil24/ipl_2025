@@ -1,0 +1,30 @@
+{
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 28,
+      "runs": 36,
+      "wickets": 3,
+      "maidens": 1.6666666666666667,
+      "best_bowling": "3/36",
+      "overs": 4.666666666666667,
+      "economy": 7.7142857142857135,
+      "average": 12.0,
+      "strike_rate": 9.333333333333334
+    }
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 15,
+      "runs": 24,
+      "wickets": 0,
+      "maidens": 0.6666666666666666,
+      "best_bowling": "0/24",
+      "overs": 2.5,
+      "economy": 9.6
+    }
+  }
+}

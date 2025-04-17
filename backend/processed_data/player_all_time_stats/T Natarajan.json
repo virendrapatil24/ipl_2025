@@ -1,0 +1,28 @@
+{
+  "player_name": "T Natarajan",
+  "batting": {
+    "matches": 2,
+    "runs": 3,
+    "balls": 5,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 2,
+    "dismissals": 0,
+    "highest": 3,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 60.0
+  },
+  "bowling": {
+    "matches": 61,
+    "balls": 1401,
+    "runs": 2001,
+    "wickets": 76,
+    "maidens": 69.66666666666667,
+    "best_bowling": "4/19",
+    "overs": 233.5,
+    "economy": 8.569593147751606,
+    "average": 26.32894736842105,
+    "strike_rate": 18.43421052631579
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "Rashid Khan",
+  "batting": {
+    "matches": 58,
+    "runs": 545,
+    "balls": 355,
+    "fours": 39,
+    "sixes": 38,
+    "dots": 149,
+    "dismissals": 37,
+    "highest": 79,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 153.5211267605634,
+    "average": 14.72972972972973
+  },
+  "bowling": {
+    "matches": 121,
+    "balls": 2901,
+    "runs": 3340,
+    "wickets": 157,
+    "maidens": 176.66666666666666,
+    "best_bowling": "5/24",
+    "overs": 483.5,
+    "economy": 6.907962771458118,
+    "average": 21.273885350318473,
+    "strike_rate": 18.477707006369428
+  }
+}

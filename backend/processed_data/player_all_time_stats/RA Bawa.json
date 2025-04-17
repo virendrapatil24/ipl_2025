@@ -1,0 +1,18 @@
+{
+  "player_name": "RA Bawa",
+  "batting": {
+    "matches": 2,
+    "runs": 11,
+    "balls": 14,
+    "fours": 1,
+    "sixes": 0,
+    "dots": 7,
+    "dismissals": 2,
+    "highest": 11,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 78.57142857142857,
+    "average": 5.5
+  },
+  "bowling": {}
+}

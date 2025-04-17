@@ -1,0 +1,29 @@
+{
+  "player_name": "KL Nagarkoti",
+  "batting": {
+    "matches": 7,
+    "runs": 22,
+    "balls": 34,
+    "fours": 1,
+    "sixes": 0,
+    "dots": 17,
+    "dismissals": 4,
+    "highest": 8,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 64.70588235294117,
+    "average": 5.5
+  },
+  "bowling": {
+    "matches": 11,
+    "balls": 185,
+    "runs": 287,
+    "wickets": 5,
+    "maidens": 8.333333333333334,
+    "best_bowling": "2/13",
+    "overs": 30.833333333333332,
+    "economy": 9.308108108108108,
+    "average": 57.4,
+    "strike_rate": 37.0
+  }
+}

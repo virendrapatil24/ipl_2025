@@ -1,0 +1,144 @@
+{
+  "Mumbai Indians": {
+    "batting": {
+      "matches": 1,
+      "runs": 8,
+      "balls": 6,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 8,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 133.33333333333334,
+      "average": 8.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 12,
+      "runs": 24,
+      "wickets": 1,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "1/24",
+      "overs": 2.0,
+      "economy": 12.0,
+      "average": 24.0,
+      "strike_rate": 12.0
+    }
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {
+      "matches": 2,
+      "runs": 13,
+      "balls": 13,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 7,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0,
+      "average": 13.0
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 31,
+      "runs": 55,
+      "wickets": 1,
+      "maidens": 1.3333333333333333,
+      "best_bowling": "1/23",
+      "overs": 5.166666666666667,
+      "economy": 10.64516129032258,
+      "average": 55.0,
+      "strike_rate": 31.0
+    }
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 1,
+      "runs": 55,
+      "balls": 32,
+      "fours": 4,
+      "sixes": 5,
+      "dots": 15,
+      "dismissals": 1,
+      "highest": 55,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 171.875,
+      "average": 55.0
+    },
+    "bowling": {}
+  },
+  "Gujarat Titans": {
+    "batting": {
+      "matches": 2,
+      "runs": 101,
+      "balls": 45,
+      "fours": 5,
+      "sixes": 10,
+      "dots": 12,
+      "dismissals": 1,
+      "highest": 100,
+      "50s": 0,
+      "100s": 1,
+      "strike_rate": 224.44444444444446,
+      "average": 101.0
+    },
+    "bowling": {}
+  },
+  "Punjab Kings": {
+    "batting": {
+      "matches": 1,
+      "runs": 12,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 12,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 171.42857142857142,
+      "average": 12.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 5,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/5",
+      "overs": 1.0,
+      "economy": 5.0
+    }
+  },
+  "Delhi Capitals": {
+    "batting": {
+      "matches": 1,
+      "runs": 41,
+      "balls": 30,
+      "fours": 3,
+      "sixes": 2,
+      "dots": 11,
+      "dismissals": 1,
+      "highest": 41,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 136.66666666666666,
+      "average": 41.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 16,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/16",
+      "overs": 1.0,
+      "economy": 16.0
+    }
+  }
+}

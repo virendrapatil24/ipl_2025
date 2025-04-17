@@ -1,0 +1,29 @@
+{
+  "player_name": "NT Ellis",
+  "batting": {
+    "matches": 5,
+    "runs": 19,
+    "balls": 26,
+    "fours": 0,
+    "sixes": 1,
+    "dots": 14,
+    "dismissals": 4,
+    "highest": 12,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 73.07692307692308,
+    "average": 4.75
+  },
+  "bowling": {
+    "matches": 16,
+    "balls": 365,
+    "runs": 514,
+    "wickets": 19,
+    "maidens": 18.666666666666668,
+    "best_bowling": "4/30",
+    "overs": 60.833333333333336,
+    "economy": 8.449315068493151,
+    "average": 27.05263157894737,
+    "strike_rate": 19.210526315789473
+  }
+}

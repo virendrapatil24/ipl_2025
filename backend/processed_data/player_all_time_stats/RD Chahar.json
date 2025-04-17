@@ -1,0 +1,29 @@
+{
+  "player_name": "RD Chahar",
+  "batting": {
+    "matches": 22,
+    "runs": 129,
+    "balls": 127,
+    "fours": 13,
+    "sixes": 5,
+    "dots": 70,
+    "dismissals": 15,
+    "highest": 25,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 101.5748031496063,
+    "average": 8.6
+  },
+  "bowling": {
+    "matches": 77,
+    "balls": 1697,
+    "runs": 2165,
+    "wickets": 76,
+    "maidens": 95.66666666666667,
+    "best_bowling": "4/31",
+    "overs": 282.8333333333333,
+    "economy": 7.65468473777254,
+    "average": 28.486842105263158,
+    "strike_rate": 22.32894736842105
+  }
+}

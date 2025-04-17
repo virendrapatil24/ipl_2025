@@ -1,0 +1,29 @@
+{
+  "player_name": "HH Pandya",
+  "batting": {
+    "matches": 128,
+    "runs": 2534,
+    "balls": 1814,
+    "fours": 189,
+    "sixes": 137,
+    "dots": 656,
+    "dismissals": 86,
+    "highest": 91,
+    "50s": 10,
+    "100s": 0,
+    "strike_rate": 139.69128996692393,
+    "average": 29.46511627906977
+  },
+  "bowling": {
+    "matches": 93,
+    "balls": 1485,
+    "runs": 2196,
+    "wickets": 70,
+    "maidens": 80.16666666666667,
+    "best_bowling": "3/16",
+    "overs": 247.5,
+    "economy": 8.872727272727273,
+    "average": 31.37142857142857,
+    "strike_rate": 21.214285714285715
+  }
+}

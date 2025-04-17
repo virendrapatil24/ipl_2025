@@ -1,0 +1,18 @@
+{
+  "player_name": "D Ferreira",
+  "batting": {
+    "matches": 2,
+    "runs": 8,
+    "balls": 11,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 5,
+    "dismissals": 2,
+    "highest": 7,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 72.72727272727273,
+    "average": 4.0
+  },
+  "bowling": {}
+}

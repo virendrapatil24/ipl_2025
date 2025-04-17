@@ -1,0 +1,29 @@
+{
+  "player_name": "Harshit Rana",
+  "batting": {
+    "matches": 3,
+    "runs": 2,
+    "balls": 3,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 2,
+    "dismissals": 2,
+    "highest": 2,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 66.66666666666667,
+    "average": 1.0
+  },
+  "bowling": {
+    "matches": 19,
+    "balls": 403,
+    "runs": 590,
+    "wickets": 27,
+    "maidens": 24.666666666666668,
+    "best_bowling": "3/24",
+    "overs": 67.16666666666667,
+    "economy": 8.784119106699752,
+    "average": 21.85185185185185,
+    "strike_rate": 14.925925925925926
+  }
+}

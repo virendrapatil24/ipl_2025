@@ -1,0 +1,16 @@
+{
+  "player_name": "MP Yadav",
+  "batting": {},
+  "bowling": {
+    "matches": 4,
+    "balls": 76,
+    "runs": 88,
+    "wickets": 8,
+    "maidens": 6.5,
+    "best_bowling": "4/15",
+    "overs": 12.666666666666666,
+    "economy": 6.947368421052632,
+    "average": 11.0,
+    "strike_rate": 9.5
+  }
+}

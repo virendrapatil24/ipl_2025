@@ -1,0 +1,18 @@
+{
+  "player_name": "A Raghuvanshi",
+  "batting": {
+    "matches": 7,
+    "runs": 163,
+    "balls": 109,
+    "fours": 16,
+    "sixes": 8,
+    "dots": 38,
+    "dismissals": 7,
+    "highest": 54,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 149.54128440366972,
+    "average": 23.285714285714285
+  },
+  "bowling": {}
+}

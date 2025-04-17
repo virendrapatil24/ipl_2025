@@ -1,0 +1,18 @@
+{
+  "player_name": "J Fraser-McGurk",
+  "batting": {
+    "matches": 9,
+    "runs": 330,
+    "balls": 150,
+    "fours": 32,
+    "sixes": 28,
+    "dots": 61,
+    "dismissals": 8,
+    "highest": 84,
+    "50s": 4,
+    "100s": 0,
+    "strike_rate": 220.0,
+    "average": 41.25
+  },
+  "bowling": {}
+}

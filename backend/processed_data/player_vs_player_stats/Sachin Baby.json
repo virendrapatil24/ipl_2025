@@ -1,0 +1,283 @@
+{
+  "KV Sharma": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0
+    },
+    "bowling": {}
+  },
+  "B Kumar": {
+    "batting": {
+      "matches": 2,
+      "runs": 14,
+      "balls": 8,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 8,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 175.0
+    },
+    "bowling": {}
+  },
+  "AD Russell": {
+    "batting": {
+      "matches": 2,
+      "runs": 0,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {}
+  },
+  "AR Patel": {
+    "batting": {
+      "matches": 1,
+      "runs": 10,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 10,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 142.85714285714286
+    },
+    "bowling": {}
+  },
+  "MP Stoinis": {
+    "batting": {
+      "matches": 1,
+      "runs": 4,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 4,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 133.33333333333334
+    },
+    "bowling": {}
+  },
+  "Sandeep Sharma": {
+    "batting": {
+      "matches": 1,
+      "runs": 3,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 1,
+      "highest": 3,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0,
+      "average": 3.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 2,
+      "runs": 2,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/2",
+      "overs": 0.3333333333333333,
+      "economy": 6.0
+    }
+  },
+  "MM Sharma": {
+    "batting": {
+      "matches": 1,
+      "runs": 6,
+      "balls": 8,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 0,
+      "highest": 6,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 75.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 2,
+      "runs": 0,
+      "wickets": 1,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "1/0",
+      "overs": 0.3333333333333333,
+      "economy": 0.0,
+      "average": 0.0,
+      "strike_rate": 2.0
+    }
+  },
+  "JJ Bumrah": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 66.66666666666667
+    },
+    "bowling": {}
+  },
+  "RA Jadeja": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0
+    },
+    "bowling": {}
+  },
+  "LH Ferguson": {
+    "batting": {
+      "matches": 2,
+      "runs": 4,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 3,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 66.66666666666667
+    },
+    "bowling": {}
+  },
+  "Washington Sundar": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0,
+      "average": 1.0
+    },
+    "bowling": {}
+  },
+  "Mohammed Shami": {
+    "batting": {
+      "matches": 1,
+      "runs": 7,
+      "balls": 4,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 7,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 175.0
+    },
+    "bowling": {}
+  },
+  "PJ Cummins": {
+    "batting": {
+      "matches": 1,
+      "runs": 4,
+      "balls": 5,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 4,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 80.0,
+      "average": 4.0
+    },
+    "bowling": {}
+  },
+  "M Prasidh Krishna": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 25.0
+    },
+    "bowling": {}
+  },
+  "CV Varun": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 33.333333333333336,
+      "average": 2.0
+    },
+    "bowling": {}
+  },
+  "SP Narine": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {}
+  }
+}

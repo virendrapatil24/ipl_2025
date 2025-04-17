@@ -1,0 +1,29 @@
+{
+  "player_name": "J Yadav",
+  "batting": {
+    "matches": 4,
+    "runs": 40,
+    "balls": 38,
+    "fours": 2,
+    "sixes": 1,
+    "dots": 14,
+    "dismissals": 2,
+    "highest": 23,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 105.26315789473684,
+    "average": 20.0
+  },
+  "bowling": {
+    "matches": 20,
+    "balls": 398,
+    "runs": 447,
+    "wickets": 9,
+    "maidens": 25.5,
+    "best_bowling": "2/31",
+    "overs": 66.33333333333333,
+    "economy": 6.738693467336684,
+    "average": 49.666666666666664,
+    "strike_rate": 44.22222222222222
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "DJ Hooda",
+  "batting": {
+    "matches": 96,
+    "runs": 1466,
+    "balls": 1170,
+    "fours": 96,
+    "sixes": 61,
+    "dots": 402,
+    "dismissals": 74,
+    "highest": 64,
+    "50s": 8,
+    "100s": 0,
+    "strike_rate": 125.2991452991453,
+    "average": 19.81081081081081
+  },
+  "bowling": {
+    "matches": 33,
+    "balls": 384,
+    "runs": 535,
+    "wickets": 10,
+    "maidens": 16.833333333333332,
+    "best_bowling": "2/16",
+    "overs": 64.0,
+    "economy": 8.359375,
+    "average": 53.5,
+    "strike_rate": 38.4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "AR Patel",
+  "batting": {
+    "matches": 112,
+    "runs": 1653,
+    "balls": 1318,
+    "fours": 107,
+    "sixes": 79,
+    "dots": 470,
+    "dismissals": 74,
+    "highest": 66,
+    "50s": 3,
+    "100s": 0,
+    "strike_rate": 125.41729893778452,
+    "average": 22.33783783783784
+  },
+  "bowling": {
+    "matches": 148,
+    "balls": 3152,
+    "runs": 3824,
+    "wickets": 131,
+    "maidens": 170.16666666666666,
+    "best_bowling": "4/21",
+    "overs": 525.3333333333334,
+    "economy": 7.279187817258883,
+    "average": 29.19083969465649,
+    "strike_rate": 24.061068702290076
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "KV Sharma",
+  "batting": {
+    "matches": 39,
+    "runs": 351,
+    "balls": 306,
+    "fours": 20,
+    "sixes": 17,
+    "dots": 125,
+    "dismissals": 24,
+    "highest": 39,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 114.70588235294117,
+    "average": 14.625
+  },
+  "bowling": {
+    "matches": 82,
+    "balls": 1520,
+    "runs": 2130,
+    "wickets": 82,
+    "maidens": 80.5,
+    "best_bowling": "5/39",
+    "overs": 253.33333333333334,
+    "economy": 8.407894736842104,
+    "average": 25.975609756097562,
+    "strike_rate": 18.536585365853657
+  }
+}

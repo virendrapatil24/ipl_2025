@@ -1,0 +1,29 @@
+{
+  "player_name": "KH Pandya",
+  "batting": {
+    "matches": 107,
+    "runs": 1647,
+    "balls": 1287,
+    "fours": 144,
+    "sixes": 61,
+    "dots": 501,
+    "dismissals": 71,
+    "highest": 86,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 127.97202797202797,
+    "average": 23.197183098591548
+  },
+  "bowling": {
+    "matches": 117,
+    "balls": 2183,
+    "runs": 2644,
+    "wickets": 80,
+    "maidens": 112.66666666666667,
+    "best_bowling": "4/19",
+    "overs": 363.8333333333333,
+    "economy": 7.267063673843335,
+    "average": 33.05,
+    "strike_rate": 27.2875
+  }
+}

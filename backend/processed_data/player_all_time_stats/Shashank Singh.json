@@ -1,0 +1,29 @@
+{
+  "player_name": "Shashank Singh",
+  "batting": {
+    "matches": 19,
+    "runs": 423,
+    "balls": 272,
+    "fours": 33,
+    "sixes": 25,
+    "dots": 89,
+    "dismissals": 11,
+    "highest": 68,
+    "50s": 2,
+    "100s": 0,
+    "strike_rate": 155.51470588235293,
+    "average": 38.45454545454545
+  },
+  "bowling": {
+    "matches": 3,
+    "balls": 19,
+    "runs": 25,
+    "wickets": 1,
+    "maidens": 0.3333333333333333,
+    "best_bowling": "1/5",
+    "overs": 3.1666666666666665,
+    "economy": 7.894736842105264,
+    "average": 25.0,
+    "strike_rate": 19.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "player_name": "LB Williams",
+  "batting": {
+    "matches": 1,
+    "runs": 1,
+    "balls": 2,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 1,
+    "dismissals": 0,
+    "highest": 1,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 50.0
+  },
+  "bowling": {
+    "matches": 2,
+    "balls": 42,
+    "runs": 74,
+    "wickets": 1,
+    "maidens": 2.0,
+    "best_bowling": "1/40",
+    "overs": 7.0,
+    "economy": 10.571428571428571,
+    "average": 74.0,
+    "strike_rate": 42.0
+  }
+}

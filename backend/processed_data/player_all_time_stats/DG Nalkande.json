@@ -1,0 +1,29 @@
+{
+  "player_name": "DG Nalkande",
+  "batting": {
+    "matches": 2,
+    "runs": 12,
+    "balls": 12,
+    "fours": 0,
+    "sixes": 1,
+    "dots": 5,
+    "dismissals": 2,
+    "highest": 12,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 100.0,
+    "average": 6.0
+  },
+  "bowling": {
+    "matches": 6,
+    "balls": 89,
+    "runs": 150,
+    "wickets": 6,
+    "maidens": 3.6666666666666665,
+    "best_bowling": "2/21",
+    "overs": 14.833333333333334,
+    "economy": 10.112359550561797,
+    "average": 25.0,
+    "strike_rate": 14.833333333333334
+  }
+}

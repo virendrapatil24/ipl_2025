@@ -1,0 +1,29 @@
+{
+  "player_name": "SM Curran",
+  "batting": {
+    "matches": 48,
+    "runs": 883,
+    "balls": 673,
+    "fours": 74,
+    "sixes": 37,
+    "dots": 251,
+    "dismissals": 35,
+    "highest": 63,
+    "50s": 5,
+    "100s": 0,
+    "strike_rate": 131.2035661218425,
+    "average": 25.228571428571428
+  },
+  "bowling": {
+    "matches": 58,
+    "balls": 1234,
+    "runs": 1924,
+    "wickets": 62,
+    "maidens": 63.0,
+    "best_bowling": "4/13",
+    "overs": 205.66666666666666,
+    "economy": 9.354943273905997,
+    "average": 31.032258064516128,
+    "strike_rate": 19.903225806451612
+  }
+}

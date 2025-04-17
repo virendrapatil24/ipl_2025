@@ -1,0 +1,113 @@
+{
+  "Gujarat Titans": {
+    "batting": {
+      "matches": 1,
+      "runs": 20,
+      "balls": 12,
+      "fours": 3,
+      "sixes": 1,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 20,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 166.66666666666666,
+      "average": 20.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 13,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/13",
+      "overs": 1.0,
+      "economy": 13.0
+    }
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {
+      "matches": 2,
+      "runs": 30,
+      "balls": 24,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 11,
+      "dismissals": 2,
+      "highest": 30,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 125.0,
+      "average": 15.0
+    },
+    "bowling": {}
+  },
+  "Rajasthan Royals": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {}
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 2,
+      "runs": 28,
+      "balls": 17,
+      "fours": 3,
+      "sixes": 2,
+      "dots": 9,
+      "dismissals": 2,
+      "highest": 17,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 164.7058823529412,
+      "average": 14.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 25,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/25",
+      "overs": 3.1666666666666665,
+      "economy": 7.894736842105264
+    }
+  },
+  "Lucknow Super Giants": {
+    "batting": {
+      "matches": 1,
+      "runs": 62,
+      "balls": 30,
+      "fours": 4,
+      "sixes": 5,
+      "dots": 8,
+      "dismissals": 0,
+      "highest": 62,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 206.66666666666666
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 4,
+      "runs": 17,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/17",
+      "overs": 0.6666666666666666,
+      "economy": 25.5
+    }
+  }
+}

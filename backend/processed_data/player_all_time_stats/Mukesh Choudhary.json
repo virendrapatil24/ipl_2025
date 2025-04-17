@@ -1,0 +1,28 @@
+{
+  "player_name": "Mukesh Choudhary",
+  "batting": {
+    "matches": 2,
+    "runs": 6,
+    "balls": 6,
+    "fours": 1,
+    "sixes": 0,
+    "dots": 3,
+    "dismissals": 0,
+    "highest": 4,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 100.0
+  },
+  "bowling": {
+    "matches": 14,
+    "balls": 298,
+    "runs": 452,
+    "wickets": 16,
+    "maidens": 20.0,
+    "best_bowling": "4/46",
+    "overs": 49.666666666666664,
+    "economy": 9.100671140939598,
+    "average": 28.25,
+    "strike_rate": 18.625
+  }
+}

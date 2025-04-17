@@ -1,0 +1,16 @@
+{
+  "player_name": "RS Hangargekar",
+  "batting": {},
+  "bowling": {
+    "matches": 2,
+    "balls": 43,
+    "runs": 60,
+    "wickets": 3,
+    "maidens": 2.3333333333333335,
+    "best_bowling": "3/36",
+    "overs": 7.166666666666667,
+    "economy": 8.372093023255813,
+    "average": 20.0,
+    "strike_rate": 14.333333333333334
+  }
+}

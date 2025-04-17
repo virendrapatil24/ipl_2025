@@ -1,0 +1,29 @@
+{
+  "player_name": "Ravi Bishnoi",
+  "batting": {
+    "matches": 14,
+    "runs": 32,
+    "balls": 52,
+    "fours": 2,
+    "sixes": 0,
+    "dots": 30,
+    "dismissals": 7,
+    "highest": 6,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 61.53846153846154,
+    "average": 4.571428571428571
+  },
+  "bowling": {
+    "matches": 65,
+    "balls": 1460,
+    "runs": 1861,
+    "wickets": 68,
+    "maidens": 82.0,
+    "best_bowling": "3/26",
+    "overs": 243.33333333333334,
+    "economy": 7.647945205479452,
+    "average": 27.36764705882353,
+    "strike_rate": 21.470588235294116
+  }
+}

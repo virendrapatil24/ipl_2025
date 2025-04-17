@@ -1,0 +1,18 @@
+{
+  "player_name": "D Padikkal",
+  "batting": {
+    "matches": 64,
+    "runs": 1559,
+    "balls": 1323,
+    "fours": 170,
+    "sixes": 42,
+    "dots": 564,
+    "dismissals": 61,
+    "highest": 101,
+    "50s": 9,
+    "100s": 1,
+    "strike_rate": 117.83824640967498,
+    "average": 25.557377049180328
+  },
+  "bowling": {}
+}

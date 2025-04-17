@@ -1,0 +1,29 @@
+{
+  "player_name": "JD Unadkat",
+  "batting": {
+    "matches": 27,
+    "runs": 197,
+    "balls": 170,
+    "fours": 16,
+    "sixes": 7,
+    "dots": 70,
+    "dismissals": 13,
+    "highest": 26,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 115.88235294117646,
+    "average": 15.153846153846153
+  },
+  "bowling": {
+    "matches": 104,
+    "balls": 2194,
+    "runs": 3219,
+    "wickets": 109,
+    "maidens": 114.0,
+    "best_bowling": "5/25",
+    "overs": 365.6666666666667,
+    "economy": 8.803099361896079,
+    "average": 29.53211009174312,
+    "strike_rate": 20.128440366972477
+  }
+}

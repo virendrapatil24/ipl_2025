@@ -1,0 +1,27 @@
+{
+  "player_name": "SA Yadav",
+  "batting": {
+    "matches": 135,
+    "runs": 3594,
+    "balls": 2522,
+    "fours": 385,
+    "sixes": 130,
+    "dots": 900,
+    "dismissals": 109,
+    "highest": 103,
+    "50s": 24,
+    "100s": 2,
+    "strike_rate": 142.50594766058683,
+    "average": 32.972477064220186
+  },
+  "bowling": {
+    "matches": 1,
+    "balls": 6,
+    "runs": 8,
+    "wickets": 0,
+    "maidens": 0.3333333333333333,
+    "best_bowling": "0/8",
+    "overs": 1.0,
+    "economy": 8.0
+  }
+}

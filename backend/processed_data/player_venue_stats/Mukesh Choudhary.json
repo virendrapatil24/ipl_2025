@@ -1,0 +1,99 @@
+{
+  "Brabourne Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {
+      "matches": 3,
+      "balls": 75,
+      "runs": 132,
+      "wickets": 1,
+      "maidens": 4.5,
+      "best_bowling": "1/52",
+      "overs": 12.5,
+      "economy": 10.56,
+      "average": 132.0,
+      "strike_rate": 75.0
+    }
+  },
+  "Dr DY Patil Sports Academy, Mumbai": {
+    "batting": {},
+    "bowling": {
+      "matches": 4,
+      "balls": 81,
+      "runs": 111,
+      "wickets": 7,
+      "maidens": 6.166666666666667,
+      "best_bowling": "3/19",
+      "overs": 13.5,
+      "economy": 8.222222222222221,
+      "average": 15.857142857142858,
+      "strike_rate": 11.571428571428571
+    }
+  },
+  "Maharashtra Cricket Association Stadium, Pune": {
+    "batting": {},
+    "bowling": {
+      "matches": 3,
+      "balls": 63,
+      "runs": 94,
+      "wickets": 5,
+      "maidens": 4.5,
+      "best_bowling": "4/46",
+      "overs": 10.5,
+      "economy": 8.952380952380953,
+      "average": 18.8,
+      "strike_rate": 12.6
+    }
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 4,
+      "balls": 4,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 4,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {
+      "matches": 3,
+      "balls": 72,
+      "runs": 88,
+      "wickets": 3,
+      "maidens": 4.5,
+      "best_bowling": "3/24",
+      "overs": 12.0,
+      "economy": 7.333333333333333,
+      "average": 29.333333333333332,
+      "strike_rate": 24.0
+    }
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 7,
+      "runs": 27,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/27",
+      "overs": 1.1666666666666667,
+      "economy": 23.142857142857142
+    }
+  }
+}

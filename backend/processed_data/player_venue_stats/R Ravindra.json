@@ -1,0 +1,138 @@
+{
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "batting": {
+      "matches": 4,
+      "runs": 125,
+      "balls": 66,
+      "fours": 13,
+      "sixes": 8,
+      "dots": 25,
+      "dismissals": 4,
+      "highest": 46,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 189.3939393939394,
+      "average": 31.25
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 4,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/4",
+      "overs": 1.0,
+      "economy": 4.0
+    }
+  },
+  "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 12,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 10,
+      "dismissals": 1,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 16.666666666666668,
+      "average": 2.0
+    },
+    "bowling": {}
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 12,
+      "balls": 9,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 12,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 133.33333333333334,
+      "average": 12.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 3,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/3",
+      "overs": 1.0,
+      "economy": 3.0
+    }
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 21,
+      "balls": 18,
+      "fours": 2,
+      "sixes": 1,
+      "dots": 8,
+      "dismissals": 1,
+      "highest": 21,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 116.66666666666667,
+      "average": 21.0
+    },
+    "bowling": {}
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {}
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0
+    },
+    "bowling": {}
+  },
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "batting": {
+      "matches": 1,
+      "runs": 61,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 3,
+      "dots": 8,
+      "dismissals": 1,
+      "highest": 61,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 160.52631578947367,
+      "average": 61.0
+    },
+    "bowling": {}
+  }
+}

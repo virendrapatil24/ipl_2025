@@ -1,0 +1,29 @@
+{
+  "player_name": "Abdul Samad",
+  "batting": {
+    "matches": 39,
+    "runs": 579,
+    "balls": 408,
+    "fours": 37,
+    "sixes": 36,
+    "dots": 149,
+    "dismissals": 30,
+    "highest": 37,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 141.91176470588235,
+    "average": 19.3
+  },
+  "bowling": {
+    "matches": 5,
+    "balls": 55,
+    "runs": 113,
+    "wickets": 2,
+    "maidens": 1.8333333333333333,
+    "best_bowling": "1/9",
+    "overs": 9.166666666666666,
+    "economy": 12.327272727272728,
+    "average": 56.5,
+    "strike_rate": 27.5
+  }
+}

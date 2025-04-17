@@ -1,0 +1,18 @@
+{
+  "player_name": "Sameer Rizvi",
+  "batting": {
+    "matches": 5,
+    "runs": 51,
+    "balls": 43,
+    "fours": 4,
+    "sixes": 2,
+    "dots": 19,
+    "dismissals": 4,
+    "highest": 21,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 118.6046511627907,
+    "average": 12.75
+  },
+  "bowling": {}
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "R Tewatia",
+  "batting": {
+    "matches": 65,
+    "runs": 1013,
+    "balls": 788,
+    "fours": 84,
+    "sixes": 47,
+    "dots": 310,
+    "dismissals": 40,
+    "highest": 53,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 128.55329949238578,
+    "average": 25.325
+  },
+  "bowling": {
+    "matches": 52,
+    "balls": 866,
+    "runs": 1117,
+    "wickets": 36,
+    "maidens": 44.0,
+    "best_bowling": "3/18",
+    "overs": 144.33333333333334,
+    "economy": 7.739030023094688,
+    "average": 31.02777777777778,
+    "strike_rate": 24.055555555555557
+  }
+}

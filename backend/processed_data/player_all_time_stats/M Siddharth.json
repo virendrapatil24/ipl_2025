@@ -1,0 +1,16 @@
+{
+  "player_name": "M Siddharth",
+  "batting": {},
+  "bowling": {
+    "matches": 3,
+    "balls": 58,
+    "runs": 72,
+    "wickets": 1,
+    "maidens": 3.6666666666666665,
+    "best_bowling": "1/21",
+    "overs": 9.666666666666666,
+    "economy": 7.448275862068966,
+    "average": 72.0,
+    "strike_rate": 58.0
+  }
+}

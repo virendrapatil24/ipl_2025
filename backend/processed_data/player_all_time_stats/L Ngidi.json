@@ -1,0 +1,16 @@
+{
+  "player_name": "L Ngidi",
+  "batting": {},
+  "bowling": {
+    "matches": 14,
+    "balls": 342,
+    "runs": 460,
+    "wickets": 28,
+    "maidens": 21.833333333333332,
+    "best_bowling": "4/11",
+    "overs": 57.0,
+    "economy": 8.070175438596491,
+    "average": 16.428571428571427,
+    "strike_rate": 12.214285714285714
+  }
+}

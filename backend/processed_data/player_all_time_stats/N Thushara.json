@@ -1,0 +1,16 @@
+{
+  "player_name": "N Thushara",
+  "batting": {},
+  "bowling": {
+    "matches": 7,
+    "balls": 172,
+    "runs": 259,
+    "wickets": 8,
+    "maidens": 8.166666666666666,
+    "best_bowling": "3/28",
+    "overs": 28.666666666666668,
+    "economy": 9.034883720930232,
+    "average": 32.375,
+    "strike_rate": 21.5
+  }
+}

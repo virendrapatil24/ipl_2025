@@ -1,0 +1,29 @@
+{
+  "player_name": "M Theekshana",
+  "batting": {
+    "matches": 2,
+    "runs": 7,
+    "balls": 7,
+    "fours": 0,
+    "sixes": 1,
+    "dots": 5,
+    "dismissals": 1,
+    "highest": 7,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 100.0,
+    "average": 7.0
+  },
+  "bowling": {
+    "matches": 27,
+    "balls": 631,
+    "runs": 814,
+    "wickets": 25,
+    "maidens": 31.666666666666668,
+    "best_bowling": "4/33",
+    "overs": 105.16666666666667,
+    "economy": 7.740095087163232,
+    "average": 32.56,
+    "strike_rate": 25.24
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Lucknow Super Giants": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 21,
+      "runs": 42,
+      "wickets": 0,
+      "maidens": 1.1666666666666667,
+      "best_bowling": "0/42",
+      "overs": 3.5,
+      "economy": 12.0
+    }
+  }
+}

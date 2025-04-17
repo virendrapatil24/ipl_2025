@@ -1,0 +1,28 @@
+{
+  "player_name": "RJW Topley",
+  "batting": {
+    "matches": 1,
+    "runs": 3,
+    "balls": 6,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 3,
+    "dismissals": 0,
+    "highest": 3,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 50.0
+  },
+  "bowling": {
+    "matches": 5,
+    "balls": 107,
+    "runs": 182,
+    "wickets": 5,
+    "maidens": 6.333333333333333,
+    "best_bowling": "2/27",
+    "overs": 17.833333333333332,
+    "economy": 10.205607476635514,
+    "average": 36.4,
+    "strike_rate": 21.4
+  }
+}

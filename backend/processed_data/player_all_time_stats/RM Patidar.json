@@ -1,0 +1,18 @@
+{
+  "player_name": "RM Patidar",
+  "batting": {
+    "matches": 24,
+    "runs": 799,
+    "balls": 534,
+    "fours": 51,
+    "sixes": 54,
+    "dots": 190,
+    "dismissals": 23,
+    "highest": 112,
+    "50s": 7,
+    "100s": 1,
+    "strike_rate": 149.625468164794,
+    "average": 34.73913043478261
+  },
+  "bowling": {}
+}

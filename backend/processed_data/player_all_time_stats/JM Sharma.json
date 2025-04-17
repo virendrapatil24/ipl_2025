@@ -1,0 +1,18 @@
+{
+  "player_name": "JM Sharma",
+  "batting": {
+    "matches": 36,
+    "runs": 730,
+    "balls": 501,
+    "fours": 53,
+    "sixes": 45,
+    "dots": 192,
+    "dismissals": 32,
+    "highest": 49,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 145.70858283433134,
+    "average": 22.8125
+  },
+  "bowling": {}
+}

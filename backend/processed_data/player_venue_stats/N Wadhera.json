@@ -1,0 +1,147 @@
+{
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "batting": {
+      "matches": 1,
+      "runs": 21,
+      "balls": 13,
+      "fours": 1,
+      "sixes": 2,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 21,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 161.53846153846155,
+      "average": 21.0
+    },
+    "bowling": {}
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 6,
+      "runs": 80,
+      "balls": 66,
+      "fours": 7,
+      "sixes": 4,
+      "dots": 31,
+      "dismissals": 5,
+      "highest": 52,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 121.21212121212122,
+      "average": 16.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 12,
+      "runs": 13,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/13",
+      "overs": 2.0,
+      "economy": 6.5
+    }
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {
+      "matches": 2,
+      "runs": 44,
+      "balls": 24,
+      "fours": 4,
+      "sixes": 3,
+      "dots": 7,
+      "dismissals": 2,
+      "highest": 40,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 183.33333333333334,
+      "average": 22.0
+    },
+    "bowling": {}
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "batting": {
+      "matches": 2,
+      "runs": 87,
+      "balls": 63,
+      "fours": 10,
+      "sixes": 3,
+      "dots": 23,
+      "dismissals": 2,
+      "highest": 64,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 138.0952380952381,
+      "average": 43.5
+    },
+    "bowling": {}
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {
+      "matches": 2,
+      "runs": 62,
+      "balls": 64,
+      "fours": 6,
+      "sixes": 2,
+      "dots": 32,
+      "dismissals": 2,
+      "highest": 46,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 96.875,
+      "average": 31.0
+    },
+    "bowling": {}
+  },
+  "Sawai Mansingh Stadium, Jaipur": {
+    "batting": {
+      "matches": 1,
+      "runs": 49,
+      "balls": 25,
+      "fours": 3,
+      "sixes": 4,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 49,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 196.0,
+      "average": 49.0
+    },
+    "bowling": {}
+  },
+  "Arun Jaitley Stadium, Delhi": {
+    "batting": {
+      "matches": 1,
+      "runs": 4,
+      "balls": 2,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 4,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 200.0,
+      "average": 4.0
+    },
+    "bowling": {}
+  },
+  "Eden Gardens, Kolkata": {
+    "batting": {
+      "matches": 1,
+      "runs": 3,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 3,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 75.0,
+      "average": 3.0
+    },
+    "bowling": {}
+  }
+}

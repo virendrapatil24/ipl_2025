@@ -1,0 +1,29 @@
+{
+  "player_name": "MJ Santner",
+  "batting": {
+    "matches": 11,
+    "runs": 70,
+    "balls": 77,
+    "fours": 4,
+    "sixes": 3,
+    "dots": 38,
+    "dismissals": 6,
+    "highest": 22,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 90.9090909090909,
+    "average": 11.666666666666666
+  },
+  "bowling": {
+    "matches": 18,
+    "balls": 370,
+    "runs": 428,
+    "wickets": 16,
+    "maidens": 22.333333333333332,
+    "best_bowling": "2/13",
+    "overs": 61.666666666666664,
+    "economy": 6.940540540540541,
+    "average": 26.75,
+    "strike_rate": 23.125
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh": {
+    "batting": {
+      "matches": 1,
+      "runs": 22,
+      "balls": 16,
+      "fours": 3,
+      "sixes": 1,
+      "dots": 8,
+      "dismissals": 1,
+      "highest": 22,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 137.5,
+      "average": 22.0
+    },
+    "bowling": {}
+  },
+  "Eden Gardens, Kolkata": {
+    "batting": {
+      "matches": 6,
+      "runs": 181,
+      "balls": 131,
+      "fours": 13,
+      "sixes": 13,
+      "dots": 63,
+      "dismissals": 6,
+      "highest": 81,
+      "50s": 2,
+      "100s": 0,
+      "strike_rate": 138.1679389312977,
+      "average": 30.166666666666668
+    },
+    "bowling": {}
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {
+      "matches": 2,
+      "runs": 38,
+      "balls": 27,
+      "fours": 3,
+      "sixes": 3,
+      "dots": 16,
+      "dismissals": 2,
+      "highest": 23,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 140.74074074074073,
+      "average": 19.0
+    },
+    "bowling": {}
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 8,
+      "balls": 13,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 8,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 61.53846153846154,
+      "average": 8.0
+    },
+    "bowling": {}
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {}
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "batting": {
+      "matches": 2,
+      "runs": 40,
+      "balls": 40,
+      "fours": 5,
+      "sixes": 2,
+      "dots": 25,
+      "dismissals": 2,
+      "highest": 39,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0,
+      "average": 20.0
+    },
+    "bowling": {}
+  }
+}

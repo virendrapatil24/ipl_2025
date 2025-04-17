@@ -1,0 +1,18 @@
+{
+  "player_name": "Vishnu Vinod",
+  "batting": {
+    "matches": 6,
+    "runs": 56,
+    "balls": 58,
+    "fours": 3,
+    "sixes": 3,
+    "dots": 27,
+    "dismissals": 6,
+    "highest": 30,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 96.55172413793103,
+    "average": 9.333333333333334
+  },
+  "bowling": {}
+}

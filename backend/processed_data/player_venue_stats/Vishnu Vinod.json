@@ -1,0 +1,104 @@
+{
+  "M.Chinnaswamy Stadium": {
+    "batting": {
+      "matches": 1,
+      "runs": 9,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 1,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 9,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 180.0,
+      "average": 9.0
+    },
+    "bowling": {}
+  },
+  "Holkar Cricket Stadium": {
+    "batting": {
+      "matches": 1,
+      "runs": 7,
+      "balls": 12,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 8,
+      "dismissals": 1,
+      "highest": 7,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 58.333333333333336,
+      "average": 7.0
+    },
+    "bowling": {}
+  },
+  "Feroz Shah Kotla": {
+    "batting": {
+      "matches": 1,
+      "runs": 3,
+      "balls": 9,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 3,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 33.333333333333336,
+      "average": 3.0
+    },
+    "bowling": {}
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 30,
+      "balls": 20,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 30,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 150.0,
+      "average": 30.0
+    },
+    "bowling": {}
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0,
+      "average": 2.0
+    },
+    "bowling": {}
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 5,
+      "balls": 8,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 62.5,
+      "average": 5.0
+    },
+    "bowling": {}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "Kuldeep Yadav",
+  "batting": {
+    "matches": 32,
+    "runs": 183,
+    "balls": 224,
+    "fours": 16,
+    "sixes": 3,
+    "dots": 116,
+    "dismissals": 9,
+    "highest": 35,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 81.69642857142857,
+    "average": 20.333333333333332
+  },
+  "bowling": {
+    "matches": 82,
+    "balls": 1786,
+    "runs": 2413,
+    "wickets": 90,
+    "maidens": 86.66666666666667,
+    "best_bowling": "4/15",
+    "overs": 297.6666666666667,
+    "economy": 8.106382978723405,
+    "average": 26.81111111111111,
+    "strike_rate": 19.844444444444445
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "player_name": "KR Sen",
+  "batting": {
+    "matches": 1,
+    "runs": 0,
+    "balls": 3,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 3,
+    "dismissals": 0,
+    "highest": 0,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 0.0
+  },
+  "bowling": {
+    "matches": 12,
+    "balls": 255,
+    "runs": 396,
+    "wickets": 14,
+    "maidens": 13.833333333333334,
+    "best_bowling": "4/20",
+    "overs": 42.5,
+    "economy": 9.31764705882353,
+    "average": 28.285714285714285,
+    "strike_rate": 18.214285714285715
+  }
+}

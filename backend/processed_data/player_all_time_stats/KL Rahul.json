@@ -1,0 +1,18 @@
+{
+  "player_name": "KL Rahul",
+  "batting": {
+    "matches": 122,
+    "runs": 4689,
+    "balls": 3578,
+    "fours": 400,
+    "sixes": 187,
+    "dots": 1278,
+    "dismissals": 103,
+    "highest": 132,
+    "50s": 37,
+    "100s": 4,
+    "strike_rate": 131.0508664058133,
+    "average": 45.52427184466019
+  },
+  "bowling": {}
+}

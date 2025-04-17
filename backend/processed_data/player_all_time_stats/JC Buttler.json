@@ -1,0 +1,18 @@
+{
+  "player_name": "JC Buttler",
+  "batting": {
+    "matches": 106,
+    "runs": 3583,
+    "balls": 2519,
+    "fours": 356,
+    "sixes": 161,
+    "dots": 1002,
+    "dismissals": 92,
+    "highest": 124,
+    "50s": 19,
+    "100s": 7,
+    "strike_rate": 142.23898372369987,
+    "average": 38.94565217391305
+  },
+  "bowling": {}
+}

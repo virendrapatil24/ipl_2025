@@ -1,0 +1,29 @@
+{
+  "player_name": "S Dube",
+  "batting": {
+    "matches": 61,
+    "runs": 1502,
+    "balls": 1077,
+    "fours": 86,
+    "sixes": 101,
+    "dots": 404,
+    "dismissals": 49,
+    "highest": 95,
+    "50s": 9,
+    "100s": 0,
+    "strike_rate": 139.46146703806872,
+    "average": 30.653061224489797
+  },
+  "bowling": {
+    "matches": 14,
+    "balls": 117,
+    "runs": 190,
+    "wickets": 6,
+    "maidens": 3.8333333333333335,
+    "best_bowling": "3/17",
+    "overs": 19.5,
+    "economy": 9.743589743589743,
+    "average": 31.666666666666668,
+    "strike_rate": 19.5
+  }
+}

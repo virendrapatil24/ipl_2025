@@ -1,0 +1,29 @@
+{
+  "player_name": "C Sakariya",
+  "batting": {
+    "matches": 7,
+    "runs": 20,
+    "balls": 31,
+    "fours": 3,
+    "sixes": 0,
+    "dots": 21,
+    "dismissals": 5,
+    "highest": 7,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 64.51612903225806,
+    "average": 4.0
+  },
+  "bowling": {
+    "matches": 19,
+    "balls": 460,
+    "runs": 610,
+    "wickets": 20,
+    "maidens": 23.833333333333332,
+    "best_bowling": "3/31",
+    "overs": 76.66666666666667,
+    "economy": 7.956521739130435,
+    "average": 30.5,
+    "strike_rate": 23.0
+  }
+}

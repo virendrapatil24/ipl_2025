@@ -1,0 +1,29 @@
+{
+  "player_name": "Noor Ahmad",
+  "batting": {
+    "matches": 5,
+    "runs": 13,
+    "balls": 18,
+    "fours": 2,
+    "sixes": 0,
+    "dots": 11,
+    "dismissals": 4,
+    "highest": 7,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 72.22222222222223,
+    "average": 3.25
+  },
+  "bowling": {
+    "matches": 23,
+    "balls": 513,
+    "runs": 672,
+    "wickets": 24,
+    "maidens": 28.5,
+    "best_bowling": "3/37",
+    "overs": 85.5,
+    "economy": 7.859649122807017,
+    "average": 28.0,
+    "strike_rate": 21.375
+  }
+}

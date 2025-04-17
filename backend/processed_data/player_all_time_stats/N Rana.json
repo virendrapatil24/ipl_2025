@@ -1,0 +1,29 @@
+{
+  "player_name": "N Rana",
+  "batting": {
+    "matches": 101,
+    "runs": 2636,
+    "balls": 2015,
+    "fours": 234,
+    "sixes": 132,
+    "dots": 835,
+    "dismissals": 92,
+    "highest": 87,
+    "50s": 18,
+    "100s": 0,
+    "strike_rate": 130.81885856079404,
+    "average": 28.652173913043477
+  },
+  "bowling": {
+    "matches": 24,
+    "balls": 185,
+    "runs": 253,
+    "wickets": 10,
+    "maidens": 9.666666666666666,
+    "best_bowling": "2/11",
+    "overs": 30.833333333333332,
+    "economy": 8.205405405405406,
+    "average": 25.3,
+    "strike_rate": 18.5
+  }
+}

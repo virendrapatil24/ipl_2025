@@ -1,0 +1,29 @@
+{
+  "player_name": "K Rabada",
+  "batting": {
+    "matches": 28,
+    "runs": 206,
+    "balls": 207,
+    "fours": 16,
+    "sixes": 8,
+    "dots": 101,
+    "dismissals": 15,
+    "highest": 44,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 99.51690821256038,
+    "average": 13.733333333333333
+  },
+  "bowling": {
+    "matches": 80,
+    "balls": 1907,
+    "runs": 2652,
+    "wickets": 126,
+    "maidens": 119.5,
+    "best_bowling": "4/21",
+    "overs": 317.8333333333333,
+    "economy": 8.34399580492921,
+    "average": 21.047619047619047,
+    "strike_rate": 15.134920634920634
+  }
+}

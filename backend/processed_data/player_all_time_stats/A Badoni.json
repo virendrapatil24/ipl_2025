@@ -1,0 +1,29 @@
+{
+  "player_name": "A Badoni",
+  "batting": {
+    "matches": 35,
+    "runs": 634,
+    "balls": 505,
+    "fours": 46,
+    "sixes": 24,
+    "dots": 183,
+    "dismissals": 25,
+    "highest": 59,
+    "50s": 4,
+    "100s": 0,
+    "strike_rate": 125.54455445544555,
+    "average": 25.36
+  },
+  "bowling": {
+    "matches": 5,
+    "balls": 25,
+    "runs": 37,
+    "wickets": 2,
+    "maidens": 0.8333333333333334,
+    "best_bowling": "1/6",
+    "overs": 4.166666666666667,
+    "economy": 8.879999999999999,
+    "average": 18.5,
+    "strike_rate": 12.5
+  }
+}

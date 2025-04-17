@@ -1,0 +1,29 @@
+{
+  "player_name": "Akash Deep",
+  "batting": {
+    "matches": 3,
+    "runs": 19,
+    "balls": 12,
+    "fours": 2,
+    "sixes": 1,
+    "dots": 4,
+    "dismissals": 2,
+    "highest": 17,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 158.33333333333334,
+    "average": 9.5
+  },
+  "bowling": {
+    "matches": 8,
+    "balls": 175,
+    "runs": 324,
+    "wickets": 8,
+    "maidens": 9.166666666666666,
+    "best_bowling": "3/45",
+    "overs": 29.166666666666668,
+    "economy": 11.108571428571429,
+    "average": 40.5,
+    "strike_rate": 21.875
+  }
+}

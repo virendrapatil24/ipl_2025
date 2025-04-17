@@ -1,0 +1,32 @@
+{
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {},
+    "bowling": {
+      "matches": 3,
+      "balls": 52,
+      "runs": 73,
+      "wickets": 4,
+      "maidens": 3.8333333333333335,
+      "best_bowling": "3/28",
+      "overs": 8.666666666666666,
+      "economy": 8.423076923076923,
+      "average": 18.25,
+      "strike_rate": 13.0
+    }
+  },
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 15,
+      "wickets": 4,
+      "maidens": 2.6666666666666665,
+      "best_bowling": "4/15",
+      "overs": 4.0,
+      "economy": 3.75,
+      "average": 3.75,
+      "strike_rate": 6.0
+    }
+  }
+}

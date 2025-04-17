@@ -1,0 +1,16 @@
+{
+  "player_name": "Suyash Sharma",
+  "batting": {},
+  "bowling": {
+    "matches": 13,
+    "balls": 264,
+    "runs": 381,
+    "wickets": 11,
+    "maidens": 14.166666666666666,
+    "best_bowling": "3/30",
+    "overs": 44.0,
+    "economy": 8.659090909090908,
+    "average": 34.63636363636363,
+    "strike_rate": 24.0
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 33.333333333333336,
+      "average": 1.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 29,
+      "wickets": 2,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "2/29",
+      "overs": 4.0,
+      "economy": 7.25,
+      "average": 14.5,
+      "strike_rate": 12.0
+    }
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 27,
+      "runs": 61,
+      "wickets": 1,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "1/61",
+      "overs": 4.5,
+      "economy": 13.555555555555555,
+      "average": 61.0,
+      "strike_rate": 27.0
+    }
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 2,
+      "runs": 12,
+      "balls": 16,
+      "fours": 0,
+      "sixes": 1,
+      "dots": 9,
+      "dismissals": 2,
+      "highest": 8,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 75.0,
+      "average": 6.0
+    },
+    "bowling": {
+      "matches": 5,
+      "balls": 103,
+      "runs": 175,
+      "wickets": 6,
+      "maidens": 6.833333333333333,
+      "best_bowling": "4/35",
+      "overs": 17.166666666666668,
+      "economy": 10.194174757281553,
+      "average": 29.166666666666668,
+      "strike_rate": 17.166666666666668
+    }
+  },
+  "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 26,
+      "runs": 34,
+      "wickets": 3,
+      "maidens": 1.8333333333333333,
+      "best_bowling": "3/34",
+      "overs": 4.333333333333333,
+      "economy": 7.846153846153847,
+      "average": 11.333333333333334,
+      "strike_rate": 8.666666666666666
+    }
+  },
+  "Sawai Mansingh Stadium, Jaipur": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 15,
+      "runs": 25,
+      "wickets": 0,
+      "maidens": 1.1666666666666667,
+      "best_bowling": "0/25",
+      "overs": 2.5,
+      "economy": 10.0
+    }
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 21,
+      "runs": 33,
+      "wickets": 1,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "1/33",
+      "overs": 3.5,
+      "economy": 9.428571428571429,
+      "average": 33.0,
+      "strike_rate": 21.0
+    }
+  }
+}

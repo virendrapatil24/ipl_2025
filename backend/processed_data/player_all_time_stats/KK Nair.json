@@ -1,0 +1,18 @@
+{
+  "player_name": "KK Nair",
+  "batting": {
+    "matches": 68,
+    "runs": 1496,
+    "balls": 1192,
+    "fours": 161,
+    "sixes": 39,
+    "dots": 470,
+    "dismissals": 61,
+    "highest": 83,
+    "50s": 10,
+    "100s": 0,
+    "strike_rate": 125.50335570469798,
+    "average": 24.524590163934427
+  },
+  "bowling": {}
+}

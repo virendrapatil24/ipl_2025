@@ -1,0 +1,29 @@
+{
+  "player_name": "SE Rutherford",
+  "batting": {
+    "matches": 9,
+    "runs": 106,
+    "balls": 107,
+    "fours": 3,
+    "sixes": 8,
+    "dots": 54,
+    "dismissals": 7,
+    "highest": 28,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 99.06542056074767,
+    "average": 15.142857142857142
+  },
+  "bowling": {
+    "matches": 6,
+    "balls": 46,
+    "runs": 60,
+    "wickets": 1,
+    "maidens": 1.1666666666666667,
+    "best_bowling": "1/6",
+    "overs": 7.666666666666667,
+    "economy": 7.826086956521739,
+    "average": 60.0,
+    "strike_rate": 46.0
+  }
+}

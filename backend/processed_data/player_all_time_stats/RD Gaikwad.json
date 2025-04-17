@@ -1,0 +1,18 @@
+{
+  "player_name": "RD Gaikwad",
+  "batting": {
+    "matches": 65,
+    "runs": 2380,
+    "balls": 1781,
+    "fours": 217,
+    "sixes": 91,
+    "dots": 638,
+    "dismissals": 55,
+    "highest": 108,
+    "50s": 18,
+    "100s": 2,
+    "strike_rate": 133.63279056709715,
+    "average": 43.27272727272727
+  },
+  "bowling": {}
+}

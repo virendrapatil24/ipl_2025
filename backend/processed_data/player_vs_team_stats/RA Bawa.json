@@ -1,0 +1,36 @@
+{
+  "Royal Challengers Bangalore": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {}
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 1,
+      "runs": 11,
+      "balls": 13,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 11,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 84.61538461538461,
+      "average": 11.0
+    },
+    "bowling": {}
+  }
+}

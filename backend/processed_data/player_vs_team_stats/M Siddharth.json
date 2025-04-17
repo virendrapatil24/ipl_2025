@@ -1,0 +1,43 @@
+{
+  "Punjab Kings": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 12,
+      "runs": 21,
+      "wickets": 0,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "0/21",
+      "overs": 2.0,
+      "economy": 10.5
+    }
+  },
+  "Royal Challengers Bengaluru": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 18,
+      "runs": 21,
+      "wickets": 1,
+      "maidens": 1.1666666666666667,
+      "best_bowling": "1/21",
+      "overs": 3.0,
+      "economy": 7.0,
+      "average": 21.0,
+      "strike_rate": 18.0
+    }
+  },
+  "Gujarat Titans": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 28,
+      "runs": 30,
+      "wickets": 0,
+      "maidens": 1.6666666666666667,
+      "best_bowling": "0/30",
+      "overs": 4.666666666666667,
+      "economy": 6.428571428571428
+    }
+  }
+}

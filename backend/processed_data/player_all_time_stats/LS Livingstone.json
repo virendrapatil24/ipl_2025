@@ -1,0 +1,29 @@
+{
+  "player_name": "LS Livingstone",
+  "batting": {
+    "matches": 39,
+    "runs": 939,
+    "balls": 609,
+    "fours": 66,
+    "sixes": 66,
+    "dots": 225,
+    "dismissals": 32,
+    "highest": 94,
+    "50s": 6,
+    "100s": 0,
+    "strike_rate": 154.1871921182266,
+    "average": 29.34375
+  },
+  "bowling": {
+    "matches": 22,
+    "balls": 267,
+    "runs": 395,
+    "wickets": 11,
+    "maidens": 11.833333333333334,
+    "best_bowling": "3/27",
+    "overs": 44.5,
+    "economy": 8.876404494382022,
+    "average": 35.90909090909091,
+    "strike_rate": 24.272727272727273
+  }
+}

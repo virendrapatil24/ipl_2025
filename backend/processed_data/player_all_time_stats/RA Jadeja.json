@@ -1,0 +1,29 @@
+{
+  "player_name": "RA Jadeja",
+  "batting": {
+    "matches": 180,
+    "runs": 2959,
+    "balls": 2378,
+    "fours": 215,
+    "sixes": 107,
+    "dots": 824,
+    "dismissals": 106,
+    "highest": 62,
+    "50s": 3,
+    "100s": 0,
+    "strike_rate": 124.4322960470984,
+    "average": 27.91509433962264
+  },
+  "bowling": {
+    "matches": 211,
+    "balls": 3895,
+    "runs": 4917,
+    "wickets": 169,
+    "maidens": 202.66666666666666,
+    "best_bowling": "5/16",
+    "overs": 649.1666666666666,
+    "economy": 7.5743260590500645,
+    "average": 29.09467455621302,
+    "strike_rate": 23.047337278106507
+  }
+}

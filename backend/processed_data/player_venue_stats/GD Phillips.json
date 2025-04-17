@@ -1,0 +1,117 @@
+{
+  "Zayed Cricket Stadium, Abu Dhabi": {
+    "batting": {
+      "matches": 1,
+      "runs": 14,
+      "balls": 8,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 14,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 175.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 3,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/3",
+      "overs": 1.0,
+      "economy": 3.0
+    }
+  },
+  "Sharjah Cricket Stadium": {
+    "batting": {
+      "matches": 2,
+      "runs": 12,
+      "balls": 25,
+      "fours": 0,
+      "sixes": 1,
+      "dots": 19,
+      "dismissals": 2,
+      "highest": 8,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 48.0,
+      "average": 6.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 7,
+      "runs": 17,
+      "wickets": 1,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "1/17",
+      "overs": 1.1666666666666667,
+      "economy": 14.571428571428571,
+      "average": 17.0,
+      "strike_rate": 7.0
+    }
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {
+      "matches": 3,
+      "runs": 13,
+      "balls": 11,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 6,
+      "dismissals": 3,
+      "highest": 8,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 118.18181818181819,
+      "average": 4.333333333333333
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 18,
+      "runs": 20,
+      "wickets": 1,
+      "maidens": 1.0,
+      "best_bowling": "1/10",
+      "overs": 3.0,
+      "economy": 6.666666666666667,
+      "average": 20.0,
+      "strike_rate": 18.0
+    }
+  },
+  "Sawai Mansingh Stadium, Jaipur": {
+    "batting": {
+      "matches": 1,
+      "runs": 25,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 3,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 25,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 357.14285714285717,
+      "average": 25.0
+    },
+    "bowling": {}
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 25.0,
+      "average": 1.0
+    },
+    "bowling": {}
+  }
+}

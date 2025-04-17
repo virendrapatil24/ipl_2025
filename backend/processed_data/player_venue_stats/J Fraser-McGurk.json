@@ -1,0 +1,86 @@
+{
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {
+      "matches": 1,
+      "runs": 55,
+      "balls": 38,
+      "fours": 2,
+      "sixes": 5,
+      "dots": 18,
+      "dismissals": 1,
+      "highest": 55,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 144.73684210526315,
+      "average": 55.0
+    },
+    "bowling": {}
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 20,
+      "balls": 11,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 7,
+      "dismissals": 1,
+      "highest": 20,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 181.8181818181818,
+      "average": 20.0
+    },
+    "bowling": {}
+  },
+  "Arun Jaitley Stadium, Delhi": {
+    "batting": {
+      "matches": 5,
+      "runs": 222,
+      "balls": 86,
+      "fours": 25,
+      "sixes": 18,
+      "dots": 30,
+      "dismissals": 5,
+      "highest": 84,
+      "50s": 3,
+      "100s": 0,
+      "strike_rate": 258.13953488372096,
+      "average": 44.4
+    },
+    "bowling": {}
+  },
+  "Eden Gardens, Kolkata": {
+    "batting": {
+      "matches": 1,
+      "runs": 12,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 12,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 171.42857142857142,
+      "average": 12.0
+    },
+    "bowling": {}
+  },
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "batting": {
+      "matches": 1,
+      "runs": 21,
+      "balls": 8,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 21,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 262.5
+    },
+    "bowling": {}
+  }
+}

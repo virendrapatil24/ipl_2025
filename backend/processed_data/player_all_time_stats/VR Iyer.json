@@ -1,0 +1,29 @@
+{
+  "player_name": "VR Iyer",
+  "batting": {
+    "matches": 49,
+    "runs": 1326,
+    "balls": 1000,
+    "fours": 121,
+    "sixes": 61,
+    "dots": 405,
+    "dismissals": 42,
+    "highest": 104,
+    "50s": 11,
+    "100s": 1,
+    "strike_rate": 132.6,
+    "average": 31.571428571428573
+  },
+  "bowling": {
+    "matches": 9,
+    "balls": 84,
+    "runs": 145,
+    "wickets": 3,
+    "maidens": 2.5,
+    "best_bowling": "2/30",
+    "overs": 14.0,
+    "economy": 10.357142857142858,
+    "average": 48.333333333333336,
+    "strike_rate": 28.0
+  }
+}

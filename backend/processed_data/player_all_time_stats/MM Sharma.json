@@ -1,0 +1,29 @@
+{
+  "player_name": "MM Sharma",
+  "batting": {
+    "matches": 28,
+    "runs": 124,
+    "balls": 137,
+    "fours": 9,
+    "sixes": 4,
+    "dots": 69,
+    "dismissals": 16,
+    "highest": 21,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 90.51094890510949,
+    "average": 7.75
+  },
+  "bowling": {
+    "matches": 111,
+    "balls": 2308,
+    "runs": 3278,
+    "wickets": 147,
+    "maidens": 130.33333333333334,
+    "best_bowling": "5/11",
+    "overs": 384.6666666666667,
+    "economy": 8.52166377816291,
+    "average": 22.299319727891156,
+    "strike_rate": 15.700680272108844
+  }
+}

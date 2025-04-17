@@ -1,0 +1,28 @@
+{
+  "player_name": "SH Johnson",
+  "batting": {
+    "matches": 3,
+    "runs": 6,
+    "balls": 7,
+    "fours": 1,
+    "sixes": 0,
+    "dots": 4,
+    "dismissals": 0,
+    "highest": 5,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 85.71428571428571
+  },
+  "bowling": {
+    "matches": 5,
+    "balls": 99,
+    "runs": 155,
+    "wickets": 4,
+    "maidens": 5.666666666666667,
+    "best_bowling": "2/25",
+    "overs": 16.5,
+    "economy": 9.393939393939394,
+    "average": 38.75,
+    "strike_rate": 24.75
+  }
+}

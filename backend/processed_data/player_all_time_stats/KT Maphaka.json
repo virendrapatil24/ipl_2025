@@ -1,0 +1,16 @@
+{
+  "player_name": "KT Maphaka",
+  "batting": {},
+  "bowling": {
+    "matches": 2,
+    "balls": 39,
+    "runs": 90,
+    "wickets": 1,
+    "maidens": 1.8333333333333333,
+    "best_bowling": "1/23",
+    "overs": 6.5,
+    "economy": 13.846153846153847,
+    "average": 90.0,
+    "strike_rate": 39.0
+  }
+}

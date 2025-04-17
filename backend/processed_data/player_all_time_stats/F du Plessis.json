@@ -1,0 +1,27 @@
+{
+  "player_name": "F du Plessis",
+  "batting": {
+    "matches": 138,
+    "runs": 4571,
+    "balls": 3435,
+    "fours": 422,
+    "sixes": 166,
+    "dots": 1219,
+    "dismissals": 119,
+    "highest": 96,
+    "50s": 37,
+    "100s": 0,
+    "strike_rate": 133.07132459970887,
+    "average": 38.411764705882355
+  },
+  "bowling": {
+    "matches": 1,
+    "balls": 6,
+    "runs": 16,
+    "wickets": 0,
+    "maidens": 0.0,
+    "best_bowling": "0/16",
+    "overs": 1.0,
+    "economy": 16.0
+  }
+}

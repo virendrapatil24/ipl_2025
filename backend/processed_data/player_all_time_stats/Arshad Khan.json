@@ -1,0 +1,29 @@
+{
+  "player_name": "Arshad Khan",
+  "batting": {
+    "matches": 6,
+    "runs": 96,
+    "balls": 67,
+    "fours": 5,
+    "sixes": 6,
+    "dots": 24,
+    "dismissals": 3,
+    "highest": 58,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 143.28358208955223,
+    "average": 32.0
+  },
+  "bowling": {
+    "matches": 9,
+    "balls": 153,
+    "runs": 282,
+    "wickets": 6,
+    "maidens": 7.333333333333333,
+    "best_bowling": "3/40",
+    "overs": 25.5,
+    "economy": 11.058823529411764,
+    "average": 47.0,
+    "strike_rate": 25.5
+  }
+}

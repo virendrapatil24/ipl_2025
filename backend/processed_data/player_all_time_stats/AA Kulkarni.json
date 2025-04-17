@@ -1,0 +1,18 @@
+{
+  "player_name": "AA Kulkarni",
+  "batting": {
+    "matches": 2,
+    "runs": 9,
+    "balls": 8,
+    "fours": 2,
+    "sixes": 0,
+    "dots": 5,
+    "dismissals": 2,
+    "highest": 9,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 112.5,
+    "average": 4.5
+  },
+  "bowling": {}
+}

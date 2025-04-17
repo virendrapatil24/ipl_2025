@@ -1,0 +1,29 @@
+{
+  "player_name": "Simarjeet Singh",
+  "batting": {
+    "matches": 3,
+    "runs": 7,
+    "balls": 8,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 3,
+    "dismissals": 1,
+    "highest": 3,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 87.5,
+    "average": 7.0
+  },
+  "bowling": {
+    "matches": 10,
+    "balls": 193,
+    "runs": 265,
+    "wickets": 10,
+    "maidens": 13.666666666666666,
+    "best_bowling": "3/26",
+    "overs": 32.166666666666664,
+    "economy": 8.238341968911918,
+    "average": 26.5,
+    "strike_rate": 19.3
+  }
+}

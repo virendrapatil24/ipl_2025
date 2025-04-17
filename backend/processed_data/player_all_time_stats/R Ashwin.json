@@ -1,0 +1,29 @@
+{
+  "player_name": "R Ashwin",
+  "batting": {
+    "matches": 89,
+    "runs": 800,
+    "balls": 698,
+    "fours": 61,
+    "sixes": 28,
+    "dots": 267,
+    "dismissals": 57,
+    "highest": 50,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 114.61318051575931,
+    "average": 14.035087719298245
+  },
+  "bowling": {
+    "matches": 208,
+    "balls": 4679,
+    "runs": 5435,
+    "wickets": 198,
+    "maidens": 258.6666666666667,
+    "best_bowling": "5/25",
+    "overs": 779.8333333333334,
+    "economy": 6.969437914084206,
+    "average": 27.449494949494948,
+    "strike_rate": 23.63131313131313
+  }
+}

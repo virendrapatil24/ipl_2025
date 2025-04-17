@@ -1,0 +1,29 @@
+{
+  "player_name": "PJ Cummins",
+  "batting": {
+    "matches": 39,
+    "runs": 515,
+    "balls": 359,
+    "fours": 33,
+    "sixes": 34,
+    "dots": 150,
+    "dismissals": 25,
+    "highest": 66,
+    "50s": 3,
+    "100s": 0,
+    "strike_rate": 143.4540389972145,
+    "average": 20.6
+  },
+  "bowling": {
+    "matches": 58,
+    "balls": 1370,
+    "runs": 1976,
+    "wickets": 66,
+    "maidens": 77.83333333333333,
+    "best_bowling": "4/26",
+    "overs": 228.33333333333334,
+    "economy": 8.654014598540146,
+    "average": 29.939393939393938,
+    "strike_rate": 20.757575757575758
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Eden Gardens, Kolkata": {
+    "batting": {},
+    "bowling": {
+      "matches": 9,
+      "balls": 171,
+      "runs": 260,
+      "wickets": 5,
+      "maidens": 9.5,
+      "best_bowling": "3/30",
+      "overs": 28.5,
+      "economy": 9.12280701754386,
+      "average": 52.0,
+      "strike_rate": 34.2
+    }
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 25,
+      "runs": 35,
+      "wickets": 1,
+      "maidens": 1.0,
+      "best_bowling": "1/35",
+      "overs": 4.166666666666667,
+      "economy": 8.399999999999999,
+      "average": 35.0,
+      "strike_rate": 25.0
+    }
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 27,
+      "wickets": 2,
+      "maidens": 1.8333333333333333,
+      "best_bowling": "2/27",
+      "overs": 4.0,
+      "economy": 6.75,
+      "average": 13.5,
+      "strike_rate": 12.0
+    }
+  },
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 25,
+      "runs": 30,
+      "wickets": 3,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "3/30",
+      "overs": 4.166666666666667,
+      "economy": 7.199999999999999,
+      "average": 10.0,
+      "strike_rate": 8.333333333333334
+    }
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 29,
+      "wickets": 0,
+      "maidens": 1.0,
+      "best_bowling": "0/29",
+      "overs": 3.1666666666666665,
+      "economy": 9.157894736842106
+    }
+  }
+}

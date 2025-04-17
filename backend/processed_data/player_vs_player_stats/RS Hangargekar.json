@@ -1,0 +1,110 @@
+{
+  "Shubman Gill": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 4,
+      "runs": 7,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/7",
+      "overs": 0.6666666666666666,
+      "economy": 10.5
+    }
+  },
+  "B Sai Sudharsan": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 3,
+      "runs": 4,
+      "wickets": 1,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "1/4",
+      "overs": 0.5,
+      "economy": 8.0,
+      "average": 4.0,
+      "strike_rate": 3.0
+    }
+  },
+  "HH Pandya": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 3,
+      "runs": 3,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/3",
+      "overs": 0.5,
+      "economy": 6.0
+    }
+  },
+  "V Shankar": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 9,
+      "runs": 14,
+      "wickets": 1,
+      "maidens": 0.5,
+      "best_bowling": "1/14",
+      "overs": 1.5,
+      "economy": 9.333333333333334,
+      "average": 14.0,
+      "strike_rate": 9.0
+    }
+  },
+  "R Tewatia": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 3,
+      "runs": 1,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/1",
+      "overs": 0.5,
+      "economy": 2.0
+    }
+  },
+  "MP Stoinis": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 1,
+      "runs": 1,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/1",
+      "overs": 0.16666666666666666,
+      "economy": 6.0
+    }
+  },
+  "N Pooran": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 5,
+      "runs": 14,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/14",
+      "overs": 0.8333333333333334,
+      "economy": 16.8
+    }
+  },
+  "A Badoni": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 3,
+      "runs": 5,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/5",
+      "overs": 0.5,
+      "economy": 10.0
+    }
+  }
+}

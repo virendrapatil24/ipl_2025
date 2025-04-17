@@ -1,0 +1,68 @@
+{
+  "Mumbai Indians": {
+    "batting": {
+      "matches": 1,
+      "runs": 7,
+      "balls": 13,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 7,
+      "dismissals": 0,
+      "highest": 7,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 53.84615384615385
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 36,
+      "runs": 58,
+      "wickets": 0,
+      "maidens": 1.5,
+      "best_bowling": "0/29",
+      "overs": 6.0,
+      "economy": 9.666666666666666
+    }
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 12,
+      "runs": 14,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/14",
+      "overs": 2.0,
+      "economy": 7.0
+    }
+  },
+  "Punjab Kings": {
+    "batting": {
+      "matches": 1,
+      "runs": 16,
+      "balls": 20,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 10,
+      "dismissals": 1,
+      "highest": 16,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 80.0,
+      "average": 16.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 19,
+      "wickets": 1,
+      "maidens": 1.3333333333333333,
+      "best_bowling": "1/19",
+      "overs": 3.1666666666666665,
+      "economy": 6.0,
+      "average": 19.0,
+      "strike_rate": 19.0
+    }
+  }
+}

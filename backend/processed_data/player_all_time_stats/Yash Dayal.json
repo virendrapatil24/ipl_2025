@@ -1,0 +1,29 @@
+{
+  "player_name": "Yash Dayal",
+  "batting": {
+    "matches": 1,
+    "runs": 0,
+    "balls": 1,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 1,
+    "dismissals": 1,
+    "highest": 0,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 0.0,
+    "average": 0.0
+  },
+  "bowling": {
+    "matches": 28,
+    "balls": 615,
+    "runs": 933,
+    "wickets": 31,
+    "maidens": 36.0,
+    "best_bowling": "4/20",
+    "overs": 102.5,
+    "economy": 9.102439024390243,
+    "average": 30.096774193548388,
+    "strike_rate": 19.838709677419356
+  }
+}

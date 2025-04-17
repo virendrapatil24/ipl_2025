@@ -1,0 +1,74 @@
+{
+  "Mumbai Indians": {
+    "batting": {},
+    "bowling": {
+      "matches": 2,
+      "balls": 31,
+      "runs": 48,
+      "wickets": 1,
+      "maidens": 2.5,
+      "best_bowling": "1/14",
+      "overs": 5.166666666666667,
+      "economy": 9.29032258064516,
+      "average": 48.0,
+      "strike_rate": 31.0
+    }
+  },
+  "Lucknow Super Giants": {
+    "batting": {
+      "matches": 1,
+      "runs": 3,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 3,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 25,
+      "runs": 39,
+      "wickets": 1,
+      "maidens": 1.8333333333333333,
+      "best_bowling": "1/39",
+      "overs": 4.166666666666667,
+      "economy": 9.36,
+      "average": 39.0,
+      "strike_rate": 25.0
+    }
+  },
+  "Rajasthan Royals": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 25,
+      "runs": 27,
+      "wickets": 2,
+      "maidens": 1.5,
+      "best_bowling": "2/27",
+      "overs": 4.166666666666667,
+      "economy": 6.4799999999999995,
+      "average": 13.5,
+      "strike_rate": 12.5
+    }
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 26,
+      "runs": 68,
+      "wickets": 1,
+      "maidens": 0.5,
+      "best_bowling": "1/68",
+      "overs": 4.333333333333333,
+      "economy": 15.692307692307693,
+      "average": 68.0,
+      "strike_rate": 26.0
+    }
+  }
+}

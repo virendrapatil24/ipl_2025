@@ -1,0 +1,18 @@
+{
+  "player_name": "Rahmanullah Gurbaz",
+  "batting": {
+    "matches": 13,
+    "runs": 289,
+    "balls": 228,
+    "fours": 24,
+    "sixes": 19,
+    "dots": 119,
+    "dismissals": 13,
+    "highest": 81,
+    "50s": 2,
+    "100s": 0,
+    "strike_rate": 126.75438596491227,
+    "average": 22.23076923076923
+  },
+  "bowling": {}
+}

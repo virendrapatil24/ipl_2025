@@ -1,0 +1,29 @@
+{
+  "player_name": "R Parag",
+  "batting": {
+    "matches": 58,
+    "runs": 1173,
+    "balls": 909,
+    "fours": 84,
+    "sixes": 60,
+    "dots": 344,
+    "dismissals": 45,
+    "highest": 84,
+    "50s": 6,
+    "100s": 0,
+    "strike_rate": 129.04290429042905,
+    "average": 26.066666666666666
+  },
+  "bowling": {
+    "matches": 21,
+    "balls": 181,
+    "runs": 307,
+    "wickets": 5,
+    "maidens": 6.0,
+    "best_bowling": "1/7",
+    "overs": 30.166666666666668,
+    "economy": 10.176795580110497,
+    "average": 61.4,
+    "strike_rate": 36.2
+  }
+}

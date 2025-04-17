@@ -1,0 +1,18 @@
+{
+  "player_name": "DA Miller",
+  "batting": {
+    "matches": 123,
+    "runs": 2924,
+    "balls": 2171,
+    "fours": 207,
+    "sixes": 134,
+    "dots": 726,
+    "dismissals": 79,
+    "highest": 101,
+    "50s": 13,
+    "100s": 1,
+    "strike_rate": 134.68447719944726,
+    "average": 37.0126582278481
+  },
+  "bowling": {}
+}

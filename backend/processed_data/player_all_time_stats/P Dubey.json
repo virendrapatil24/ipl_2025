@@ -1,0 +1,29 @@
+{
+  "player_name": "P Dubey",
+  "batting": {
+    "matches": 2,
+    "runs": 23,
+    "balls": 33,
+    "fours": 2,
+    "sixes": 0,
+    "dots": 17,
+    "dismissals": 1,
+    "highest": 16,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 69.6969696969697,
+    "average": 23.0
+  },
+  "bowling": {
+    "matches": 4,
+    "balls": 67,
+    "runs": 91,
+    "wickets": 1,
+    "maidens": 3.3333333333333335,
+    "best_bowling": "1/19",
+    "overs": 11.166666666666666,
+    "economy": 8.149253731343284,
+    "average": 91.0,
+    "strike_rate": 67.0
+  }
+}

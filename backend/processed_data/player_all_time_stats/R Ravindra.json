@@ -1,0 +1,27 @@
+{
+  "player_name": "R Ravindra",
+  "batting": {
+    "matches": 10,
+    "runs": 222,
+    "balls": 146,
+    "fours": 22,
+    "sixes": 12,
+    "dots": 56,
+    "dismissals": 9,
+    "highest": 61,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 152.05479452054794,
+    "average": 24.666666666666668
+  },
+  "bowling": {
+    "matches": 2,
+    "balls": 12,
+    "runs": 7,
+    "wickets": 0,
+    "maidens": 0.8333333333333334,
+    "best_bowling": "0/3",
+    "overs": 2.0,
+    "economy": 3.5
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "player_name": "TH David",
+  "batting": {
+    "matches": 35,
+    "runs": 659,
+    "balls": 417,
+    "fours": 38,
+    "sixes": 46,
+    "dots": 140,
+    "dismissals": 22,
+    "highest": 46,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 158.0335731414868,
+    "average": 29.954545454545453
+  },
+  "bowling": {}
+}

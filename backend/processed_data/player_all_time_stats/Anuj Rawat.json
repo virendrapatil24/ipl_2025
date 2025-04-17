@@ -1,0 +1,18 @@
+{
+  "player_name": "Anuj Rawat",
+  "batting": {
+    "matches": 21,
+    "runs": 318,
+    "balls": 276,
+    "fours": 26,
+    "sixes": 14,
+    "dots": 123,
+    "dismissals": 14,
+    "highest": 66,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 115.21739130434783,
+    "average": 22.714285714285715
+  },
+  "bowling": {}
+}

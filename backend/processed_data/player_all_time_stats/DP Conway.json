@@ -1,0 +1,18 @@
+{
+  "player_name": "DP Conway",
+  "batting": {
+    "matches": 22,
+    "runs": 924,
+    "balls": 669,
+    "fours": 100,
+    "sixes": 30,
+    "dots": 237,
+    "dismissals": 19,
+    "highest": 92,
+    "50s": 9,
+    "100s": 0,
+    "strike_rate": 138.11659192825113,
+    "average": 48.63157894736842
+  },
+  "bowling": {}
+}

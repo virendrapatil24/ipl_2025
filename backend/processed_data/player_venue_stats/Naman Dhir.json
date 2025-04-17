@@ -1,0 +1,88 @@
+{
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 20,
+      "balls": 12,
+      "fours": 3,
+      "sixes": 1,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 20,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 166.66666666666666,
+      "average": 20.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 13,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/13",
+      "overs": 1.0,
+      "economy": 13.0
+    }
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 30,
+      "balls": 15,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 30,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 200.0,
+      "average": 30.0
+    },
+    "bowling": {}
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 4,
+      "runs": 73,
+      "balls": 51,
+      "fours": 6,
+      "sixes": 5,
+      "dots": 25,
+      "dismissals": 3,
+      "highest": 62,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 143.13725490196077,
+      "average": 24.333333333333332
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 23,
+      "runs": 42,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/17",
+      "overs": 3.8333333333333335,
+      "economy": 10.956521739130434
+    }
+  },
+  "Eden Gardens, Kolkata": {
+    "batting": {
+      "matches": 1,
+      "runs": 17,
+      "balls": 6,
+      "fours": 1,
+      "sixes": 2,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 17,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 283.3333333333333,
+      "average": 17.0
+    },
+    "bowling": {}
+  }
+}

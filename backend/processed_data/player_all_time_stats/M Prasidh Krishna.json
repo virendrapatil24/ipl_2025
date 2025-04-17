@@ -1,0 +1,29 @@
+{
+  "player_name": "M Prasidh Krishna",
+  "batting": {
+    "matches": 7,
+    "runs": 9,
+    "balls": 24,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 15,
+    "dismissals": 2,
+    "highest": 4,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 37.5,
+    "average": 4.5
+  },
+  "bowling": {
+    "matches": 51,
+    "balls": 1231,
+    "runs": 1741,
+    "wickets": 54,
+    "maidens": 79.16666666666667,
+    "best_bowling": "5/30",
+    "overs": 205.16666666666666,
+    "economy": 8.48578391551584,
+    "average": 32.24074074074074,
+    "strike_rate": 22.796296296296298
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "GJ Maxwell",
+  "batting": {
+    "matches": 128,
+    "runs": 2772,
+    "balls": 1842,
+    "fours": 233,
+    "sixes": 160,
+    "dots": 704,
+    "dismissals": 108,
+    "highest": 95,
+    "50s": 18,
+    "100s": 0,
+    "strike_rate": 150.4885993485342,
+    "average": 25.666666666666668
+  },
+  "bowling": {
+    "matches": 79,
+    "balls": 965,
+    "runs": 1311,
+    "wickets": 41,
+    "maidens": 50.166666666666664,
+    "best_bowling": "2/10",
+    "overs": 160.83333333333334,
+    "economy": 8.151295336787564,
+    "average": 31.975609756097562,
+    "strike_rate": 23.536585365853657
+  }
+}

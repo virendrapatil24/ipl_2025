@@ -1,0 +1,29 @@
+{
+  "player_name": "R Sai Kishore",
+  "batting": {
+    "matches": 1,
+    "runs": 13,
+    "balls": 6,
+    "fours": 0,
+    "sixes": 2,
+    "dots": 3,
+    "dismissals": 1,
+    "highest": 13,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 216.66666666666666,
+    "average": 13.0
+  },
+  "bowling": {
+    "matches": 10,
+    "balls": 191,
+    "runs": 259,
+    "wickets": 13,
+    "maidens": 9.333333333333334,
+    "best_bowling": "4/33",
+    "overs": 31.833333333333332,
+    "economy": 8.136125654450263,
+    "average": 19.923076923076923,
+    "strike_rate": 14.692307692307692
+  }
+}

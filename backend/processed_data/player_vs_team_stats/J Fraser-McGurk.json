@@ -1,0 +1,120 @@
+{
+  "Lucknow Super Giants": {
+    "batting": {
+      "matches": 2,
+      "runs": 55,
+      "balls": 42,
+      "fours": 2,
+      "sixes": 5,
+      "dots": 22,
+      "dismissals": 2,
+      "highest": 55,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 130.95238095238096,
+      "average": 27.5
+    },
+    "bowling": {}
+  },
+  "Gujarat Titans": {
+    "batting": {
+      "matches": 2,
+      "runs": 43,
+      "balls": 26,
+      "fours": 4,
+      "sixes": 4,
+      "dots": 15,
+      "dismissals": 2,
+      "highest": 23,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 165.3846153846154,
+      "average": 21.5
+    },
+    "bowling": {}
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 65,
+      "balls": 19,
+      "fours": 5,
+      "sixes": 7,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 65,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 342.10526315789474,
+      "average": 65.0
+    },
+    "bowling": {}
+  },
+  "Mumbai Indians": {
+    "batting": {
+      "matches": 1,
+      "runs": 84,
+      "balls": 28,
+      "fours": 11,
+      "sixes": 6,
+      "dots": 7,
+      "dismissals": 1,
+      "highest": 84,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 300.0,
+      "average": 84.0
+    },
+    "bowling": {}
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 1,
+      "runs": 12,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 12,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 171.42857142857142,
+      "average": 12.0
+    },
+    "bowling": {}
+  },
+  "Rajasthan Royals": {
+    "batting": {
+      "matches": 1,
+      "runs": 50,
+      "balls": 20,
+      "fours": 7,
+      "sixes": 3,
+      "dots": 7,
+      "dismissals": 1,
+      "highest": 50,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 250.0,
+      "average": 50.0
+    },
+    "bowling": {}
+  },
+  "Royal Challengers Bengaluru": {
+    "batting": {
+      "matches": 1,
+      "runs": 21,
+      "balls": 8,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 21,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 262.5
+    },
+    "bowling": {}
+  }
+}

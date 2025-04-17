@@ -1,0 +1,18 @@
+{
+  "player_name": "PD Salt",
+  "batting": {
+    "matches": 21,
+    "runs": 653,
+    "balls": 385,
+    "fours": 74,
+    "sixes": 34,
+    "dots": 144,
+    "dismissals": 19,
+    "highest": 89,
+    "50s": 6,
+    "100s": 0,
+    "strike_rate": 169.6103896103896,
+    "average": 34.36842105263158
+  },
+  "bowling": {}
+}

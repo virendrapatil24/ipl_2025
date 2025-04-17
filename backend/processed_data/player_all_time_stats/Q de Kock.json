@@ -1,0 +1,18 @@
+{
+  "player_name": "Q de Kock",
+  "batting": {
+    "matches": 107,
+    "runs": 3160,
+    "balls": 2410,
+    "fours": 316,
+    "sixes": 123,
+    "dots": 966,
+    "dismissals": 99,
+    "highest": 140,
+    "50s": 23,
+    "100s": 2,
+    "strike_rate": 131.12033195020746,
+    "average": 31.91919191919192
+  },
+  "bowling": {}
+}

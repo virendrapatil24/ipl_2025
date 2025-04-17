@@ -1,0 +1,87 @@
+{
+  "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam": {
+    "batting": {
+      "matches": 1,
+      "runs": 54,
+      "balls": 28,
+      "fours": 5,
+      "sixes": 3,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 54,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 192.85714285714286,
+      "average": 54.0
+    },
+    "bowling": {}
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "batting": {
+      "matches": 1,
+      "runs": 24,
+      "balls": 18,
+      "fours": 3,
+      "sixes": 1,
+      "dots": 8,
+      "dismissals": 1,
+      "highest": 24,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 133.33333333333334,
+      "average": 24.0
+    },
+    "bowling": {}
+  },
+  "Eden Gardens, Kolkata": {
+    "batting": {
+      "matches": 3,
+      "runs": 40,
+      "balls": 28,
+      "fours": 5,
+      "sixes": 1,
+      "dots": 10,
+      "dismissals": 3,
+      "highest": 30,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 142.85714285714286,
+      "average": 13.333333333333334
+    },
+    "bowling": {}
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 13,
+      "balls": 7,
+      "fours": 0,
+      "sixes": 2,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 13,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 185.71428571428572,
+      "average": 13.0
+    },
+    "bowling": {}
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {
+      "matches": 1,
+      "runs": 32,
+      "balls": 28,
+      "fours": 3,
+      "sixes": 1,
+      "dots": 10,
+      "dismissals": 1,
+      "highest": 32,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 114.28571428571429,
+      "average": 32.0
+    },
+    "bowling": {}
+  }
+}

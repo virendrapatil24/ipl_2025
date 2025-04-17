@@ -1,0 +1,18 @@
+{
+  "player_name": "N Pooran",
+  "batting": {
+    "matches": 72,
+    "runs": 1769,
+    "balls": 1143,
+    "fours": 113,
+    "sixes": 127,
+    "dots": 421,
+    "dismissals": 55,
+    "highest": 77,
+    "50s": 9,
+    "100s": 0,
+    "strike_rate": 154.7681539807524,
+    "average": 32.163636363636364
+  },
+  "bowling": {}
+}
