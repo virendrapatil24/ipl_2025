@@ -27,6 +27,11 @@ class FeatureEngineering:
         self.team_h2h_stats_dir = self.processed_data_dir / "team_h2h_stats"
         self.team_h2h_stats_dir.mkdir(exist_ok=True)
 
+        self.player_all_time_stats_dir = (
+            self.processed_data_dir / "player_all_time_stats"
+        )
+        self.player_all_time_stats_dir.mkdir(exist_ok=True)
+
         self.h2h_stats_dir = self.processed_data_dir / "h2h_stats"
         self.h2h_stats_dir.mkdir(exist_ok=True)
 

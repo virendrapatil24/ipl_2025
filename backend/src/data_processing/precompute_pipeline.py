@@ -5,7 +5,7 @@ from typing import Optional
 from ..utils.logger import logger
 from .data_loader import DataLoader
 from .feature_engineering import FeatureEngineering
-from .player_stats_processor import PlayerStatsProcessor
+from .player_analysis_processor import PlayerAnalysisProcessor
 
 
 def run_precompute_pipeline(data_dir: Optional[Path] = None) -> None:
@@ -15,7 +15,7 @@ def run_precompute_pipeline(data_dir: Optional[Path] = None) -> None:
     # Initialize components
     data_loader = DataLoader(data_dir)
     feature_engineering = FeatureEngineering(data_loader)
-    player_stats_processor = PlayerStatsProcessor(data_dir)
+    player_analysis_processor = PlayerAnalysisProcessor(data_dir)
 
     # Load data
     matches_df = data_loader.load_matches()
@@ -39,6 +39,11 @@ def run_precompute_pipeline(data_dir: Optional[Path] = None) -> None:
     # STEP 3
     # Process team head-to-head statistics
     feature_engineering.calculate_team_h2h_statistics(matches_df)
+
+    # STEP 4
+    # Process player analysis (all four types)
+    logger.info("Processing player analysis...")
+    player_analysis_processor.process_all_player_analysis()
 
     # # Process player statistics
     # logger.info("Processing player statistics...")
