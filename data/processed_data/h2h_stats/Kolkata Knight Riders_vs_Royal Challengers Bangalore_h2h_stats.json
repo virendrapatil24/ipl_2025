@@ -1,0 +1,38 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 32,
+    "batting": {
+      "total_runs": 5028,
+      "wickets_lost": 186,
+      "fours": 443,
+      "sixes": 199,
+      "average": 27.032258064516128,
+      "runs_per_match": 157.125
+    },
+    "bowling": {
+      "runs_conceded": 4742,
+      "wickets_taken": 178,
+      "maidens": 215.33333333333334,
+      "average": 26.640449438202246,
+      "runs_per_match": 148.1875
+    }
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 32,
+    "batting": {
+      "total_runs": 4742,
+      "wickets_lost": 178,
+      "fours": 407,
+      "sixes": 176,
+      "average": 26.640449438202246,
+      "runs_per_match": 148.1875
+    },
+    "bowling": {
+      "runs_conceded": 5028,
+      "wickets_taken": 186,
+      "maidens": 223.83333333333334,
+      "average": 27.032258064516128,
+      "runs_per_match": 157.125
+    }
+  }
+}

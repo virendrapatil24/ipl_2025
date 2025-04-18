@@ -1,0 +1,27 @@
+{
+  "player_name": "Naman Dhir",
+  "batting": {
+    "matches": 7,
+    "runs": 140,
+    "balls": 84,
+    "fours": 12,
+    "sixes": 10,
+    "dots": 35,
+    "dismissals": 6,
+    "highest": 62,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 166.66666666666666,
+    "average": 23.333333333333332
+  },
+  "bowling": {
+    "matches": 3,
+    "balls": 29,
+    "runs": 55,
+    "wickets": 0,
+    "maidens": 0.5,
+    "best_bowling": "0/13",
+    "overs": 4.833333333333333,
+    "economy": 11.379310344827587
+  }
+}

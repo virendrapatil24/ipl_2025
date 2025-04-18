@@ -1,0 +1,1036 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 28,
+    "Sunrisers Hyderabad_wins": 9,
+    "Kolkata Knight Riders_wins": 19,
+    "recent_form": [
+      {
+        "date": "2013-04-14",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2013-05-19",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-18",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-24",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-22",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2015-05-04",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2016-04-16",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-22",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2016-05-25",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2017-04-15",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2017-04-30",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2017-05-17",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-04-14",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-19",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-25",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2019-03-24",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-21",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-09-26",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-18",
+        "winner": "Kolkata Knight Riders",
+        "result": "tie"
+      },
+      {
+        "date": "2021-04-11",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2021-10-03",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-15",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-14",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-14",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-04",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2024-03-23",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-21",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-26",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "matches_played": 21,
+    "Sunrisers Hyderabad_wins": 6,
+    "Chennai Super Kings_wins": 15,
+    "recent_form": [
+      {
+        "date": "2013-04-25",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-08",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2014-04-27",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-22",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-11",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2015-05-02",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-22",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2018-05-13",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-22",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-27",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-17",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-23",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-02",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2020-10-13",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2021-04-28",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-09-30",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-01",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-21",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-05",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-28",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      }
+    ]
+  },
+  "Rajasthan Royals": {
+    "matches_played": 20,
+    "Sunrisers Hyderabad_wins": 11,
+    "Rajasthan Royals_wins": 9,
+    "recent_form": [
+      {
+        "date": "2013-04-27",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-17",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2013-05-22",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-04-18",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-08",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2015-04-16",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-05-07",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-04-29",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2019-03-29",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-27",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-11",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-22",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-05-02",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2021-09-27",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-03-29",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-02",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-07",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-02",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-24",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      }
+    ]
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 22,
+    "Sunrisers Hyderabad_wins": 12,
+    "Royal Challengers Bangalore_wins": 10,
+    "recent_form": [
+      {
+        "date": "2013-04-07",
+        "winner": "Sunrisers Hyderabad",
+        "result": "tie"
+      },
+      {
+        "date": "2013-04-09",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-04",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-20",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-13",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-05-15",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-04-12",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2016-04-30",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2016-05-29",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2017-04-05",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2018-05-07",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2018-05-17",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2019-03-31",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2019-05-04",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-09-21",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2020-10-31",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-11-06",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-04-14",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2021-10-06",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2022-04-23",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-08",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-18",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Deccan Chargers": {
+    "matches_played": 0,
+    "Sunrisers Hyderabad_wins": 0,
+    "Deccan Chargers_wins": 0,
+    "recent_form": []
+  },
+  "Kings XI Punjab": {
+    "matches_played": 16,
+    "Sunrisers Hyderabad_wins": 11,
+    "Kings XI Punjab_wins": 5,
+    "recent_form": [
+      {
+        "date": "2013-04-19",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-11",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2014-04-22",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2014-05-14",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-27",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2015-05-11",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2016-04-23",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-15",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-17",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2017-04-28",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-19",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-26",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2019-04-08",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-29",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2020-10-08",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2020-10-24",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      }
+    ]
+  },
+  "Delhi Daredevils": {
+    "matches_played": 12,
+    "Sunrisers Hyderabad_wins": 8,
+    "Delhi Daredevils_wins": 4,
+    "recent_form": [
+      {
+        "date": "2013-04-12",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-04",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-04-25",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2014-05-10",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-18",
+        "winner": "Delhi Daredevils",
+        "result": "runs"
+      },
+      {
+        "date": "2015-05-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2016-05-12",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-20",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-19",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2017-05-02",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-05",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-10",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Mumbai Indians": {
+    "matches_played": 23,
+    "Sunrisers Hyderabad_wins": 10,
+    "Mumbai Indians_wins": 13,
+    "recent_form": [
+      {
+        "date": "2013-05-01",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-13",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-04-30",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2014-05-12",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-25",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2015-05-17",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-04-18",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-08",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2017-04-12",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-05-08",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-04-12",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-04-24",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2019-04-06",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2019-05-02",
+        "winner": "Mumbai Indians",
+        "result": "tie"
+      },
+      {
+        "date": "2020-10-04",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2020-11-03",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-04-17",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2021-10-08",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-17",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-18",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-21",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-03-27",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-06",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Kochi Tuskers Kerala": {
+    "matches_played": 0,
+    "Sunrisers Hyderabad_wins": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "recent_form": []
+  },
+  "Pune Warriors": {
+    "matches_played": 2,
+    "Sunrisers Hyderabad_wins": 2,
+    "Pune Warriors_wins": 0,
+    "recent_form": [
+      {
+        "date": "2013-04-05",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2013-04-17",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      }
+    ]
+  },
+  "Rising Pune Supergiants": {
+    "matches_played": 2,
+    "Sunrisers Hyderabad_wins": 1,
+    "Rising Pune Supergiants_wins": 1,
+    "recent_form": [
+      {
+        "date": "2016-04-26",
+        "winner": "Rising Pune Supergiants",
+        "result": "runs"
+      },
+      {
+        "date": "2016-05-10",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      }
+    ]
+  },
+  "Gujarat Lions": {
+    "matches_played": 5,
+    "Sunrisers Hyderabad_wins": 5,
+    "Gujarat Lions_wins": 0,
+    "recent_form": [
+      {
+        "date": "2016-04-21",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-06",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-27",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-05-13",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Rising Pune Supergiant": {
+    "matches_played": 2,
+    "Sunrisers Hyderabad_wins": 0,
+    "Rising Pune Supergiant_wins": 2,
+    "recent_form": [
+      {
+        "date": "2017-04-22",
+        "winner": "Rising Pune Supergiant",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-05-06",
+        "winner": "Rising Pune Supergiant",
+        "result": "runs"
+      }
+    ]
+  },
+  "Delhi Capitals": {
+    "matches_played": 12,
+    "Sunrisers Hyderabad_wins": 5,
+    "Delhi Capitals_wins": 7,
+    "recent_form": [
+      {
+        "date": "2019-04-04",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-14",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2019-05-08",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-09-29",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2020-10-27",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2020-11-08",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2021-04-25",
+        "winner": "Delhi Capitals",
+        "result": "tie"
+      },
+      {
+        "date": "2021-09-22",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-05",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-24",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-29",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2024-04-20",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      }
+    ]
+  },
+  "Punjab Kings": {
+    "matches_played": 7,
+    "Sunrisers Hyderabad_wins": 5,
+    "Punjab Kings_wins": 2,
+    "recent_form": [
+      {
+        "date": "2021-04-21",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-09-25",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2022-04-17",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-22",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-19",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Gujarat Titans": {
+    "matches_played": 4,
+    "Sunrisers Hyderabad_wins": 1,
+    "Gujarat Titans_wins": 3,
+    "recent_form": [
+      {
+        "date": "2022-04-11",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-27",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-15",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2024-03-31",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 4,
+    "Sunrisers Hyderabad_wins": 1,
+    "Lucknow Super Giants_wins": 3,
+    "recent_form": [
+      {
+        "date": "2022-04-04",
+        "winner": "Lucknow Super Giants",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-07",
+        "winner": "Lucknow Super Giants",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-13",
+        "winner": "Lucknow Super Giants",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-08",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Royal Challengers Bengaluru": {
+    "matches_played": 2,
+    "Sunrisers Hyderabad_wins": 1,
+    "Royal Challengers Bengaluru_wins": 1,
+    "recent_form": [
+      {
+        "date": "2024-04-15",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2024-04-25",
+        "winner": "Royal Challengers Bengaluru",
+        "result": "runs"
+      }
+    ]
+  }
+}

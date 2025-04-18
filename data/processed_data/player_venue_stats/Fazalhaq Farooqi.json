@@ -1,0 +1,86 @@
+{
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 8,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 6,
+      "dismissals": 0,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 25.0
+    },
+    "bowling": {
+      "matches": 3,
+      "balls": 76,
+      "runs": 110,
+      "wickets": 2,
+      "maidens": 4.0,
+      "best_bowling": "2/32",
+      "overs": 12.666666666666666,
+      "economy": 8.68421052631579,
+      "average": 55.0,
+      "strike_rate": 38.0
+    }
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 2,
+      "balls": 48,
+      "runs": 74,
+      "wickets": 2,
+      "maidens": 3.0,
+      "best_bowling": "2/42",
+      "overs": 8.0,
+      "economy": 9.25,
+      "average": 37.0,
+      "strike_rate": 24.0
+    }
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 14,
+      "wickets": 1,
+      "maidens": 1.8333333333333333,
+      "best_bowling": "1/14",
+      "overs": 3.1666666666666665,
+      "economy": 4.421052631578948,
+      "average": 14.0,
+      "strike_rate": 19.0
+    }
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 20.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 31,
+      "wickets": 1,
+      "maidens": 0.5,
+      "best_bowling": "1/31",
+      "overs": 3.1666666666666665,
+      "economy": 9.789473684210527,
+      "average": 31.0,
+      "strike_rate": 19.0
+    }
+  }
+}

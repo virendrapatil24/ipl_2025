@@ -1,0 +1,18 @@
+{
+  "player_name": "RK Singh",
+  "batting": {
+    "matches": 40,
+    "runs": 893,
+    "balls": 654,
+    "fours": 67,
+    "sixes": 46,
+    "dots": 237,
+    "dismissals": 29,
+    "highest": 67,
+    "50s": 4,
+    "100s": 0,
+    "strike_rate": 136.54434250764527,
+    "average": 30.79310344827586
+  },
+  "bowling": {}
+}

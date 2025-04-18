@@ -1,0 +1,38 @@
+{
+  "Chennai Super Kings": {
+    "matches_played": 12,
+    "batting": {
+      "total_runs": 2056,
+      "wickets_lost": 64,
+      "fours": 171,
+      "sixes": 84,
+      "average": 32.125,
+      "runs_per_match": 171.33333333333334
+    },
+    "bowling": {
+      "runs_conceded": 1848,
+      "wickets_taken": 80,
+      "maidens": 84.5,
+      "average": 23.1,
+      "runs_per_match": 154.0
+    }
+  },
+  "Delhi Capitals": {
+    "matches_played": 12,
+    "batting": {
+      "total_runs": 1848,
+      "wickets_lost": 80,
+      "fours": 175,
+      "sixes": 58,
+      "average": 23.1,
+      "runs_per_match": 154.0
+    },
+    "bowling": {
+      "runs_conceded": 2056,
+      "wickets_taken": 64,
+      "maidens": 79.33333333333333,
+      "average": 32.125,
+      "runs_per_match": 171.33333333333334
+    }
+  }
+}

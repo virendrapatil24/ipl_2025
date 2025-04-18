@@ -1,0 +1,150 @@
+{
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "batting": {
+      "matches": 1,
+      "runs": 15,
+      "balls": 9,
+      "fours": 0,
+      "sixes": 1,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 15,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 166.66666666666666
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 18,
+      "runs": 29,
+      "wickets": 1,
+      "maidens": 1.0,
+      "best_bowling": "1/29",
+      "overs": 3.0,
+      "economy": 9.666666666666666,
+      "average": 29.0,
+      "strike_rate": 18.0
+    }
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 2,
+      "runs": 2,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 2,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 40.0,
+      "average": 1.0
+    },
+    "bowling": {
+      "matches": 3,
+      "balls": 51,
+      "runs": 86,
+      "wickets": 3,
+      "maidens": 2.1666666666666665,
+      "best_bowling": "3/40",
+      "overs": 8.5,
+      "economy": 10.117647058823529,
+      "average": 28.666666666666668,
+      "strike_rate": 17.0
+    }
+  },
+  "Arun Jaitley Stadium, Delhi": {
+    "batting": {
+      "matches": 1,
+      "runs": 58,
+      "balls": 34,
+      "fours": 3,
+      "sixes": 5,
+      "dots": 13,
+      "dismissals": 0,
+      "highest": 58,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 170.58823529411765
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 30,
+      "runs": 57,
+      "wickets": 1,
+      "maidens": 1.0,
+      "best_bowling": "1/45",
+      "overs": 5.0,
+      "economy": 11.4,
+      "average": 57.0,
+      "strike_rate": 30.0
+    }
+  },
+  "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 25,
+      "runs": 48,
+      "wickets": 1,
+      "maidens": 1.5,
+      "best_bowling": "1/48",
+      "overs": 4.166666666666667,
+      "economy": 11.52,
+      "average": 48.0,
+      "strike_rate": 25.0
+    }
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0,
+      "average": 1.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 10,
+      "runs": 28,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/28",
+      "overs": 1.6666666666666667,
+      "economy": 16.8
+    }
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {
+      "matches": 1,
+      "runs": 20,
+      "balls": 17,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 6,
+      "dismissals": 0,
+      "highest": 20,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 117.6470588235294
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 34,
+      "wickets": 0,
+      "maidens": 1.1666666666666667,
+      "best_bowling": "0/34",
+      "overs": 3.1666666666666665,
+      "economy": 10.736842105263158
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "player_name": "Ishan Kishan",
+  "batting": {
+    "matches": 99,
+    "runs": 2644,
+    "balls": 1991,
+    "fours": 255,
+    "sixes": 119,
+    "dots": 804,
+    "dismissals": 91,
+    "highest": 99,
+    "50s": 16,
+    "100s": 0,
+    "strike_rate": 132.79758915118032,
+    "average": 29.054945054945055
+  },
+  "bowling": {}
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "Mohammed Siraj",
+  "batting": {
+    "matches": 20,
+    "runs": 109,
+    "balls": 122,
+    "fours": 10,
+    "sixes": 4,
+    "dots": 68,
+    "dismissals": 9,
+    "highest": 14,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 89.34426229508196,
+    "average": 12.11111111111111
+  },
+  "bowling": {
+    "matches": 93,
+    "balls": 2081,
+    "runs": 2894,
+    "wickets": 96,
+    "maidens": 134.33333333333334,
+    "best_bowling": "4/22",
+    "overs": 346.8333333333333,
+    "economy": 8.34406535319558,
+    "average": 30.145833333333332,
+    "strike_rate": 21.677083333333332
+  }
+}

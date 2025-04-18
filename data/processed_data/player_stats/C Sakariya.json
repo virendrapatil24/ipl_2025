@@ -1,0 +1,215 @@
+{
+  "player_name": "C Sakariya",
+  "team": "Kolkata_Knight_Riders",
+  "batting": {
+    "matches_played": 7,
+    "innings": 7,
+    "runs_scored": 20,
+    "balls_faced": 31,
+    "fours": 3,
+    "sixes": 0,
+    "dismissals": 5,
+    "strike_rate": 64.51612903225806,
+    "average": 4.0
+  },
+  "bowling": {
+    "matches_played": 19,
+    "innings": 19,
+    "overs_bowled": 76.66666666666667,
+    "runs_conceded": 610,
+    "wickets": 20,
+    "maidens": 23.833333333333332,
+    "economy": 7.956521739130435,
+    "average": 30.5,
+    "strike_rate": 23.0
+  },
+  "recent_form": {
+    "batting": {
+      "matches_played": 2,
+      "innings": 2,
+      "runs_scored": 4,
+      "balls_faced": 6,
+      "fours": 1,
+      "sixes": 0,
+      "dismissals": 1,
+      "strike_rate": 66.66666666666667,
+      "average": 4.0
+    },
+    "bowling": {
+      "matches_played": 5,
+      "innings": 5,
+      "overs_bowled": 21.0,
+      "runs_conceded": 176,
+      "wickets": 6,
+      "maidens": 5.833333333333333,
+      "economy": 8.380952380952381,
+      "average": 29.333333333333332,
+      "strike_rate": 21.0
+    }
+  },
+  "venue_performance": {
+    "Wankhede Stadium, Mumbai": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 0,
+        "balls_faced": 1,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 0.0,
+        "average": 0.0
+      },
+      "bowling": {
+        "matches_played": 7,
+        "innings": 7,
+        "overs_bowled": 29.0,
+        "runs_conceded": 236,
+        "wickets": 8,
+        "maidens": 8.0,
+        "economy": 8.137931034482758,
+        "average": 29.5,
+        "strike_rate": 21.75
+      }
+    },
+    "Dr DY Patil Sports Academy, Mumbai": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 4.5,
+        "runs_conceded": 23,
+        "wickets": 2,
+        "maidens": 1.5,
+        "economy": 5.111111111111111,
+        "average": 11.5,
+        "strike_rate": 13.5
+      }
+    },
+    "Arun Jaitley Stadium, Delhi": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 0,
+        "balls_faced": 2,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0,
+        "strike_rate": 0.0
+      },
+      "bowling": {
+        "matches_played": 3,
+        "innings": 3,
+        "overs_bowled": 11.833333333333334,
+        "runs_conceded": 93,
+        "wickets": 1,
+        "maidens": 3.5,
+        "economy": 7.859154929577464,
+        "average": 93.0,
+        "strike_rate": 71.0
+      }
+    },
+    "Zayed Cricket Stadium, Abu Dhabi": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 2,
+        "innings": 2,
+        "overs_bowled": 8.5,
+        "runs_conceded": 64,
+        "wickets": 3,
+        "maidens": 2.8333333333333335,
+        "economy": 7.529411764705882,
+        "average": 21.333333333333332,
+        "strike_rate": 17.0
+      }
+    },
+    "Sharjah Cricket Stadium": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 7,
+        "balls_faced": 16,
+        "fours": 1,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 43.75,
+        "average": 7.0
+      },
+      "bowling": {
+        "matches_played": 2,
+        "innings": 2,
+        "overs_bowled": 7.333333333333334,
+        "runs_conceded": 60,
+        "wickets": 2,
+        "maidens": 3.333333333333333,
+        "economy": 8.181818181818182,
+        "average": 30.0,
+        "strike_rate": 22.0
+      }
+    },
+    "Dubai International Cricket Stadium": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 9,
+        "balls_faced": 8,
+        "fours": 1,
+        "sixes": 0,
+        "dismissals": 2,
+        "strike_rate": 112.5,
+        "average": 4.5
+      },
+      "bowling": {
+        "matches_played": 3,
+        "innings": 3,
+        "overs_bowled": 11.0,
+        "runs_conceded": 81,
+        "wickets": 2,
+        "maidens": 3.3333333333333335,
+        "economy": 7.363636363636363,
+        "average": 40.5,
+        "strike_rate": 33.0
+      }
+    },
+    "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 4,
+        "balls_faced": 4,
+        "fours": 1,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 100.0,
+        "average": 4.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 4.5,
+        "runs_conceded": 53,
+        "wickets": 2,
+        "maidens": 1.3333333333333333,
+        "economy": 11.777777777777779,
+        "average": 26.5,
+        "strike_rate": 13.5
+      }
+    }
+  }
+}

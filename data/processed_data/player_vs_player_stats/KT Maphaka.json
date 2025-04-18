@@ -1,0 +1,95 @@
+{
+  "TM Head": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 7,
+      "runs": 26,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/26",
+      "overs": 1.1666666666666667,
+      "economy": 22.285714285714285
+    }
+  },
+  "Abhishek Sharma": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 20,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/20",
+      "overs": 1.0,
+      "economy": 20.0
+    }
+  },
+  "AK Markram": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 3,
+      "runs": 6,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/6",
+      "overs": 0.5,
+      "economy": 12.0
+    }
+  },
+  "H Klaasen": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 5,
+      "runs": 12,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/12",
+      "overs": 0.8333333333333334,
+      "economy": 14.399999999999999
+    }
+  },
+  "YBK Jaiswal": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 10,
+      "wickets": 1,
+      "maidens": 0.5,
+      "best_bowling": "1/10",
+      "overs": 1.0,
+      "economy": 10.0,
+      "average": 10.0,
+      "strike_rate": 6.0
+    }
+  },
+  "JC Buttler": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 3,
+      "runs": 5,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/5",
+      "overs": 0.5,
+      "economy": 10.0
+    }
+  },
+  "SV Samson": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 3,
+      "runs": 8,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/8",
+      "overs": 0.5,
+      "economy": 16.0
+    }
+  }
+}

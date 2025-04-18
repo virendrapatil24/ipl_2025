@@ -1,0 +1,29 @@
+{
+  "player_name": "V Kohli",
+  "batting": {
+    "matches": 244,
+    "runs": 8014,
+    "balls": 6236,
+    "fours": 708,
+    "sixes": 273,
+    "dots": 2198,
+    "dismissals": 205,
+    "highest": 113,
+    "50s": 56,
+    "100s": 8,
+    "strike_rate": 128.51186658114176,
+    "average": 39.09268292682927
+  },
+  "bowling": {
+    "matches": 26,
+    "balls": 264,
+    "runs": 371,
+    "wickets": 5,
+    "maidens": 8.666666666666666,
+    "best_bowling": "2/25",
+    "overs": 44.0,
+    "economy": 8.431818181818182,
+    "average": 74.2,
+    "strike_rate": 52.8
+  }
+}

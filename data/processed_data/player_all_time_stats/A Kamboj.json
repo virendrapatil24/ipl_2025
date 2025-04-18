@@ -1,0 +1,28 @@
+{
+  "player_name": "A Kamboj",
+  "batting": {
+    "matches": 1,
+    "runs": 2,
+    "balls": 2,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 0,
+    "dismissals": 0,
+    "highest": 2,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 100.0
+  },
+  "bowling": {
+    "matches": 3,
+    "balls": 68,
+    "runs": 115,
+    "wickets": 2,
+    "maidens": 3.1666666666666665,
+    "best_bowling": "1/24",
+    "overs": 11.333333333333334,
+    "economy": 10.147058823529411,
+    "average": 57.5,
+    "strike_rate": 34.0
+  }
+}

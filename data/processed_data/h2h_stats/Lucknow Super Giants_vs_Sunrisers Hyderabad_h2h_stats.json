@@ -1,0 +1,38 @@
+{
+  "Lucknow Super Giants": {
+    "matches_played": 4,
+    "batting": {
+      "total_runs": 646,
+      "wickets_lost": 19,
+      "fours": 58,
+      "sixes": 23,
+      "average": 34.0,
+      "runs_per_match": 161.5
+    },
+    "bowling": {
+      "runs_conceded": 627,
+      "wickets_taken": 23,
+      "maidens": 24.666666666666668,
+      "average": 27.26086956521739,
+      "runs_per_match": 156.75
+    }
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 4,
+    "batting": {
+      "total_runs": 627,
+      "wickets_lost": 23,
+      "fours": 56,
+      "sixes": 30,
+      "average": 27.26086956521739,
+      "runs_per_match": 156.75
+    },
+    "bowling": {
+      "runs_conceded": 646,
+      "wickets_taken": 19,
+      "maidens": 25.666666666666668,
+      "average": 34.0,
+      "runs_per_match": 161.5
+    }
+  }
+}

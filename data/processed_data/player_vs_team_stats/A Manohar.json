@@ -1,0 +1,121 @@
+{
+  "Lucknow Super Giants": {
+    "batting": {
+      "matches": 2,
+      "runs": 18,
+      "balls": 12,
+      "fours": 3,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 15,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 150.0,
+      "average": 18.0
+    },
+    "bowling": {}
+  },
+  "Delhi Capitals": {
+    "batting": {
+      "matches": 3,
+      "runs": 35,
+      "balls": 52,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 26,
+      "dismissals": 3,
+      "highest": 26,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 67.3076923076923,
+      "average": 11.666666666666666
+    },
+    "bowling": {}
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {
+      "matches": 2,
+      "runs": 35,
+      "balls": 24,
+      "fours": 5,
+      "sixes": 1,
+      "dots": 10,
+      "dismissals": 2,
+      "highest": 35,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 145.83333333333334,
+      "average": 17.5
+    },
+    "bowling": {}
+  },
+  "Rajasthan Royals": {
+    "batting": {
+      "matches": 3,
+      "runs": 71,
+      "balls": 44,
+      "fours": 4,
+      "sixes": 5,
+      "dots": 12,
+      "dismissals": 3,
+      "highest": 43,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 161.36363636363637,
+      "average": 23.666666666666668
+    },
+    "bowling": {}
+  },
+  "Chennai Super Kings": {
+    "batting": {
+      "matches": 1,
+      "runs": 12,
+      "balls": 12,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 12,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0,
+      "average": 12.0
+    },
+    "bowling": {}
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 2,
+      "runs": 16,
+      "balls": 13,
+      "fours": 3,
+      "sixes": 0,
+      "dots": 6,
+      "dismissals": 2,
+      "highest": 14,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 123.07692307692308,
+      "average": 8.0
+    },
+    "bowling": {}
+  },
+  "Mumbai Indians": {
+    "batting": {
+      "matches": 2,
+      "runs": 44,
+      "balls": 24,
+      "fours": 3,
+      "sixes": 3,
+      "dots": 6,
+      "dismissals": 2,
+      "highest": 42,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 183.33333333333334,
+      "average": 22.0
+    },
+    "bowling": {}
+  }
+}

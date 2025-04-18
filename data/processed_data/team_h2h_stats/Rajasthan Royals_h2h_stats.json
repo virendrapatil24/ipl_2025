@@ -1,0 +1,1230 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 28,
+    "Rajasthan Royals_wins": 14,
+    "Kolkata Knight Riders_wins": 14,
+    "recent_form": [
+      {
+        "date": "2008-05-01",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2008-05-20",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-04-23",
+        "winner": "Rajasthan Royals",
+        "result": "tie"
+      },
+      {
+        "date": "2009-05-20",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-03-20",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-17",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-04-15",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-04-17",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-08",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2012-04-13",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-04-08",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2013-05-03",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-04-29",
+        "winner": "Rajasthan Royals",
+        "result": "tie"
+      },
+      {
+        "date": "2014-05-05",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2015-05-16",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-18",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-15",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-23",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2019-04-07",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-25",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-09-30",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2020-11-01",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2021-04-24",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-10-07",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2022-04-18",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-02",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-11",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-16",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "matches_played": 29,
+    "Rajasthan Royals_wins": 13,
+    "Chennai Super Kings_wins": 16,
+    "recent_form": [
+      {
+        "date": "2008-05-04",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-24",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2008-06-01",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-04-30",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2009-05-09",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-03-28",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-03",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2011-05-04",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-09",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2012-04-21",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-05-10",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-04-22",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-12",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-04-23",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2014-05-13",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-19",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-05-10",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-20",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2018-05-11",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-03-31",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2019-04-11",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-09-22",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2020-10-19",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-04-19",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2021-10-02",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-20",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-12",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-27",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-12",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 29,
+    "Rajasthan Royals_wins": 12,
+    "Royal Challengers Bangalore_wins": 15,
+    "recent_form": [
+      {
+        "date": "2008-04-26",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-17",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2009-04-18",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2009-05-07",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-03-18",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-04-14",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-11",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-15",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2012-04-23",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2013-04-20",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-04-29",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-04-26",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-11",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-24",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-29",
+        "winner": NaN,
+        "result": "no result"
+      },
+      {
+        "date": "2015-05-20",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-15",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2018-05-19",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2019-04-02",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-30",
+        "winner": NaN,
+        "result": "no result"
+      },
+      {
+        "date": "2020-10-03",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-17",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-04-22",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-09-29",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-05",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-26",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-27",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-23",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-14",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      }
+    ]
+  },
+  "Deccan Chargers": {
+    "matches_played": 9,
+    "Rajasthan Royals_wins": 7,
+    "Deccan Chargers_wins": 2,
+    "recent_form": [
+      {
+        "date": "2008-04-24",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-09",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-02",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-11",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2010-03-26",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-04-05",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2011-04-09",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-17",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-05-18",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Kings XI Punjab": {
+    "matches_played": 21,
+    "Rajasthan Royals_wins": 12,
+    "Kings XI Punjab_wins": 9,
+    "recent_form": [
+      {
+        "date": "2008-04-21",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-28",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2009-04-26",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2009-05-05",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2010-03-24",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-07",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-04-21",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2012-04-06",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2012-05-05",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2013-04-14",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-09",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-04-20",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-23",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2015-04-10",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2015-04-21",
+        "winner": "Kings XI Punjab",
+        "result": "tie"
+      },
+      {
+        "date": "2018-05-06",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-08",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2019-03-25",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2019-04-16",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2020-09-27",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-30",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Delhi Daredevils": {
+    "matches_played": 18,
+    "Rajasthan Royals_wins": 11,
+    "Delhi Daredevils_wins": 7,
+    "recent_form": [
+      {
+        "date": "2008-04-19",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-11",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-30",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2009-04-28",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-17",
+        "winner": "Delhi Daredevils",
+        "result": "runs"
+      },
+      {
+        "date": "2010-03-15",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-03-31",
+        "winner": "Delhi Daredevils",
+        "result": "runs"
+      },
+      {
+        "date": "2011-04-12",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-29",
+        "winner": "Delhi Daredevils",
+        "result": "runs"
+      },
+      {
+        "date": "2012-05-01",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-04-06",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2013-05-07",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-03",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-15",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2015-04-12",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-05-03",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-11",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2018-05-02",
+        "winner": "Delhi Daredevils",
+        "result": "runs"
+      }
+    ]
+  },
+  "Mumbai Indians": {
+    "matches_played": 29,
+    "Rajasthan Royals_wins": 14,
+    "Mumbai Indians_wins": 15,
+    "recent_form": [
+      {
+        "date": "2008-05-07",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-26",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-14",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2010-03-13",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-11",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2011-04-29",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-20",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-11",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2012-05-20",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-04-17",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2013-05-15",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2013-05-24",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-19",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2014-05-25",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-04-14",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-05-01",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-22",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-05-13",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-13",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-20",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-06",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2020-10-25",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-04-29",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-10-05",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-02",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2022-04-30",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-30",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-01",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-22",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Kochi Tuskers Kerala": {
+    "matches_played": 2,
+    "Rajasthan Royals_wins": 1,
+    "Kochi Tuskers Kerala_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-04-24",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-15",
+        "winner": "Kochi Tuskers Kerala",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Pune Warriors": {
+    "matches_played": 5,
+    "Rajasthan Royals_wins": 4,
+    "Pune Warriors_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-05-01",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-05-08",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-05-13",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2013-04-11",
+        "winner": "Pune Warriors",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-05",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 20,
+    "Rajasthan Royals_wins": 9,
+    "Sunrisers Hyderabad_wins": 11,
+    "recent_form": [
+      {
+        "date": "2013-04-27",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2013-05-17",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2013-05-22",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-04-18",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2014-05-08",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2015-04-16",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2015-05-07",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2018-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2018-04-29",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2019-03-29",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-04-27",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-11",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-22",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-05-02",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2021-09-27",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-03-29",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-02",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-07",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-02",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-24",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      }
+    ]
+  },
+  "Rising Pune Supergiants": {
+    "matches_played": 0,
+    "Rajasthan Royals_wins": 0,
+    "Rising Pune Supergiants_wins": 0,
+    "recent_form": []
+  },
+  "Gujarat Lions": {
+    "matches_played": 0,
+    "Rajasthan Royals_wins": 0,
+    "Gujarat Lions_wins": 0,
+    "recent_form": []
+  },
+  "Rising Pune Supergiant": {
+    "matches_played": 0,
+    "Rajasthan Royals_wins": 0,
+    "Rising Pune Supergiant_wins": 0,
+    "recent_form": []
+  },
+  "Delhi Capitals": {
+    "matches_played": 11,
+    "Rajasthan Royals_wins": 4,
+    "Delhi Capitals_wins": 7,
+    "recent_form": [
+      {
+        "date": "2019-04-22",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2019-05-04",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2020-10-09",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2020-10-14",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2021-04-15",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-09-25",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2022-04-22",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-11",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-08",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2024-03-28",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-07",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      }
+    ]
+  },
+  "Punjab Kings": {
+    "matches_played": 7,
+    "Rajasthan Royals_wins": 4,
+    "Punjab Kings_wins": 3,
+    "recent_form": [
+      {
+        "date": "2021-04-12",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2021-09-21",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-07",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-05",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-19",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-13",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-15",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Gujarat Titans": {
+    "matches_played": 6,
+    "Rajasthan Royals_wins": 1,
+    "Gujarat Titans_wins": 5,
+    "recent_form": [
+      {
+        "date": "2022-04-14",
+        "winner": "Gujarat Titans",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-24",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-29",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-16",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-05-05",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-10",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 5,
+    "Rajasthan Royals_wins": 4,
+    "Lucknow Super Giants_wins": 1,
+    "recent_form": [
+      {
+        "date": "2022-04-10",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-15",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-19",
+        "winner": "Lucknow Super Giants",
+        "result": "runs"
+      },
+      {
+        "date": "2024-03-24",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2024-04-27",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Royal Challengers Bengaluru": {
+    "matches_played": 2,
+    "Rajasthan Royals_wins": 2,
+    "Royal Challengers Bengaluru_wins": 0,
+    "recent_form": [
+      {
+        "date": "2024-04-06",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-22",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      }
+    ]
+  }
+}

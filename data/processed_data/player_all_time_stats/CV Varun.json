@@ -1,0 +1,29 @@
+{
+  "player_name": "CV Varun",
+  "batting": {
+    "matches": 10,
+    "runs": 25,
+    "balls": 49,
+    "fours": 2,
+    "sixes": 0,
+    "dots": 31,
+    "dismissals": 2,
+    "highest": 10,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 51.02040816326531,
+    "average": 12.5
+  },
+  "bowling": {
+    "matches": 70,
+    "balls": 1624,
+    "runs": 2042,
+    "wickets": 85,
+    "maidens": 97.0,
+    "best_bowling": "5/20",
+    "overs": 270.6666666666667,
+    "economy": 7.544334975369457,
+    "average": 24.023529411764706,
+    "strike_rate": 19.105882352941176
+  }
+}

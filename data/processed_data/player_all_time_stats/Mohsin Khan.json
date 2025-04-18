@@ -1,0 +1,29 @@
+{
+  "player_name": "Mohsin Khan",
+  "batting": {
+    "matches": 5,
+    "runs": 25,
+    "balls": 27,
+    "fours": 2,
+    "sixes": 1,
+    "dots": 15,
+    "dismissals": 2,
+    "highest": 13,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 92.5925925925926,
+    "average": 12.5
+  },
+  "bowling": {
+    "matches": 23,
+    "balls": 507,
+    "runs": 698,
+    "wickets": 27,
+    "maidens": 34.833333333333336,
+    "best_bowling": "4/16",
+    "overs": 84.5,
+    "economy": 8.2603550295858,
+    "average": 25.85185185185185,
+    "strike_rate": 18.77777777777778
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "R Powell",
+  "batting": {
+    "matches": 22,
+    "runs": 360,
+    "balls": 254,
+    "fours": 21,
+    "sixes": 28,
+    "dots": 111,
+    "dismissals": 19,
+    "highest": 67,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 141.73228346456693,
+    "average": 18.94736842105263
+  },
+  "bowling": {
+    "matches": 2,
+    "balls": 21,
+    "runs": 35,
+    "wickets": 1,
+    "maidens": 0.6666666666666666,
+    "best_bowling": "1/18",
+    "overs": 3.5,
+    "economy": 10.0,
+    "average": 35.0,
+    "strike_rate": 21.0
+  }
+}

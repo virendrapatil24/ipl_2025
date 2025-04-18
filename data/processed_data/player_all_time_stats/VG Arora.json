@@ -1,0 +1,29 @@
+{
+  "player_name": "VG Arora",
+  "batting": {
+    "matches": 7,
+    "runs": 9,
+    "balls": 17,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 9,
+    "dismissals": 2,
+    "highest": 2,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 52.94117647058823,
+    "average": 4.5
+  },
+  "bowling": {
+    "matches": 20,
+    "balls": 418,
+    "runs": 598,
+    "wickets": 20,
+    "maidens": 24.0,
+    "best_bowling": "3/27",
+    "overs": 69.66666666666667,
+    "economy": 8.583732057416267,
+    "average": 29.9,
+    "strike_rate": 20.9
+  }
+}

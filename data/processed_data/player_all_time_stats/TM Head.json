@@ -1,0 +1,29 @@
+{
+  "player_name": "TM Head",
+  "batting": {
+    "matches": 25,
+    "runs": 772,
+    "balls": 458,
+    "fours": 76,
+    "sixes": 40,
+    "dots": 146,
+    "dismissals": 20,
+    "highest": 102,
+    "50s": 5,
+    "100s": 1,
+    "strike_rate": 168.5589519650655,
+    "average": 38.6
+  },
+  "bowling": {
+    "matches": 6,
+    "balls": 58,
+    "runs": 113,
+    "wickets": 3,
+    "maidens": 1.5,
+    "best_bowling": "2/30",
+    "overs": 9.666666666666666,
+    "economy": 11.689655172413794,
+    "average": 37.666666666666664,
+    "strike_rate": 19.333333333333332
+  }
+}

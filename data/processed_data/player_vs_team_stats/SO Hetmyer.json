@@ -1,0 +1,205 @@
+{
+  "Chennai Super Kings": {
+    "batting": {
+      "matches": 6,
+      "runs": 109,
+      "balls": 86,
+      "fours": 8,
+      "sixes": 4,
+      "dots": 30,
+      "dismissals": 4,
+      "highest": 37,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 126.74418604651163,
+      "average": 27.25
+    },
+    "bowling": {}
+  },
+  "Mumbai Indians": {
+    "batting": {
+      "matches": 8,
+      "runs": 99,
+      "balls": 83,
+      "fours": 9,
+      "sixes": 4,
+      "dots": 37,
+      "dismissals": 6,
+      "highest": 35,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 119.27710843373494,
+      "average": 16.5
+    },
+    "bowling": {}
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {
+      "matches": 11,
+      "runs": 242,
+      "balls": 165,
+      "fours": 15,
+      "sixes": 15,
+      "dots": 55,
+      "dismissals": 8,
+      "highest": 75,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 146.66666666666666,
+      "average": 30.25
+    },
+    "bowling": {}
+  },
+  "Rajasthan Royals": {
+    "batting": {
+      "matches": 3,
+      "runs": 74,
+      "balls": 50,
+      "fours": 6,
+      "sixes": 5,
+      "dots": 20,
+      "dismissals": 3,
+      "highest": 45,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 148.0,
+      "average": 24.666666666666668
+    },
+    "bowling": {}
+  },
+  "Kings XI Punjab": {
+    "batting": {
+      "matches": 2,
+      "runs": 17,
+      "balls": 19,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 11,
+      "dismissals": 2,
+      "highest": 10,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 89.47368421052632,
+      "average": 8.5
+    },
+    "bowling": {}
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 8,
+      "runs": 91,
+      "balls": 59,
+      "fours": 3,
+      "sixes": 8,
+      "dots": 25,
+      "dismissals": 3,
+      "highest": 27,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 154.23728813559322,
+      "average": 30.333333333333332
+    },
+    "bowling": {}
+  },
+  "Royal Challengers Bangalore": {
+    "batting": {
+      "matches": 8,
+      "runs": 178,
+      "balls": 125,
+      "fours": 9,
+      "sixes": 13,
+      "dots": 49,
+      "dismissals": 4,
+      "highest": 53,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 142.4,
+      "average": 44.5
+    },
+    "bowling": {}
+  },
+  "Punjab Kings": {
+    "batting": {
+      "matches": 5,
+      "runs": 156,
+      "balls": 84,
+      "fours": 10,
+      "sixes": 13,
+      "dots": 28,
+      "dismissals": 2,
+      "highest": 46,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 185.71428571428572,
+      "average": 78.0
+    },
+    "bowling": {}
+  },
+  "Lucknow Super Giants": {
+    "batting": {
+      "matches": 3,
+      "runs": 66,
+      "balls": 48,
+      "fours": 1,
+      "sixes": 6,
+      "dots": 18,
+      "dismissals": 2,
+      "highest": 59,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 137.5,
+      "average": 33.0
+    },
+    "bowling": {}
+  },
+  "Gujarat Titans": {
+    "batting": {
+      "matches": 6,
+      "runs": 120,
+      "balls": 83,
+      "fours": 7,
+      "sixes": 7,
+      "dots": 28,
+      "dismissals": 4,
+      "highest": 56,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 144.57831325301206,
+      "average": 30.0
+    },
+    "bowling": {}
+  },
+  "Delhi Capitals": {
+    "batting": {
+      "matches": 3,
+      "runs": 54,
+      "balls": 30,
+      "fours": 2,
+      "sixes": 5,
+      "dots": 9,
+      "dismissals": 0,
+      "highest": 39,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 180.0
+    },
+    "bowling": {}
+  },
+  "Royal Challengers Bengaluru": {
+    "batting": {
+      "matches": 2,
+      "runs": 37,
+      "balls": 22,
+      "fours": 5,
+      "sixes": 1,
+      "dots": 5,
+      "dismissals": 1,
+      "highest": 26,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 168.1818181818182,
+      "average": 37.0
+    },
+    "bowling": {}
+  }
+}

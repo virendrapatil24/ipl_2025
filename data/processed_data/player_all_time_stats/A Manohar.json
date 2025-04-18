@@ -1,0 +1,18 @@
+{
+  "player_name": "A Manohar",
+  "batting": {
+    "matches": 15,
+    "runs": 231,
+    "balls": 181,
+    "fours": 21,
+    "sixes": 10,
+    "dots": 69,
+    "dismissals": 14,
+    "highest": 43,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 127.62430939226519,
+    "average": 16.5
+  },
+  "bowling": {}
+}

@@ -1,0 +1,115 @@
+{
+  "Rajiv Gandhi International Stadium, Uppal": {
+    "batting": {
+      "matches": 3,
+      "runs": 31,
+      "balls": 26,
+      "fours": 3,
+      "sixes": 1,
+      "dots": 11,
+      "dismissals": 3,
+      "highest": 27,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 119.23076923076923,
+      "average": 10.333333333333334
+    },
+    "bowling": {}
+  },
+  "M Chinnaswamy Stadium": {
+    "batting": {
+      "matches": 4,
+      "runs": 59,
+      "balls": 35,
+      "fours": 5,
+      "sixes": 4,
+      "dots": 13,
+      "dismissals": 2,
+      "highest": 25,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 168.57142857142858,
+      "average": 29.5
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 10,
+      "runs": 8,
+      "wickets": 3,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "2/4",
+      "overs": 1.6666666666666667,
+      "economy": 4.8,
+      "average": 2.6666666666666665,
+      "strike_rate": 3.3333333333333335
+    }
+  },
+  "Punjab Cricket Association IS Bindra Stadium, Mohali": {
+    "batting": {
+      "matches": 1,
+      "runs": 33,
+      "balls": 31,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 9,
+      "dismissals": 1,
+      "highest": 33,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 106.45161290322581,
+      "average": 33.0
+    },
+    "bowling": {}
+  },
+  "Maharashtra Cricket Association Stadium": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0,
+      "average": 2.0
+    },
+    "bowling": {}
+  },
+  "Feroz Shah Kotla": {
+    "batting": {
+      "matches": 1,
+      "runs": 12,
+      "balls": 10,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 5,
+      "dismissals": 1,
+      "highest": 12,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 120.0,
+      "average": 12.0
+    },
+    "bowling": {}
+  },
+  "Zayed Cricket Stadium, Abu Dhabi": {
+    "batting": {
+      "matches": 1,
+      "runs": 7,
+      "balls": 17,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 10,
+      "dismissals": 1,
+      "highest": 7,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 41.1764705882353,
+      "average": 7.0
+    },
+    "bowling": {}
+  }
+}

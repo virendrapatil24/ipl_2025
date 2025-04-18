@@ -1,0 +1,29 @@
+{
+  "player_name": "Sandeep Sharma",
+  "batting": {
+    "matches": 25,
+    "runs": 54,
+    "balls": 73,
+    "fours": 4,
+    "sixes": 0,
+    "dots": 33,
+    "dismissals": 5,
+    "highest": 9,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 73.97260273972603,
+    "average": 10.8
+  },
+  "bowling": {
+    "matches": 126,
+    "balls": 2925,
+    "runs": 3758,
+    "wickets": 153,
+    "maidens": 187.0,
+    "best_bowling": "5/18",
+    "overs": 487.5,
+    "economy": 7.708717948717949,
+    "average": 24.562091503267975,
+    "strike_rate": 19.11764705882353
+  }
+}

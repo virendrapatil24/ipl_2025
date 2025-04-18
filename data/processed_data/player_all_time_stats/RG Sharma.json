@@ -1,0 +1,29 @@
+{
+  "player_name": "RG Sharma",
+  "batting": {
+    "matches": 251,
+    "runs": 6630,
+    "balls": 5183,
+    "fours": 599,
+    "sixes": 281,
+    "dots": 2036,
+    "dismissals": 221,
+    "highest": 109,
+    "50s": 43,
+    "100s": 2,
+    "strike_rate": 127.91819409608335,
+    "average": 30.0
+  },
+  "bowling": {
+    "matches": 32,
+    "balls": 349,
+    "runs": 462,
+    "wickets": 16,
+    "maidens": 14.666666666666666,
+    "best_bowling": "4/7",
+    "overs": 58.166666666666664,
+    "economy": 7.9426934097421205,
+    "average": 28.875,
+    "strike_rate": 21.8125
+  }
+}

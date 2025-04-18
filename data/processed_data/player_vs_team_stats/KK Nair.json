@@ -1,0 +1,206 @@
+{
+  "Mumbai Indians": {
+    "batting": {
+      "matches": 11,
+      "runs": 172,
+      "balls": 126,
+      "fours": 18,
+      "sixes": 8,
+      "dots": 56,
+      "dismissals": 11,
+      "highest": 50,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 136.5079365079365,
+      "average": 15.636363636363637
+    },
+    "bowling": {}
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {
+      "matches": 10,
+      "runs": 245,
+      "balls": 195,
+      "fours": 27,
+      "sixes": 7,
+      "dots": 79,
+      "dismissals": 8,
+      "highest": 83,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 125.64102564102564,
+      "average": 30.625
+    },
+    "bowling": {}
+  },
+  "Royal Challengers Bangalore": {
+    "batting": {
+      "matches": 11,
+      "runs": 232,
+      "balls": 195,
+      "fours": 27,
+      "sixes": 3,
+      "dots": 75,
+      "dismissals": 8,
+      "highest": 56,
+      "50s": 2,
+      "100s": 0,
+      "strike_rate": 118.97435897435898,
+      "average": 29.0
+    },
+    "bowling": {}
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 10,
+      "runs": 187,
+      "balls": 181,
+      "fours": 21,
+      "sixes": 2,
+      "dots": 79,
+      "dismissals": 10,
+      "highest": 68,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 103.31491712707182,
+      "average": 18.7
+    },
+    "bowling": {}
+  },
+  "Delhi Daredevils": {
+    "batting": {
+      "matches": 6,
+      "runs": 257,
+      "balls": 181,
+      "fours": 27,
+      "sixes": 7,
+      "dots": 60,
+      "dismissals": 5,
+      "highest": 73,
+      "50s": 3,
+      "100s": 0,
+      "strike_rate": 141.9889502762431,
+      "average": 51.4
+    },
+    "bowling": {}
+  },
+  "Chennai Super Kings": {
+    "batting": {
+      "matches": 5,
+      "runs": 102,
+      "balls": 68,
+      "fours": 7,
+      "sixes": 6,
+      "dots": 22,
+      "dismissals": 4,
+      "highest": 54,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 150.0,
+      "average": 25.5
+    },
+    "bowling": {}
+  },
+  "Kings XI Punjab": {
+    "batting": {
+      "matches": 6,
+      "runs": 78,
+      "balls": 70,
+      "fours": 5,
+      "sixes": 3,
+      "dots": 31,
+      "dismissals": 6,
+      "highest": 25,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 111.42857142857143,
+      "average": 13.0
+    },
+    "bowling": {}
+  },
+  "Gujarat Lions": {
+    "batting": {
+      "matches": 3,
+      "runs": 51,
+      "balls": 34,
+      "fours": 8,
+      "sixes": 1,
+      "dots": 14,
+      "dismissals": 3,
+      "highest": 30,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 150.0,
+      "average": 17.0
+    },
+    "bowling": {}
+  },
+  "Rising Pune Supergiants": {
+    "batting": {
+      "matches": 2,
+      "runs": 73,
+      "balls": 66,
+      "fours": 10,
+      "sixes": 0,
+      "dots": 27,
+      "dismissals": 2,
+      "highest": 41,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 110.60606060606061,
+      "average": 36.5
+    },
+    "bowling": {}
+  },
+  "Rising Pune Supergiant": {
+    "batting": {
+      "matches": 1,
+      "runs": 64,
+      "balls": 45,
+      "fours": 9,
+      "sixes": 0,
+      "dots": 13,
+      "dismissals": 1,
+      "highest": 64,
+      "50s": 1,
+      "100s": 0,
+      "strike_rate": 142.22222222222223,
+      "average": 64.0
+    },
+    "bowling": {}
+  },
+  "Rajasthan Royals": {
+    "batting": {
+      "matches": 2,
+      "runs": 34,
+      "balls": 28,
+      "fours": 2,
+      "sixes": 2,
+      "dots": 12,
+      "dismissals": 2,
+      "highest": 31,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 121.42857142857143,
+      "average": 17.0
+    },
+    "bowling": {}
+  },
+  "Delhi Capitals": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 33.333333333333336,
+      "average": 1.0
+    },
+    "bowling": {}
+  }
+}

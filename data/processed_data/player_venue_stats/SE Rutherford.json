@@ -1,0 +1,142 @@
+{
+  "Arun Jaitley Stadium": {
+    "batting": {
+      "matches": 3,
+      "runs": 41,
+      "balls": 22,
+      "fours": 1,
+      "sixes": 4,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 28,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 186.36363636363637,
+      "average": 41.0
+    },
+    "bowling": {
+      "matches": 3,
+      "balls": 17,
+      "runs": 13,
+      "wickets": 1,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "1/6",
+      "overs": 2.8333333333333335,
+      "economy": 4.588235294117647,
+      "average": 13.0,
+      "strike_rate": 17.0
+    }
+  },
+  "Sawai Mansingh Stadium": {
+    "batting": {
+      "matches": 1,
+      "runs": 11,
+      "balls": 5,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 11,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 220.0,
+      "average": 11.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 8,
+      "runs": 16,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/16",
+      "overs": 1.3333333333333333,
+      "economy": 12.0
+    }
+  },
+  "MA Chidambaram Stadium": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 1,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0,
+      "average": 2.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 14,
+      "runs": 20,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/20",
+      "overs": 2.3333333333333335,
+      "economy": 8.571428571428571
+    }
+  },
+  "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium": {
+    "batting": {
+      "matches": 2,
+      "runs": 19,
+      "balls": 24,
+      "fours": 0,
+      "sixes": 2,
+      "dots": 15,
+      "dismissals": 2,
+      "highest": 10,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 79.16666666666667,
+      "average": 9.5
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 7,
+      "runs": 11,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/11",
+      "overs": 1.1666666666666667,
+      "economy": 9.428571428571429
+    }
+  },
+  "Dr DY Patil Sports Academy, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 28,
+      "balls": 40,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 21,
+      "dismissals": 1,
+      "highest": 28,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 70.0,
+      "average": 28.0
+    },
+    "bowling": {}
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 5,
+      "balls": 12,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 7,
+      "dismissals": 1,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 41.666666666666664,
+      "average": 5.0
+    },
+    "bowling": {}
+  }
+}

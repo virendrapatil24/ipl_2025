@@ -1,0 +1,82 @@
+{
+  "Maharashtra Cricket Association Stadium": {
+    "total_matches": 7,
+    "batting_first_wins": 2,
+    "batting_second_wins": 5,
+    "win_percentage_batting_first": 28.57,
+    "avg_first_innings_runs": 162.57142857142858,
+    "avg_second_innings_runs": 142.71428571428572,
+    "avg_first_innings_wickets": 6.142857142857143,
+    "avg_second_innings_wickets": 5.0
+  },
+  "Holkar Cricket Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 163.0,
+    "avg_second_innings_runs": 164.0,
+    "avg_first_innings_wickets": 6.0,
+    "avg_second_innings_wickets": 4.0
+  },
+  "Saurashtra Cricket Association Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 1,
+    "batting_second_wins": 0,
+    "win_percentage_batting_first": 100.0,
+    "avg_first_innings_runs": 171.0,
+    "avg_second_innings_runs": 172.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 3.0
+  },
+  "M Chinnaswamy Stadium": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 161.0,
+    "avg_second_innings_runs": 134.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 9.0
+  },
+  "Wankhede Stadium": {
+    "total_matches": 2,
+    "batting_first_wins": 0,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 161.0,
+    "avg_second_innings_runs": 149.5,
+    "avg_first_innings_wickets": 5.0,
+    "avg_second_innings_wickets": 8.5
+  },
+  "Eden Gardens": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 155.0,
+    "avg_second_innings_runs": 158.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 6.0
+  },
+  "Rajiv Gandhi International Stadium, Uppal": {
+    "total_matches": 2,
+    "batting_first_wins": 0,
+    "batting_second_wins": 2,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 138.5,
+    "avg_second_innings_runs": 132.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 7.5
+  },
+  "Feroz Shah Kotla": {
+    "total_matches": 1,
+    "batting_first_wins": 0,
+    "batting_second_wins": 1,
+    "win_percentage_batting_first": 0.0,
+    "avg_first_innings_runs": 168.0,
+    "avg_second_innings_runs": 161.0,
+    "avg_first_innings_wickets": 8.0,
+    "avg_second_innings_wickets": 7.0
+  }
+}

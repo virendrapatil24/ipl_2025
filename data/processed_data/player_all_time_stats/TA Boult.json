@@ -1,0 +1,29 @@
+{
+  "player_name": "TA Boult",
+  "batting": {
+    "matches": 22,
+    "runs": 83,
+    "balls": 82,
+    "fours": 5,
+    "sixes": 3,
+    "dots": 38,
+    "dismissals": 7,
+    "highest": 17,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 101.21951219512195,
+    "average": 11.857142857142858
+  },
+  "bowling": {
+    "matches": 103,
+    "balls": 2428,
+    "runs": 3286,
+    "wickets": 128,
+    "maidens": 164.33333333333334,
+    "best_bowling": "4/18",
+    "overs": 404.6666666666667,
+    "economy": 8.120263591433279,
+    "average": 25.671875,
+    "strike_rate": 18.96875
+  }
+}

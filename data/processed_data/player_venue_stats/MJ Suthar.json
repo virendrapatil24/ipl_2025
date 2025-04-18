@@ -1,0 +1,28 @@
+{
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0,
+      "average": 1.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 12,
+      "runs": 26,
+      "wickets": 0,
+      "maidens": 0.6666666666666666,
+      "best_bowling": "0/26",
+      "overs": 2.0,
+      "economy": 13.0
+    }
+  }
+}

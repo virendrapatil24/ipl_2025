@@ -1,0 +1,38 @@
+{
+  "Delhi Capitals": {
+    "matches_played": 9,
+    "batting": {
+      "total_runs": 1534,
+      "wickets_lost": 47,
+      "fours": 139,
+      "sixes": 55,
+      "average": 32.638297872340424,
+      "runs_per_match": 170.44444444444446
+    },
+    "bowling": {
+      "runs_conceded": 1490,
+      "wickets_taken": 54,
+      "maidens": 56.666666666666664,
+      "average": 27.59259259259259,
+      "runs_per_match": 165.55555555555554
+    }
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 9,
+    "batting": {
+      "total_runs": 1490,
+      "wickets_lost": 54,
+      "fours": 113,
+      "sixes": 57,
+      "average": 27.59259259259259,
+      "runs_per_match": 165.55555555555554
+    },
+    "bowling": {
+      "runs_conceded": 1534,
+      "wickets_taken": 47,
+      "maidens": 55.5,
+      "average": 32.638297872340424,
+      "runs_per_match": 170.44444444444446
+    }
+  }
+}

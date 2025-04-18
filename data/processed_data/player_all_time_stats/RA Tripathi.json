@@ -1,0 +1,27 @@
+{
+  "player_name": "RA Tripathi",
+  "batting": {
+    "matches": 93,
+    "runs": 2236,
+    "balls": 1650,
+    "fours": 223,
+    "sixes": 84,
+    "dots": 622,
+    "dismissals": 80,
+    "highest": 93,
+    "50s": 12,
+    "100s": 0,
+    "strike_rate": 135.5151515151515,
+    "average": 27.95
+  },
+  "bowling": {
+    "matches": 1,
+    "balls": 6,
+    "runs": 12,
+    "wickets": 0,
+    "maidens": 0.0,
+    "best_bowling": "0/12",
+    "overs": 1.0,
+    "economy": 12.0
+  }
+}

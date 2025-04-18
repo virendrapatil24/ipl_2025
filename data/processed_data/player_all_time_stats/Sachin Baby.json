@@ -1,0 +1,29 @@
+{
+  "player_name": "Sachin Baby",
+  "batting": {
+    "matches": 11,
+    "runs": 144,
+    "balls": 123,
+    "fours": 11,
+    "sixes": 5,
+    "dots": 50,
+    "dismissals": 9,
+    "highest": 33,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 117.07317073170732,
+    "average": 16.0
+  },
+  "bowling": {
+    "matches": 2,
+    "balls": 10,
+    "runs": 8,
+    "wickets": 3,
+    "maidens": 0.8333333333333334,
+    "best_bowling": "2/4",
+    "overs": 1.6666666666666667,
+    "economy": 4.8,
+    "average": 2.6666666666666665,
+    "strike_rate": 3.3333333333333335
+  }
+}

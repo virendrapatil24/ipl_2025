@@ -1,0 +1,41 @@
+{
+  "KL Rahul": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 7,
+      "runs": 6,
+      "wickets": 0,
+      "maidens": 0.6666666666666666,
+      "best_bowling": "0/6",
+      "overs": 1.1666666666666667,
+      "economy": 5.142857142857142
+    }
+  },
+  "A Badoni": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 5,
+      "runs": 13,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/13",
+      "overs": 0.8333333333333334,
+      "economy": 15.6
+    }
+  },
+  "MP Stoinis": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 3,
+      "runs": 11,
+      "wickets": 0,
+      "maidens": 0.0,
+      "best_bowling": "0/11",
+      "overs": 0.5,
+      "economy": 22.0
+    }
+  }
+}

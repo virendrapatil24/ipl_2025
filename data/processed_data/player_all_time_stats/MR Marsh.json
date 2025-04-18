@@ -1,0 +1,29 @@
+{
+  "player_name": "MR Marsh",
+  "batting": {
+    "matches": 36,
+    "runs": 665,
+    "balls": 532,
+    "fours": 48,
+    "sixes": 38,
+    "dots": 227,
+    "dismissals": 31,
+    "highest": 89,
+    "50s": 3,
+    "100s": 0,
+    "strike_rate": 125.0,
+    "average": 21.451612903225808
+  },
+  "bowling": {
+    "matches": 34,
+    "balls": 593,
+    "runs": 803,
+    "wickets": 37,
+    "maidens": 30.166666666666668,
+    "best_bowling": "4/25",
+    "overs": 98.83333333333333,
+    "economy": 8.1247892074199,
+    "average": 21.7027027027027,
+    "strike_rate": 16.027027027027028
+  }
+}

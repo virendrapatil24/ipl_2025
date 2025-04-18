@@ -1,0 +1,138 @@
+{
+  "Wankhede Stadium, Mumbai": {
+    "batting": {
+      "matches": 2,
+      "runs": 14,
+      "balls": 10,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 13,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 140.0,
+      "average": 14.0
+    },
+    "bowling": {
+      "matches": 4,
+      "balls": 95,
+      "runs": 109,
+      "wickets": 3,
+      "maidens": 7.0,
+      "best_bowling": "2/26",
+      "overs": 15.833333333333334,
+      "economy": 6.88421052631579,
+      "average": 36.333333333333336,
+      "strike_rate": 31.666666666666668
+    }
+  },
+  "Brabourne Stadium, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {
+      "matches": 3,
+      "balls": 69,
+      "runs": 132,
+      "wickets": 3,
+      "maidens": 4.0,
+      "best_bowling": "3/48",
+      "overs": 11.5,
+      "economy": 11.478260869565217,
+      "average": 44.0,
+      "strike_rate": 23.0
+    }
+  },
+  "Dr DY Patil Sports Academy, Mumbai": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 25.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 33,
+      "wickets": 2,
+      "maidens": 1.0,
+      "best_bowling": "2/33",
+      "overs": 3.1666666666666665,
+      "economy": 10.421052631578949,
+      "average": 16.5,
+      "strike_rate": 9.5
+    }
+  },
+  "Maharashtra Cricket Association Stadium, Pune": {
+    "batting": {
+      "matches": 2,
+      "runs": 17,
+      "balls": 11,
+      "fours": 0,
+      "sixes": 2,
+      "dots": 5,
+      "dismissals": 1,
+      "highest": 17,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 154.54545454545453,
+      "average": 17.0
+    },
+    "bowling": {
+      "matches": 3,
+      "balls": 70,
+      "runs": 65,
+      "wickets": 3,
+      "maidens": 6.333333333333333,
+      "best_bowling": "2/17",
+      "overs": 11.666666666666666,
+      "economy": 5.571428571428572,
+      "average": 21.666666666666668,
+      "strike_rate": 23.333333333333332
+    }
+  },
+  "Eden Gardens, Kolkata": {
+    "batting": {
+      "matches": 1,
+      "runs": 11,
+      "balls": 5,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 11,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 220.0
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 44,
+      "runs": 103,
+      "wickets": 0,
+      "maidens": 2.0,
+      "best_bowling": "0/49",
+      "overs": 7.333333333333333,
+      "economy": 14.045454545454547
+    }
+  }
+}

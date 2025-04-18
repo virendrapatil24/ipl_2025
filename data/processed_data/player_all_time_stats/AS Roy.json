@@ -1,0 +1,29 @@
+{
+  "player_name": "AS Roy",
+  "batting": {
+    "matches": 6,
+    "runs": 26,
+    "balls": 24,
+    "fours": 3,
+    "sixes": 0,
+    "dots": 10,
+    "dismissals": 3,
+    "highest": 13,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 108.33333333333333,
+    "average": 8.666666666666666
+  },
+  "bowling": {
+    "matches": 9,
+    "balls": 142,
+    "runs": 191,
+    "wickets": 6,
+    "maidens": 8.0,
+    "best_bowling": "2/19",
+    "overs": 23.666666666666668,
+    "economy": 8.070422535211268,
+    "average": 31.833333333333332,
+    "strike_rate": 23.666666666666668
+  }
+}

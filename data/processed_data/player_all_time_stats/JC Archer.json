@@ -1,0 +1,29 @@
+{
+  "player_name": "JC Archer",
+  "batting": {
+    "matches": 23,
+    "runs": 199,
+    "balls": 132,
+    "fours": 11,
+    "sixes": 14,
+    "dots": 47,
+    "dismissals": 13,
+    "highest": 27,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 150.75757575757575,
+    "average": 15.307692307692308
+  },
+  "bowling": {
+    "matches": 40,
+    "balls": 987,
+    "runs": 1210,
+    "wickets": 49,
+    "maidens": 70.0,
+    "best_bowling": "3/21",
+    "overs": 164.5,
+    "economy": 7.355623100303951,
+    "average": 24.693877551020407,
+    "strike_rate": 20.142857142857142
+  }
+}

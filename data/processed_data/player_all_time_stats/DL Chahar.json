@@ -1,0 +1,29 @@
+{
+  "player_name": "DL Chahar",
+  "batting": {
+    "matches": 12,
+    "runs": 80,
+    "balls": 61,
+    "fours": 2,
+    "sixes": 6,
+    "dots": 24,
+    "dismissals": 7,
+    "highest": 39,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 131.14754098360655,
+    "average": 11.428571428571429
+  },
+  "bowling": {
+    "matches": 81,
+    "balls": 1746,
+    "runs": 2243,
+    "wickets": 79,
+    "maidens": 118.0,
+    "best_bowling": "5/13",
+    "overs": 291.0,
+    "economy": 7.707903780068729,
+    "average": 28.39240506329114,
+    "strike_rate": 22.10126582278481
+  }
+}

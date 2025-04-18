@@ -1,0 +1,29 @@
+{
+  "player_name": "KK Ahmed",
+  "batting": {
+    "matches": 5,
+    "runs": 1,
+    "balls": 7,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 6,
+    "dismissals": 5,
+    "highest": 1,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 14.285714285714286,
+    "average": 0.2
+  },
+  "bowling": {
+    "matches": 57,
+    "balls": 1345,
+    "runs": 1918,
+    "wickets": 78,
+    "maidens": 85.33333333333333,
+    "best_bowling": "3/21",
+    "overs": 224.16666666666666,
+    "economy": 8.556133828996282,
+    "average": 24.58974358974359,
+    "strike_rate": 17.243589743589745
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "TU Deshpande",
+  "batting": {
+    "matches": 4,
+    "runs": 21,
+    "balls": 15,
+    "fours": 2,
+    "sixes": 1,
+    "dots": 6,
+    "dismissals": 1,
+    "highest": 20,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 140.0,
+    "average": 21.0
+  },
+  "bowling": {
+    "matches": 36,
+    "balls": 831,
+    "runs": 1275,
+    "wickets": 46,
+    "maidens": 47.333333333333336,
+    "best_bowling": "4/27",
+    "overs": 138.5,
+    "economy": 9.205776173285198,
+    "average": 27.717391304347824,
+    "strike_rate": 18.065217391304348
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "player_name": "Swapnil Singh",
+  "team": "Royal_Challengers_Bangalore",
+  "batting": {
+    "matches_played": 9,
+    "innings": 9,
+    "runs_scored": 51,
+    "balls_faced": 46,
+    "fours": 3,
+    "sixes": 3,
+    "dismissals": 5,
+    "strike_rate": 110.8695652173913,
+    "average": 10.2
+  },
+  "bowling": {
+    "matches_played": 14,
+    "innings": 14,
+    "overs_bowled": 27.5,
+    "runs_conceded": 241,
+    "wickets": 7,
+    "maidens": 6.5,
+    "economy": 8.763636363636364,
+    "average": 34.42857142857143,
+    "strike_rate": 23.571428571428573
+  },
+  "recent_form": {
+    "batting": {
+      "matches_played": 4,
+      "innings": 4,
+      "runs_scored": 25,
+      "balls_faced": 16,
+      "fours": 2,
+      "sixes": 2,
+      "dismissals": 1,
+      "strike_rate": 156.25,
+      "average": 25.0
+    },
+    "bowling": {
+      "matches_played": 5,
+      "innings": 5,
+      "overs_bowled": 9.166666666666666,
+      "runs_conceded": 70,
+      "wickets": 3,
+      "maidens": 3.1666666666666665,
+      "economy": 7.636363636363637,
+      "average": 23.333333333333332,
+      "strike_rate": 18.333333333333332
+    }
+  },
+  "venue_performance": {
+    "Holkar Cricket Stadium": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 2,
+        "innings": 2,
+        "overs_bowled": 4.0,
+        "runs_conceded": 36,
+        "wickets": 1,
+        "maidens": 0.6666666666666666,
+        "economy": 9.0,
+        "average": 36.0,
+        "strike_rate": 24.0
+      }
+    },
+    "Eden Gardens": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 0,
+        "balls_faced": 1,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 0.0,
+        "average": 0.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 3.0,
+        "runs_conceded": 29,
+        "wickets": 0,
+        "maidens": 0.5,
+        "economy": 9.666666666666666
+      }
+    },
+    "M Chinnaswamy Stadium, Bengaluru": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 15,
+        "balls_faced": 11,
+        "fours": 2,
+        "sixes": 1,
+        "dismissals": 1,
+        "strike_rate": 136.36363636363637,
+        "average": 15.0
+      },
+      "bowling": {
+        "matches_played": 3,
+        "innings": 3,
+        "overs_bowled": 4.166666666666666,
+        "runs_conceded": 23,
+        "wickets": 1,
+        "maidens": 1.3333333333333333,
+        "economy": 5.5200000000000005,
+        "average": 23.0,
+        "strike_rate": 24.999999999999996
+      }
+    },
+    "Narendra Modi Stadium, Ahmedabad": {
+      "batting": {
+        "matches_played": 2,
+        "innings": 2,
+        "runs_scored": 11,
+        "balls_faced": 8,
+        "fours": 0,
+        "sixes": 1,
+        "dismissals": 0,
+        "strike_rate": 137.5
+      },
+      "bowling": {
+        "matches_played": 3,
+        "innings": 3,
+        "overs_bowled": 6.0,
+        "runs_conceded": 49,
+        "wickets": 1,
+        "maidens": 1.6666666666666665,
+        "economy": 8.166666666666666,
+        "average": 49.0,
+        "strike_rate": 36.0
+      }
+    },
+    "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 12,
+        "balls_faced": 6,
+        "fours": 1,
+        "sixes": 1,
+        "dismissals": 1,
+        "strike_rate": 200.0,
+        "average": 12.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 3.1666666666666665,
+        "runs_conceded": 40,
+        "wickets": 2,
+        "maidens": 0.5,
+        "economy": 12.631578947368421,
+        "average": 20.0,
+        "strike_rate": 9.5
+      }
+    },
+    "Punjab Cricket Association IS Bindra Stadium, Mohali": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 2,
+        "balls_faced": 2,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 100.0,
+        "average": 2.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 2.1666666666666665,
+        "runs_conceded": 19,
+        "wickets": 0,
+        "maidens": 0.3333333333333333,
+        "economy": 8.76923076923077
+      }
+    },
+    "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 1.0,
+        "runs_conceded": 11,
+        "wickets": 0,
+        "maidens": 0.16666666666666666,
+        "economy": 11.0
+      }
+    },
+    "Maharashtra Cricket Association Stadium": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 10,
+        "balls_faced": 17,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 1,
+        "strike_rate": 58.8235294117647,
+        "average": 10.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 1.0,
+        "runs_conceded": 6,
+        "wickets": 0,
+        "maidens": 0.16666666666666666,
+        "economy": 6.0
+      }
+    },
+    "Himachal Pradesh Cricket Association Stadium, Dharamsala": {
+      "batting": {
+        "matches_played": 1,
+        "innings": 1,
+        "runs_scored": 1,
+        "balls_faced": 1,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0,
+        "strike_rate": 100.0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 3.0,
+        "runs_conceded": 28,
+        "wickets": 2,
+        "maidens": 1.1666666666666667,
+        "economy": 9.333333333333334,
+        "average": 14.0,
+        "strike_rate": 9.0
+      }
+    }
+  }
+}

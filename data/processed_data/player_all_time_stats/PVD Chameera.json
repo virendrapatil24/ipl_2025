@@ -1,0 +1,29 @@
+{
+  "player_name": "PVD Chameera",
+  "batting": {
+    "matches": 7,
+    "runs": 43,
+    "balls": 32,
+    "fours": 3,
+    "sixes": 3,
+    "dots": 16,
+    "dismissals": 3,
+    "highest": 17,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 134.375,
+    "average": 14.333333333333334
+  },
+  "bowling": {
+    "matches": 13,
+    "balls": 297,
+    "runs": 442,
+    "wickets": 11,
+    "maidens": 20.333333333333332,
+    "best_bowling": "3/48",
+    "overs": 49.5,
+    "economy": 8.929292929292929,
+    "average": 40.18181818181818,
+    "strike_rate": 27.0
+  }
+}

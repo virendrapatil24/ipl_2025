@@ -1,0 +1,268 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 4,
+    "Gujarat Lions_wins": 3,
+    "Kolkata Knight Riders_wins": 1,
+    "recent_form": [
+      {
+        "date": "2016-05-08",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-19",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-07",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-21",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Chennai Super Kings_wins": 0,
+    "recent_form": []
+  },
+  "Rajasthan Royals": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Rajasthan Royals_wins": 0,
+    "recent_form": []
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 5,
+    "Gujarat Lions_wins": 2,
+    "Royal Challengers Bangalore_wins": 3,
+    "recent_form": [
+      {
+        "date": "2016-04-24",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-14",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2016-05-24",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-18",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2017-04-27",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Deccan Chargers": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Deccan Chargers_wins": 0,
+    "recent_form": []
+  },
+  "Kings XI Punjab": {
+    "matches_played": 4,
+    "Gujarat Lions_wins": 2,
+    "Kings XI Punjab_wins": 2,
+    "recent_form": [
+      {
+        "date": "2016-04-11",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-01",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2017-04-23",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2017-05-07",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Delhi Daredevils": {
+    "matches_played": 4,
+    "Gujarat Lions_wins": 1,
+    "Delhi Daredevils_wins": 3,
+    "recent_form": [
+      {
+        "date": "2016-04-27",
+        "winner": "Gujarat Lions",
+        "result": "runs"
+      },
+      {
+        "date": "2016-05-03",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-05-04",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-05-10",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Mumbai Indians": {
+    "matches_played": 4,
+    "Gujarat Lions_wins": 2,
+    "Mumbai Indians_wins": 2,
+    "recent_form": [
+      {
+        "date": "2016-04-16",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-21",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-16",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-29",
+        "winner": "Mumbai Indians",
+        "result": "tie"
+      }
+    ]
+  },
+  "Kochi Tuskers Kerala": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "recent_form": []
+  },
+  "Pune Warriors": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Pune Warriors_wins": 0,
+    "recent_form": []
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 5,
+    "Gujarat Lions_wins": 0,
+    "Sunrisers Hyderabad_wins": 5,
+    "recent_form": [
+      {
+        "date": "2016-04-21",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-06",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-05-27",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-05-13",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Rising Pune Supergiants": {
+    "matches_played": 2,
+    "Gujarat Lions_wins": 2,
+    "Rising Pune Supergiants_wins": 0,
+    "recent_form": [
+      {
+        "date": "2016-04-14",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      },
+      {
+        "date": "2016-04-29",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Rising Pune Supergiant": {
+    "matches_played": 2,
+    "Gujarat Lions_wins": 1,
+    "Rising Pune Supergiant_wins": 1,
+    "recent_form": [
+      {
+        "date": "2017-04-14",
+        "winner": "Gujarat Lions",
+        "result": "wickets"
+      },
+      {
+        "date": "2017-05-01",
+        "winner": "Rising Pune Supergiant",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Delhi Capitals": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Delhi Capitals_wins": 0,
+    "recent_form": []
+  },
+  "Punjab Kings": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Punjab Kings_wins": 0,
+    "recent_form": []
+  },
+  "Gujarat Titans": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Gujarat Titans_wins": 0,
+    "recent_form": []
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Lucknow Super Giants_wins": 0,
+    "recent_form": []
+  },
+  "Royal Challengers Bengaluru": {
+    "matches_played": 0,
+    "Gujarat Lions_wins": 0,
+    "Royal Challengers Bengaluru_wins": 0,
+    "recent_form": []
+  }
+}

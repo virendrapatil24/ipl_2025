@@ -1,0 +1,16 @@
+{
+  "player_name": "Yash Thakur",
+  "batting": {},
+  "bowling": {
+    "matches": 19,
+    "balls": 432,
+    "runs": 702,
+    "wickets": 27,
+    "maidens": 21.333333333333332,
+    "best_bowling": "5/31",
+    "overs": 72.0,
+    "economy": 9.75,
+    "average": 26.0,
+    "strike_rate": 16.0
+  }
+}

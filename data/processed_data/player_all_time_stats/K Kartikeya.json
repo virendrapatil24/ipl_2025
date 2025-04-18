@@ -1,0 +1,29 @@
+{
+  "player_name": "K Kartikeya",
+  "batting": {
+    "matches": 2,
+    "runs": 9,
+    "balls": 13,
+    "fours": 1,
+    "sixes": 0,
+    "dots": 7,
+    "dismissals": 2,
+    "highest": 6,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 69.23076923076923,
+    "average": 4.5
+  },
+  "bowling": {
+    "matches": 12,
+    "balls": 241,
+    "runs": 334,
+    "wickets": 10,
+    "maidens": 11.5,
+    "best_bowling": "2/23",
+    "overs": 40.166666666666664,
+    "economy": 8.315352697095436,
+    "average": 33.4,
+    "strike_rate": 24.1
+  }
+}

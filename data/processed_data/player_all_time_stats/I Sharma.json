@@ -1,0 +1,29 @@
+{
+  "player_name": "I Sharma",
+  "batting": {
+    "matches": 21,
+    "runs": 57,
+    "balls": 71,
+    "fours": 4,
+    "sixes": 2,
+    "dots": 39,
+    "dismissals": 6,
+    "highest": 10,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 80.28169014084507,
+    "average": 9.5
+  },
+  "bowling": {
+    "matches": 110,
+    "balls": 2429,
+    "runs": 3255,
+    "wickets": 96,
+    "maidens": 161.5,
+    "best_bowling": "5/13",
+    "overs": 404.8333333333333,
+    "economy": 8.04034582132565,
+    "average": 33.90625,
+    "strike_rate": 25.302083333333332
+  }
+}

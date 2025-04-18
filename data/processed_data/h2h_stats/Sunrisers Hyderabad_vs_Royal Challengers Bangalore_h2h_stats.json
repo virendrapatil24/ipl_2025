@@ -1,0 +1,38 @@
+{
+  "Sunrisers Hyderabad": {
+    "matches_played": 22,
+    "batting": {
+      "total_runs": 3554,
+      "wickets_lost": 122,
+      "fours": 290,
+      "sixes": 144,
+      "average": 29.131147540983605,
+      "runs_per_match": 161.54545454545453
+    },
+    "bowling": {
+      "runs_conceded": 3449,
+      "wickets_taken": 140,
+      "maidens": 154.5,
+      "average": 24.635714285714286,
+      "runs_per_match": 156.77272727272728
+    }
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 22,
+    "batting": {
+      "total_runs": 3449,
+      "wickets_lost": 140,
+      "fours": 294,
+      "sixes": 137,
+      "average": 24.635714285714286,
+      "runs_per_match": 156.77272727272728
+    },
+    "bowling": {
+      "runs_conceded": 3554,
+      "wickets_taken": 122,
+      "maidens": 137.66666666666666,
+      "average": 29.131147540983605,
+      "runs_per_match": 161.54545454545453
+    }
+  }
+}

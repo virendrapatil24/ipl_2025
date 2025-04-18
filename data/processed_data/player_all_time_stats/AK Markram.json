@@ -1,0 +1,29 @@
+{
+  "player_name": "AK Markram",
+  "batting": {
+    "matches": 42,
+    "runs": 995,
+    "balls": 787,
+    "fours": 73,
+    "sixes": 35,
+    "dots": 241,
+    "dismissals": 33,
+    "highest": 68,
+    "50s": 5,
+    "100s": 0,
+    "strike_rate": 126.42947903430749,
+    "average": 30.151515151515152
+  },
+  "bowling": {
+    "matches": 14,
+    "balls": 123,
+    "runs": 173,
+    "wickets": 2,
+    "maidens": 5.333333333333333,
+    "best_bowling": "1/8",
+    "overs": 20.5,
+    "economy": 8.439024390243903,
+    "average": 86.5,
+    "strike_rate": 61.5
+  }
+}

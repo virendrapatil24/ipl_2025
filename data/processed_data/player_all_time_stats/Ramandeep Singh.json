@@ -1,0 +1,29 @@
+{
+  "player_name": "Ramandeep Singh",
+  "batting": {
+    "matches": 13,
+    "runs": 170,
+    "balls": 106,
+    "fours": 8,
+    "sixes": 13,
+    "dots": 37,
+    "dismissals": 6,
+    "highest": 35,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 160.37735849056602,
+    "average": 28.333333333333332
+  },
+  "bowling": {
+    "matches": 4,
+    "balls": 45,
+    "runs": 64,
+    "wickets": 6,
+    "maidens": 2.0,
+    "best_bowling": "3/20",
+    "overs": 7.5,
+    "economy": 8.533333333333333,
+    "average": 10.666666666666666,
+    "strike_rate": 7.5
+  }
+}

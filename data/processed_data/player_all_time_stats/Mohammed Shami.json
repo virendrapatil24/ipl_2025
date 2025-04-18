@@ -1,0 +1,29 @@
+{
+  "player_name": "Mohammed Shami",
+  "batting": {
+    "matches": 23,
+    "runs": 74,
+    "balls": 82,
+    "fours": 6,
+    "sixes": 2,
+    "dots": 41,
+    "dismissals": 13,
+    "highest": 21,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 90.2439024390244,
+    "average": 5.6923076923076925
+  },
+  "bowling": {
+    "matches": 110,
+    "balls": 2521,
+    "runs": 3486,
+    "wickets": 144,
+    "maidens": 164.0,
+    "best_bowling": "4/11",
+    "overs": 420.1666666666667,
+    "economy": 8.296707655692185,
+    "average": 24.208333333333332,
+    "strike_rate": 17.506944444444443
+  }
+}

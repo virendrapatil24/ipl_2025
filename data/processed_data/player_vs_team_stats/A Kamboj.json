@@ -1,0 +1,57 @@
+{
+  "Sunrisers Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 27,
+      "runs": 43,
+      "wickets": 1,
+      "maidens": 1.3333333333333333,
+      "best_bowling": "1/43",
+      "overs": 4.5,
+      "economy": 9.555555555555555,
+      "average": 43.0,
+      "strike_rate": 27.0
+    }
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 24,
+      "wickets": 1,
+      "maidens": 1.1666666666666667,
+      "best_bowling": "1/24",
+      "overs": 3.1666666666666665,
+      "economy": 7.578947368421053,
+      "average": 24.0,
+      "strike_rate": 19.0
+    }
+  },
+  "Lucknow Super Giants": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 22,
+      "runs": 48,
+      "wickets": 0,
+      "maidens": 0.6666666666666666,
+      "best_bowling": "0/48",
+      "overs": 3.6666666666666665,
+      "economy": 13.090909090909092
+    }
+  }
+}

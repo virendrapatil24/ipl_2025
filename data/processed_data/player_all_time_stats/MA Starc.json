@@ -1,0 +1,29 @@
+{
+  "player_name": "MA Starc",
+  "batting": {
+    "matches": 16,
+    "runs": 105,
+    "balls": 109,
+    "fours": 11,
+    "sixes": 0,
+    "dots": 46,
+    "dismissals": 8,
+    "highest": 29,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 96.3302752293578,
+    "average": 13.125
+  },
+  "bowling": {
+    "matches": 39,
+    "balls": 879,
+    "runs": 1175,
+    "wickets": 59,
+    "maidens": 55.666666666666664,
+    "best_bowling": "4/20",
+    "overs": 146.5,
+    "economy": 8.020477815699659,
+    "average": 19.915254237288135,
+    "strike_rate": 14.898305084745763
+  }
+}

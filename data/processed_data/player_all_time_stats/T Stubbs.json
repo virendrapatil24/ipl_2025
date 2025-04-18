@@ -1,0 +1,29 @@
+{
+  "player_name": "T Stubbs",
+  "batting": {
+    "matches": 17,
+    "runs": 405,
+    "balls": 239,
+    "fours": 26,
+    "sixes": 26,
+    "dots": 64,
+    "dismissals": 9,
+    "highest": 71,
+    "50s": 3,
+    "100s": 0,
+    "strike_rate": 169.4560669456067,
+    "average": 45.0
+  },
+  "bowling": {
+    "matches": 3,
+    "balls": 25,
+    "runs": 29,
+    "wickets": 4,
+    "maidens": 1.5,
+    "best_bowling": "2/11",
+    "overs": 4.166666666666667,
+    "economy": 6.959999999999999,
+    "average": 7.25,
+    "strike_rate": 6.25
+  }
+}

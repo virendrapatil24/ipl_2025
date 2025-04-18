@@ -1,0 +1,29 @@
+{
+  "player_name": "M Markande",
+  "batting": {
+    "matches": 10,
+    "runs": 48,
+    "balls": 44,
+    "fours": 5,
+    "sixes": 1,
+    "dots": 20,
+    "dismissals": 3,
+    "highest": 18,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 109.0909090909091,
+    "average": 16.0
+  },
+  "bowling": {
+    "matches": 37,
+    "balls": 737,
+    "runs": 1081,
+    "wickets": 37,
+    "maidens": 35.0,
+    "best_bowling": "4/15",
+    "overs": 122.83333333333333,
+    "economy": 8.800542740841248,
+    "average": 29.216216216216218,
+    "strike_rate": 19.91891891891892
+  }
+}

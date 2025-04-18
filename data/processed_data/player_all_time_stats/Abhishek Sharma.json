@@ -1,0 +1,29 @@
+{
+  "player_name": "Abhishek Sharma",
+  "batting": {
+    "matches": 61,
+    "runs": 1377,
+    "balls": 925,
+    "fours": 128,
+    "sixes": 73,
+    "dots": 356,
+    "dismissals": 54,
+    "highest": 75,
+    "50s": 7,
+    "100s": 0,
+    "strike_rate": 148.86486486486487,
+    "average": 25.5
+  },
+  "bowling": {
+    "matches": 26,
+    "balls": 278,
+    "runs": 396,
+    "wickets": 11,
+    "maidens": 11.666666666666666,
+    "best_bowling": "2/5",
+    "overs": 46.333333333333336,
+    "economy": 8.546762589928058,
+    "average": 36.0,
+    "strike_rate": 25.272727272727273
+  }
+}

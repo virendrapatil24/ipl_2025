@@ -1,0 +1,29 @@
+{
+  "player_name": "MP Stoinis",
+  "batting": {
+    "matches": 88,
+    "runs": 1866,
+    "balls": 1366,
+    "fours": 150,
+    "sixes": 91,
+    "dots": 501,
+    "dismissals": 65,
+    "highest": 124,
+    "50s": 9,
+    "100s": 1,
+    "strike_rate": 136.60322108345534,
+    "average": 28.70769230769231
+  },
+  "bowling": {
+    "matches": 62,
+    "balls": 831,
+    "runs": 1300,
+    "wickets": 45,
+    "maidens": 36.5,
+    "best_bowling": "4/21",
+    "overs": 138.5,
+    "economy": 9.386281588447654,
+    "average": 28.88888888888889,
+    "strike_rate": 18.466666666666665
+  }
+}

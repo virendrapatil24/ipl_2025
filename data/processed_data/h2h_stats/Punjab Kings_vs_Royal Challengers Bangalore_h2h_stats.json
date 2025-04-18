@@ -1,0 +1,38 @@
+{
+  "Punjab Kings": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 904,
+      "wickets_lost": 35,
+      "fours": 61,
+      "sixes": 54,
+      "average": 25.82857142857143,
+      "runs_per_match": 180.8
+    },
+    "bowling": {
+      "runs_conceded": 843,
+      "wickets_taken": 30,
+      "maidens": 35.333333333333336,
+      "average": 28.1,
+      "runs_per_match": 168.6
+    }
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 5,
+    "batting": {
+      "total_runs": 843,
+      "wickets_lost": 30,
+      "fours": 54,
+      "sixes": 40,
+      "average": 28.1,
+      "runs_per_match": 168.6
+    },
+    "bowling": {
+      "runs_conceded": 904,
+      "wickets_taken": 35,
+      "maidens": 33.833333333333336,
+      "average": 25.82857142857143,
+      "runs_per_match": 180.8
+    }
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 6,
+    "Punjab Kings_wins": 3,
+    "Kolkata Knight Riders_wins": 3,
+    "recent_form": [
+      {
+        "date": "2021-04-26",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-10-01",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-01",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-01",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-08",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-26",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "matches_played": 7,
+    "Punjab Kings_wins": 5,
+    "Chennai Super Kings_wins": 2,
+    "recent_form": [
+      {
+        "date": "2021-04-16",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-10-07",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-03",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2022-04-25",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-30",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-01",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-05",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      }
+    ]
+  },
+  "Rajasthan Royals": {
+    "matches_played": 7,
+    "Punjab Kings_wins": 3,
+    "Rajasthan Royals_wins": 4,
+    "recent_form": [
+      {
+        "date": "2021-04-12",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2021-09-21",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2022-05-07",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-05",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-19",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-13",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-15",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 5,
+    "Punjab Kings_wins": 3,
+    "Royal Challengers Bangalore_wins": 2,
+    "recent_form": [
+      {
+        "date": "2021-04-30",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2021-10-03",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2022-03-27",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-13",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-20",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      }
+    ]
+  },
+  "Deccan Chargers": {
+    "matches_played": 0,
+    "Punjab Kings_wins": 0,
+    "Deccan Chargers_wins": 0,
+    "recent_form": []
+  },
+  "Kings XI Punjab": {
+    "matches_played": 0,
+    "Punjab Kings_wins": 0,
+    "Kings XI Punjab_wins": 0,
+    "recent_form": []
+  },
+  "Delhi Daredevils": {
+    "matches_played": 0,
+    "Punjab Kings_wins": 0,
+    "Delhi Daredevils_wins": 0,
+    "recent_form": []
+  },
+  "Mumbai Indians": {
+    "matches_played": 6,
+    "Punjab Kings_wins": 3,
+    "Mumbai Indians_wins": 3,
+    "recent_form": [
+      {
+        "date": "2021-04-23",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-09-28",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-13",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-22",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-03",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-18",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      }
+    ]
+  },
+  "Kochi Tuskers Kerala": {
+    "matches_played": 0,
+    "Punjab Kings_wins": 0,
+    "Kochi Tuskers Kerala_wins": 0,
+    "recent_form": []
+  },
+  "Pune Warriors": {
+    "matches_played": 0,
+    "Punjab Kings_wins": 0,
+    "Pune Warriors_wins": 0,
+    "recent_form": []
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 7,
+    "Punjab Kings_wins": 2,
+    "Sunrisers Hyderabad_wins": 5,
+    "recent_form": [
+      {
+        "date": "2021-04-21",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-09-25",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2022-04-17",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-22",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-09",
+        "winner": "Sunrisers Hyderabad",
+        "result": "runs"
+      },
+      {
+        "date": "2024-05-19",
+        "winner": "Sunrisers Hyderabad",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Rising Pune Supergiants": {
+    "matches_played": 0,
+    "Punjab Kings_wins": 0,
+    "Rising Pune Supergiants_wins": 0,
+    "recent_form": []
+  },
+  "Gujarat Lions": {
+    "matches_played": 0,
+    "Punjab Kings_wins": 0,
+    "Gujarat Lions_wins": 0,
+    "recent_form": []
+  },
+  "Rising Pune Supergiant": {
+    "matches_played": 0,
+    "Punjab Kings_wins": 0,
+    "Rising Pune Supergiant_wins": 0,
+    "recent_form": []
+  },
+  "Delhi Capitals": {
+    "matches_played": 7,
+    "Punjab Kings_wins": 2,
+    "Delhi Capitals_wins": 5,
+    "recent_form": [
+      {
+        "date": "2021-04-18",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2021-05-02",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-04-20",
+        "winner": "Delhi Capitals",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-16",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-13",
+        "winner": "Punjab Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2023-05-17",
+        "winner": "Delhi Capitals",
+        "result": "runs"
+      },
+      {
+        "date": "2024-03-23",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Gujarat Titans": {
+    "matches_played": 5,
+    "Punjab Kings_wins": 2,
+    "Gujarat Titans_wins": 3,
+    "recent_form": [
+      {
+        "date": "2022-04-08",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2022-05-03",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-13",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-04",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-04-21",
+        "winner": "Gujarat Titans",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 4,
+    "Punjab Kings_wins": 1,
+    "Lucknow Super Giants_wins": 3,
+    "recent_form": [
+      {
+        "date": "2022-04-29",
+        "winner": "Lucknow Super Giants",
+        "result": "runs"
+      },
+      {
+        "date": "2023-04-15",
+        "winner": "Punjab Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2023-04-28",
+        "winner": "Lucknow Super Giants",
+        "result": "runs"
+      },
+      {
+        "date": "2024-03-30",
+        "winner": "Lucknow Super Giants",
+        "result": "runs"
+      }
+    ]
+  },
+  "Royal Challengers Bengaluru": {
+    "matches_played": 2,
+    "Punjab Kings_wins": 0,
+    "Royal Challengers Bengaluru_wins": 2,
+    "recent_form": [
+      {
+        "date": "2024-03-25",
+        "winner": "Royal Challengers Bengaluru",
+        "result": "wickets"
+      },
+      {
+        "date": "2024-05-09",
+        "winner": "Royal Challengers Bengaluru",
+        "result": "runs"
+      }
+    ]
+  }
+}

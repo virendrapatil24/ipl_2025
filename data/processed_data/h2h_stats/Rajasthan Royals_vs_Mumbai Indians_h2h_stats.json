@@ -1,0 +1,38 @@
+{
+  "Rajasthan Royals": {
+    "matches_played": 29,
+    "batting": {
+      "total_runs": 4637,
+      "wickets_lost": 166,
+      "fours": 417,
+      "sixes": 168,
+      "average": 27.933734939759034,
+      "runs_per_match": 159.89655172413794
+    },
+    "bowling": {
+      "runs_conceded": 4702,
+      "wickets_taken": 166,
+      "maidens": 196.16666666666666,
+      "average": 28.325301204819276,
+      "runs_per_match": 162.13793103448276
+    }
+  },
+  "Mumbai Indians": {
+    "matches_played": 29,
+    "batting": {
+      "total_runs": 4702,
+      "wickets_lost": 166,
+      "fours": 402,
+      "sixes": 176,
+      "average": 28.325301204819276,
+      "runs_per_match": 162.13793103448276
+    },
+    "bowling": {
+      "runs_conceded": 4637,
+      "wickets_taken": 166,
+      "maidens": 205.5,
+      "average": 27.933734939759034,
+      "runs_per_match": 159.89655172413794
+    }
+  }
+}

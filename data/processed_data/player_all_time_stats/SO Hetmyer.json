@@ -1,0 +1,18 @@
+{
+  "player_name": "SO Hetmyer",
+  "batting": {
+    "matches": 65,
+    "runs": 1243,
+    "balls": 854,
+    "fours": 76,
+    "sixes": 82,
+    "dots": 315,
+    "dismissals": 39,
+    "highest": 75,
+    "50s": 4,
+    "100s": 0,
+    "strike_rate": 145.55035128805622,
+    "average": 31.871794871794872
+  },
+  "bowling": {}
+}

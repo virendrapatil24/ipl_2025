@@ -1,0 +1,18 @@
+{
+  "player_name": "H Klaasen",
+  "batting": {
+    "matches": 32,
+    "runs": 993,
+    "balls": 613,
+    "fours": 56,
+    "sixes": 64,
+    "dots": 167,
+    "dismissals": 26,
+    "highest": 104,
+    "50s": 6,
+    "100s": 1,
+    "strike_rate": 161.99021207177813,
+    "average": 38.19230769230769
+  },
+  "bowling": {}
+}

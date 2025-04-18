@@ -1,0 +1,18 @@
+{
+  "player_name": "Shubman Gill",
+  "batting": {
+    "matches": 99,
+    "runs": 3216,
+    "balls": 2432,
+    "fours": 310,
+    "sixes": 95,
+    "dots": 823,
+    "dismissals": 83,
+    "highest": 129,
+    "50s": 20,
+    "100s": 4,
+    "strike_rate": 132.23684210526315,
+    "average": 38.74698795180723
+  },
+  "bowling": {}
+}

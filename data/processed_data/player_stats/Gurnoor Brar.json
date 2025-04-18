@@ -1,0 +1,48 @@
+{
+  "player_name": "Gurnoor Brar",
+  "team": "Gujarat_Titans",
+  "batting": {},
+  "bowling": {
+    "matches_played": 1,
+    "innings": 1,
+    "overs_bowled": 3.5,
+    "runs_conceded": 42,
+    "wickets": 0,
+    "maidens": 1.1666666666666667,
+    "economy": 12.0
+  },
+  "recent_form": {
+    "batting": {},
+    "bowling": {
+      "matches_played": 1,
+      "innings": 1,
+      "overs_bowled": 3.5,
+      "runs_conceded": 42,
+      "wickets": 0,
+      "maidens": 1.1666666666666667,
+      "economy": 12.0
+    }
+  },
+  "venue_performance": {
+    "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh": {
+      "batting": {
+        "matches_played": 0,
+        "innings": 0,
+        "runs_scored": 0,
+        "balls_faced": 0,
+        "fours": 0,
+        "sixes": 0,
+        "dismissals": 0
+      },
+      "bowling": {
+        "matches_played": 1,
+        "innings": 1,
+        "overs_bowled": 3.5,
+        "runs_conceded": 42,
+        "wickets": 0,
+        "maidens": 1.1666666666666667,
+        "economy": 12.0
+      }
+    }
+  }
+}

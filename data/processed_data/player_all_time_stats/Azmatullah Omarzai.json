@@ -1,0 +1,29 @@
+{
+  "player_name": "Azmatullah Omarzai",
+  "batting": {
+    "matches": 4,
+    "runs": 42,
+    "balls": 34,
+    "fours": 2,
+    "sixes": 2,
+    "dots": 11,
+    "dismissals": 4,
+    "highest": 17,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 123.52941176470588,
+    "average": 10.5
+  },
+  "bowling": {
+    "matches": 7,
+    "balls": 131,
+    "runs": 194,
+    "wickets": 4,
+    "maidens": 8.666666666666666,
+    "best_bowling": "2/27",
+    "overs": 21.833333333333332,
+    "economy": 8.885496183206108,
+    "average": 48.5,
+    "strike_rate": 32.75
+  }
+}

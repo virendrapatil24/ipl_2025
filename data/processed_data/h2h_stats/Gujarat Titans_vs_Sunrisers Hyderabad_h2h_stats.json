@@ -1,0 +1,38 @@
+{
+  "Gujarat Titans": {
+    "matches_played": 4,
+    "batting": {
+      "total_runs": 717,
+      "wickets_lost": 24,
+      "fours": 70,
+      "sixes": 18,
+      "average": 29.875,
+      "runs_per_match": 179.25
+    },
+    "bowling": {
+      "runs_conceded": 679,
+      "wickets_taken": 26,
+      "maidens": 26.666666666666668,
+      "average": 26.115384615384617,
+      "runs_per_match": 169.75
+    }
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 4,
+    "batting": {
+      "total_runs": 679,
+      "wickets_lost": 26,
+      "fours": 49,
+      "sixes": 29,
+      "average": 26.115384615384617,
+      "runs_per_match": 169.75
+    },
+    "bowling": {
+      "runs_conceded": 717,
+      "wickets_taken": 24,
+      "maidens": 22.5,
+      "average": 29.875,
+      "runs_per_match": 179.25
+    }
+  }
+}

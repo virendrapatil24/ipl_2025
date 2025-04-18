@@ -1,0 +1,29 @@
+{
+  "player_name": "Yudhvir Singh",
+  "batting": {
+    "matches": 4,
+    "runs": 22,
+    "balls": 16,
+    "fours": 1,
+    "sixes": 2,
+    "dots": 8,
+    "dismissals": 4,
+    "highest": 14,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 137.5,
+    "average": 5.5
+  },
+  "bowling": {
+    "matches": 5,
+    "balls": 74,
+    "runs": 125,
+    "wickets": 4,
+    "maidens": 4.666666666666667,
+    "best_bowling": "2/20",
+    "overs": 12.333333333333334,
+    "economy": 10.135135135135135,
+    "average": 31.25,
+    "strike_rate": 18.5
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "S Gopal",
+  "batting": {
+    "matches": 22,
+    "runs": 180,
+    "balls": 173,
+    "fours": 19,
+    "sixes": 2,
+    "dots": 71,
+    "dismissals": 12,
+    "highest": 24,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 104.04624277456648,
+    "average": 15.0
+  },
+  "bowling": {
+    "matches": 51,
+    "balls": 1000,
+    "runs": 1358,
+    "wickets": 53,
+    "maidens": 52.833333333333336,
+    "best_bowling": "4/16",
+    "overs": 166.66666666666666,
+    "economy": 8.148,
+    "average": 25.62264150943396,
+    "strike_rate": 18.867924528301888
+  }
+}

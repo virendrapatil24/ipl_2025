@@ -1,0 +1,18 @@
+{
+  "player_name": "MS Dhoni",
+  "batting": {
+    "matches": 228,
+    "runs": 5243,
+    "balls": 3947,
+    "fours": 363,
+    "sixes": 252,
+    "dots": 1423,
+    "dismissals": 131,
+    "highest": 84,
+    "50s": 24,
+    "100s": 0,
+    "strike_rate": 132.8350646060299,
+    "average": 40.02290076335878
+  },
+  "bowling": {}
+}

@@ -1,0 +1,14 @@
+{
+  "player_name": "S Joseph",
+  "batting": {},
+  "bowling": {
+    "matches": 1,
+    "balls": 30,
+    "runs": 51,
+    "wickets": 0,
+    "maidens": 1.5,
+    "best_bowling": "0/51",
+    "overs": 5.0,
+    "economy": 10.2
+  }
+}

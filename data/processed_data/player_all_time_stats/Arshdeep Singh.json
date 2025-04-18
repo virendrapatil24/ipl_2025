@@ -1,0 +1,29 @@
+{
+  "player_name": "Arshdeep Singh",
+  "batting": {
+    "matches": 11,
+    "runs": 29,
+    "balls": 42,
+    "fours": 4,
+    "sixes": 0,
+    "dots": 29,
+    "dismissals": 5,
+    "highest": 10,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 69.04761904761905,
+    "average": 5.8
+  },
+  "bowling": {
+    "matches": 65,
+    "balls": 1453,
+    "runs": 2097,
+    "wickets": 84,
+    "maidens": 78.66666666666667,
+    "best_bowling": "5/33",
+    "overs": 242.16666666666666,
+    "economy": 8.659325533379215,
+    "average": 24.964285714285715,
+    "strike_rate": 17.297619047619047
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "Kolkata Knight Riders": {
+    "matches_played": 9,
+    "Deccan Chargers_wins": 2,
+    "Kolkata Knight Riders_wins": 7,
+    "recent_form": [
+      {
+        "date": "2008-04-20",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-11",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2009-04-19",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-16",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-03-12",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-01",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2011-04-11",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2011-05-03",
+        "winner": "Kolkata Knight Riders",
+        "result": "runs"
+      },
+      {
+        "date": "2012-04-22",
+        "winner": "Kolkata Knight Riders",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "matches_played": 10,
+    "Deccan Chargers_wins": 4,
+    "Chennai Super Kings_wins": 6,
+    "recent_form": [
+      {
+        "date": "2008-05-06",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-27",
+        "winner": "Chennai Super Kings",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-04-27",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-04",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2010-03-14",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-10",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-04-22",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2011-05-01",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2012-04-07",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      },
+      {
+        "date": "2012-05-04",
+        "winner": "Chennai Super Kings",
+        "result": "runs"
+      }
+    ]
+  },
+  "Rajasthan Royals": {
+    "matches_played": 9,
+    "Deccan Chargers_wins": 2,
+    "Rajasthan Royals_wins": 7,
+    "recent_form": [
+      {
+        "date": "2008-04-24",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-09",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-02",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-11",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2010-03-26",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-04-05",
+        "winner": "Rajasthan Royals",
+        "result": "runs"
+      },
+      {
+        "date": "2011-04-09",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-17",
+        "winner": "Rajasthan Royals",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-05-18",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 11,
+    "Deccan Chargers_wins": 6,
+    "Royal Challengers Bangalore_wins": 5,
+    "recent_form": [
+      {
+        "date": "2008-05-03",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2008-05-25",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-04-22",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2009-05-21",
+        "winner": "Royal Challengers Bangalore",
+        "result": "runs"
+      },
+      {
+        "date": "2009-05-24",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-08",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-04-12",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-24",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-04-14",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2012-05-06",
+        "winner": "Royal Challengers Bangalore",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-05-20",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      }
+    ]
+  },
+  "Kings XI Punjab": {
+    "matches_played": 10,
+    "Deccan Chargers_wins": 3,
+    "Kings XI Punjab_wins": 7,
+    "recent_form": [
+      {
+        "date": "2008-05-01",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-23",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-09",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-17",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2010-03-19",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-16",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-04-16",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-21",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2012-05-08",
+        "winner": "Kings XI Punjab",
+        "result": "runs"
+      },
+      {
+        "date": "2012-05-13",
+        "winner": "Kings XI Punjab",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Delhi Daredevils": {
+    "matches_played": 11,
+    "Deccan Chargers_wins": 4,
+    "Delhi Daredevils_wins": 7,
+    "recent_form": [
+      {
+        "date": "2008-04-22",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-15",
+        "winner": "Delhi Daredevils",
+        "result": "runs"
+      },
+      {
+        "date": "2009-04-30",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2009-05-13",
+        "winner": "Delhi Daredevils",
+        "result": "runs"
+      },
+      {
+        "date": "2009-05-22",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2010-03-21",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-18",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2011-04-19",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2011-05-05",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-19",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-05-10",
+        "winner": "Delhi Daredevils",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Mumbai Indians": {
+    "matches_played": 10,
+    "Deccan Chargers_wins": 4,
+    "Mumbai Indians_wins": 6,
+    "recent_form": [
+      {
+        "date": "2008-04-27",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2008-05-18",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2009-04-25",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2009-05-06",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2010-03-28",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2010-04-03",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2011-04-24",
+        "winner": "Mumbai Indians",
+        "result": "runs"
+      },
+      {
+        "date": "2011-05-14",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2012-04-09",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-29",
+        "winner": "Mumbai Indians",
+        "result": "wickets"
+      }
+    ]
+  },
+  "Kochi Tuskers Kerala": {
+    "matches_played": 1,
+    "Deccan Chargers_wins": 1,
+    "Kochi Tuskers Kerala_wins": 0,
+    "recent_form": [
+      {
+        "date": "2011-04-27",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      }
+    ]
+  },
+  "Pune Warriors": {
+    "matches_played": 4,
+    "Deccan Chargers_wins": 3,
+    "Pune Warriors_wins": 1,
+    "recent_form": [
+      {
+        "date": "2011-05-10",
+        "winner": "Pune Warriors",
+        "result": "wickets"
+      },
+      {
+        "date": "2011-05-16",
+        "winner": "Deccan Chargers",
+        "result": "wickets"
+      },
+      {
+        "date": "2012-04-26",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      },
+      {
+        "date": "2012-05-01",
+        "winner": "Deccan Chargers",
+        "result": "runs"
+      }
+    ]
+  },
+  "Sunrisers Hyderabad": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Sunrisers Hyderabad_wins": 0,
+    "recent_form": []
+  },
+  "Rising Pune Supergiants": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Rising Pune Supergiants_wins": 0,
+    "recent_form": []
+  },
+  "Gujarat Lions": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Gujarat Lions_wins": 0,
+    "recent_form": []
+  },
+  "Rising Pune Supergiant": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Rising Pune Supergiant_wins": 0,
+    "recent_form": []
+  },
+  "Delhi Capitals": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Delhi Capitals_wins": 0,
+    "recent_form": []
+  },
+  "Punjab Kings": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Punjab Kings_wins": 0,
+    "recent_form": []
+  },
+  "Gujarat Titans": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Gujarat Titans_wins": 0,
+    "recent_form": []
+  },
+  "Lucknow Super Giants": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Lucknow Super Giants_wins": 0,
+    "recent_form": []
+  },
+  "Royal Challengers Bengaluru": {
+    "matches_played": 0,
+    "Deccan Chargers_wins": 0,
+    "Royal Challengers Bengaluru_wins": 0,
+    "recent_form": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "YS Chahal",
+  "batting": {
+    "matches": 17,
+    "runs": 37,
+    "balls": 89,
+    "fours": 0,
+    "sixes": 0,
+    "dots": 57,
+    "dismissals": 6,
+    "highest": 8,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 41.57303370786517,
+    "average": 6.166666666666667
+  },
+  "bowling": {
+    "matches": 159,
+    "balls": 3628,
+    "runs": 4681,
+    "wickets": 213,
+    "maidens": 199.0,
+    "best_bowling": "5/40",
+    "overs": 604.6666666666666,
+    "economy": 7.741455347298787,
+    "average": 21.976525821596244,
+    "strike_rate": 17.03286384976526
+  }
+}

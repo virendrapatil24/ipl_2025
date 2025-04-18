@@ -1,0 +1,30 @@
+{
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 27,
+      "runs": 67,
+      "wickets": 0,
+      "maidens": 1.0,
+      "best_bowling": "0/67",
+      "overs": 4.5,
+      "economy": 14.88888888888889
+    }
+  },
+  "Wankhede Stadium, Mumbai": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 12,
+      "runs": 23,
+      "wickets": 1,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "1/23",
+      "overs": 2.0,
+      "economy": 11.5,
+      "average": 23.0,
+      "strike_rate": 12.0
+    }
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "Royal Challengers Bangalore": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0,
+      "average": 0.0
+    },
+    "bowling": {
+      "matches": 15,
+      "balls": 356,
+      "runs": 458,
+      "wickets": 11,
+      "maidens": 24.0,
+      "best_bowling": "3/28",
+      "overs": 59.333333333333336,
+      "economy": 7.719101123595506,
+      "average": 41.63636363636363,
+      "strike_rate": 32.36363636363637
+    }
+  },
+  "Deccan Chargers": {
+    "batting": {
+      "matches": 1,
+      "runs": 9,
+      "balls": 9,
+      "fours": 0,
+      "sixes": 1,
+      "dots": 6,
+      "dismissals": 1,
+      "highest": 9,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0,
+      "average": 9.0
+    },
+    "bowling": {
+      "matches": 5,
+      "balls": 107,
+      "runs": 106,
+      "wickets": 2,
+      "maidens": 8.833333333333334,
+      "best_bowling": "1/10",
+      "overs": 17.833333333333332,
+      "economy": 5.94392523364486,
+      "average": 53.0,
+      "strike_rate": 53.5
+    }
+  },
+  "Chennai Super Kings": {
+    "batting": {
+      "matches": 4,
+      "runs": 21,
+      "balls": 22,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 10,
+      "dismissals": 0,
+      "highest": 10,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 95.45454545454545
+    },
+    "bowling": {
+      "matches": 12,
+      "balls": 256,
+      "runs": 416,
+      "wickets": 6,
+      "maidens": 13.833333333333334,
+      "best_bowling": "2/37",
+      "overs": 42.666666666666664,
+      "economy": 9.75,
+      "average": 69.33333333333333,
+      "strike_rate": 42.666666666666664
+    }
+  },
+  "Mumbai Indians": {
+    "batting": {
+      "matches": 3,
+      "runs": 11,
+      "balls": 10,
+      "fours": 2,
+      "sixes": 0,
+      "dots": 5,
+      "dismissals": 1,
+      "highest": 6,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 110.0,
+      "average": 11.0
+    },
+    "bowling": {
+      "matches": 15,
+      "balls": 352,
+      "runs": 506,
+      "wickets": 17,
+      "maidens": 23.166666666666668,
+      "best_bowling": "3/35",
+      "overs": 58.666666666666664,
+      "economy": 8.625,
+      "average": 29.764705882352942,
+      "strike_rate": 20.705882352941178
+    }
+  },
+  "Rajasthan Royals": {
+    "batting": {
+      "matches": 4,
+      "runs": 5,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 1,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 125.0,
+      "average": 5.0
+    },
+    "bowling": {
+      "matches": 13,
+      "balls": 292,
+      "runs": 397,
+      "wickets": 13,
+      "maidens": 19.666666666666668,
+      "best_bowling": "3/38",
+      "overs": 48.666666666666664,
+      "economy": 8.157534246575343,
+      "average": 30.53846153846154,
+      "strike_rate": 22.46153846153846
+    }
+  },
+  "Kings XI Punjab": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0
+    },
+    "bowling": {
+      "matches": 10,
+      "balls": 239,
+      "runs": 324,
+      "wickets": 5,
+      "maidens": 16.333333333333332,
+      "best_bowling": "2/27",
+      "overs": 39.833333333333336,
+      "economy": 8.133891213389122,
+      "average": 64.8,
+      "strike_rate": 47.8
+    }
+  },
+  "Delhi Daredevils": {
+    "batting": {},
+    "bowling": {
+      "matches": 8,
+      "balls": 172,
+      "runs": 202,
+      "wickets": 8,
+      "maidens": 13.0,
+      "best_bowling": "2/16",
+      "overs": 28.666666666666668,
+      "economy": 7.046511627906977,
+      "average": 25.25,
+      "strike_rate": 21.5
+    }
+  },
+  "Kolkata Knight Riders": {
+    "batting": {
+      "matches": 2,
+      "runs": 2,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 2,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 50.0
+    },
+    "bowling": {
+      "matches": 8,
+      "balls": 175,
+      "runs": 241,
+      "wickets": 6,
+      "maidens": 10.666666666666666,
+      "best_bowling": "2/19",
+      "overs": 29.166666666666668,
+      "economy": 8.262857142857143,
+      "average": 40.166666666666664,
+      "strike_rate": 29.166666666666668
+    }
+  },
+  "Kochi Tuskers Kerala": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 13,
+      "wickets": 5,
+      "maidens": 2.0,
+      "best_bowling": "5/13",
+      "overs": 3.1666666666666665,
+      "economy": 4.105263157894737,
+      "average": 2.6,
+      "strike_rate": 3.8
+    }
+  },
+  "Pune Warriors": {
+    "batting": {},
+    "bowling": {
+      "matches": 4,
+      "balls": 85,
+      "runs": 88,
+      "wickets": 1,
+      "maidens": 7.166666666666667,
+      "best_bowling": "1/22",
+      "overs": 14.166666666666666,
+      "economy": 6.211764705882353,
+      "average": 88.0,
+      "strike_rate": 85.0
+    }
+  },
+  "Gujarat Lions": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 41,
+      "wickets": 1,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "1/41",
+      "overs": 4.0,
+      "economy": 10.25,
+      "average": 41.0,
+      "strike_rate": 24.0
+    }
+  },
+  "Sunrisers Hyderabad": {
+    "batting": {
+      "matches": 3,
+      "runs": 8,
+      "balls": 9,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 88.88888888888889,
+      "average": 8.0
+    },
+    "bowling": {
+      "matches": 8,
+      "balls": 157,
+      "runs": 201,
+      "wickets": 5,
+      "maidens": 9.333333333333334,
+      "best_bowling": "2/35",
+      "overs": 26.166666666666668,
+      "economy": 7.681528662420382,
+      "average": 40.2,
+      "strike_rate": 31.4
+    }
+  },
+  "Rising Pune Supergiant": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 4,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 20.0,
+      "average": 1.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 12,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/12",
+      "overs": 1.0,
+      "economy": 12.0
+    }
+  },
+  "Punjab Kings": {
+    "batting": {},
+    "bowling": {
+      "matches": 4,
+      "balls": 76,
+      "runs": 118,
+      "wickets": 6,
+      "maidens": 5.5,
+      "best_bowling": "2/16",
+      "overs": 12.666666666666666,
+      "economy": 9.31578947368421,
+      "average": 19.666666666666668,
+      "strike_rate": 12.666666666666666
+    }
+  },
+  "Gujarat Titans": {
+    "batting": {},
+    "bowling": {
+      "matches": 2,
+      "balls": 38,
+      "runs": 31,
+      "wickets": 5,
+      "maidens": 3.5,
+      "best_bowling": "3/8",
+      "overs": 6.333333333333333,
+      "economy": 4.894736842105264,
+      "average": 6.2,
+      "strike_rate": 7.6
+    }
+  },
+  "Lucknow Super Giants": {
+    "batting": {},
+    "bowling": {
+      "matches": 2,
+      "balls": 54,
+      "runs": 70,
+      "wickets": 4,
+      "maidens": 2.6666666666666665,
+      "best_bowling": "3/34",
+      "overs": 9.0,
+      "economy": 7.777777777777778,
+      "average": 17.5,
+      "strike_rate": 13.5
+    }
+  },
+  "Royal Challengers Bengaluru": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 5,
+      "dismissals": 0,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 21,
+      "runs": 31,
+      "wickets": 1,
+      "maidens": 0.8333333333333334,
+      "best_bowling": "1/31",
+      "overs": 3.5,
+      "economy": 8.857142857142858,
+      "average": 31.0,
+      "strike_rate": 21.0
+    }
+  }
+}

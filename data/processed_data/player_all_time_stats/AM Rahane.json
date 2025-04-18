@@ -1,0 +1,29 @@
+{
+  "player_name": "AM Rahane",
+  "batting": {
+    "matches": 171,
+    "runs": 4642,
+    "balls": 3858,
+    "fours": 479,
+    "sixes": 103,
+    "dots": 1463,
+    "dismissals": 149,
+    "highest": 105,
+    "50s": 30,
+    "100s": 2,
+    "strike_rate": 120.32141005702437,
+    "average": 31.154362416107382
+  },
+  "bowling": {
+    "matches": 1,
+    "balls": 6,
+    "runs": 5,
+    "wickets": 1,
+    "maidens": 0.3333333333333333,
+    "best_bowling": "1/5",
+    "overs": 1.0,
+    "economy": 5.0,
+    "average": 5.0,
+    "strike_rate": 6.0
+  }
+}

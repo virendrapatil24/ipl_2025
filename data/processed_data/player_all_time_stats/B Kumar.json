@@ -1,0 +1,29 @@
+{
+  "player_name": "B Kumar",
+  "batting": {
+    "matches": 65,
+    "runs": 306,
+    "balls": 338,
+    "fours": 30,
+    "sixes": 3,
+    "dots": 159,
+    "dismissals": 32,
+    "highest": 27,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 90.53254437869822,
+    "average": 9.5625
+  },
+  "bowling": {
+    "matches": 176,
+    "balls": 4060,
+    "runs": 5051,
+    "wickets": 195,
+    "maidens": 272.0,
+    "best_bowling": "6/31",
+    "overs": 676.6666666666666,
+    "economy": 7.464532019704434,
+    "average": 25.902564102564103,
+    "strike_rate": 20.82051282051282
+  }
+}

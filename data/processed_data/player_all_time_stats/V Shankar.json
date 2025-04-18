@@ -1,0 +1,29 @@
+{
+  "player_name": "V Shankar",
+  "batting": {
+    "matches": 58,
+    "runs": 1115,
+    "balls": 890,
+    "fours": 80,
+    "sixes": 45,
+    "dots": 312,
+    "dismissals": 43,
+    "highest": 63,
+    "50s": 6,
+    "100s": 0,
+    "strike_rate": 125.28089887640449,
+    "average": 25.930232558139537
+  },
+  "bowling": {
+    "matches": 22,
+    "balls": 258,
+    "runs": 344,
+    "wickets": 12,
+    "maidens": 13.333333333333334,
+    "best_bowling": "2/19",
+    "overs": 43.0,
+    "economy": 8.0,
+    "average": 28.666666666666668,
+    "strike_rate": 21.5
+  }
+}

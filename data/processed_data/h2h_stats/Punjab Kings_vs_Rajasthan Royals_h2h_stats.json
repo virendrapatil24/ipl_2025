@@ -1,0 +1,38 @@
+{
+  "Punjab Kings": {
+    "matches_played": 7,
+    "batting": {
+      "total_runs": 1269,
+      "wickets_lost": 38,
+      "fours": 110,
+      "sixes": 55,
+      "average": 33.39473684210526,
+      "runs_per_match": 181.28571428571428
+    },
+    "bowling": {
+      "runs_conceded": 1269,
+      "wickets_taken": 50,
+      "maidens": 48.666666666666664,
+      "average": 25.38,
+      "runs_per_match": 181.28571428571428
+    }
+  },
+  "Rajasthan Royals": {
+    "matches_played": 7,
+    "batting": {
+      "total_runs": 1269,
+      "wickets_lost": 50,
+      "fours": 125,
+      "sixes": 50,
+      "average": 25.38,
+      "runs_per_match": 181.28571428571428
+    },
+    "bowling": {
+      "runs_conceded": 1269,
+      "wickets_taken": 38,
+      "maidens": 44.333333333333336,
+      "average": 33.39473684210526,
+      "runs_per_match": 181.28571428571428
+    }
+  }
+}

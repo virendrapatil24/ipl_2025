@@ -1,0 +1,38 @@
+{
+  "Lucknow Super Giants": {
+    "matches_played": 4,
+    "batting": {
+      "total_runs": 677,
+      "wickets_lost": 33,
+      "fours": 45,
+      "sixes": 36,
+      "average": 20.515151515151516,
+      "runs_per_match": 169.25
+    },
+    "bowling": {
+      "runs_conceded": 726,
+      "wickets_taken": 21,
+      "maidens": 23.833333333333332,
+      "average": 34.57142857142857,
+      "runs_per_match": 181.5
+    }
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 4,
+    "batting": {
+      "total_runs": 726,
+      "wickets_lost": 21,
+      "fours": 55,
+      "sixes": 31,
+      "average": 34.57142857142857,
+      "runs_per_match": 181.5
+    },
+    "bowling": {
+      "runs_conceded": 677,
+      "wickets_taken": 33,
+      "maidens": 30.5,
+      "average": 20.515151515151516,
+      "runs_per_match": 169.25
+    }
+  }
+}

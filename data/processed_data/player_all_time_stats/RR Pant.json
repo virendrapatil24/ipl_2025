@@ -1,0 +1,18 @@
+{
+  "player_name": "RR Pant",
+  "batting": {
+    "matches": 110,
+    "runs": 3297,
+    "balls": 2296,
+    "fours": 298,
+    "sixes": 154,
+    "dots": 812,
+    "dismissals": 91,
+    "highest": 128,
+    "50s": 18,
+    "100s": 1,
+    "strike_rate": 143.59756097560975,
+    "average": 36.23076923076923
+  },
+  "bowling": {}
+}

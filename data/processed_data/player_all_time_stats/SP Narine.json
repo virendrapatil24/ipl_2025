@@ -1,0 +1,29 @@
+{
+  "player_name": "SP Narine",
+  "batting": {
+    "matches": 106,
+    "runs": 1534,
+    "balls": 984,
+    "fours": 164,
+    "sixes": 97,
+    "dots": 470,
+    "dismissals": 84,
+    "highest": 109,
+    "50s": 7,
+    "100s": 1,
+    "strike_rate": 155.89430894308944,
+    "average": 18.261904761904763
+  },
+  "bowling": {
+    "matches": 175,
+    "balls": 4146,
+    "runs": 4672,
+    "wickets": 200,
+    "maidens": 261.5,
+    "best_bowling": "5/13",
+    "overs": 691.0,
+    "economy": 6.7612156295224315,
+    "average": 23.36,
+    "strike_rate": 20.73
+  }
+}

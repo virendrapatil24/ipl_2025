@@ -1,0 +1,29 @@
+{
+  "player_name": "Harpreet Brar",
+  "batting": {
+    "matches": 24,
+    "runs": 233,
+    "balls": 201,
+    "fours": 19,
+    "sixes": 9,
+    "dots": 85,
+    "dismissals": 11,
+    "highest": 29,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 115.92039800995025,
+    "average": 21.181818181818183
+  },
+  "bowling": {
+    "matches": 39,
+    "balls": 692,
+    "runs": 907,
+    "wickets": 25,
+    "maidens": 38.166666666666664,
+    "best_bowling": "4/30",
+    "overs": 115.33333333333333,
+    "economy": 7.864161849710983,
+    "average": 36.28,
+    "strike_rate": 27.68
+  }
+}

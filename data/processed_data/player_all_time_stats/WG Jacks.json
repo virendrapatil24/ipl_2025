@@ -1,0 +1,29 @@
+{
+  "player_name": "WG Jacks",
+  "batting": {
+    "matches": 8,
+    "runs": 230,
+    "balls": 133,
+    "fours": 16,
+    "sixes": 18,
+    "dots": 48,
+    "dismissals": 6,
+    "highest": 100,
+    "50s": 1,
+    "100s": 1,
+    "strike_rate": 172.93233082706766,
+    "average": 38.333333333333336
+  },
+  "bowling": {
+    "matches": 5,
+    "balls": 55,
+    "runs": 100,
+    "wickets": 2,
+    "maidens": 1.8333333333333333,
+    "best_bowling": "1/23",
+    "overs": 9.166666666666666,
+    "economy": 10.90909090909091,
+    "average": 50.0,
+    "strike_rate": 27.5
+  }
+}

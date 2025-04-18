@@ -1,0 +1,29 @@
+{
+  "player_name": "A Nortje",
+  "batting": {
+    "matches": 13,
+    "runs": 49,
+    "balls": 51,
+    "fours": 6,
+    "sixes": 0,
+    "dots": 25,
+    "dismissals": 5,
+    "highest": 23,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 96.07843137254902,
+    "average": 9.8
+  },
+  "bowling": {
+    "matches": 46,
+    "balls": 1097,
+    "runs": 1614,
+    "wickets": 62,
+    "maidens": 66.83333333333333,
+    "best_bowling": "4/34",
+    "overs": 182.83333333333334,
+    "economy": 8.82771194165907,
+    "average": 26.032258064516128,
+    "strike_rate": 17.693548387096776
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "GD Phillips",
+  "batting": {
+    "matches": 8,
+    "runs": 65,
+    "balls": 55,
+    "fours": 3,
+    "sixes": 6,
+    "dots": 32,
+    "dismissals": 7,
+    "highest": 25,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 118.18181818181819,
+    "average": 9.285714285714286
+  },
+  "bowling": {
+    "matches": 4,
+    "balls": 31,
+    "runs": 40,
+    "wickets": 2,
+    "maidens": 1.6666666666666667,
+    "best_bowling": "1/10",
+    "overs": 5.166666666666667,
+    "economy": 7.741935483870967,
+    "average": 20.0,
+    "strike_rate": 15.5
+  }
+}

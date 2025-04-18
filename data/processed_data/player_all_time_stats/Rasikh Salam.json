@@ -1,0 +1,29 @@
+{
+  "player_name": "Rasikh Salam",
+  "batting": {
+    "matches": 6,
+    "runs": 40,
+    "balls": 40,
+    "fours": 5,
+    "sixes": 0,
+    "dots": 19,
+    "dismissals": 5,
+    "highest": 10,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 100.0,
+    "average": 8.0
+  },
+  "bowling": {
+    "matches": 11,
+    "balls": 207,
+    "runs": 341,
+    "wickets": 9,
+    "maidens": 9.333333333333334,
+    "best_bowling": "3/35",
+    "overs": 34.5,
+    "economy": 9.884057971014492,
+    "average": 37.888888888888886,
+    "strike_rate": 23.0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Gujarat Titans": {
+    "matches_played": 3,
+    "batting": {
+      "total_runs": 540,
+      "wickets_lost": 13,
+      "fours": 44,
+      "sixes": 24,
+      "average": 41.53846153846154,
+      "runs_per_match": 180.0
+    },
+    "bowling": {
+      "runs_conceded": 537,
+      "wickets_taken": 13,
+      "maidens": 16.333333333333332,
+      "average": 41.30769230769231,
+      "runs_per_match": 179.0
+    }
+  },
+  "Royal Challengers Bangalore": {
+    "matches_played": 3,
+    "batting": {
+      "total_runs": 537,
+      "wickets_lost": 13,
+      "fours": 59,
+      "sixes": 13,
+      "average": 41.30769230769231,
+      "runs_per_match": 179.0
+    },
+    "bowling": {
+      "runs_conceded": 540,
+      "wickets_taken": 13,
+      "maidens": 19.0,
+      "average": 41.53846153846154,
+      "runs_per_match": 180.0
+    }
+  }
+}

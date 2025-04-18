@@ -1,0 +1,18 @@
+{
+  "player_name": "MK Pandey",
+  "batting": {
+    "matches": 158,
+    "runs": 3859,
+    "balls": 3288,
+    "fours": 335,
+    "sixes": 111,
+    "dots": 1247,
+    "dismissals": 131,
+    "highest": 114,
+    "50s": 22,
+    "100s": 1,
+    "strike_rate": 117.3661800486618,
+    "average": 29.458015267175572
+  },
+  "bowling": {}
+}

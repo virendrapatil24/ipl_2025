@@ -1,0 +1,29 @@
+{
+  "player_name": "Washington Sundar",
+  "batting": {
+    "matches": 38,
+    "runs": 378,
+    "balls": 341,
+    "fours": 32,
+    "sixes": 9,
+    "dots": 135,
+    "dismissals": 26,
+    "highest": 40,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 110.85043988269794,
+    "average": 14.538461538461538
+  },
+  "bowling": {
+    "matches": 58,
+    "balls": 1064,
+    "runs": 1335,
+    "wickets": 39,
+    "maidens": 59.333333333333336,
+    "best_bowling": "3/16",
+    "overs": 177.33333333333334,
+    "economy": 7.5281954887218046,
+    "average": 34.23076923076923,
+    "strike_rate": 27.28205128205128
+  }
+}

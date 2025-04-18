@@ -1,0 +1,97 @@
+{
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "batting": {
+      "matches": 2,
+      "runs": 7,
+      "balls": 8,
+      "fours": 0,
+      "sixes": 1,
+      "dots": 6,
+      "dismissals": 2,
+      "highest": 7,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 87.5,
+      "average": 3.5
+    },
+    "bowling": {
+      "matches": 2,
+      "balls": 30,
+      "runs": 44,
+      "wickets": 3,
+      "maidens": 2.0,
+      "best_bowling": "2/20",
+      "overs": 5.0,
+      "economy": 8.8,
+      "average": 14.666666666666666,
+      "strike_rate": 10.0
+    }
+  },
+  "Sawai Mansingh Stadium, Jaipur": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 1,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0,
+      "average": 1.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 13,
+      "runs": 27,
+      "wickets": 0,
+      "maidens": 1.0,
+      "best_bowling": "0/27",
+      "overs": 2.1666666666666665,
+      "economy": 12.461538461538462
+    }
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 26,
+      "wickets": 1,
+      "maidens": 1.1666666666666667,
+      "best_bowling": "1/26",
+      "overs": 3.1666666666666665,
+      "economy": 8.210526315789474,
+      "average": 26.0,
+      "strike_rate": 19.0
+    }
+  },
+  "Arun Jaitley Stadium, Delhi": {
+    "batting": {
+      "matches": 1,
+      "runs": 14,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 1,
+      "dots": 2,
+      "dismissals": 1,
+      "highest": 14,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 200.0,
+      "average": 14.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 12,
+      "runs": 28,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/28",
+      "overs": 2.0,
+      "economy": 14.0
+    }
+  }
+}

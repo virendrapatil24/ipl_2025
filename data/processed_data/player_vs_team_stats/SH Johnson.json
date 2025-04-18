@@ -1,0 +1,109 @@
+{
+  "Mumbai Indians": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 12,
+      "runs": 25,
+      "wickets": 2,
+      "maidens": 0.5,
+      "best_bowling": "2/25",
+      "overs": 2.0,
+      "economy": 12.5,
+      "average": 12.5,
+      "strike_rate": 6.0
+    }
+  },
+  "Chennai Super Kings": {
+    "batting": {
+      "matches": 1,
+      "runs": 5,
+      "balls": 5,
+      "fours": 1,
+      "sixes": 0,
+      "dots": 3,
+      "dismissals": 0,
+      "highest": 5,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 35,
+      "wickets": 1,
+      "maidens": 1.3333333333333333,
+      "best_bowling": "1/35",
+      "overs": 4.0,
+      "economy": 8.75,
+      "average": 35.0,
+      "strike_rate": 24.0
+    }
+  },
+  "Lucknow Super Giants": {
+    "batting": {
+      "matches": 1,
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 1,
+      "dismissals": 0,
+      "highest": 0,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 0.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 25,
+      "runs": 36,
+      "wickets": 0,
+      "maidens": 1.8333333333333333,
+      "best_bowling": "0/36",
+      "overs": 4.166666666666667,
+      "economy": 8.639999999999999
+    }
+  },
+  "Rajasthan Royals": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 24,
+      "runs": 37,
+      "wickets": 0,
+      "maidens": 1.0,
+      "best_bowling": "0/37",
+      "overs": 4.0,
+      "economy": 9.25
+    }
+  },
+  "Delhi Capitals": {
+    "batting": {
+      "matches": 1,
+      "runs": 1,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 1,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 14,
+      "runs": 22,
+      "wickets": 1,
+      "maidens": 1.0,
+      "best_bowling": "1/22",
+      "overs": 2.3333333333333335,
+      "economy": 9.428571428571429,
+      "average": 22.0,
+      "strike_rate": 14.0
+    }
+  }
+}

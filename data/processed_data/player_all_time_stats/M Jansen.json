@@ -1,0 +1,29 @@
+{
+  "player_name": "M Jansen",
+  "batting": {
+    "matches": 12,
+    "runs": 66,
+    "balls": 71,
+    "fours": 5,
+    "sixes": 2,
+    "dots": 34,
+    "dismissals": 7,
+    "highest": 17,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 92.95774647887323,
+    "average": 9.428571428571429
+  },
+  "bowling": {
+    "matches": 21,
+    "balls": 487,
+    "runs": 732,
+    "wickets": 22,
+    "maidens": 29.333333333333332,
+    "best_bowling": "3/25",
+    "overs": 81.16666666666667,
+    "economy": 9.018480492813142,
+    "average": 33.27272727272727,
+    "strike_rate": 22.136363636363637
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "MK Lomror",
+  "batting": {
+    "matches": 35,
+    "runs": 527,
+    "balls": 389,
+    "fours": 33,
+    "sixes": 30,
+    "dots": 136,
+    "dismissals": 29,
+    "highest": 54,
+    "50s": 1,
+    "100s": 0,
+    "strike_rate": 135.47557840616966,
+    "average": 18.17241379310345
+  },
+  "bowling": {
+    "matches": 11,
+    "balls": 94,
+    "runs": 127,
+    "wickets": 2,
+    "maidens": 3.6666666666666665,
+    "best_bowling": "1/4",
+    "overs": 15.666666666666666,
+    "economy": 8.106382978723405,
+    "average": 63.5,
+    "strike_rate": 47.0
+  }
+}

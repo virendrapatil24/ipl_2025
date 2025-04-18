@@ -1,0 +1,27 @@
+{
+  "player_name": "SS Iyer",
+  "batting": {
+    "matches": 114,
+    "runs": 3131,
+    "balls": 2545,
+    "fours": 272,
+    "sixes": 113,
+    "dots": 958,
+    "dismissals": 97,
+    "highest": 96,
+    "50s": 21,
+    "100s": 0,
+    "strike_rate": 123.02554027504911,
+    "average": 32.27835051546392
+  },
+  "bowling": {
+    "matches": 1,
+    "balls": 6,
+    "runs": 7,
+    "wickets": 0,
+    "maidens": 0.6666666666666666,
+    "best_bowling": "0/7",
+    "overs": 1.0,
+    "economy": 7.0
+  }
+}

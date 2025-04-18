@@ -1,0 +1,29 @@
+{
+  "player_name": "JJ Bumrah",
+  "batting": {
+    "matches": 26,
+    "runs": 68,
+    "balls": 80,
+    "fours": 5,
+    "sixes": 1,
+    "dots": 37,
+    "dismissals": 6,
+    "highest": 16,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 85.0,
+    "average": 11.333333333333334
+  },
+  "bowling": {
+    "matches": 133,
+    "balls": 3185,
+    "runs": 3840,
+    "wickets": 182,
+    "maidens": 204.66666666666666,
+    "best_bowling": "5/10",
+    "overs": 530.8333333333334,
+    "economy": 7.233908948194662,
+    "average": 21.0989010989011,
+    "strike_rate": 17.5
+  }
+}

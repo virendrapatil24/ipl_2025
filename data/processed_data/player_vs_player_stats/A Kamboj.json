@@ -1,0 +1,124 @@
+{
+  "Abhishek Sharma": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 5,
+      "runs": 9,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/9",
+      "overs": 0.8333333333333334,
+      "economy": 10.799999999999999
+    }
+  },
+  "TM Head": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 13,
+      "runs": 26,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/26",
+      "overs": 2.1666666666666665,
+      "economy": 12.0
+    }
+  },
+  "SS Iyer": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 5,
+      "runs": 3,
+      "wickets": 1,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "1/3",
+      "overs": 0.8333333333333334,
+      "economy": 3.5999999999999996,
+      "average": 3.0,
+      "strike_rate": 5.0
+    }
+  },
+  "VR Iyer": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 8,
+      "runs": 14,
+      "wickets": 0,
+      "maidens": 0.5,
+      "best_bowling": "0/14",
+      "overs": 1.3333333333333333,
+      "economy": 10.5
+    }
+  },
+  "N Rana": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 6,
+      "runs": 7,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/7",
+      "overs": 1.0,
+      "economy": 7.0
+    }
+  },
+  "Harshit Rana": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {}
+  },
+  "KL Rahul": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 4,
+      "runs": 3,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/3",
+      "overs": 0.6666666666666666,
+      "economy": 4.5
+    }
+  },
+  "MP Stoinis": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 5,
+      "runs": 13,
+      "wickets": 0,
+      "maidens": 0.16666666666666666,
+      "best_bowling": "0/13",
+      "overs": 0.8333333333333334,
+      "economy": 15.6
+    }
+  },
+  "N Pooran": {
+    "batting": {},
+    "bowling": {
+      "matches": 1,
+      "balls": 13,
+      "runs": 32,
+      "wickets": 0,
+      "maidens": 0.3333333333333333,
+      "best_bowling": "0/32",
+      "overs": 2.1666666666666665,
+      "economy": 14.76923076923077
+    }
+  }
+}

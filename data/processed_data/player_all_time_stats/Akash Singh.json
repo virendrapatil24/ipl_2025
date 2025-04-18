@@ -1,0 +1,16 @@
+{
+  "player_name": "Akash Singh",
+  "batting": {},
+  "bowling": {
+    "matches": 7,
+    "balls": 141,
+    "runs": 227,
+    "wickets": 5,
+    "maidens": 8.833333333333334,
+    "best_bowling": "2/40",
+    "overs": 23.5,
+    "economy": 9.659574468085106,
+    "average": 45.4,
+    "strike_rate": 28.2
+  }
+}

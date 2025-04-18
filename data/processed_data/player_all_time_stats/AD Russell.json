@@ -1,0 +1,29 @@
+{
+  "player_name": "AD Russell",
+  "batting": {
+    "matches": 104,
+    "runs": 2488,
+    "balls": 1515,
+    "fours": 171,
+    "sixes": 209,
+    "dots": 645,
+    "dismissals": 82,
+    "highest": 88,
+    "50s": 11,
+    "100s": 0,
+    "strike_rate": 164.22442244224422,
+    "average": 30.341463414634145
+  },
+  "bowling": {
+    "matches": 112,
+    "balls": 1771,
+    "runs": 2691,
+    "wickets": 125,
+    "maidens": 97.33333333333333,
+    "best_bowling": "6/25",
+    "overs": 295.1666666666667,
+    "economy": 9.116883116883116,
+    "average": 21.528,
+    "strike_rate": 14.168
+  }
+}

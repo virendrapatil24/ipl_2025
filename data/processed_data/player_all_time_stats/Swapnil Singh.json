@@ -1,0 +1,29 @@
+{
+  "player_name": "Swapnil Singh",
+  "batting": {
+    "matches": 9,
+    "runs": 51,
+    "balls": 46,
+    "fours": 3,
+    "sixes": 3,
+    "dots": 21,
+    "dismissals": 5,
+    "highest": 15,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 110.8695652173913,
+    "average": 10.2
+  },
+  "bowling": {
+    "matches": 14,
+    "balls": 165,
+    "runs": 241,
+    "wickets": 7,
+    "maidens": 6.5,
+    "best_bowling": "2/28",
+    "overs": 27.5,
+    "economy": 8.763636363636364,
+    "average": 34.42857142857143,
+    "strike_rate": 23.571428571428573
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "player_name": "Avesh Khan",
+  "batting": {
+    "matches": 9,
+    "runs": 41,
+    "balls": 25,
+    "fours": 3,
+    "sixes": 3,
+    "dots": 10,
+    "dismissals": 1,
+    "highest": 12,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 164.0,
+    "average": 41.0
+  },
+  "bowling": {
+    "matches": 62,
+    "balls": 1390,
+    "runs": 2010,
+    "wickets": 81,
+    "maidens": 81.83333333333333,
+    "best_bowling": "4/24",
+    "overs": 231.66666666666666,
+    "economy": 8.676258992805757,
+    "average": 24.814814814814813,
+    "strike_rate": 17.160493827160494
+  }
+}

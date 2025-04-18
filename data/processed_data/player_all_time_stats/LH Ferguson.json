@@ -1,0 +1,29 @@
+{
+  "player_name": "LH Ferguson",
+  "batting": {
+    "matches": 7,
+    "runs": 68,
+    "balls": 48,
+    "fours": 6,
+    "sixes": 2,
+    "dots": 14,
+    "dismissals": 3,
+    "highest": 24,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 141.66666666666666,
+    "average": 22.666666666666668
+  },
+  "bowling": {
+    "matches": 45,
+    "balls": 1002,
+    "runs": 1451,
+    "wickets": 57,
+    "maidens": 58.5,
+    "best_bowling": "5/18",
+    "overs": 167.0,
+    "economy": 8.688622754491018,
+    "average": 25.45614035087719,
+    "strike_rate": 17.57894736842105
+  }
+}

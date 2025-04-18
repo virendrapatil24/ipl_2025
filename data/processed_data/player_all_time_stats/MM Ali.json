@@ -1,0 +1,29 @@
+{
+  "player_name": "MM Ali",
+  "batting": {
+    "matches": 57,
+    "runs": 1162,
+    "balls": 849,
+    "fours": 95,
+    "sixes": 67,
+    "dots": 346,
+    "dismissals": 49,
+    "highest": 93,
+    "50s": 6,
+    "100s": 0,
+    "strike_rate": 136.86690223792698,
+    "average": 23.714285714285715
+  },
+  "bowling": {
+    "matches": 52,
+    "balls": 770,
+    "runs": 900,
+    "wickets": 40,
+    "maidens": 44.333333333333336,
+    "best_bowling": "4/13",
+    "overs": 128.33333333333334,
+    "economy": 7.012987012987012,
+    "average": 22.5,
+    "strike_rate": 19.25
+  }
+}

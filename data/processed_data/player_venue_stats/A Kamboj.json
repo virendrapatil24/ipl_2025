@@ -1,0 +1,44 @@
+{
+  "Wankhede Stadium, Mumbai": {
+    "batting": {},
+    "bowling": {
+      "matches": 2,
+      "balls": 49,
+      "runs": 91,
+      "wickets": 1,
+      "maidens": 2.0,
+      "best_bowling": "1/43",
+      "overs": 8.166666666666666,
+      "economy": 11.142857142857144,
+      "average": 91.0,
+      "strike_rate": 49.0
+    }
+  },
+  "Eden Gardens, Kolkata": {
+    "batting": {
+      "matches": 1,
+      "runs": 2,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "dots": 0,
+      "dismissals": 0,
+      "highest": 2,
+      "50s": 0,
+      "100s": 0,
+      "strike_rate": 100.0
+    },
+    "bowling": {
+      "matches": 1,
+      "balls": 19,
+      "runs": 24,
+      "wickets": 1,
+      "maidens": 1.1666666666666667,
+      "best_bowling": "1/24",
+      "overs": 3.1666666666666665,
+      "economy": 7.578947368421053,
+      "average": 24.0,
+      "strike_rate": 19.0
+    }
+  }
+}

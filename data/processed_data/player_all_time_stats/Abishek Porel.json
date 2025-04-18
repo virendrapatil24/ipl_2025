@@ -1,0 +1,18 @@
+{
+  "player_name": "Abishek Porel",
+  "batting": {
+    "matches": 16,
+    "runs": 360,
+    "balls": 244,
+    "fours": 37,
+    "sixes": 15,
+    "dots": 90,
+    "dismissals": 14,
+    "highest": 65,
+    "50s": 2,
+    "100s": 0,
+    "strike_rate": 147.54098360655738,
+    "average": 25.714285714285715
+  },
+  "bowling": {}
+}

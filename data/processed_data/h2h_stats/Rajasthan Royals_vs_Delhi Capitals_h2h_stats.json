@@ -1,0 +1,38 @@
+{
+  "Rajasthan Royals": {
+    "matches_played": 11,
+    "batting": {
+      "total_runs": 1830,
+      "wickets_lost": 71,
+      "fours": 162,
+      "sixes": 75,
+      "average": 25.774647887323944,
+      "runs_per_match": 166.36363636363637
+    },
+    "bowling": {
+      "runs_conceded": 1864,
+      "wickets_taken": 70,
+      "maidens": 69.5,
+      "average": 26.62857142857143,
+      "runs_per_match": 169.45454545454547
+    }
+  },
+  "Delhi Capitals": {
+    "matches_played": 11,
+    "batting": {
+      "total_runs": 1864,
+      "wickets_lost": 70,
+      "fours": 155,
+      "sixes": 76,
+      "average": 26.62857142857143,
+      "runs_per_match": 169.45454545454547
+    },
+    "bowling": {
+      "runs_conceded": 1830,
+      "wickets_taken": 71,
+      "maidens": 79.66666666666667,
+      "average": 25.774647887323944,
+      "runs_per_match": 166.36363636363637
+    }
+  }
+}

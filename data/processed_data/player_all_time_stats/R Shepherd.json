@@ -1,0 +1,29 @@
+{
+  "player_name": "R Shepherd",
+  "batting": {
+    "matches": 9,
+    "runs": 115,
+    "balls": 68,
+    "fours": 7,
+    "sixes": 10,
+    "dots": 29,
+    "dismissals": 5,
+    "highest": 39,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 169.11764705882354,
+    "average": 23.0
+  },
+  "bowling": {
+    "matches": 8,
+    "balls": 133,
+    "runs": 260,
+    "wickets": 6,
+    "maidens": 6.333333333333333,
+    "best_bowling": "3/42",
+    "overs": 22.166666666666668,
+    "economy": 11.729323308270676,
+    "average": 43.333333333333336,
+    "strike_rate": 22.166666666666668
+  }
+}

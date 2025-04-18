@@ -1,0 +1,29 @@
+{
+  "player_name": "HV Patel",
+  "batting": {
+    "matches": 37,
+    "runs": 249,
+    "balls": 214,
+    "fours": 16,
+    "sixes": 15,
+    "dots": 99,
+    "dismissals": 24,
+    "highest": 36,
+    "50s": 0,
+    "100s": 0,
+    "strike_rate": 116.35514018691589,
+    "average": 10.375
+  },
+  "bowling": {
+    "matches": 103,
+    "balls": 2284,
+    "runs": 3215,
+    "wickets": 151,
+    "maidens": 118.33333333333333,
+    "best_bowling": "6/27",
+    "overs": 380.6666666666667,
+    "economy": 8.44570928196147,
+    "average": 21.29139072847682,
+    "strike_rate": 15.125827814569536
+  }
+}
