@@ -28,28 +28,37 @@ class RAGRetriever:
             }
 
             # Query for venue statistics
-            venue_filter = {"type": "venue_stats", "venue": venue}
             venue_results = self.vector_store.similarity_search(
                 query=f"venue statistics for {venue}",
-                filter_dict=venue_filter,
+                filter_dict={"type": "venue_stats"},
                 n_results=3,
             )
-            context["venue_stats"] = venue_results
+            # Filter results by venue in Python
+            context["venue_stats"] = [
+                result
+                for result in venue_results
+                if result["metadata"].get("venue") == venue
+            ]
 
             # Query for team head-to-head statistics
-            h2h_filter = {
-                "type": "team_h2h",
-                "$or": [
-                    {"team1": team1, "team2": team2},
-                    {"team1": team2, "team2": team1},
-                ],
-            }
             h2h_results = self.vector_store.similarity_search(
                 query=f"head to head statistics between {team1} and {team2}",
-                filter_dict=h2h_filter,
-                n_results=3,
+                filter_dict={"type": "team_h2h"},
+                n_results=5,
             )
-            context["h2h_stats"] = h2h_results
+            # Filter results by team1 and team2 in Python
+            context["h2h_stats"] = [
+                result
+                for result in h2h_results
+                if (
+                    result["metadata"].get("team1") == team1
+                    and result["metadata"].get("team2") == team2
+                )
+                or (
+                    result["metadata"].get("team1") == team2
+                    and result["metadata"].get("team2") == team1
+                )
+            ]
 
             # Query for team1 player statistics - all four types
             team1_player_types = [
@@ -60,37 +69,47 @@ class RAGRetriever:
             ]
 
             for player_type in team1_player_types:
-                player_filter = {
-                    "type": player_type,
-                    "$or": [{"team": team2}, {"venue": venue}, {"opponent": team2}],
-                }
-
-                query_text = (
-                    f"player statistics for {team1} "
-                    f"({player_type}) against {team2} at {venue}"
-                )
-
+                # Query by type only
                 player_results = self.vector_store.similarity_search(
-                    query=query_text, filter_dict=player_filter, n_results=2
+                    query=f"{player_type} statistics for {team1}",
+                    filter_dict={"type": player_type},
+                    n_results=5,
                 )
-                context["team1_player_stats"].extend(player_results)
+
+                # Filter results in Python
+                filtered_results = [
+                    result
+                    for result in player_results
+                    if (
+                        result["metadata"].get("team") == team2
+                        or result["metadata"].get("venue") == venue
+                        or result["metadata"].get("opponent") == team2
+                    )
+                ]
+
+                context["team1_player_stats"].extend(filtered_results)
 
             # Query for team2 player statistics - all four types
             for player_type in team1_player_types:
-                player_filter = {
-                    "type": player_type,
-                    "$or": [{"team": team1}, {"venue": venue}, {"opponent": team1}],
-                }
-
-                query_text = (
-                    f"player statistics for {team2} "
-                    f"({player_type}) against {team1} at {venue}"
-                )
-
+                # Query by type only
                 player_results = self.vector_store.similarity_search(
-                    query=query_text, filter_dict=player_filter, n_results=2
+                    query=f"{player_type} statistics for {team2}",
+                    filter_dict={"type": player_type},
+                    n_results=5,
                 )
-                context["team2_player_stats"].extend(player_results)
+
+                # Filter results in Python
+                filtered_results = [
+                    result
+                    for result in player_results
+                    if (
+                        result["metadata"].get("team") == team1
+                        or result["metadata"].get("venue") == venue
+                        or result["metadata"].get("opponent") == team1
+                    )
+                ]
+
+                context["team2_player_stats"].extend(filtered_results)
 
             return context
 
