@@ -158,55 +158,119 @@ class VectorStore:
         return documents
 
     def _process_player_stats(self, player_stats_dir: Path) -> List[Document]:
-        """Process player statistics."""
+        """Process all types of player statistics."""
         documents = []
-        for file_path in player_stats_dir.glob("*.json"):
+
+        # Process player vs player stats
+        for file_path in (player_stats_dir / "player_vs_player_stats").glob("*.json"):
             data = self._load_json_file(file_path)
             if not data:
                 continue
 
             player_name = file_path.stem
-            # Process player vs player stats
-            if "vs_player" in data:
-                for opponent, stats in data["vs_player"].items():
-                    content = (
-                        f"Player {player_name} vs {opponent} stats: "
-                        f"Matches: {stats.get('matches', 'N/A')}, "
-                        f"Runs: {stats.get('runs', 'N/A')}, "
-                        f"Strike Rate: {stats.get('strike_rate', 'N/A')}"
-                    )
+            for opponent, stats in data.items():
+                content = (
+                    f"Player {player_name} vs {opponent} stats: "
+                    f"Matches: {stats.get('matches', 'N/A')}, "
+                    f"Runs: {stats.get('runs', 'N/A')}, "
+                    f"Strike Rate: {stats.get('strike_rate', 'N/A')}"
+                )
 
-                    documents.append(
-                        Document(
-                            page_content=content,
-                            metadata={
-                                "type": "player_vs_player",
-                                "player": player_name,
-                                "opponent": opponent,
-                            },
-                        )
+                documents.append(
+                    Document(
+                        page_content=content,
+                        metadata={
+                            "type": "player_vs_player",
+                            "player": player_name,
+                            "opponent": opponent,
+                        },
                     )
+                )
 
-            # Process player venue stats
-            if "venue_stats" in data:
-                for venue, stats in data["venue_stats"].items():
-                    content = (
-                        f"Player {player_name} at {venue} stats: "
-                        f"Matches: {stats.get('matches', 'N/A')}, "
-                        f"Runs: {stats.get('runs', 'N/A')}, "
-                        f"Strike Rate: {stats.get('strike_rate', 'N/A')}"
-                    )
+        # Process player vs team stats
+        for file_path in (player_stats_dir / "player_vs_team_stats").glob("*.json"):
+            data = self._load_json_file(file_path)
+            if not data:
+                continue
 
-                    documents.append(
-                        Document(
-                            page_content=content,
-                            metadata={
-                                "type": "player_venue",
-                                "player": player_name,
-                                "venue": venue,
-                            },
-                        )
+            player_name = file_path.stem
+            for team, stats in data.items():
+                content = (
+                    f"Player {player_name} vs {team} stats: "
+                    f"Matches: {stats.get('matches', 'N/A')}, "
+                    f"Runs: {stats.get('runs', 'N/A')}, "
+                    f"Strike Rate: {stats.get('strike_rate', 'N/A')}, "
+                    f"Average: {stats.get('average', 'N/A')}, "
+                    f"Highest Score: {stats.get('highest_score', 'N/A')}"
+                )
+
+                documents.append(
+                    Document(
+                        page_content=content,
+                        metadata={
+                            "type": "player_vs_team",
+                            "player": player_name,
+                            "team": team,
+                        },
                     )
+                )
+
+        # Process player venue stats
+        for file_path in (player_stats_dir / "player_venue_stats").glob("*.json"):
+            data = self._load_json_file(file_path)
+            if not data:
+                continue
+
+            player_name = file_path.stem
+            for venue, stats in data.items():
+                content = (
+                    f"Player {player_name} at {venue} stats: "
+                    f"Matches: {stats.get('matches', 'N/A')}, "
+                    f"Runs: {stats.get('runs', 'N/A')}, "
+                    f"Strike Rate: {stats.get('strike_rate', 'N/A')}, "
+                    f"Average: {stats.get('average', 'N/A')}, "
+                    f"Highest Score: {stats.get('highest_score', 'N/A')}"
+                )
+
+                documents.append(
+                    Document(
+                        page_content=content,
+                        metadata={
+                            "type": "player_venue",
+                            "player": player_name,
+                            "venue": venue,
+                        },
+                    )
+                )
+
+        # Process player all-time stats
+        for file_path in (player_stats_dir / "player_all_time_stats").glob("*.json"):
+            data = self._load_json_file(file_path)
+            if not data:
+                continue
+
+            player_name = file_path.stem
+            content = (
+                f"Player {player_name} all-time stats: "
+                f"Total Matches: {data.get('total_matches', 'N/A')}, "
+                f"Total Runs: {data.get('total_runs', 'N/A')}, "
+                f"Average: {data.get('average', 'N/A')}, "
+                f"Strike Rate: {data.get('strike_rate', 'N/A')}, "
+                f"Highest Score: {data.get('highest_score', 'N/A')}, "
+                f"50s: {data.get('fifties', 'N/A')}, "
+                f"100s: {data.get('hundreds', 'N/A')}"
+            )
+
+            documents.append(
+                Document(
+                    page_content=content,
+                    metadata={
+                        "type": "player_all_time",
+                        "player": player_name,
+                    },
+                )
+            )
+
         return documents
 
     def _process_team_venue_stats(self, team_venue_stats_dir: Path) -> List[Document]:
@@ -262,13 +326,11 @@ class VectorStore:
 
         # Process team venue statistics
         team_venue_stats = self._process_team_venue_stats(
-            processed_data_dir / "team_venue_stats"
+            processed_data_dir / "team_at_venue_stats"
         )
 
-        # Process player statistics
-        player_stats = self._process_player_stats(
-            processed_data_dir / "player_vs_player_stats"
-        )
+        # Process all player statistics
+        player_stats = self._process_player_stats(processed_data_dir)
 
         # Combine all documents
         all_documents = venue_stats + team_stats + team_venue_stats + player_stats
