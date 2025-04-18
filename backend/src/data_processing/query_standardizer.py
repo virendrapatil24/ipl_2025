@@ -40,13 +40,16 @@ def standardize_query(query: str, model_name: str = "gpt-3.5-turbo") -> Dict:
             Rajiv Gandhi International Stadium, Punjab Cricket Association Stadium, Narendra Modi Stadium, 
             Ekana Cricket Stadium.
 
+            Pitch report is optional. If the user sends a pitch report, then return the pitch report in the "pitch_report" field.
+
             Just return only the below information in this exact JSON format, no other text or comments before or after the JSON:
             {{
                 "team1": "standard_team1_name",
                 "team2": "standard_team2_name",
                 "venue": "standard_venue_name",
                 "is_team1_home": true/false,
-                "is_team2_home": true/false
+                "is_team2_home": true/false,
+                "pitch_report": "pitch_report"
             }}
 
             User query: {query}

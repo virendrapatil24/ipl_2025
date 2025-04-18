@@ -1,7 +1,6 @@
 from typing import Dict, Optional
 
 from ..utils.logger import logger
-from .embeddings import EmbeddingGenerator
 from .vector_store import VectorStore
 
 
@@ -9,11 +8,9 @@ class RAGRetriever:
     def __init__(
         self,
         vector_store: Optional[VectorStore] = None,
-        embedding_generator: Optional[EmbeddingGenerator] = None,
     ):
         """Initialize the RAG retriever."""
         self.vector_store = vector_store or VectorStore()
-        self.embedding_generator = embedding_generator or EmbeddingGenerator()
 
     def get_relevant_context(
         self, query: str, team1: str, team2: str, venue: str
@@ -22,144 +19,160 @@ class RAGRetriever:
         Retrieve relevant context for the given query and match details.
         """
         try:
-            # Create specific queries for different aspects
-            match_query = f"Matches between {team1} " f"and {team2} at {venue}"
-            player_query = f"Players from {team1} and {team2}"
-            venue_query = f"Analysis of matches at {venue}"
-
-            # Get relevant matches
-            relevant_matches = self.vector_store.query_matches(match_query, n_results=3)
-
-            # If no matches found, try a more general query
-            if not relevant_matches:
-                logger.warning(
-                    f"No specific matches found for {team1} vs {team2} at {venue}. Trying general query."
-                )
-                match_query = f"Matches at {venue}"
-                relevant_matches = self.vector_store.query_matches(
-                    match_query, n_results=3
-                )
-
-            # Get relevant players
-            relevant_players = self.vector_store.query_players(
-                player_query, n_results=5
-            )
-
-            # If no players found, try a more general query
-            if not relevant_players:
-                logger.warning(
-                    f"No specific players found for {team1} and {team2}. Trying general query."
-                )
-                player_query = "Players in IPL"
-                relevant_players = self.vector_store.query_players(
-                    player_query, n_results=5
-                )
-
-            # Get relevant analysis
-            relevant_analysis = self.vector_store.query_analysis(
-                venue_query, n_results=2
-            )
-
-            # If no analysis found, try a more general query
-            if not relevant_analysis:
-                logger.warning(
-                    f"No specific analysis found for {venue}. Trying general query."
-                )
-                venue_query = "IPL match analysis"
-                relevant_analysis = self.vector_store.query_analysis(
-                    venue_query, n_results=2
-                )
-
-            print("relevant_matches", relevant_matches)
-            print("relevant_players", relevant_players)
-            print("relevant_analysis", relevant_analysis)
-
-            # Combine all context
+            # Initialize context dictionary
             context = {
-                "matches": relevant_matches,
-                "players": relevant_players,
-                "analysis": relevant_analysis,
+                "venue_stats": [],
+                "h2h_stats": [],
+                "team1_player_stats": [],
+                "team2_player_stats": [],
             }
+
+            # Query for venue statistics
+            venue_filter = {"type": "venue_stats", "venue": venue}
+            venue_results = self.vector_store.similarity_search(
+                query=f"venue statistics for {venue}",
+                filter_dict=venue_filter,
+                n_results=3,
+            )
+            context["venue_stats"] = venue_results
+
+            # Query for team head-to-head statistics
+            h2h_filter = {
+                "type": "team_h2h",
+                "$or": [
+                    {"team1": team1, "team2": team2},
+                    {"team1": team2, "team2": team1},
+                ],
+            }
+            h2h_results = self.vector_store.similarity_search(
+                query=f"head to head statistics between {team1} and {team2}",
+                filter_dict=h2h_filter,
+                n_results=3,
+            )
+            context["h2h_stats"] = h2h_results
+
+            # Query for team1 player statistics - all four types
+            team1_player_types = [
+                "player_vs_player",
+                "player_vs_team",
+                "player_venue",
+                "player_all_time",
+            ]
+
+            for player_type in team1_player_types:
+                player_filter = {
+                    "type": player_type,
+                    "$or": [{"team": team2}, {"venue": venue}, {"opponent": team2}],
+                }
+
+                query_text = (
+                    f"player statistics for {team1} "
+                    f"({player_type}) against {team2} at {venue}"
+                )
+
+                player_results = self.vector_store.similarity_search(
+                    query=query_text, filter_dict=player_filter, n_results=2
+                )
+                context["team1_player_stats"].extend(player_results)
+
+            # Query for team2 player statistics - all four types
+            for player_type in team1_player_types:
+                player_filter = {
+                    "type": player_type,
+                    "$or": [{"team": team1}, {"venue": venue}, {"opponent": team1}],
+                }
+
+                query_text = (
+                    f"player statistics for {team2} "
+                    f"({player_type}) against {team1} at {venue}"
+                )
+
+                player_results = self.vector_store.similarity_search(
+                    query=query_text, filter_dict=player_filter, n_results=2
+                )
+                context["team2_player_stats"].extend(player_results)
 
             return context
 
         except Exception as e:
             logger.error(f"Error retrieving context: {e}")
             # Return empty context instead of raising an exception
-            return {"matches": [], "players": [], "analysis": []}
+            return {
+                "venue_stats": [],
+                "h2h_stats": [],
+                "team1_player_stats": [],
+                "team2_player_stats": [],
+            }
 
     def format_context(self, context: Dict) -> str:
         """Format retrieved context into a string for the LLM."""
         try:
             formatted_text = []
 
-            # Format match information
-            if context.get("matches"):
-                formatted_text.append("Recent Matches:")
-                for match in context["matches"]:
-                    formatted_text.append(match["document"])
-            else:
-                formatted_text.append("No specific match information available.")
+            # Format venue statistics
+            if context.get("venue_stats"):
+                formatted_text.append("Venue Statistics:")
+                for stat in context["venue_stats"]:
+                    formatted_text.append(stat["content"])
 
-            # Format player information
-            if context.get("players"):
-                formatted_text.append("\nKey Players:")
-                for player in context["players"]:
-                    formatted_text.append(player["document"])
-            else:
-                formatted_text.append("\nNo specific player information available.")
+            # Format head-to-head statistics
+            if context.get("h2h_stats"):
+                formatted_text.append("\nHead-to-Head Statistics:")
+                for stat in context["h2h_stats"]:
+                    formatted_text.append(stat["content"])
 
-            # Format analysis information
-            if context.get("analysis"):
-                formatted_text.append("\nVenue Analysis:")
-                for analysis in context["analysis"]:
-                    formatted_text.append(analysis["document"])
-            else:
-                formatted_text.append("\nNo specific venue analysis available.")
+            # Format team1 player statistics
+            if context.get("team1_player_stats"):
+                formatted_text.append("\nTeam 1 Player Statistics:")
+                for stat in context["team1_player_stats"]:
+                    formatted_text.append(stat["content"])
+
+            # Format team2 player statistics
+            if context.get("team2_player_stats"):
+                formatted_text.append("\nTeam 2 Player Statistics:")
+                for stat in context["team2_player_stats"]:
+                    formatted_text.append(stat["content"])
 
             return "\n".join(formatted_text)
 
         except Exception as e:
             logger.error(f"Error formatting context: {e}")
-            return "No context information available."
+            return ""
 
     def generate_prompt(self, query: str, team1: str, team2: str, venue: str) -> str:
-        """Generate a prompt combining the query and retrieved context."""
+        """
+        Generate a prompt for the LLM based on the query and match details.
+        """
         try:
             # Get relevant context
             context = self.get_relevant_context(query, team1, team2, venue)
+
+            # Format the context
             formatted_context = self.format_context(context)
-            print("context", context)
-            print("formatted_context", formatted_context)
 
-            # Create the final prompt template
-            template = (
-                "User Query: {query}\n\n"
-                "Context:\n"
-                "{context}\n\n"
-                "Based on the above context, provide a detailed analysis for "
-                "the match between {team1} and {team2} at {venue}.\n"
-                "Include:\n"
-                "1. Historical performance at the venue\n"
-                "2. Head-to-head record\n"
-                "3. Key player matchups\n"
-                "4. Pitch conditions and their impact\n"
-                "5. Predictions for the match\n\n"
-                "Response:\n"
-            )
-
-            # Format the prompt with the actual values
-            prompt = template.format(
-                query=query,
-                context=formatted_context,
-                team1=team1,
-                team2=team2,
-                venue=venue,
-            )
+            # Generate the prompt
+            prompt = f"""
+            You are an IPL cricket expert. Based on the following information, 
+            provide a detailed analysis and prediction for the match between 
+            {team1} and {team2} at {venue}.
+            
+            Here is the relevant cricket statistics:
+            
+            {formatted_context}
+            
+            Based on this information, please provide:
+            1. A detailed analysis of the match conditions and team strengths
+            2. Key players to watch out for from both teams
+            3. A prediction for the match outcome
+            
+            User query: {query}
+            """
 
             return prompt
 
         except Exception as e:
             logger.error(f"Error generating prompt: {e}")
-            # Return a basic prompt if there's an error
-            return f"User Query: {query}\n\nPlease provide an analysis for the match between {team1} and {team2} at {venue}."
+            return (
+                f"Analyze the match between {team1} and {team2} at {venue}. "
+                f"User query: {query}"
+            )
