@@ -27,14 +27,6 @@ class FeatureEngineering:
         self.team_h2h_stats_dir = self.processed_data_dir / "team_h2h_stats"
         self.team_h2h_stats_dir.mkdir(exist_ok=True)
 
-        self.player_all_time_stats_dir = (
-            self.processed_data_dir / "player_all_time_stats"
-        )
-        self.player_all_time_stats_dir.mkdir(exist_ok=True)
-
-        self.h2h_stats_dir = self.processed_data_dir / "h2h_stats"
-        self.h2h_stats_dir.mkdir(exist_ok=True)
-
         logger.info("FeatureEngineering initialized")
 
     def calculate_venue_statistics(self, matches_df: pd.DataFrame) -> None:
@@ -318,91 +310,6 @@ class FeatureEngineering:
         except Exception as e:
             logger.error(f"Error saving H2H stats: {e}")
 
-    def calculate_venue_statistics_old(
-        self, team: str, deliveries_df: pd.DataFrame
-    ) -> Dict:
-        """Calculate comprehensive venue statistics for a team."""
-        # Standardize team name
-        standardized_team = self.data_loader.standardize_team_name(team)
-        logger.info(f"Calculating venue statistics for team {standardized_team}")
-
-        # Get matches data to get venue information
-        matches_df = self.data_loader.load_matches()
-        if matches_df.empty:
-            logger.warning("No matches data available for venue statistics")
-            return {}
-
-        # Get unique match IDs from deliveries data
-        match_ids = deliveries_df["match_id"].unique()
-
-        # Get venue information for these matches
-        match_venues = matches_df[matches_df["match_id"].isin(match_ids)][
-            ["match_id", "venue"]
-        ]
-        if match_venues.empty:
-            logger.warning("No venue information found for the matches")
-            return {}
-
-        # Merge venue information with deliveries data
-        deliveries_with_venue = deliveries_df.merge(
-            match_venues, on="match_id", how="left"
-        )
-
-        # Get unique venues
-        venues = deliveries_with_venue["venue"].unique()
-        venue_stats = {}
-
-        for venue in venues:
-            # Filter data for this venue
-            venue_data = deliveries_with_venue[deliveries_with_venue["venue"] == venue]
-
-            # Calculate team's batting stats at this venue
-            team_batting = venue_data[venue_data["batting_team"] == standardized_team]
-            batting_stats = {
-                "matches_played": len(team_batting["match_id"].unique()),
-                "total_runs": team_batting["total_runs"].sum(),
-                "wickets_lost": len(team_batting[team_batting["is_wicket"] == 1]),
-                "fours": len(team_batting[team_batting["batsman_runs"] == 4]),
-                "sixes": len(team_batting[team_batting["batsman_runs"] == 6]),
-            }
-
-            # Calculate team's bowling stats at this venue
-            team_bowling = venue_data[venue_data["bowling_team"] == standardized_team]
-            bowling_stats = {
-                "matches_played": len(team_bowling["match_id"].unique()),
-                "runs_conceded": team_bowling["total_runs"].sum(),
-                "wickets_taken": len(team_bowling[team_bowling["is_wicket"] == 1]),
-                "maidens": len(team_bowling[team_bowling["total_runs"] == 0]) / 6,
-            }
-
-            # Calculate derived statistics
-            if batting_stats["matches_played"] > 0:
-                batting_stats["average_runs_per_match"] = (
-                    batting_stats["total_runs"] / batting_stats["matches_played"]
-                )
-                if batting_stats["wickets_lost"] > 0:
-                    batting_stats["batting_average"] = (
-                        batting_stats["total_runs"] / batting_stats["wickets_lost"]
-                    )
-
-            if bowling_stats["matches_played"] > 0:
-                bowling_stats["average_runs_conceded"] = (
-                    bowling_stats["runs_conceded"] / bowling_stats["matches_played"]
-                )
-                if bowling_stats["wickets_taken"] > 0:
-                    bowling_stats["bowling_average"] = (
-                        bowling_stats["runs_conceded"] / bowling_stats["wickets_taken"]
-                    )
-
-            venue_stats[venue] = {
-                "batting": batting_stats,
-                "bowling": bowling_stats,
-            }
-
-        # Save venue statistics
-        self._save_venue_stats(standardized_team, venue_stats)
-        return venue_stats
-
     def calculate_head_to_head_statistics(
         self, team1: str, team2: str, deliveries_df: pd.DataFrame
     ) -> Dict:
@@ -539,37 +446,6 @@ class FeatureEngineering:
         except Exception as e:
             logger.error(f"Error saving venue stats: {e}")
 
-    def _save_venue_stats_old(self, team: str, stats: Dict) -> None:
-        """Save venue statistics to a JSON file."""
-        import json
-
-        def convert_to_serializable(obj):
-            """Convert NumPy types to Python native types."""
-            if isinstance(obj, np.integer):
-                return int(obj)
-            elif isinstance(obj, np.floating):
-                return float(obj)
-            elif isinstance(obj, np.ndarray):
-                return obj.tolist()
-            elif isinstance(obj, dict):
-                return {
-                    key: convert_to_serializable(value) for key, value in obj.items()
-                }
-            elif isinstance(obj, list):
-                return [convert_to_serializable(item) for item in obj]
-            return obj
-
-        stats_file = self.venue_stats_dir / f"{team}_venue_stats.json"
-
-        try:
-            # Convert NumPy types to Python native types
-            serializable_stats = convert_to_serializable(stats)
-            with open(stats_file, "w") as f:
-                json.dump(serializable_stats, f, indent=2)
-            logger.info(f"Saved venue stats for team {team}")
-        except Exception as e:
-            logger.error(f"Error saving venue stats: {e}")
-
     def _save_h2h_stats(self, team1: str, team2: str, stats: Dict) -> None:
         """Save head-to-head statistics to a JSON file."""
         import json
@@ -636,43 +512,6 @@ class FeatureEngineering:
         except Exception as e:
             logger.error(f"Error loading H2H stats: {e}")
             return {}
-
-    @staticmethod
-    def calculate_venue_stats_old(matches_df: pd.DataFrame, venue: str) -> Dict:
-        """Calculate venue-specific statistics."""
-        try:
-            venue_matches = matches_df[matches_df["venue"] == venue]
-            total_matches = len(venue_matches)
-
-            # Batting first/second stats
-            batting_first_wins = len(
-                venue_matches[
-                    venue_matches.apply(
-                        lambda x: (
-                            x["winner"] == x["team1"]
-                            if x["toss_decision"] == "bat"
-                            else (
-                                x["winner"] == x["team2"]
-                                if x["toss_decision"] == "field"
-                                else False
-                            )
-                        ),
-                        axis=1,
-                    )
-                ]
-            )
-
-            return {
-                "total_matches": total_matches,
-                "batting_first_wins": batting_first_wins,
-                "batting_second_wins": total_matches - batting_first_wins,
-                "win_percentage_batting_first": round(
-                    batting_first_wins / total_matches * 100, 2
-                ),
-            }
-        except Exception as e:
-            logger.error(f"Error calculating venue stats: {e}")
-            raise
 
     @staticmethod
     def calculate_h2h_stats(
