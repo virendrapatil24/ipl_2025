@@ -1,385 +1,234 @@
 import json
+from pathlib import Path
 from typing import Dict, List, Optional
 
 import chromadb
-import pandas as pd
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.schema import Document
 
 from ..config.settings import settings
 from ..utils.logger import logger
-from .embeddings import EmbeddingGenerator
 
 
 class VectorStore:
     def __init__(
         self,
         persist_directory: Optional[str] = None,
-        embedding_generator: Optional[EmbeddingGenerator] = None,
+        embedding_model: Optional[OpenAIEmbeddings] = None,
     ):
         """Initialize the vector store."""
         self.persist_directory = persist_directory or str(settings.vector_store_dir)
         logger.info(
-            f"Initializing vector store with persist directory: {self.persist_directory}"
+            "Initializing vector store with persist directory: "
+            f"{self.persist_directory}"
         )
 
         self.client = chromadb.PersistentClient(path=self.persist_directory)
-        self.embedding_generator = embedding_generator or EmbeddingGenerator()
+        self.embedding_model = embedding_model or OpenAIEmbeddings()
 
-        # Create collections for different types of data
-        self.matches_collection = self.client.get_or_create_collection(
-            name="matches", metadata={"description": "Match data and statistics"}
-        )
-        self.players_collection = self.client.get_or_create_collection(
-            name="players",
-            metadata={"description": "Player information and statistics"},
-        )
-        self.analysis_collection = self.client.get_or_create_collection(
-            name="analysis", metadata={"description": "Match analysis and insights"}
+        # Create a single collection for all IPL data
+        self.ipl_collection = self.client.get_or_create_collection(
+            name="ipl_data",
+            metadata={"description": "IPL match data, statistics and analysis"},
         )
 
-        # Check if collections are empty and populate if needed
-        self._check_and_populate_collections()
+        # Check if collection is empty and populate if needed
+        self._check_and_populate_collection()
 
-    def _check_and_populate_collections(self):
-        """Check if collections are empty and populate them if needed."""
+    def _check_and_populate_collection(self):
+        """Check if collection is empty and populate it if needed."""
         try:
-            # Check matches collection
-            matches_count = self.matches_collection.count()
-            logger.info(f"Matches collection count: {matches_count}")
-            if matches_count == 0:
-                logger.info("Matches collection is empty. Populating with data...")
-                self._populate_matches_collection()
-
-            # Check players collection
-            players_count = self.players_collection.count()
-            logger.info(f"Players collection count: {players_count}")
-            if players_count == 0:
-                logger.info("Players collection is empty. Populating with data...")
-                self._populate_players_collection()
-
-            # Check analysis collection
-            analysis_count = self.analysis_collection.count()
-            logger.info(f"Analysis collection count: {analysis_count}")
-            if analysis_count == 0:
-                logger.info("Analysis collection is empty. Populating with data...")
-                self._populate_analysis_collection()
-
+            count = self.ipl_collection.count()
+            logger.info(f"IPL collection count: {count}")
+            if count == 0:
+                logger.info("IPL collection is empty. Populating with data...")
+                self._populate_ipl_collection()
         except Exception as e:
-            logger.error(f"Error checking and populating collections: {e}")
-
-    def _populate_matches_collection(self):
-        """Populate the matches collection with data from matches.csv."""
-        try:
-            # Load matches data
-            matches_file = (
-                settings.data_dir / "cleaned_data" / "matches_data" / "matches.csv"
-            )
-            logger.info(f"Loading matches data from: {matches_file}")
-
-            if not matches_file.exists():
-                logger.warning(f"Matches file not found at {matches_file}")
-                return
-
-            matches_df = pd.read_csv(matches_file)
-            logger.info(f"Loaded {len(matches_df)} matches from CSV")
-
-            if matches_df.empty:
-                logger.warning("Matches data is empty")
-                return
-
-            # Convert DataFrame to list of dictionaries
-            matches_data = matches_df.to_dict(orient="records")
-            logger.info(f"Converted {len(matches_data)} matches to dictionary format")
-
-            # Add to vector store
-            self.add_match_data(matches_data)
-            logger.info(
-                f"Successfully populated matches collection with "
-                f"{len(matches_data)} records"
-            )
-
-        except Exception as e:
-            logger.error(f"Error populating matches collection: {e}")
-
-    def _populate_players_collection(self):
-        """Populate the players collection with data from processed player stats."""
-        try:
-            # Update path to point to backend/processed_data
-            player_stats_dir = (
-                settings.data_dir.parent / "processed_data" / "player_stats"
-            )
-            logger.info(f"Loading player stats from: {player_stats_dir}")
-
-            if not player_stats_dir.exists():
-                logger.warning(
-                    f"Player stats directory not found at {player_stats_dir}"
-                )
-                return
-
-            players_data = []
-            for player_file in player_stats_dir.glob("*.json"):
-                try:
-                    with open(player_file, "r") as f:
-                        player_data = json.load(f)
-                        players_data.append(player_data)
-                except Exception as e:
-                    logger.error(f"Error loading player file {player_file}: {e}")
-
-            logger.info(f"Loaded {len(players_data)} player stats files")
-
-            if not players_data:
-                logger.warning("No player data found in processed files")
-                return
-
-            # Add to vector store
-            self.add_player_data(players_data)
-            logger.info(
-                f"Successfully populated players collection with "
-                f"{len(players_data)} records"
-            )
-
-        except Exception as e:
-            logger.error(f"Error populating players collection: {e}")
-
-    def _populate_venue_collection(self):
-        """Populate the venue collection with pre-computed venue data."""
-        try:
-            venue_data = []
-
-            # Load venue statistics with updated path
-            venue_stats_dir = (
-                settings.data_dir.parent / "processed_data" / "venue_stats"
-            )
-            logger.info(f"Loading venue stats from: {venue_stats_dir}")
-
-            if venue_stats_dir.exists():
-                for venue_file in venue_stats_dir.glob("*.json"):
-                    try:
-                        with open(venue_file, "r") as f:
-                            venue_data = json.load(f)
-                            analysis_data.append(
-                                {
-                                    "type": "venue_stats",
-                                    "team": venue_file.stem.replace("_venue_stats", ""),
-                                    "data": venue_data,
-                                }
-                            )
-                    except Exception as e:
-                        logger.error(f"Error loading venue file {venue_file}: {e}")
-
-            # Load head-to-head statistics with updated path
-            h2h_stats_dir = settings.data_dir.parent / "processed_data" / "h2h_stats"
-            logger.info(f"Loading h2h stats from: {h2h_stats_dir}")
-
-            if h2h_stats_dir.exists():
-                for h2h_file in h2h_stats_dir.glob("*.json"):
-                    try:
-                        with open(h2h_file, "r") as f:
-                            h2h_data = json.load(f)
-                            teams = h2h_file.stem.replace("_h2h_stats", "").split(
-                                "_vs_"
-                            )
-                            analysis_data.append(
-                                {
-                                    "type": "h2h_stats",
-                                    "team1": teams[0],
-                                    "team2": teams[1],
-                                    "data": h2h_data,
-                                }
-                            )
-                    except Exception as e:
-                        logger.error(f"Error loading h2h file {h2h_file}: {e}")
-
-            logger.info(f"Loaded {len(analysis_data)} analysis files")
-
-            if not analysis_data:
-                logger.warning("No analysis data found in processed files")
-                return
-
-            # Add to vector store
-            self.add_analysis_data(analysis_data)
-            logger.info(
-                f"Successfully populated analysis collection with "
-                f"{len(analysis_data)} records"
-            )
-
-        except Exception as e:
-            logger.error(f"Error populating analysis collection: {e}")
-
-    def add_match_data(self, matches_data: List[Dict]):
-        """Add match data to the vector store."""
-        try:
-            documents = []
-            metadatas = []
-            ids = []
-
-            for match in matches_data:
-                doc = self.embedding_generator.create_match_document(match)
-                documents.append(doc)
-                metadatas.append(match)
-                ids.append(f"match_{match['match_id']}")
-
-            self.matches_collection.add(
-                documents=documents, metadatas=metadatas, ids=ids
-            )
-            logger.info(f"Added {len(documents)} matches to vector store")
-        except Exception as e:
-            logger.error(f"Error adding match data: {e}")
+            logger.error(f"Error checking/populating collection: {str(e)}")
             raise
 
-    def add_player_data(self, players_data: List[Dict]):
-        """Add player data to the vector store."""
+    def _load_json_file(self, file_path: Path) -> Dict:
+        """Load and parse a JSON file."""
         try:
-            documents = []
-            metadatas = []
-            ids = []
+            with open(file_path, "r") as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Error loading JSON file {file_path}: {str(e)}")
+            return {}
 
-            for player in players_data:
-                doc = self.embedding_generator.create_player_document(player)
-                documents.append(doc)
+    def _process_venue_stats(self, venue_stats_dir: Path) -> List[Document]:
+        """Process venue statistics from JSON files."""
+        documents = []
+        for file_path in venue_stats_dir.glob("*.json"):
+            data = self._load_json_file(file_path)
+            if not data:
+                continue
 
-                # Convert player data to a string representation for metadata
-                # This ensures ChromaDB can store it properly
-                player_name = player.get("player_name", "unknown")
-                player_id = f"player_{player_name.replace(' ', '_')}"
+            venue_name = file_path.stem
+            content = (
+                f"Venue {venue_name} statistics: "
+                f"Average first innings score: "
+                f"{data.get('avg_first_innings_score', 'N/A')}, "
+                f"Average second innings score: "
+                f"{data.get('avg_second_innings_score', 'N/A')}, "
+                f"Average wickets per match: "
+                f"{data.get('avg_wickets_per_match', 'N/A')}"
+            )
 
-                # Create a simplified metadata object with only string values
-                metadata = {
-                    "player_name": player_name,
-                    "player_id": player_id,
-                    "stats_summary": f"Matches: {player.get('matches_played', 0)}, "
-                    f"Runs: {player.get('runs_scored', 0)}, "
-                    f"Avg: {player.get('average', 0):.2f}",
+            documents.append(
+                Document(
+                    page_content=content,
+                    metadata={
+                        "type": "venue_stats",
+                        "venue": venue_name,
+                    },
+                )
+            )
+        return documents
+
+    def _process_team_stats(self, team_stats_dir: Path) -> List[Document]:
+        """Process team head-to-head statistics."""
+        documents = []
+        for file_path in team_stats_dir.glob("*.json"):
+            data = self._load_json_file(file_path)
+            if not data:
+                continue
+
+            team_name = file_path.stem
+            for opponent, stats in data.items():
+                content = (
+                    f"Head-to-head stats between {team_name} and {opponent}: "
+                    f"Matches played: {stats.get('matches_played', 'N/A')}, "
+                    f"{team_name} wins: {stats.get('team_wins', 'N/A')}, "
+                    f"{opponent} wins: {stats.get('opponent_wins', 'N/A')}"
+                )
+
+                documents.append(
+                    Document(
+                        page_content=content,
+                        metadata={
+                            "type": "team_h2h",
+                            "team1": team_name,
+                            "team2": opponent,
+                        },
+                    )
+                )
+        return documents
+
+    def _process_player_stats(self, player_stats_dir: Path) -> List[Document]:
+        """Process player statistics."""
+        documents = []
+        for file_path in player_stats_dir.glob("*.json"):
+            data = self._load_json_file(file_path)
+            if not data:
+                continue
+
+            player_name = file_path.stem
+            # Process player vs player stats
+            if "vs_player" in data:
+                for opponent, stats in data["vs_player"].items():
+                    content = (
+                        f"Player {player_name} vs {opponent} stats: "
+                        f"Matches: {stats.get('matches', 'N/A')}, "
+                        f"Runs: {stats.get('runs', 'N/A')}, "
+                        f"Strike Rate: {stats.get('strike_rate', 'N/A')}"
+                    )
+
+                    documents.append(
+                        Document(
+                            page_content=content,
+                            metadata={
+                                "type": "player_vs_player",
+                                "player": player_name,
+                                "opponent": opponent,
+                            },
+                        )
+                    )
+
+            # Process player venue stats
+            if "venue_stats" in data:
+                for venue, stats in data["venue_stats"].items():
+                    content = (
+                        f"Player {player_name} at {venue} stats: "
+                        f"Matches: {stats.get('matches', 'N/A')}, "
+                        f"Runs: {stats.get('runs', 'N/A')}, "
+                        f"Strike Rate: {stats.get('strike_rate', 'N/A')}"
+                    )
+
+                    documents.append(
+                        Document(
+                            page_content=content,
+                            metadata={
+                                "type": "player_venue",
+                                "player": player_name,
+                                "venue": venue,
+                            },
+                        )
+                    )
+        return documents
+
+    def _populate_ipl_collection(self):
+        """Populate the IPL collection with all available data."""
+        processed_data_dir = Path(settings.processed_data_dir)
+
+        # Process venue statistics
+        venue_stats = self._process_venue_stats(processed_data_dir / "venue_stats")
+
+        # Process team head-to-head statistics
+        team_stats = self._process_team_stats(processed_data_dir / "team_h2h_stats")
+
+        # Process player statistics
+        player_stats = self._process_player_stats(
+            processed_data_dir / "player_vs_player_stats"
+        )
+
+        # Combine all documents
+        all_documents = venue_stats + team_stats + player_stats
+
+        # Add documents to collection
+        for i, doc in enumerate(all_documents):
+            self.ipl_collection.add(
+                documents=[doc.page_content],
+                metadatas=[doc.metadata],
+                ids=[f"doc_{i}"],
+            )
+
+        logger.info(
+            "Successfully populated IPL collection with "
+            f"{len(all_documents)} documents"
+        )
+
+    def similarity_search(
+        self,
+        query: str,
+        filter_dict: Optional[Dict] = None,
+        n_results: int = 5,
+    ) -> List[Dict]:
+        """
+        Perform a similarity search with optional filtering.
+
+        Args:
+            query: The search query
+            filter_dict: Optional dictionary of metadata filters
+            n_results: Number of results to return
+
+        Returns:
+            List of dictionaries containing the search results
+        """
+        try:
+            results = self.ipl_collection.query(
+                query_texts=[query],
+                n_results=n_results,
+                where=filter_dict,
+            )
+
+            return [
+                {
+                    "content": doc,
+                    "metadata": meta,
                 }
-
-                metadatas.append(metadata)
-                ids.append(player_id)
-
-            self.players_collection.add(
-                documents=documents, metadatas=metadatas, ids=ids
-            )
-            logger.info(f"Added {len(documents)} players to vector store")
-        except Exception as e:
-            logger.error(f"Error adding player data: {e}")
-            raise
-
-    def add_analysis_data(self, analysis_data: List[Dict]):
-        """Add analysis data to the vector store."""
-        try:
-            documents = []
-            metadatas = []
-            ids = []
-
-            for analysis in analysis_data:
-                doc = self.embedding_generator.create_analysis_document(analysis)
-                documents.append(doc)
-
-                # Create a simplified metadata object with only string values
-                analysis_type = analysis.get("type", "unknown")
-                analysis_id = f"analysis_{analysis_type}_{len(ids)}"
-
-                # Create a simplified metadata object based on analysis type
-                if analysis_type == "venue_stats":
-                    team = analysis.get("team", "unknown")
-                    metadata = {
-                        "type": analysis_type,
-                        "team": team,
-                        "summary": f"Venue statistics for {team}",
-                    }
-                elif analysis_type == "h2h_stats":
-                    team1 = analysis.get("team1", "unknown")
-                    team2 = analysis.get("team2", "unknown")
-                    metadata = {
-                        "type": analysis_type,
-                        "team1": team1,
-                        "team2": team2,
-                        "summary": f"Head-to-head statistics for {team1} vs {team2}",
-                    }
-                else:
-                    metadata = {
-                        "type": analysis_type,
-                        "summary": f"Analysis of type {analysis_type}",
-                    }
-
-                metadatas.append(metadata)
-                ids.append(analysis_id)
-
-            self.analysis_collection.add(
-                documents=documents, metadatas=metadatas, ids=ids
-            )
-            logger.info(f"Added {len(documents)} analysis documents to vector store")
-        except Exception as e:
-            logger.error(f"Error adding analysis data: {e}")
-            raise
-
-    def query_matches(self, query: str, n_results: int = 5) -> List[Dict]:
-        """Query match data from vector store."""
-        try:
-            results = self.matches_collection.query(
-                query_texts=[query], n_results=n_results
-            )
-            print("results", results)
-
-            # Handle empty results
-            if not results["documents"][0]:
-                logger.warning(f"No matches found for query: {query}")
-                return []
-
-            return [
-                {"document": doc, "metadata": meta, "distance": dist}
-                for doc, meta, dist in zip(
-                    results["documents"][0],
-                    results["metadatas"][0],
-                    results["distances"][0],
-                )
+                for doc, meta in zip(results["documents"][0], results["metadatas"][0])
             ]
         except Exception as e:
-            logger.error(f"Error querying matches: {e}")
-            raise
-
-    def query_players(self, query: str, n_results: int = 5) -> List[Dict]:
-        """Query player data from vector store."""
-        try:
-            results = self.players_collection.query(
-                query_texts=[query], n_results=n_results
-            )
-
-            # Handle empty results
-            if not results["documents"][0]:
-                logger.warning(f"No players found for query: {query}")
-                return []
-
-            return [
-                {"document": doc, "metadata": meta, "distance": dist}
-                for doc, meta, dist in zip(
-                    results["documents"][0],
-                    results["metadatas"][0],
-                    results["distances"][0],
-                )
-            ]
-        except Exception as e:
-            logger.error(f"Error querying players: {e}")
-            raise
-
-    def query_analysis(self, query: str, n_results: int = 5) -> List[Dict]:
-        """Query analysis data from vector store."""
-        try:
-            results = self.analysis_collection.query(
-                query_texts=[query], n_results=n_results
-            )
-
-            # Handle empty results
-            if not results["documents"][0]:
-                logger.warning(f"No analysis found for query: {query}")
-                return []
-
-            return [
-                {"document": doc, "metadata": meta, "distance": dist}
-                for doc, meta, dist in zip(
-                    results["documents"][0],
-                    results["metadatas"][0],
-                    results["distances"][0],
-                )
-            ]
-        except Exception as e:
-            logger.error(f"Error querying analysis: {e}")
-            raise
+            logger.error(f"Error performing similarity search: {str(e)}")
+            return []
