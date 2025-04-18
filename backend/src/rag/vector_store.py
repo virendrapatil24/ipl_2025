@@ -69,7 +69,7 @@ class VectorStore:
             if not data:
                 continue
 
-            venue_name = file_path.stem
+            venue_name = file_path.stem.replace("_venue_stats", "")
 
             # Calculate win percentages
             total_matches = data.get("total_matches", 0)
@@ -119,7 +119,7 @@ class VectorStore:
             if not data:
                 continue
 
-            team_name = file_path.stem
+            team_name = file_path.stem.replace("_h2h_stats", "")
             for opponent, stats in data.items():
                 # Process recent form (last 4 matches)
                 recent_matches = stats.get("recent_form", [])
@@ -140,8 +140,10 @@ class VectorStore:
                 content = (
                     f"Head-to-head stats between {team_name} and {opponent}: "
                     f"Matches played: {stats.get('matches_played', 'N/A')}, "
-                    f"{team_name} wins: {stats.get(f'{team_name}_wins', 'N/A')}, "
-                    f"{opponent} wins: {stats.get(f'{opponent}_wins', 'N/A')}. "
+                    f"{team_name} wins: "
+                    f"{stats.get(f'{team_name}_wins', 'N/A')}, "
+                    f"{opponent} wins: "
+                    f"{stats.get(f'{opponent}_wins', 'N/A')}. "
                     f"{recent_form_text}"
                 )
 
@@ -162,7 +164,8 @@ class VectorStore:
         documents = []
 
         # Process player vs player stats
-        for file_path in (player_stats_dir / "player_vs_player_stats").glob("*.json"):
+        player_vs_player_dir = player_stats_dir / "player_vs_player_stats"
+        for file_path in player_vs_player_dir.glob("*.json"):
             data = self._load_json_file(file_path)
             if not data:
                 continue
@@ -198,7 +201,8 @@ class VectorStore:
                 )
 
         # Process player vs team stats
-        for file_path in (player_stats_dir / "player_vs_team_stats").glob("*.json"):
+        player_vs_team_dir = player_stats_dir / "player_vs_team_stats"
+        for file_path in player_vs_team_dir.glob("*.json"):
             data = self._load_json_file(file_path)
             if not data:
                 continue
@@ -234,7 +238,8 @@ class VectorStore:
                 )
 
         # Process player venue stats
-        for file_path in (player_stats_dir / "player_venue_stats").glob("*.json"):
+        player_venue_dir = player_stats_dir / "player_venue_stats"
+        for file_path in player_venue_dir.glob("*.json"):
             data = self._load_json_file(file_path)
             if not data:
                 continue
@@ -270,7 +275,8 @@ class VectorStore:
                 )
 
         # Process player all-time stats
-        for file_path in (player_stats_dir / "player_all_time_stats").glob("*.json"):
+        player_all_time_dir = player_stats_dir / "player_all_time_stats"
+        for file_path in player_all_time_dir.glob("*.json"):
             data = self._load_json_file(file_path)
             if not data:
                 continue
@@ -313,7 +319,7 @@ class VectorStore:
             if not data:
                 continue
 
-            team_name = file_path.stem
+            team_name = file_path.stem.replace("_at_venue_stats", "")
             for venue, stats in data.items():
                 # Calculate win percentages
                 total_matches = stats.get("total_matches", 0)
