@@ -90,10 +90,10 @@ class VectorStore:
                 f"({batting_first_win_pct:.1f}%), "
                 f"Batting second wins: {batting_second_wins} "
                 f"({batting_second_win_pct:.1f}%), "
-                f"Average first innings score: "
-                f"{data.get('avg_first_innings_score', 'N/A')}, "
-                f"Average second innings score: "
-                f"{data.get('avg_second_innings_score', 'N/A')}, "
+                f"Average first innings runs: "
+                f"{data.get('avg_first_innings_runs', 'N/A')}, "
+                f"Average second innings runs: "
+                f"{data.get('avg_second_innings_runs', 'N/A')}, "
                 f"Average first innings wickets: "
                 f"{data.get('avg_first_innings_wickets', 'N/A')}, "
                 f"Average second innings wickets: "
@@ -122,13 +122,13 @@ class VectorStore:
             team_name = file_path.stem
             for opponent, stats in data.items():
                 # Process recent form (last 4 matches)
-                recent_matches = stats.get("recent_matches", [])
+                recent_matches = stats.get("recent_form", [])
                 recent_form = []
                 for match in recent_matches[:4]:  # Get last 4 matches
-                    result = "Won" if match.get("result") == "win" else "Lost"
-                    score = match.get("score", "N/A")
+                    result = "Won" if match.get("winner") == team_name else "Lost"
                     date = match.get("date", "Unknown")
-                    recent_form.append(f"{date}: {result} ({score})")
+                    margin = match.get("result", "Unknown")
+                    recent_form.append(f"{date}: {result} by {margin}")
 
                 # Format recent form text
                 recent_form_text = (
@@ -140,8 +140,8 @@ class VectorStore:
                 content = (
                     f"Head-to-head stats between {team_name} and {opponent}: "
                     f"Matches played: {stats.get('matches_played', 'N/A')}, "
-                    f"{team_name} wins: {stats.get('team_wins', 'N/A')}, "
-                    f"{opponent} wins: {stats.get('opponent_wins', 'N/A')}. "
+                    f"{team_name} wins: {stats.get(f'{team_name}_wins', 'N/A')}, "
+                    f"{opponent} wins: {stats.get(f'{opponent}_wins', 'N/A')}. "
                     f"{recent_form_text}"
                 )
 
@@ -169,11 +169,21 @@ class VectorStore:
 
             player_name = file_path.stem
             for opponent, stats in data.items():
+                batting = stats.get("batting", {})
+                bowling = stats.get("bowling", {})
+
                 content = (
                     f"Player {player_name} vs {opponent} stats: "
-                    f"Matches: {stats.get('matches', 'N/A')}, "
-                    f"Runs: {stats.get('runs', 'N/A')}, "
-                    f"Strike Rate: {stats.get('strike_rate', 'N/A')}"
+                    f"Batting - Matches: {batting.get('matches', 'N/A')}, "
+                    f"Runs: {batting.get('runs', 'N/A')}, "
+                    f"Strike Rate: {batting.get('strike_rate', 'N/A')}, "
+                    f"Average: {batting.get('average', 'N/A')}, "
+                    f"50s: {batting.get('50s', 'N/A')}, "
+                    f"100s: {batting.get('100s', 'N/A')}; "
+                    f"Bowling - Matches: {bowling.get('matches', 'N/A')}, "
+                    f"Wickets: {bowling.get('wickets', 'N/A')}, "
+                    f"Economy: {bowling.get('economy', 'N/A')}, "
+                    f"Best: {bowling.get('best_bowling', 'N/A')}"
                 )
 
                 documents.append(
@@ -195,13 +205,21 @@ class VectorStore:
 
             player_name = file_path.stem
             for team, stats in data.items():
+                batting = stats.get("batting", {})
+                bowling = stats.get("bowling", {})
+
                 content = (
                     f"Player {player_name} vs {team} stats: "
-                    f"Matches: {stats.get('matches', 'N/A')}, "
-                    f"Runs: {stats.get('runs', 'N/A')}, "
-                    f"Strike Rate: {stats.get('strike_rate', 'N/A')}, "
-                    f"Average: {stats.get('average', 'N/A')}, "
-                    f"Highest Score: {stats.get('highest_score', 'N/A')}"
+                    f"Batting - Matches: {batting.get('matches', 'N/A')}, "
+                    f"Runs: {batting.get('runs', 'N/A')}, "
+                    f"Strike Rate: {batting.get('strike_rate', 'N/A')}, "
+                    f"Average: {batting.get('average', 'N/A')}, "
+                    f"50s: {batting.get('50s', 'N/A')}, "
+                    f"100s: {batting.get('100s', 'N/A')}; "
+                    f"Bowling - Matches: {bowling.get('matches', 'N/A')}, "
+                    f"Wickets: {bowling.get('wickets', 'N/A')}, "
+                    f"Economy: {bowling.get('economy', 'N/A')}, "
+                    f"Best: {bowling.get('best_bowling', 'N/A')}"
                 )
 
                 documents.append(
@@ -223,13 +241,21 @@ class VectorStore:
 
             player_name = file_path.stem
             for venue, stats in data.items():
+                batting = stats.get("batting", {})
+                bowling = stats.get("bowling", {})
+
                 content = (
                     f"Player {player_name} at {venue} stats: "
-                    f"Matches: {stats.get('matches', 'N/A')}, "
-                    f"Runs: {stats.get('runs', 'N/A')}, "
-                    f"Strike Rate: {stats.get('strike_rate', 'N/A')}, "
-                    f"Average: {stats.get('average', 'N/A')}, "
-                    f"Highest Score: {stats.get('highest_score', 'N/A')}"
+                    f"Batting - Matches: {batting.get('matches', 'N/A')}, "
+                    f"Runs: {batting.get('runs', 'N/A')}, "
+                    f"Strike Rate: {batting.get('strike_rate', 'N/A')}, "
+                    f"Average: {batting.get('average', 'N/A')}, "
+                    f"50s: {batting.get('50s', 'N/A')}, "
+                    f"100s: {batting.get('100s', 'N/A')}; "
+                    f"Bowling - Matches: {bowling.get('matches', 'N/A')}, "
+                    f"Wickets: {bowling.get('wickets', 'N/A')}, "
+                    f"Economy: {bowling.get('economy', 'N/A')}, "
+                    f"Best: {bowling.get('best_bowling', 'N/A')}"
                 )
 
                 documents.append(
@@ -249,16 +275,22 @@ class VectorStore:
             if not data:
                 continue
 
-            player_name = file_path.stem
+            player_name = data.get("player_name", file_path.stem)
+            batting = data.get("batting", {})
+            bowling = data.get("bowling", {})
+
             content = (
                 f"Player {player_name} all-time stats: "
-                f"Total Matches: {data.get('total_matches', 'N/A')}, "
-                f"Total Runs: {data.get('total_runs', 'N/A')}, "
-                f"Average: {data.get('average', 'N/A')}, "
-                f"Strike Rate: {data.get('strike_rate', 'N/A')}, "
-                f"Highest Score: {data.get('highest_score', 'N/A')}, "
-                f"50s: {data.get('fifties', 'N/A')}, "
-                f"100s: {data.get('hundreds', 'N/A')}"
+                f"Batting - Matches: {batting.get('matches', 'N/A')}, "
+                f"Runs: {batting.get('runs', 'N/A')}, "
+                f"Strike Rate: {batting.get('strike_rate', 'N/A')}, "
+                f"Average: {batting.get('average', 'N/A')}, "
+                f"50s: {batting.get('50s', 'N/A')}, "
+                f"100s: {batting.get('100s', 'N/A')}; "
+                f"Bowling - Matches: {bowling.get('matches', 'N/A')}, "
+                f"Wickets: {bowling.get('wickets', 'N/A')}, "
+                f"Economy: {bowling.get('economy', 'N/A')}, "
+                f"Best: {bowling.get('best_bowling', 'N/A')}"
             )
 
             documents.append(
@@ -285,17 +317,31 @@ class VectorStore:
             for venue, stats in data.items():
                 # Calculate win percentages
                 total_matches = stats.get("total_matches", 0)
-                wins = stats.get("wins", 0)
-                win_pct = (wins / total_matches * 100) if total_matches > 0 else 0
+                batting_first_wins = stats.get("batting_first_wins", 0)
+                batting_second_wins = stats.get("batting_second_wins", 0)
+
+                batting_first_win_pct = (
+                    (batting_first_wins / total_matches * 100)
+                    if total_matches > 0
+                    else 0
+                )
+                batting_second_win_pct = (
+                    (batting_second_wins / total_matches * 100)
+                    if total_matches > 0
+                    else 0
+                )
 
                 content = (
                     f"Team {team_name} performance at {venue}: "
                     f"Total matches: {total_matches}, "
-                    f"Wins: {wins} ({win_pct:.1f}%), "
-                    f"Average first innings score: "
-                    f"{stats.get('avg_first_innings_score', 'N/A')}, "
-                    f"Average second innings score: "
-                    f"{stats.get('avg_second_innings_score', 'N/A')}, "
+                    f"Batting first wins: {batting_first_wins} "
+                    f"({batting_first_win_pct:.1f}%), "
+                    f"Batting second wins: {batting_second_wins} "
+                    f"({batting_second_win_pct:.1f}%), "
+                    f"Average first innings runs: "
+                    f"{stats.get('avg_first_innings_runs', 'N/A')}, "
+                    f"Average second innings runs: "
+                    f"{stats.get('avg_second_innings_runs', 'N/A')}, "
                     f"Average first innings wickets: "
                     f"{stats.get('avg_first_innings_wickets', 'N/A')}, "
                     f"Average second innings wickets: "
