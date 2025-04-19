@@ -69,6 +69,7 @@ class VectorStore:
             if not data:
                 continue
 
+            # Clean venue name by removing _venue_stats suffix
             venue_name = file_path.stem.replace("_venue_stats", "")
 
             # Calculate win percentages
@@ -83,6 +84,7 @@ class VectorStore:
                 (batting_second_wins / total_matches * 100) if total_matches > 0 else 0
             )
 
+            # Format content with correct key names
             content = (
                 f"Venue {venue_name} statistics: "
                 f"Total matches played: {total_matches}, "
@@ -105,7 +107,7 @@ class VectorStore:
                     page_content=content,
                     metadata={
                         "type": "venue_stats",
-                        "venue": venue_name,
+                        "venue": venue_name,  # Clean venue name without suffix
                     },
                 )
             )

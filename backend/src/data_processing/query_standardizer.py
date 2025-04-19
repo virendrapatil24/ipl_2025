@@ -41,6 +41,7 @@ def standardize_query(query: str, model_name: str = "gpt-3.5-turbo") -> Dict:
             Ekana Cricket Stadium.
 
             Pitch report is optional. If the user sends a pitch report, then return the pitch report in the "pitch_report" field.
+            If the user does not send a pitch report, then return "NA" in the "pitch_report" field.
 
             Just return only the below information in this exact JSON format, no other text or comments before or after the JSON:
             {{
@@ -77,4 +78,5 @@ def standardize_query(query: str, model_name: str = "gpt-3.5-turbo") -> Dict:
             "venue": "",
             "is_team1_home": False,
             "is_team2_home": False,
+            "pitch_report": "NA",
         }

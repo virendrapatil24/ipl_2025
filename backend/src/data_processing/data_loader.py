@@ -91,7 +91,6 @@ class DataLoader:
 
             # Load and combine all squad files
             all_squads = []
-            print("squad_files", squad_files)
             for squad_file in squad_files:
                 team_name = squad_file.stem.replace("_squad", "")
                 squad_df = pd.read_csv(squad_file)

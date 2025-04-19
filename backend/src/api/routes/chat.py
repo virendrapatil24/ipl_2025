@@ -62,10 +62,15 @@ async def chat_endpoint(request: ChatRequest) -> ChatResponse:
         team1 = standardized_info["team1"]
         team2 = standardized_info["team2"]
         venue = standardized_info["venue"]
-        logger.info(f"Team1: {team1}, Team2: {team2}, Venue: {venue}")
+        pitch_report = standardized_info["pitch_report"]
+        logger.info(
+            f"Team1: {team1}, Team2: {team2}, Venue: {venue}, Pitch Report: {pitch_report}"
+        )
 
         # Generate prompt using RAG
-        prompt = retriever.generate_prompt(request.message, team1, team2, venue)
+        prompt = retriever.generate_prompt(
+            request.message, team1, team2, venue, pitch_report
+        )
 
         # Get LLM instance
         model = request.model or settings.default_model

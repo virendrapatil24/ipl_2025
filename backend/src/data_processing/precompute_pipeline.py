@@ -57,5 +57,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    print("pipeline started")
     run_precompute_pipeline(args.data_dir)
