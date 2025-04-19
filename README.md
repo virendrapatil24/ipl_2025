@@ -18,7 +18,11 @@ ipl_2025/
 │   │   └── utils/
 │   ├── tests/
 │   ├── data/
+│   │   ├── raw_data/
+│   │   ├── processed_data/
+│   │   └── cleaned_data/
 │   └── vector_store/
+│   └── scripts/
 └── frontend/
     ├── src/
     │   ├── app/
@@ -36,6 +40,23 @@ ipl_2025/
 - Head-to-head statistics
 - Interactive chat interface
 - Support for multiple LLM providers (OpenAI, Anthropic, Ollama)
+
+## Data Storage Approach
+
+This project uses a file-based data storage approach rather than a traditional database:
+
+- All data is stored at the repository level in the `backend/data/` directory
+- Raw data is stored in `backend/data/raw_data/`
+- Processed data is stored in `backend/data/processed_data/`
+- Cleaned data is stored in `backend/data/cleaned_data/`
+- Vector embeddings are stored in `backend/vector_store/`
+
+This approach was chosen for:
+
+- Ease of setup and deployment
+- Simplicity in data versioning
+- No need for database configuration
+- Quick iteration during development
 
 ## Setup
 
@@ -110,6 +131,16 @@ Once the backend server is running, you can access:
 
 - API documentation: `http://localhost:8000/docs`
 - ReDoc documentation: `http://localhost:8000/redoc`
+
+## Future Scope
+
+- **Database Integration**: Replace file-based storage with a proper database (PostgreSQL, MongoDB) for better scalability and performance
+- **Real-time Data Updates**: Implement a system to fetch and update data in real-time from cricket APIs
+- **User Accounts**: Add user authentication and personalized predictions
+- **Advanced Analytics**: Incorporate machine learning models for more accurate predictions
+- **Mobile App**: Develop a mobile application for on-the-go access
+- **Historical Match Replay**: Add feature to analyze past matches with detailed statistics
+- **Fantasy League Integration**: Connect with popular fantasy cricket platforms
 
 ## Contributing
 
