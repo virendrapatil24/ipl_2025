@@ -67,14 +67,30 @@ async def chat_endpoint(request: ChatRequest) -> ChatResponse:
             f"Team1: {team1}, Team2: {team2}, Venue: {venue}, Pitch Report: {pitch_report}"
         )
 
-        # Generate prompt using RAG
-        prompt = retriever.generate_prompt(
-            request.message, team1, team2, venue, pitch_report
-        )
-
         # Get LLM instance
         model = request.model or settings.default_model
         llm = llm_factory.create_llm(model)
+
+        context = retriever.get_relevant_context(
+            request.message, team1, team2, venue, pitch_report
+        )
+
+        formatted_context = retriever.format_context(context)
+
+        summarize_prompt = retriever.generate_summarize_prompt(formatted_context)
+
+        summarize_response = llm.predict(summarize_prompt)
+
+        # Generate prompt using RAG
+        prompt = retriever.generate_prompt(
+            request.message,
+            context,
+            summarize_response,
+            team1,
+            team2,
+            venue,
+            pitch_report,
+        )
 
         # Generate response
         response = llm.predict(prompt)

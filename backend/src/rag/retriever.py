@@ -154,6 +154,11 @@ class RAGRetriever:
                             # Add player name to metadata for context
                             for result in filtered_results:
                                 result["metadata"]["player_name"] = player_name
+                                # Replace delivery name with player name in content
+                                if "content" in result:
+                                    result["content"] = result["content"].replace(
+                                        delivery_name, player_name
+                                    )
 
                             context["team1_player_stats"].extend(filtered_results)
 
@@ -194,8 +199,120 @@ class RAGRetriever:
                             # Add player name to metadata for context
                             for result in filtered_results:
                                 result["metadata"]["player_name"] = player_name
+                                # Replace delivery name with player name in content
+                                if "content" in result:
+                                    result["content"] = result["content"].replace(
+                                        delivery_name, player_name
+                                    )
 
                             context["team2_player_stats"].extend(filtered_results)
+
+            # Get player vs player statistics for key matchups
+            if team1 in self.current_squads and team2 in self.current_squads:
+                # Get key players from both teams
+                team1_key_players = [
+                    player
+                    for player in self.current_squads[team1]
+                    if player.get("Role", "")
+                    in ["top-order batter", "allrounder", "bowler"]
+                ]
+
+                team2_key_players = [
+                    player
+                    for player in self.current_squads[team2]
+                    if player.get("Role", "")
+                    in ["top-order batter", "allrounder", "bowler"]
+                ]
+
+                # For each key player in team1, get stats against key players in team2
+                for player1 in team1_key_players:
+                    player1_name = player1.get("Player Name", "")
+                    player1_delivery = player1.get("Delivery Name", "")
+
+                    if player1_name and player1_delivery:
+                        for player2 in team2_key_players:
+                            player2_name = player2.get("Player Name", "")
+                            player2_delivery = player2.get("Delivery Name", "")
+
+                            if player2_name and player2_delivery:
+                                # Query for player vs player statistics
+                                pvp_results = self.vector_store.similarity_search(
+                                    query=f"player vs player statistics for {player1_delivery} against {player2_delivery}",
+                                    filter_dict={"type": "player_vs_player"},
+                                    n_results=3,
+                                )
+
+                                # Filter results to ensure they match both players
+                                filtered_pvp = [
+                                    result
+                                    for result in pvp_results
+                                    if (
+                                        result["metadata"].get("player")
+                                        == player1_delivery
+                                        and result["metadata"].get("opponent")
+                                        == player2_delivery
+                                    )
+                                ]
+
+                                # Add player names to metadata for context
+                                for result in filtered_pvp:
+                                    result["metadata"]["player_name"] = player1_name
+                                    result["metadata"]["opponent_name"] = player2_name
+                                    # Replace delivery names with player names in content
+                                    if "content" in result:
+                                        result["content"] = (
+                                            result["content"]
+                                            .replace(player1_delivery, player1_name)
+                                            .replace(player2_delivery, player2_name)
+                                        )
+
+                                # Add to team1 player stats
+                                context["team1_player_stats"].extend(filtered_pvp)
+
+                # For each key player in team2, get stats against key players in team1
+                for player2 in team2_key_players:
+                    player2_name = player2.get("Player Name", "")
+                    player2_delivery = player2.get("Delivery Name", "")
+
+                    if player2_name and player2_delivery:
+                        for player1 in team1_key_players:
+                            player1_name = player1.get("Player Name", "")
+                            player1_delivery = player1.get("Delivery Name", "")
+
+                            if player1_name and player1_delivery:
+                                # Query for player vs player statistics
+                                pvp_results = self.vector_store.similarity_search(
+                                    query=f"player vs player statistics for {player2_delivery} against {player1_delivery}",
+                                    filter_dict={"type": "player_vs_player"},
+                                    n_results=3,
+                                )
+
+                                # Filter results to ensure they match both players
+                                filtered_pvp = [
+                                    result
+                                    for result in pvp_results
+                                    if (
+                                        result["metadata"].get("player")
+                                        == player2_delivery
+                                        and result["metadata"].get("opponent")
+                                        == player1_delivery
+                                    )
+                                ]
+
+                                # Add player names to metadata for context
+                                for result in filtered_pvp:
+                                    result["metadata"]["player_name"] = player2_name
+                                    result["metadata"]["opponent_name"] = player1_name
+                                    # Replace delivery names with player names in content
+                                    if "content" in result:
+                                        result["content"] = (
+                                            result["content"]
+                                            .replace(player2_delivery, player2_name)
+                                            .replace(player1_delivery, player1_name)
+                                        )
+
+                                # Add to team2 player stats
+                                context["team2_player_stats"].extend(filtered_pvp)
 
             return context
 
@@ -247,20 +364,19 @@ class RAGRetriever:
             return ""
 
     def generate_prompt(
-        self, query: str, team1: str, team2: str, venue: str, pitch_report: str
+        self,
+        query: str,
+        context: Dict,
+        summarize_response: str,
+        team1: str,
+        team2: str,
+        venue: str,
+        pitch_report: str,
     ) -> str:
         """
         Generate a prompt for the LLM based on the query and match details.
         """
         try:
-            # Get relevant context
-            context = self.get_relevant_context(
-                query, team1, team2, venue, pitch_report
-            )
-
-            # Format the context
-            formatted_context = self.format_context(context)
-
             # Generate the prompt
             prompt = f"""
             You are an IPL cricket expert. Based on the following information, 
@@ -268,17 +384,20 @@ class RAGRetriever:
             {team1} and {team2} at {venue} with the following pitch report: {pitch_report}.
             
             IMPORTANT CONTEXT:
-            - The below statistics provided are from IPL seasons 2008-2024 (historical data)
-            - So don't assume below statistics are for IPL 2025 season (season 18)
+            - The statistics provided are from IPL seasons 2008-2024 (historical data)
+            - Do not assume these statistics are for IPL 2025 season (season 18)
             
-            Here is the relevant cricket statistics:
+            Here is a summary of the relevant cricket statistics:
             
-            {formatted_context}
+            {summarize_response}
             
             Based on this information, please provide:
-            Key players to watch out for from both teams
+            1. A detailed analysis of the match conditions and team strengths
+            2. Get the details for all the players if possible
+            3. A prediction for the match outcome with a confidence level (high/medium/low)
+            4. Key factors that could influence the match result
 
-            Below is the current squad information for the teams and only consider the players in the squad for predictions
+            Below is the current squad information for the teams. Only consider the players in the squad for predictions:
 
             Team 1 Current Squad:
             {context["team1_squad"]}
@@ -296,4 +415,37 @@ class RAGRetriever:
             return (
                 f"Analyze the match between {team1} and {team2} at {venue}. "
                 f"User query: {query}"
+            )
+
+    def generate_summarize_prompt(self, formatted_context: str) -> str:
+        """
+        Generate a prompt for the LLM to summarize the formatted context.
+        """
+        try:
+            # Generate the summarize prompt
+            summarize_prompt = f"""
+            You are an IPL cricket expert. Please summarize the following cricket statistics 
+            in a concise and informative way. Focus on the most important insights that would 
+            influence a match prediction.
+            
+            Here is the cricket statistics to summarize:
+            
+            {formatted_context}
+            
+            Please provide a clear, structured summary that highlights:
+            1. Key venue insights
+            2. Important head-to-head statistics
+            3. Notable player performances
+            4. Any other critical factors that would impact the match outcome
+            
+            Keep your summary concise but comprehensive, focusing on the most relevant information.
+            """
+
+            return summarize_prompt
+
+        except Exception as e:
+            logger.error(f"Error generating summarize prompt: {e}")
+            return (
+                "Please summarize the following cricket statistics: "
+                + formatted_context
             )
