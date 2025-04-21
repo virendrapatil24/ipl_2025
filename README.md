@@ -90,6 +90,15 @@ cd ../frontend
 npm install
 ```
 
+5. Create a `.env.local` file in the frontend directory:
+
+```env
+# Set to "true" to enable server connectivity, "false" to disable
+NEXT_PUBLIC_SERVER_AVAILABLE=true
+# Backend API URL
+NEXT_PUBLIC_API_URL=http://localhost:8000
+```
+
 ## Running the Application
 
 1. Start the backend server:

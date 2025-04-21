@@ -1,7 +1,7 @@
 from typing import Any
 
 from langchain_community.chat_models import ChatAnthropic, ChatOpenAI
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM
 
 from ..config import settings
 from ..utils.logger import logger
@@ -16,7 +16,7 @@ class LLMFactory:
             "gpt-4": self._create_gpt4,
             "gpt-3.5-turbo": self._create_gpt35,
             "claude-3-sonnet": self._create_claude,
-            "llama2": self._create_llama2,
+            "llama3.2": self._create_llama32,
         }
 
     def create_llm(self, model_name: str) -> Any:
@@ -63,6 +63,6 @@ class LLMFactory:
             api_key=settings.anthropic_api_key,
         )
 
-    def _create_llama2(self) -> Ollama:
-        """Create a Llama 2 instance using Ollama."""
-        return Ollama(model="llama2", temperature=0.7)
+    def _create_llama32(self) -> OllamaLLM:
+        """Create a Llama 3.2 instance using Ollama."""
+        return OllamaLLM(model="llama3.2", temperature=0.7)

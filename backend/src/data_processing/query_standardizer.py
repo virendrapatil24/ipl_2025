@@ -30,10 +30,10 @@ def standardize_query(query: str, model_name: str = "gpt-3.5-turbo") -> Dict:
             4. Home ground of Team 1 (Yes/No)
             5. Home ground of Team 2 (Yes/No)
 
-            For team names, use these standard names: Mumbai_Indians, Chennai_Super_Kings, 
-            Royal_Challengers_Bangalore, Kolkata_Knight_Riders, Rajasthan_Royals, 
-            Delhi_Capitals, Sunrisers_Hyderabad, Punjab_Kings, Gujarat_Titans, 
-            Lucknow_Super_Giants.
+            For team names, use these standard names: Mumbai Indians, Chennai Super Kings, 
+            Royal Challengers Bangalore, Kolkata Knight Riders, Rajasthan Royals, 
+            Delhi Capitals, Sunrisers Hyderabad, Punjab Kings, Gujarat Titans, 
+            Lucknow Super Giants.
 
             For venues, use these standard names: Wankhede Stadium, M. A. Chidambaram Stadium, 
             M. Chinnaswamy Stadium, Eden Gardens, Sawai Mansingh Stadium, Arun Jaitley Stadium, 
@@ -41,7 +41,7 @@ def standardize_query(query: str, model_name: str = "gpt-3.5-turbo") -> Dict:
             Ekana Cricket Stadium.
 
             Pitch report is optional. If the user sends a pitch report, then return the pitch report in the "pitch_report" field.
-            If the user does not send a pitch report, then return "NA" in the "pitch_report" field.
+            If the user does not send a pitch report, then return "null" in the "pitch_report" field.
 
             Just return only the below information in this exact JSON format, no other text or comments before or after the JSON:
             {{

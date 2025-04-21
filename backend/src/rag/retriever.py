@@ -120,8 +120,10 @@ class RAGRetriever:
             # Get player statistics for each player in team1
             if team1 in self.current_squads:
                 for player in self.current_squads[team1]:
-                    player_name = player.get("Delivery Name", "")
-                    if player_name:
+                    player_name = player.get("Player Name", "")
+                    delivery_name = player.get("Delivery Name", "")
+
+                    if player_name and delivery_name:
                         # Query for player statistics - all four types
                         player_types = [
                             "player_vs_player",
@@ -131,9 +133,9 @@ class RAGRetriever:
                         ]
 
                         for player_type in player_types:
-                            # Query by player name and type
+                            # Query by delivery name and type
                             player_results = self.vector_store.similarity_search(
-                                query=f"{player_type} statistics for {player_name}",
+                                query=f"{player_type} statistics for {delivery_name}",
                                 filter_dict={"type": player_type},
                                 n_results=5,
                             )
@@ -149,13 +151,19 @@ class RAGRetriever:
                                 )
                             ]
 
+                            # Add player name to metadata for context
+                            for result in filtered_results:
+                                result["metadata"]["player_name"] = player_name
+
                             context["team1_player_stats"].extend(filtered_results)
 
             # Get player statistics for each player in team2
             if team2 in self.current_squads:
                 for player in self.current_squads[team2]:
-                    player_name = player.get("Delivery Name", "")
-                    if player_name:
+                    player_name = player.get("Player Name", "")
+                    delivery_name = player.get("Delivery Name", "")
+
+                    if player_name and delivery_name:
                         # Query for player statistics - all four types
                         player_types = [
                             "player_vs_player",
@@ -165,9 +173,9 @@ class RAGRetriever:
                         ]
 
                         for player_type in player_types:
-                            # Query by player name and type
+                            # Query by delivery name and type
                             player_results = self.vector_store.similarity_search(
-                                query=f"{player_type} statistics for {player_name}",
+                                query=f"{player_type} statistics for {delivery_name}",
                                 filter_dict={"type": player_type},
                                 n_results=5,
                             )
@@ -182,6 +190,10 @@ class RAGRetriever:
                                     or result["metadata"].get("opponent") == team1
                                 )
                             ]
+
+                            # Add player name to metadata for context
+                            for result in filtered_results:
+                                result["metadata"]["player_name"] = player_name
 
                             context["team2_player_stats"].extend(filtered_results)
 
@@ -254,14 +266,6 @@ class RAGRetriever:
             You are an IPL cricket expert. Based on the following information, 
             provide a detailed analysis and prediction for the match between 
             {team1} and {team2} at {venue} with the following pitch report: {pitch_report}.
-
-            Below is the current squad information for the teams and only consider the players in the squad for predictions
-
-            Team 1 Current Squad:
-            {context["team1_squad"]}
-
-            Team 2 Current Squad:
-            {context["team2_squad"]}
             
             IMPORTANT CONTEXT:
             - The below statistics provided are from IPL seasons 2008-2024 (historical data)
@@ -272,9 +276,15 @@ class RAGRetriever:
             {formatted_context}
             
             Based on this information, please provide:
-            1. A detailed analysis of the match conditions and team strengths
-            2. Key players to watch out for from both teams
-            3. A prediction for the match outcome
+            Key players to watch out for from both teams
+
+            Below is the current squad information for the teams and only consider the players in the squad for predictions
+
+            Team 1 Current Squad:
+            {context["team1_squad"]}
+
+            Team 2 Current Squad:
+            {context["team2_squad"]}
             
             User query: {query}
             """
