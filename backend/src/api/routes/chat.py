@@ -79,7 +79,7 @@ async def chat_endpoint(request: ChatRequest) -> ChatResponse:
 
         summarize_prompt = retriever.generate_summarize_prompt(formatted_context)
 
-        summarize_response = llm.predict(summarize_prompt)
+        summarize_response = llm.invoke(summarize_prompt)
 
         # Generate prompt using RAG
         prompt = retriever.generate_prompt(
@@ -93,7 +93,7 @@ async def chat_endpoint(request: ChatRequest) -> ChatResponse:
         )
 
         # Generate response
-        response = llm.predict(prompt)
+        response = llm.invoke(prompt)
 
         return ChatResponse(response=response)
 
